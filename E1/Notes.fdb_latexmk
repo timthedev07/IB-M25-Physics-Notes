@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1728145523 "/Users/timthedev07/Documents/物理笔记/E1/Notes.tex" "Notes.pdf" "Notes" 1728145525 0
-  "/Users/timthedev07/Documents/物理笔记/E1/Notes.tex" 1728145521 15212 46be99997ad77e32ad59f4863bb709cf ""
-  "/dev/null" 1728145525 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1728146412 "/Users/timthedev07/Documents/物理笔记/E1/Notes.tex" "Notes.pdf" "Notes" 1728146414 0
+  "/Users/timthedev07/Documents/物理笔记/E1/Notes.tex" 1728146411 16243 0ae59a89d4755ee853588ca5f50823c8 ""
+  "/dev/null" 1728146412 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -278,10 +278,10 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1698351117 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1698351051 7883457 869e73afaf79a5825410c57d17702400 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Notes.aux" 1728145525 5229 e3abfd63c8daff39def651ad68aaf4b2 "pdflatex"
-  "Notes.out" 1728145525 3328 9e6f716ea190c58cfce6460cee2bb279 "pdflatex"
-  "Notes.tex" 1728145521 15212 46be99997ad77e32ad59f4863bb709cf ""
-  "Notes.toc" 1728145525 1614 2de75819f7848f039b8ccce93599a985 "pdflatex"
+  "Notes.aux" 1728146414 5229 8667a17343f2518f3ddc26f96b36aca9 "pdflatex"
+  "Notes.out" 1728146414 3328 9e6f716ea190c58cfce6460cee2bb279 "pdflatex"
+  "Notes.tex" 1728146411 16243 0ae59a89d4755ee853588ca5f50823c8 ""
+  "Notes.toc" 1728146414 1614 9a64c3d0e24250c0c220da4e15d6b330 "pdflatex"
   "atomicNotation.png" 1726558458 119687 a234f661a86347544396bfcb1ff66263 ""
   "doca.png" 1728142157 28922 c9134dce988e4a3c6799e00dc777ebd1 ""
   "energylevel.jpg" 1726944495 36583 8aa40911fa2c4f4b25e9b6c7926358d6 ""

@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1728119381 "/Users/timthedev07/Documents/物理笔记/E3/Notes.tex" "Notes.pdf" "Notes" 1728119383 0
-  "/Users/timthedev07/Documents/物理笔记/E3/Notes.tex" 1728119381 12625 e2a595a1f076148ddec88b04426f417f ""
+["pdflatex"] 1728146489 "/Users/timthedev07/Documents/物理笔记/E3/Notes.tex" "Notes.pdf" "Notes" 1728146490 0
+  "/Users/timthedev07/Documents/物理笔记/E3/Notes.tex" 1728146489 12684 88dd953bd410898d16ae98063e9acce8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -270,10 +270,10 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1698351117 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1698351051 7883457 869e73afaf79a5825410c57d17702400 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Notes.aux" 1728119383 3652 998bdf449c92e108d1a3ecaae23a3a4e "pdflatex"
-  "Notes.out" 1728119383 3655 fa2e86fbe1115e9d0d576263f52ff85d "pdflatex"
-  "Notes.tex" 1728119381 12625 e2a595a1f076148ddec88b04426f417f ""
-  "Notes.toc" 1728119383 1966 bfea9c1edff9ad7427c9f81fa23a2d05 "pdflatex"
+  "Notes.aux" 1728146490 3652 998bdf449c92e108d1a3ecaae23a3a4e "pdflatex"
+  "Notes.out" 1728146490 3655 fa2e86fbe1115e9d0d576263f52ff85d "pdflatex"
+  "Notes.tex" 1728146489 12684 88dd953bd410898d16ae98063e9acce8 ""
+  "Notes.toc" 1728146490 1966 bfea9c1edff9ad7427c9f81fa23a2d05 "pdflatex"
   (generated)
   "Notes.aux"
   "Notes.log"
