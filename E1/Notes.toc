@@ -1,0 +1,19 @@
+\thispagestyle {empty}
+\contentsline {section}{\numberline {1}Nuclear Notation and Structure}{1}{section.1}%
+\contentsline {section}{\numberline {2}The Plum Pudding Model}{2}{section.2}%
+\contentsline {section}{\numberline {3}The Geiger-Marsden Experiment}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Deviations from the Scattering}{4}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Distance of Closest Approach and Energy}{5}{section.4}%
+\contentsline {section}{\numberline {5}Nuclear Density}{6}{section.5}%
+\contentsline {section}{\numberline {6}Emission and Absorption Spectra}{7}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Energy Levels of Electrons}{7}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Emitting and Absorbing Photons}{8}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Photons}{8}{subsubsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.3}The Spectra}{9}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}The Absorption Spectrum}{9}{subsubsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.4}Caveat with Energy Level Changes}{10}{subsection.6.4}%
+\contentsline {section}{\numberline {7}The Bohr Model}{11}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Problem with the Rutherford Model \& Classical Physics}{11}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Bohr's Solution}{11}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Energy Levels}{11}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Quantized Angular Momentum}{12}{subsection.7.4}%

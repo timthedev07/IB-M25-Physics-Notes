@@ -1,0 +1,329 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{setspace}
+\usepackage{sectsty}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage[a4paper, total={3in, 9in}, textwidth=16cm,bottom=1in,top=1.4in]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{amsmath}
+\usepackage{esvect}
+\usepackage{soul}
+\usepackage{amsthm}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{amssymb}
+\usepackage{outlines}
+\usepackage{caption}
+\usepackage{fancyvrb}
+\usepackage{subcaption}
+\usepackage{esdiff}
+\usepackage{setspace}
+\usepackage{mathtools}
+\usepackage{tikz,pgfplots}
+\usepackage[most]{tcolorbox}
+\usetikzlibrary{positioning,decorations.markings,calc}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{observation}{Observation}
+\doublespacing
+\let\oldsection\section
+\renewcommand\section{\clearpage\oldsection}
+\newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+\let\oldsi\si
+\renewcommand{\si}[1]{\oldsi[per-mode=reciprocal-positive-first]{#1}}
+\usepackage{enumitem}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+\newcommand{\degsym}{^{\circ}}
+\newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor = blue
+}
+\newcommand{\lb}{\\[8pt]}
+\newenvironment*{cell}[1][]{\begin{tabular}[c]{@{}c@{}}}{\end{tabular}}
+\newcommand{\img}[4]{\begin{center}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=#2\textwidth]{#1}
+    \caption{#3}
+    \label{fig:#4}
+  \end{figure}
+\end{center}}
+\parindent=0pt
+\usepackage{fancyhdr}
+\fancyfoot{}
+\newcommand{\vect}[3]{\begin{bmatrix}
+  #1 \\
+  #2 \\
+  #3
+\end{bmatrix}}
+\fancypagestyle{fancy}{\fancyfoot[R]{\vspace*{1.5\baselineskip}\thepage}}
+\renewcommand{\contentsname}{Table of Contents}
+\newcommand{\angled}[1]{\langle{#1}\rangle}
+\newcommand{\paren}[1]{\left(#1\right)}
+\newcommand{\sqb}[1]{\left[#1\right]}
+\newcommand{\coord}[3]{\angled{#1,\, #2,\, #3}}
+\newcommand{\pair}[2]{\paren{#1,\, #2}}
+\usepackage[
+  noabbrev,
+  capitalise,
+  nameinlink,
+]{cleveref}
+\crefname{lemma}{Lemma}{Lemmas}
+\crefname{proposition}{Proposition}{Propositions}
+\crefname{remark}{Remark}{Remarks}
+\crefname{observation}{Observation}{Observations}
+
+\newtcolorbox[auto counter]{defin}[1][]{fonttitle=\bfseries, title=\strut Definition.~\thetcbcounter,colback=black!5!white,colframe=black!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{obs}[1][]{fonttitle=\bfseries, title=\strut Observation.~\thetcbcounter,colback=RedViolet!5!white,colframe=RedViolet!65!gray,top=5mm,bottom=5mm}
+
+\setlength{\belowcaptionskip}{-20pt}
+
+\begin{document}
+
+
+\pagenumbering{arabic}
+\pagestyle{fancy}
+
+
+\begin{titlepage}
+  \begin{center}
+
+    \vspace*{8cm}
+    \textbf{\Large {IB Physics Topic D4 Electromagnetic Induction; HL}}
+
+
+  \end{center}
+\end{titlepage}
+
+\pagebreak
+\tableofcontents
+\pagebreak
+
+\clearpage
+\setcounter{page}{1}
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+
+\section{Fleming's Left and Right Hand Rules}
+
+The left-hand rule is for the motor effect; the right-hand equivalent is for the generator effect.
+
+Induction and motor effects are intertwined and must co-occur. Consider a bar moving through a magnetic field. The motion would induce a current in the rod, which is explained by the left-hand rule that suggests that electrons feel a force and thus there is a current. The induced current would lead to a motor effect, creating a force that opposes the bar's motion. Thus there is a deceleration, if the system is isolated.
+
+\section{The Generator Effect}
+
+When there is a relative motion between a conductor and a magnetic field, a current/$\varepsilon$ is induced in the conductor. Example scenarios include:
+\begin{itemize}
+  \item Moving a magnet away from or into a coil.
+  \item Moving a bar of conductor in a magnetic field
+  \item Moving a charge in a magnetic field
+\end{itemize}
+
+\subsection{Lenz's Law}
+
+The induced magnetic current in a coil by inserting a magnet into the coil must oppose the motion creating the current. Analogously, the insertion must be north-to-north or south-to-south; conversely, if we are pulling the magnet away from the coil, the facing poles should be opposite and attractive.\lb
+The induced current is continuous only if there is a complete circuit for charge to flow.
+
+\subsection{Right-hand Grip}
+
+This rule determines where the north-pole of a solenoid/coil is. The direction in which the fingers curl is the direction of current, and the thumb points to the north-pole.
+
+\img{righthandgrip.jpg}{0.65}{Right Hand Grip}{rhgrip}
+
+\subsection{Explaining the Generator Effect}
+
+Consider a conducting bar moving through a magnetic field.
+\img{bar.png}{0.6}{A conductor moving in a uniform magnetic directed into the page}{bar}
+Using Flemming's left-hand rule to analyze \textbf{the motion of the electrons}, we can see that there is a (conventional) current to the left, which means that electrons are pushed to the left. There is now a p.d. between L and R, with L at a higher potential.\lb
+As the negative charges accumulate, another force, opposing the force pushing the electrons to R, arises --- the electric force. Like charges repel, and hence, as the electrons accumulate, the electric force increases, opposing the motion of the electrons. Eventually, the two forces balance out.
+\begin{itemize}
+  \item The force pushing the electrons to R is the magnetic force, given by $F_B = Bqv$
+  \item The opposing electric force is given by $F_e = Eq$, where $E = \varepsilon$ the induced \textbf{emf}; by $E = \dfrac{V}{d}$, we have $F_e = \dfrac{\varepsilon q}{d}$, where $d$ is, in fact, the length of the rod. Let's denote that as $l$ and hence $F_e = \dfrac{\varepsilon q}{l}$
+  \item Equating the two gives the following, which allows us to find the \textbf{induced emf}
+        \begin{align*}
+          Bv = \frac{\varepsilon}{l} \\
+          \varepsilon = Blv
+        \end{align*}
+\end{itemize}
+
+
+\subsection{External Force to Achieve Constant Velocity}
+
+Suppose, we have a conducting bar rolling (without friction) on a pair of parallel conducting rails.
+
+\begin{minipage}{0.5\textwidth}
+  \img{rolling1.png}{1}{3D View}{rollingbar1}
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+  \img{rolling2.png}{1}{Top View}{rollingbar2}
+\end{minipage}
+
+There must be an external force opposing the magnetic force causing the rod to roll to the right. This force is given by $F_{\text{ext}} = BIL$, where $I$ is the current in the rod. This force is given by $F_B=BIL$ because it is the negative equivalent of $F_B$.
+
+If we are considering the rate at which work is done to oppose the motion to the right then it's $F_Bv$ using $P = Fv$ or equivalently $P = I\varepsilon$, using the circuit equation.
+
+\subsection{Deriving the Induced emf Using Energy}
+
+We know $\varepsilon = \frac{W}{Q}$, thus
+\bgroup
+\addtolength{\jot}{1em}
+\begin{align*}
+  \varepsilon & = \frac{\text{work done by the magnetic force}}{\text{total charge flowing}} \\
+              & = \frac{F_B\times vt}{It}                                                    \\
+              & = \frac{BILvt}{It}                                                           \\
+  \varepsilon & = Blv
+\end{align*}
+\egroup
+
+\subsection{Area Swept Out by the Rod}
+
+Consider the area swept out by the rod, which is given by $A = Lvt$ and $\frac{\Delta A}{\Delta t} = Lv$
+
+\img{rollingarea.png}{0.6}{The area swept by the rod}{rollingarea}
+we can incorporate this into our derivation of the induced emf and get
+\begin{equation}\label{eq:emf_area}
+  \varepsilon = B\times \frac{\Delta A}{\Delta t} = B \times \text{ rate of change of area}
+\end{equation}
+
+\pagebreak
+
+\section{Magnetic Flux}
+
+The \textbf{magnetic flux} is given by $$\Phi = BA\cos\theta$$where $B$ is the magnetic field strength, $A$ is the area of the coil, and $\theta$ is the angle between the magnetic field and the normal to the surface. The quantity $\Phi$ has unit webers (Wb).
+
+\img{fluxdensity.png}{1}{Magnetic Flux Density}{fluxdensity}
+
+The \textbf{magnetic flux density} is numerically analogous to the electric field strength; both quantities are denoted by $B$. It represents the number of field lines per unit area. Thus, the magnetic flux is the number of field lines passing through a surface of area $A$.\lb
+This also allows us to rewrite \cref{eq:emf_area} as $$\varepsilon = \frac{\Delta \Phi}{\Delta t}$$
+and we can then define the unit of flux, a weber, as \textbf{the flux that produces an emf of 1 volt per second}.
+Also, one tesla is defined as 1 weber per square meter.
+$$1\si{\tesla}\equiv 1\si{\weber\per\m\squared}$$
+
+\pagebreak
+
+\subsection{Magnetic Flux Linkage}
+
+Previously, we considered a single rod rolling along two rails. Now, let's consider a coil of $N$ turns, each of area $A$, in a magnetic field. The magnetic flux linkage is given by $$\Lambda = N\Phi = BAN$$
+the unit of this quantity is also the weber, or weber-turns.\lb
+In this case, the induced emf is given by $$\varepsilon = \frac{\Delta \Lambda}{\Delta t} = N\frac{\Delta \Phi}{\Delta t} = N\frac{B\Delta A}{\Delta t}$$
+
+\subsection{Faraday's Law}
+
+Faraday's law states that the induced emf is directly proportional to the rate of change of magnetic flux linkage. This is given by $$\varepsilon = -N\frac{\Delta \Phi}{\Delta t}$$
+which is the Neumann's equation that includes both the ideas of Lenz and Faraday.\lb
+It suggests that the magnetic flux can be changed by changing at least one of the following quantities:
+\begin{itemize}
+  \item $\dfrac{\Delta A}{\Delta t}$
+  \item $\dfrac{\Delta \cos \theta}{\Delta t}$
+  \item $\dfrac{\Delta B}{\Delta t}$
+\end{itemize}
+
+\section{Relative Motion Between Coil \& Field}
+
+\subsection{Coil Remains Within a Uniform Field}
+
+This is when a coil moves at a \textbf{constant speed} from one position to another \textbf{completely within a uniform magnetic field}. In this case, there is \textbf{no change in flux linkage}, because the same number of field lines are being cut on opposite sides of the coil, where the current is in opposite directions.
+
+\subsection{Coil Moves Out of A Uniform Field}
+
+When a coil of $N$ turns moves from a position where the flux is $\Phi$ to a position where the flux is 0, the change in flux linkage is $-N\Phi$, and thus, the induced emf is given by $$\varepsilon = -\frac{N\Phi}{\Delta t}$$
+
+\subsection{Rotation of a Coil in a Uniform Field}
+
+When the coil is rotated by $180\degsym$ in a uniform field, the change in flux linkage is $2N\Phi$, and thus, the induced emf is given by $$\varepsilon = -\frac{2N\Phi}{\Delta t}$$because the field lines reverse their direction.
+
+\pagebreak
+
+\subsection{Changing Magnetic Field}
+
+The coil remains stationary, but the magnetic field cutting through it changes. In this case, the induced emf is given by $$\varepsilon = -NA\frac{\Delta B}{\Delta t}$$We do not need to know the exact field strength, only the \textbf{rate of change of the field strength} is sufficient.
+
+There are two graphs that can be drawn.
+
+\begin{minipage}{0.5\textwidth}
+  \img{g1.png}{1}{Flux Linkage vs. Time}{g1}
+\end{minipage}\begin{minipage}{0.5\textwidth}
+  \img{g2.png}{1}{emf vs. Time}{g1}
+\end{minipage}
+
+\begin{itemize}
+  \item The gradient of the first graph is the emf
+  \item The area under the second graph is the total change in flux linkage.
+\end{itemize}
+
+
+\section{Generators}
+Key components of an AC generator include:
+\begin{itemize}
+  \item A coil of wire rotating in a magnetic field
+  \item A magnetic field (e.g. from a bar magnet)
+  \item Relative movement between the coil and the field
+  \item A suitable connection to the static circuit outside the generator
+\end{itemize}
+
+\img{generator.jpg}{1}{A simple generator}{generator}
+
+Relationship between emf and flux linkage:
+
+\begin{itemize}
+  \item The induced emf is the rate of change of magnetic flux linkage.
+  \item Since $\Phi = BA\cos\theta$, the magnetic flux linkage is maximum when $\theta = 0$, e.g. when the coil is perpendicular to the field. However, this is the moment at which the induced emf is 0; consider the taking the partial derivative of $\Phi$ with respect to $\theta$ --- $\varepsilon$ will involve $\sin\theta$.
+  \item Conversely, the magnetic flux linkage is minimum when $\theta = 90\degsym$, e.g. when the coil is parallel to the field. This is the moment at which the induced emf is maximum.
+
+\end{itemize}
+
+Effect of increasing the angular speed of the coil:
+\begin{itemize}
+  \item Frequency (cycles per second) increases
+  \item This squashes the graph, increasing the rate of change of linkage with respect to time, thus increasing the peak emf.
+\end{itemize}
+
+Other ways of increasing the induced emf
+\begin{itemize}
+  \item Increasing flux density
+  \item Increasing the number of turns on the coil
+  \item Increasing the coil area
+\end{itemize}
+
+\subsection{Power}
+
+The voltage (induced emf) and current graphs are both sinusoidal, with different vertical scaling factors but the same zeroes. Since power is calculated by $P = IV$, the power graph will be a \textbf{sine squared graph}.
+\begin{itemize}
+  \item The mean power is given by $\dfrac{1}{2}V_{\text{rms}}I_{\text{rms}}$
+  \item $I_{\text{rms}} = \dfrac{I_{\text{max}}}{\sqrt{2}}$ (root mean square)
+  \item $V_{\text{rms}} = \dfrac{V_{\text{max}}}{\sqrt{2}}$ (root mean square)
+\end{itemize}
+
+\section{Mutual and Self-Induction}
+
+\subsection{Mutual Induction}
+
+This is the process by which a changing current in one coil induces an emf in another coil nearby. The emf induced is given by $$\varepsilon = -M\frac{\Delta I_1}{\Delta t}$$where $M$ is the mutual inductance of the two coils. The unit of mutual inductance is the henry (H).
+\begin{itemize}
+  \item When $I_1$ is increasing or decreasing, there is a change in the magnetic field and thus an induced emf.
+  \item When $I_1$ reaches a constant level and stops changing, the induced emf is 0.
+  \item This is because the presence of an induced emf requires a \textbf{non-zero rate of change in the magnetic flux linkage}.
+  \item By Lenz's Law, the induced emf/current \textbf{opposes the change in $I_1$} (not $I_1$). I.e., if the current is increasing, the induced current is in the opposite direction; if the current is decreasing, the induced current is in the same direction.
+\end{itemize}
+This is the effect behind transformers.
+
+\subsection{Self-Induction}
+
+Occurrence of the phenomenon:
+\begin{itemize}
+  \item Current starts flowing through a wire or coil.
+        As the current increases, a magnetic field grows around the wire.
+  \item But when the current changes, the magnetic field changes too. According to Faraday's Law, a changing magnetic field induces a voltage.
+  \item This newly induced voltage, however, opposes the very change that created it (by Lenz's Law). It is as if the coil resists the current's attempt to speed up or slow down. This resistance to change is what we call self-induction.
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,22 @@
+\thispagestyle {empty}
+\contentsline {section}{\numberline {1}Fleming's Left and Right Hand Rules}{1}{section.1}%
+\contentsline {section}{\numberline {2}The Generator Effect}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Lenz's Law}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Right-hand Grip}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Explaining the Generator Effect}{3}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}External Force to Achieve Constant Velocity}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Deriving the Induced emf Using Energy}{5}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Area Swept Out by the Rod}{5}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Magnetic Flux}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Magnetic Flux Linkage}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Faraday's Law}{7}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Relative Motion Between Coil \& Field}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Coil Remains Within a Uniform Field}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Coil Moves Out of A Uniform Field}{8}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Rotation of a Coil in a Uniform Field}{8}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Changing Magnetic Field}{9}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Generators}{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Power}{11}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Mutual and Self-Induction}{12}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Mutual Induction}{12}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Self-Induction}{12}{subsection.6.2}%

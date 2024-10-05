@@ -1,0 +1,24 @@
+\thispagestyle {empty}
+\contentsline {section}{\numberline {1}Isotopes and Isotones}{1}{section.1}%
+\contentsline {section}{\numberline {2}Radioactive Decay}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Types of Decay}{3}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Alpha Decay}{3}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Beta Decay}{4}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Gamma Decay}{5}{subsubsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.2}Energy Levels}{5}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Discrete Energy Levels}{5}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Continuous Energy Levels}{5}{subsubsection.2.2.2}%
+\contentsline {section}{\numberline {3}Properties of Ionizing Radiation}{6}{section.3}%
+\contentsline {section}{\numberline {4}Mass Defect and Binding Energy}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Variation of Binding Energy per Nucleon}{7}{subsection.4.1}%
+\contentsline {section}{\numberline {5}The Nucleus}{8}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Nuclear Mass}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}The Strong Nuclear Force}{8}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Evidence for Strong Nuclear Forces}{8}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Nuclear Stability}{8}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Measuring Radioactive Decay}{9}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Activity and Count Rate}{9}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Background Radiation}{9}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Half Lives}{10}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Radioactive Dating}{10}{subsection.7.1}%
+\contentsline {section}{\numberline {8}Decay Chains}{11}{section.8}%
