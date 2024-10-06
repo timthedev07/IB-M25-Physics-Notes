@@ -23,7 +23,7 @@
 \usepackage{mathtools}
 \usepackage{tikz,pgfplots}
 \usepackage[most]{tcolorbox}
-\usetikzlibrary{positioning,decorations.markings,calc}
+\usetikzlibrary{positioning,decorations.markings,arrows.meta}
 \DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
 \newtheorem{lemma}{Lemma}
 \newtheorem{proposition}{Proposition}
@@ -220,7 +220,12 @@ This holds true for energy changes in \textbf{gamma} and \textbf{alpha} decay, b
 
 \subsubsection{Continuous Energy Levels}
 
-Beta decay [more notes incoming, HL]
+\textbf{In beta decay}, the total decay energy is fixed, but it must be shared between the daughter nuclide, the emitted electron/positron, and the neutrino/antineutrino. The sharing of energy is not discrete but \textbf{continuous}.
+\begin{itemize}
+  \item Momentum and energy are still conserved, but in a three body decay, there is no unique solution for the momentum of the daughter nucleus, the emitted electron, and the neutrino.
+  \item The shape of the spectrum shows that there are more beta particles with lower energies, and fewer particles near the maximum energy.
+  \item The energy spectrum is described by a probabilistic function that accounts for the interaction between the beta particle and the nucleus.
+\end{itemize}
 
 \section{Properties of Ionizing Radiation}
 
@@ -237,13 +242,13 @@ To \textbf{ionize} a material means to remove or add electrons to atoms or molec
     \rowcolor{blue!30}
     \hline
     \rowcolor{blue!30}
-    \textbf{Type} & \textbf{Ionizing Power} & \textbf{Penetration} & \textbf{Range}                                   \\
+    \textbf{Type} & \textbf{Ionization} & \textbf{Penetration} & \textbf{Range}                                   \\
     \hline
-    Alpha         & High                    & Low                  & Few cm in air (absorbed by paper)                \\
+    Alpha         & High                & Low                  & Few cm in air (absorbed by paper)                \\
     \hline
-    Beta          & Moderate                & Moderate             & Several m in air (absorbed by mm of plastic)     \\
+    Beta          & Moderate            & Moderate             & Several m in air (absorbed by mm of plastic)     \\
     \hline
-    Gamma         & Low                     & High                 & Hundreds of m in air (absorbed by lead/concrete) \\
+    Gamma         & Low                 & High                 & Hundreds of m in air (absorbed by lead/concrete) \\
     \hline
   \end{tabular}
   \caption{Comparison of Alpha, Beta, and Gamma Radiation}
@@ -253,20 +258,44 @@ To \textbf{ionize} a material means to remove or add electrons to atoms or molec
 
 \textbf{Binding energy} is the energy that holds the nucleus together. It is also the \textbf{required amount of energy to separate the nucleus} into its constituent protons and neutrons. The excess of energy, above the level of the binding energy, that is supplied to the nucleus, will be converted to the kinetic energy of the emitted particles.\lb
 Moreover, when a neutron and a proton collide and combine to form a deuteron, they release energy, in the form of a photon, also at the level of binding energy as they form the bound.\lb
-When protons and neutrons (collectively, nucleons) combine to form an atomic nucleus, the total mass of the nucleus is slightly less than the sum of the individual masses of the protons and neutrons. This difference in mass is called the \textbf{mass defect}. It arises because some of the mass of the nucleons is converted into energy \textbf{to bind the nucleus together}, the formalized relation is given by
-$$E = mc^2$$
+When protons and neutrons (collectively, nucleons) combine to form an atomic nucleus, the total mass of the nucleus is slightly less than the sum of the individual masses of the protons and neutrons. This difference in mass is called the \textbf{mass defect}. It arises because some of the mass of the nucleons is converted into energy \textbf{to bind the nucleus together}; there is a mass defect in \textbf{both fusion and fission}. The formalized relation is given by
+$$E = \Delta mc^2$$
 \begin{itemize}
   \item $E$ is the energy released when the nucleus is formed; binding energy
-  \item $m$ is the mass defect.
+  \item $\Delta m$ is the mass defect.
   \item $c$ is the speed of light.
 \end{itemize}
+Mass defect is also the \textbf{difference} between the mass of the nucleus and the sum of the masses of the protons and neutrons that make up the nucleus.
+\begin{align*}
+  \text{Mass defect} & = \text{Mass of protons and neutrons} - \text{Mass of nucleus}             \\
+  \Delta m           & = \left(Zm_\text{proton} + (A-Z)m_\text{neutron}\right) - M_\text{nucleus}
+\end{align*}
 
+\pagebreak
 
-\subsection{Variation of Binding Energy per Nucleon}
+\subsection{Binding Energy per Nucleon}
+
+Binding energy per nucleon is simply the binding energy of the nucleus divided by the number of nucleons in the nucleus. It is a measure of the \textbf{stability} of the nucleus: the higher the binding energy per nucleon, the more energy that is required to separate each nucleon from the nucleus, and the more stable the nucleus is. It is given by
+$$\frac{E}{A}$$
+where $E$ is the binding energy and $A$ is the number of nucleons in the nucleus.
+
+\img{BE_A plot.png}{0.8}{Binding Energy per Nucleon vs. Mass Number}{BE_A}
+
+Features and key information from the graph:
+\begin{enumerate}
+  \item At the region around $A = 60$, the binding energy per nucleon is at its maximum, indicating that the nucleus is most stable at this point. This includes elements such as iron.
+  \item Beyond this optimal point, it is energetically favorable for the nucleus to split into two smaller nuclei to approach the optimal point from right to left; this process is known as \textbf{fission}.
+  \item To approach the optimal point from left to right, the nucleus must combine with another nucleus to form a larger nucleus; this process is known as \textbf{fusion}.
+  \item In the region from $A = 1$ to $A = 20$, some elements have a binding energy per nucleon that is much higher (and is thus more stable) compared to atoms of similar mass numbers nearby, e.g. helium-4, carbon-12, and oxygen-16.
+\end{enumerate}
 
 \section{The Nucleus}
 
 \subsection{Nuclear Mass}
+
+The unified atomic mass unit, denoted by $u$, is defined as one twelfth of the mass of a carbon, its value is approximately $$1.66 \times 10^{-27} \si{\kilo\gram} \equiv 931.5 \si{\mega\electronvolt\per c^2}$$
+with uncertainty of $\pm 5\times 10^{-39} \si{\kilo\gram}$.\lb
+The \textbf{neutron} has a mass \textbf{slightly greater} than that of a proton.
 
 \subsection{The Strong Nuclear Force}
 
@@ -277,23 +306,236 @@ This force is short-range and attractive; it has the following properties
   \item Is only between nucleons (protons and neutrons)
 \end{itemize}
 
-Previous models that did not involve neutrons in the nuclide were unable to explain the stability of the nucleus --- the repulsive forces between protons would inherently cause the nucleus to disintegrate. Thus, there must be an attractive force in the nucleus too.
+Previous models that did not involve neutrons in the nuclide were unable to explain the stability of the nucleus --- the repulsive forces between protons would inherently cause the nucleus to disintegrate. Thus, there must be an attractive force in the nucleus too; this is the \textbf{strong nuclear force}.
 
 \subsection{Evidence for Strong Nuclear Forces}
 
-\subsection{Nuclear Stability}
+\begin{enumerate}
+  \item Previously, one has seen that Rutherford's Scattering Experiment, which relies on Coulomb's Law to explain the electrostatic repulsion between the alpha particles and the nucleus, breaks down when the alpha particles are fired at the nucleus with a high enough initial kinetic energy.
+  \item Further investigations into the internal structure of the nucleus came from experiments scattering electrons (which don't feel the strong nuclear force).
+        \begin{enumerate}
+          \item These experiments showed that electrons could be diffracted by the nucleus, and the \textbf{de Broglie wavelength} of the electrons was used to estimate the nuclear size.
+          \item When electron energy increases, the scattering becomes inelastic (energy is lost), revealing that protons and neutrons are composed of smaller particles called quarks.
+        \end{enumerate}
+  \item Binding Energy and the Strong Force:
+        \begin{enumerate}
+          \item The binding energy per nucleon (energy that holds protons and neutrons together in the nucleus) is relatively constant for medium-heavy nuclei (around $Z \approx 60$).
+          \item As you go to heavier nuclei, like uranium-238, the binding energy per nucleon doesn't change significantly, because the strong force mainly acts on nearby nucleons. This suggests that nucleons deep inside the nucleus are shielded from the full effect of the strong force by those at the surface.
+        \end{enumerate}
+\end{enumerate}
 
-\section{Measuring Radioactive Decay}
+\section{Nuclear Stability}
 
-\subsection{Activity and Count Rate}
+\img{stability graph.png}{0.8}{Nuclear Stability}{stability}
 
-\subsection{Background Radiation}
+\begin{enumerate}
+  \item For $N, Z \le 15$, the stability area (in dark red) is roughly on the line $A = N$.
+  \item For $N, Z > 15$, the stability area starts to move further above the line $A = N$. This means that a $1:1$ \textbf{neutron-to-proton ratio} no longer suffices to keep larger nuclei stable.
+  \item The stability line is a rough linear regression of the data points of stable nuclei.
+  \item The further a data point is from the stability line, the more unstable the nucleus is, and the more quickly it will decay. We can predict how a nucleus will decay to approach the stability line by inspecting its position relative to the stability line:
+        \begin{enumerate}
+          \item If the nucleus is above the stability line, it will undergo \textbf{beta-minus decay} to decrease the number of neutrons and increase the number of protons.
+          \item If the nucleus is below the stability line, it will undergo \textbf{beta-plus decay} to increase the number of neutrons and decrease the number of protons.
+          \item If $A, Z$ are sufficiently high (beyond $A = 60$), in which case, they have the right neutron-proton ratio but just an excessive amount, they will decay by \textbf{alpha decay} to reduce both quantities simultaneously (this keeps the ratio acceptable) and move closer to the stability line diagonally to the bottom left.
+        \end{enumerate}
+        The graphical transitions are illustrated as follows
+
+        \begin{minipage}{0.3\textwidth}
+          \begin{figure}[H]
+            \centering
+            \begin{tikzpicture}[thick, decoration={
+                    markings,
+                    mark=at position 0.6 with {\arrow[scale=1.8]{>}}}]
+              \draw (0, 0) grid (1, 1);
+              \draw[postaction={decorate}] (0, 1) -- (1, 0);
+            \end{tikzpicture}
+            \caption{$\beta^-$ decay}
+          \end{figure}
+        \end{minipage}%
+        \begin{minipage}{0.3\textwidth}
+          \begin{figure}[H]
+            \centering
+            \begin{tikzpicture}[thick, decoration={
+                    markings,
+                    mark=at position 0.6 with {\arrow[scale=1.8]{>}}}]
+              \draw (0, 0) grid (1, 1);
+              \draw[postaction={decorate}] (1, 0) -- (0, 1);
+            \end{tikzpicture}
+            \caption{$\beta^+$ decay}
+          \end{figure}
+        \end{minipage}%
+        \begin{minipage}{0.3\textwidth}
+          \begin{figure}[H]
+            \centering
+            \begin{tikzpicture}[thick, decoration={
+                    markings,
+                    mark=at position 0.6 with {\arrow[scale=1.8]{>}}}]
+              \draw (0, 0) grid (2, 2);
+              \draw[postaction={decorate}] (2, 2) -- (0, 0);
+            \end{tikzpicture}
+            \caption{$\alpha$ decay}
+          \end{figure}
+        \end{minipage}
+\end{enumerate}
 
 \section{Half Lives}
 
+Definitions:
+\begin{enumerate}
+  \item The \textbf{activity} of a radioactive sample is the number of parent nuclei that decay per unit time. It is measured in becquerels (Bq).
+  \item The \textbf{half-life} of a radioactive sample is the time taken for half of the initial sample to decay. It is denoted by $t_{1/2}$.
+\end{enumerate}
+
+The decay probability ($\dfrac{1}{2}$) is constant at every stage of the decay chain. The decay behavior obeys the exponential model: Let $N_0$ be the initial activity at time $t = 0$, after $n$ half lives, the remaining activity is given by
+$$N' = \frac{N_0}{2^n}$$
+
+\subsection{Idea behind the Exponential Model}
+
+In constant time intervals of size $T$, the ratio $$\frac{\text{number of nuclei that decay between $t = t$ and $t = t + T$}}{\text{number of nuclei at time $t$}}$$
+is constant.
+Hence, if $A$ is the activity, i.e. the number of decay events per unit time, and $N$ is the initial number of nuclei at the start of the time interval, then \begin{equation}\label{eq:decay_constant}
+  A = \lambda N
+\end{equation}where $\lambda$ is the \textbf{decay constant}.
+By definition, $$A = \diff{N}{t}$$
+thus $$\diff{N}{t} = \lambda N$$
+we can solve this differential equation to get \begin{equation}\label{eq:NN_0}
+  N = N_0 e^{-\lambda t}
+\end{equation}
+where $N_0$ is the initial number of nuclei at $t = 0$, and $t$ is the time elapsed since then.
+We also get an expression for the activity, since $A = \lambda N$
+$$A = A_0 e^{-\lambda t}$$
+where $A_0 = \lambda N_0$ is the initial activity at $t = 0$.
+
+\subsubsection{Definition of the Decay Constant}
+
+By \cref{eq:decay_constant}, the decay constant can be defined as the \textbf{probability of decay per unit time} for a single nucleus, i.e. $$\lambda = \frac{P}{\Delta t}$$\lb
+The claim that the decay probability is the same as the decay constant holds only for tiny time intervals $\Delta t$, compared to the average lifetime of the sample.
+
+\subsubsection{Calculating the Decay Constant}
+
+The decay constant $\lambda$ and the half life $t_{\frac{1}{2}}$ are related by the equation \begin{equation}\label{eq:decay_constant_half_life}
+  t_{\frac{1}{2}} = \frac{\ln 2}{\lambda}
+\end{equation}
+
+\pagebreak
+
+\subsection{Determining Half Lives}
+
+\subsubsection{Long Half-Lives}
+
+When the half-life of an isotope is too long to be measured, one can combine \cref{eq:decay_constant} and \cref{eq:decay_constant_half_life} to get an estimate for the half-life \begin{equation}\label{eq:long_half_life}
+  t_{\frac{1}{2}} = \frac{N\ln 2}{A}
+\end{equation}
+where the activity $A$ is measured over some manageable time interval.
+
+\subsubsection{Short Half-Lives}
+
+Let $R$ denote the corrected count rate and $R_0$ the initial corrected count rate, by \cref{eq:NN_0}, we can take the natural log of both sides and obtain the following linear equation
+$$\ln R = -\lambda t + \ln R_0$$
+One can then measure a series of $R$ values and produce a linear graph of $\ln R$ vs. $t$, whose gradient, upon calculation, is $-\lambda$, which can then be substituted into \cref{eq:decay_constant_half_life} to determine the half life.\lb
+The advantage of this method is that it works even if $R$ is measured over a period less than the half-life.
+
+\section{Measuring Radioactive Decay}
+
+There are a few devices for measuring radioactive decay:
+\begin{enumerate}
+  \item The Geiger-Müller Tube: This device measures the number of ionizing particles that pass through it.
+        \img{muller.png}{1}{Geiger-Müller Tube}{muller}
+        \begin{enumerate}
+          \item Structure: Cylindrical chamber filled with low-pressure gas (e.g., argon), with a central anode and outer cathode.
+          \item Radiation Detection: Ionizing radiation enters the tube and ionizes the gas, creating \textbf{ion pairs} (free electrons and positive ions).
+          \item \textbf{Amplification} of the Signal: Electrons are accelerated by a high voltage field, causing further ionizations in a chain reaction. This allows the reaction to be detected as a signal.
+          \item \textbf{Current} Generation: The movement of electrons produces an electric current, detected as a signal for each radiation event.
+          \item \textbf{Quenching}: A quenching gas prevents continuous discharge, allowing the tube to reset for subsequent detections. The \textbf{dead time} refers to the time the tube needs to recover from a detection event and be prepared for the next.
+        \end{enumerate}
+  \item The spark counter
+        \begin{enumerate}
+          \item Structure: Consists of two metal plates or wires, separated by a small air gap, with a high voltage applied across them.
+          \item Working Principle: Detects ionizing radiation by producing visible sparks in the air gap when charged particles pass through.
+          \item Ionization Process: When charged particles (alpha or beta particles) enter the air gap, they ionize the air molecules, creating free electrons and positive ions.
+          \item Spark Generation: The high voltage accelerates the free electrons, leading to further ionization and creating a discharge (spark) across the gap.
+          \item Detection: Each spark corresponds to a charged particle passing through, and the number of sparks indicates the radiation intensity.
+        \end{enumerate}
+\end{enumerate}
+
+\subsection{Activity and Count Rate}
+
+Definitions:
+\begin{enumerate}
+  \item The \textbf{activity} of a radioactive sample is the number of parent nuclei that decay per unit time. It is measured in becquerels (Bq).
+  \item The \textbf{count rate} is the number of ionizing particles that pass through a detector per unit time. It is measured in counts per second (cps).
+\end{enumerate}
+
+The count rate is typically less than and proportional (assuming fixed arrangement) to the actual activity of the sample, because some particles may not be detected by the detector.
+
+\pagebreak
+
+\subsection{Background Radiation}
+
+The background radiation is the ionizing radiation that is always present in the environment, and it comes from various sources:
+\begin{itemize}
+  \item Radon gas from the ground (a major source): A radioactive gas that seeps into buildings from the ground.
+  \item Cosmic radiation: High-energy particles from space that interact with the Earth's atmosphere.
+  \item Artificial sources: Medical procedures, nuclear power plants, etc.
+  \item Buildings: Building materials like granite contain radioactive elements.
+  \item Organisms and consumables: Radioactive isotopes are present in the human body and food.
+\end{itemize}
+
+In experiments, to get accurate results, the corrected count rate must be obtained by subtracting the background count rate from the total count rate.
+
+\section{Applications of Radioactive Nuclides}
+
 \subsection{Radioactive Dating}
 
+Determining the age of carbon-based materials by measuring the amount of carbon-14 remaining in the sample. This works for materials up to 60000 years old.
+\begin{enumerate}
+  \item Plants and organisms absorb carbon-12 and carbon-14 from the atmosphere while alive.
+  \item Once dead, the carbon-14 decays to nitrogen-14 while the carbon-12 remains constant. Then, the ratio of carbon-14 to carbon-12 can be used to determine the time elapsed since the organism died.
+  \item This works under the assumption that the ratio of carbon-14 to carbon-12 in the atmosphere has remained constant over time while the organism was alive.
+\end{enumerate}
+
+\subsection{In Medicine}
+
+In imaging and diagnosis, radioactive isotopes are inhaled, ingested, or injected into the body to trace the movement of substances in the body or emit radiation that can be detected by a special camera.
+
+\begin{enumerate}
+  \item \textbf{Radiotherapy}: The use of ionizing radiation to treat cancer by destroying cancer cells. The ways in which radiation can be used include:
+        \begin{itemize}
+          \item Small low-activity packages of gamma emitters placed in the body to deliver a localized dose of radiation to the cancerous tissue.
+          \item The gamma knife is a device that uses concentrated gamma radiation onto a single small region to destroy brain tumors.
+        \end{itemize}
+  \item \textbf{Diagnostic Imaging}: The use of radioactive isotopes to diagnose diseases and conditions.
+  \item \textbf{Tracers}: Radioactive isotopes are used to trace the movement of substances in the body.
+\end{enumerate}
+
+
+\subsection{Materials Testing}
+
+\begin{itemize}
+  \item Radioactive materials are increasingly used in industry, especially for thickness measurements.
+  \item The intensity of radiation through a material changes with material thickness.
+  \item The type of nuclide used depends on the material and measurement requirements.
+        \begin{itemize}
+          \item Beta-minus particles are used for controlling aluminum sheet rolling.
+          \item Alpha particles are less useful as they are absorbed by the metal.
+          \item Gamma photons are not absorbed by aluminum.
+        \end{itemize}
+  \item Radioactive tracers are used to measure flow rates and detect rubbish in rivers.
+  \item Nuclides must be chosen carefully to suit the application, and their half-lives must be short to avoid environmental damage.
+\end{itemize}
+
+
 \section{Decay Chains}
+
+\begin{itemize}
+  \item For example, the decay chain from uranium-238 (U-238) to lead-206 (Pb-206) consists of several intermediate steps.
+  \item Each step involves a nuclide decaying through either alpha ($\alpha$) or beta ($\beta$) decay, progressing towards a more stable form.
+  \item The chain begins with U-238 and includes elements such as thorium (Th), radium (Ra), radon (Rn), and polonium (Po), before finally reaching the stable lead isotope Pb-206.
+  \item Each nuclide in the chain is represented by its proton number, nucleon number, half-life, and the decay mode ($\alpha$ or $\beta$).
+  \item Several different isotopes form during this process, including isotopes of lead, polonium, and bismuth.
+  \item Other naturally occurring decay chains exist, such as the thorium and actinium series, and some decay chains involve synthetic elements.
+\end{itemize}
+
 
 
 \end{document}
