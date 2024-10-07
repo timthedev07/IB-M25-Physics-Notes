@@ -1,0 +1,9 @@
+\thispagestyle {empty}
+\contentsline {section}{\numberline {1}Fusion in Stars}{1}{section.1}%
+\contentsline {section}{\numberline {2}Star Luminosity and Temperature}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}HR Diagrams}{2}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Stellar Evolution and Stellar Mass}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Stellar Evolution of Low-Mass Stars}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Stellar Evolution of Large-Mass Stars}{3}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Astronomical Distances and Measurement}{4}{section.4}%
+\contentsline {section}{\numberline {5}Stellar Parallax}{5}{section.5}%

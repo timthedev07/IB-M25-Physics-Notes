@@ -1,0 +1,325 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{setspace}
+\usepackage{sectsty}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage[a4paper, total={3in, 9in}, textwidth=16cm,bottom=1in,top=1.4in]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{amsmath}
+\usepackage{esvect}
+\usepackage{soul}
+\usepackage{amsthm}
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{amssymb}
+\usepackage{outlines}
+\usepackage{caption}
+\usepackage{fancyvrb}
+\usepackage{subcaption}
+\usepackage{esdiff}
+\usepackage{colortbl}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{mathtools}
+\usepackage{tikz,pgfplots}
+\usepackage[most]{tcolorbox}
+\usetikzlibrary{positioning,decorations.markings,arrows.meta}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{observation}{Observation}
+\doublespacing
+\let\oldsection\section
+\renewcommand\section{\clearpage\oldsection}
+\newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+\let\oldsi\si
+\renewcommand{\si}[1]{\oldsi[per-mode=reciprocal-positive-first]{#1}}
+\usepackage{enumitem}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+\newcommand{\degsym}{^{\circ}}
+\newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor = blue
+}
+\newcommand{\lb}{\\[8pt]}
+\newenvironment*{cell}[1][]{\begin{tabular}[c]{@{}c@{}}}{\end{tabular}}
+\newcommand{\img}[4]{\begin{center}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=#2\textwidth]{#1}
+    \caption{#3}
+    \label{fig:#4}
+  \end{figure}
+\end{center}}
+\parindent=0pt
+\usepackage{fancyhdr}
+\fancyfoot{}
+\fancypagestyle{fancy}{\fancyfoot[R]{\vspace*{1.5\baselineskip}\thepage}}
+\renewcommand{\contentsname}{Table of Contents}
+\newcommand{\angled}[1]{\langle{#1}\rangle}
+\newcommand{\paren}[1]{\left(#1\right)}
+\newcommand{\sqb}[1]{\left[#1\right]}
+\newcommand{\coord}[3]{\angled{#1,\, #2,\, #3}}
+\newcommand{\pair}[2]{\paren{#1,\, #2}}
+\newcommand{\atom}[3]{{}^{#1}_{#2}\text{#3}}
+\usepackage[
+  noabbrev,
+  capitalise,
+  nameinlink,
+]{cleveref}
+
+\crefname{lemma}{Lemma}{Lemmas}
+\crefname{proposition}{Proposition}{Propositions}
+\crefname{remark}{Remark}{Remarks}
+\crefname{observation}{Observation}{Observations}
+
+\newtcolorbox[auto counter]{prob}[2][]{fonttitle=\bfseries, title=\strut Problem~\thetcbcounter: #2,#1,colback=Orchid!5!white,colframe=Orchid!75!black,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{rem}[1][]{fonttitle=\bfseries, title=\strut Remark.~\thetcbcounter,colback=purple!5!white,colframe=purple!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{defin}[1][]{fonttitle=\bfseries, title=\strut Definition.~\thetcbcounter,colback=black!5!white,colframe=black!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{obs}[1][]{fonttitle=\bfseries, title=\strut Observation.~\thetcbcounter,colback=RedViolet!5!white,colframe=RedViolet!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{lem}[1][]{fonttitle=\bfseries, title=\strut Lemma.~\thetcbcounter,colback=Maroon!5!white,colframe=Maroon!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{prop}[1][]{fonttitle=\bfseries, title=\strut Proposition.~\thetcbcounter,colback=RedOrange!5!white,colframe=RedOrange!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{hint}[1][]{fonttitle=\bfseries, title=\strut Hint.~\thetcbcounter,colback=OliveGreen!5!white,colframe=OliveGreen!75!gray,top=5mm,bottom=5mm}
+
+\setlength{\belowcaptionskip}{-20pt}
+\begin{document}
+
+
+\pagenumbering{arabic}
+\pagestyle{fancy}
+
+
+\begin{titlepage}
+  \begin{center}
+
+    \vspace*{8cm}
+    \textbf{\Large {IB Physics Topic E2 Quantum Physics; HL}} \\
+    \vspace*{1cm}
+    \large{By timthedev07, M25 Cohort}
+
+  \end{center}
+\end{titlepage}
+
+\pagebreak
+\tableofcontents
+\pagebreak
+
+\clearpage
+\setcounter{page}{1}
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+
+\section{The Ultraviolet Catastrophe}
+
+Rayleigh-Jeans Law, following from the principles of classical physics, stated that intensity of radiation emitted by a black body satisfies the following relationship
+$$\text{intensity} \propto \text{frequency}^2$$
+
+This model actually broke down at higher frequencies (lower wavelengths).\lb
+Max Planck proposed that the energy of the oscillators in the black body was quantized in integer values of $hf$, where $f$ is the frequency of the oscillator and $h$ is Planck's constant. His new model fixed the problem of the ultraviolet catastrophe, but he was not able to explain why the quantization was necessary.
+
+\section{The Photoelectric Effect}
+
+The \textit{photoelectric effect} is a phenomenon where electrons are ejected from the surface of a material (usually a metal) when it is exposed to light of a certain frequency or higher.\lb
+The classical predictions have the following implications
+\begin{itemize}
+  \item Light was only understood as a wave. The classical idea was that with enough intensity, waves of any frequency should be able to transfer the binding energy to electrons and free them.
+  \item The time delay when lower-frequency waves are used occurs because the electrons need to accumulate sufficient energy over time to reach the binding energy to be freed.
+\end{itemize}
+The observations made in reality were
+\begin{itemize}
+  \item Threshold frequency: There is a minimum frequency of light below which no electrons are emitted.
+  \item Intensity independence: The intensity of light does not affect the kinetic energy of the emitted electrons. If the light is below the threshold frequency, no electrons would be emitted no matter how intense the light is.
+  \item Instantaneous emission of electrons: There was no time lag between the light being shone and the electrons being emitted.
+  \item Frequency dependence: The KE of the ejected electrons increases with the frequency of the light.
+\end{itemize}
+
+Einstein adopted Planck's idea of quantization and proposed the following
+\begin{itemize}
+  \item EM radiation consists of \textbf{photons}. Each photon has an energy equal to $E = hf$.
+  \item Each photon interacts with only a single electron. The photon disappears as its energy is entirely transferred to the electron.
+  \item There exists a threshold frequency $f_0$, which corresponds to the minimum energy required to free an electron from the material. Below this frequency, no electrons are emitted.
+  \item The minimum energy required to free an electron is the \textbf{work function} $\phi = hf_0$ of the material. This is the energy required to overcome the forces holding the electron back onto the surface of the material.
+  \item When the photon supplies an excess of energy above the work function to the electron, the excess energy is transferred to the electron as KE.
+  \item Increasing the intensity \textbf{does not increase the KE} of individual electrons, but it increases the number of photons incident on the surface of the material per second, and thus the number of electrons ejected.
+  \item The ejected electrons will eventually be attracted back to the surface of the plate that was left positive, even with high energies supplied.
+  \item The energy $E = hf$ in the photon hitting the electron must be \textbf{strictly greater} than the work function for the electron to be ejected; i.e. $hf > \phi$.
+\end{itemize}
+
+\img{workfunction.png}{1}{The work function $\phi$ of a material}{workfunction}
+
+\subsection{The Photoelectric Equation}
+
+The maximum KE of the ejected electrons is given by
+\begin{equation}\label{eq:photoelectric}
+  E_{\text{max}} = hf - \phi
+\end{equation}
+
+
+\subsection{Photon Momentum}
+
+Any object moving at the speed of light must have 0 mass. But this does not mean that one can use $p = mv$ to simply calculate the momentum of a photon as 0. Einstein has a relativistic equation for momentum\lb
+For a moving particle at a relativistic speed, the total energy is given by
+$$E = \sqrt{p^2c^2 + m_0^2c^4}$$
+where
+\begin{itemize}
+  \item $p$ is the momentum of the particle
+  \item $m_0$ is the rest mass of the particle
+\end{itemize}
+A photon has rest mass 0, so the equation simplifies to $E = pc$. Then, as per Einstein, the energy of a photon is given by $E = \dfrac{hc}{\lambda}$, we can make a substitution and obtain
+\begin{equation}\label{eq:photonmomentum}
+  p = \frac{E}{c} = \frac{h}{\lambda}
+\end{equation}
+
+\section{Millikan's Photoelectric Experiment}
+
+This experiment is to test Einstein's photoelectric equation. The setup is as follows:
+\begin{itemize}
+  \item \textbf{Vacuum Chamber}: The experiment was conducted in a vacuum to prevent collisions between the ejected electrons and air molecules, which could affect their motion and the experimental results.
+
+  \item \textbf{Metal Surface (Photocathode)}: A clean metal surface, such as sodium or potassium, was used as the target for the incident light. Different metals have different \textit{work functions} (the minimum energy required to eject an electron), so the experiment needed to account for the material’s response to varying light frequencies.
+
+  \item \textbf{Light Source}: A monochromatic light source (emitting light of a single frequency) was directed at the metal surface. The frequency of the light was varied, while the intensity was kept constant in specific trials of the experiment.
+
+  \item \textbf{Collector Electrode (Anode)}: A positively charged electrode was placed opposite the metal surface. Electrons ejected from the photocathode traveled through the vacuum to the anode, provided they had enough kinetic energy to overcome any applied opposing voltage.
+
+  \item \textbf{Adjustable Stopping Potential (Voltage)}: A voltage source was used to apply a reverse potential to the anode. This opposing voltage could stop the electrons from reaching the anode, thereby allowing Millikan to measure the maximum kinetic energy of the ejected electrons.
+
+  \item \textbf{Ammeter}: The current generated by the ejected electrons, as they reached the anode and completed the circuit, was measured using an ammeter.
+\end{itemize}
+
+Millikan's goal was to study the relationship between the frequency of the incident light and the kinetic energy of the emitted electrons. The experiment proceeded in the following steps:
+\begin{enumerate}
+  \item \textbf{Illumination of the metal surface}: Monochromatic light was shone onto the metal surface, causing electrons to be ejected due to the photoelectric effect.
+
+  \item \textbf{Electron ejection and current measurement}: The ejected electrons traveled across the vacuum toward the positively charged anode. The movement of the electrons created a measurable current, as the circuit is now complete.
+
+  \item \textbf{Application of stopping potential}: Millikan varied the stopping potential (a negative voltage) applied to the anode. This potential created an opposing electric field that slowed the ejected electrons. When the stopping potential was sufficiently high, it completely stopped the electrons from reaching the anode.
+
+  \item \textbf{Measuring the stopping potential}: The stopping potential was a measure of the \textit{maximum kinetic energy} of the ejected electrons. Since the kinetic energy of an electron is given by
+        \[
+          E_{\max} = eV_s
+        \]
+        where \(e\) is the electron charge and \(V_s\) is the stopping potential, Millikan could determine the kinetic energy of the ejected electrons by \textbf{measuring the voltage at which the current stopped}.
+\end{enumerate}
+
+The expected results per Einstein's photoelectric equation are as follows (this is \textbf{verified by the experiment}):
+\begin{itemize}
+  \item We combine \cref{eq:photoelectric} and $E_{\max} = eV_s$ to obtain
+        $$
+          eV_s = hf - hf_0
+        $$
+  \item Since photons travel at the speed of light, $f = \dfrac{c}{\lambda}$ substitution gives
+        $$
+          eV_s = \dfrac{hc}{\lambda} -\dfrac{hc}{\lambda_0}
+        $$
+  \item Rearrangement gives
+        $$
+          V_s = \dfrac{hc}{e}\paren{\dfrac{1}{\lambda} - \dfrac{1}{\lambda_0}}
+        $$
+  \item This is a linear relationship with
+        \begin{enumerate}
+          \item $V_s$ on the y-axis
+          \item $\dfrac{1}{\lambda}$ on the x-axis
+          \item $\dfrac{hc}{e}$ as the gradient
+          \item $-\dfrac{hc}{e\lambda_0} = -\dfrac{\phi}{e}$ as the y-intercept (the work function divided by the elementary charge)
+          \item $\frac{1}{\lambda_0}$ as the x-intercept
+        \end{enumerate}
+  \item This results shows that
+        \begin{enumerate}
+          \item The gradient is a constant, and is equal to $\dfrac{hc}{e}$. It does not depend on anything.
+          \item Different metal surfaces just give parallel lines with different axes intercepts.
+        \end{enumerate}
+\end{itemize}
+
+
+\section{The Compton Effect}
+
+\subsection{Experimental Setup}
+
+An incident beam of X-ray is incident on a graphite target. For various angles, he measured the wavelength of the scattered X-ray. The results are as follows.
+
+\img{compton.png}{1}{The Compton Effect}{compton}
+
+For $\theta \not = 0$, the graph of $\lambda$ against $\theta$ is a straight line has two peaks. One of which is simply the wavelength of the incident X-ray, and the other is a scaled-up version of the original wavelength.
+
+\pagebreak
+
+\subsection{Failure of EM Wave Theory}
+
+Following from the classical theory of EM waves, the X-ray causes the electrons in the graphite to oscillate at the same frequency as the X-ray, and thereby emit radiation at the same wavelength as the incident X-rays. This would force $$\text{X-ray wavelength} = \text{Scattering wavelength}$$
+
+But this contradicts the experimental observations!
+
+\subsection{Explanation by Quantum Theory}
+
+Building upon Einstein's theory that light can be quantized into photons, Compton proposed that the X-ray photons collide with the electrons in the graphite on a one-to-one basis. \lb
+The collision causes the X-ray photon to lose energy and momentum, and the electron to gain energy and momentum. The scattered X-ray photon has a longer wavelength than the incident X-ray photon, since the \textbf{energy of the photon is inversely proportional to its wavelength}.\lb
+\begin{center}
+  The energy loss of the photon = energy gained by the recoil electron
+\end{center}
+
+
+\subsection{Quantifying the Model}
+
+Using the \textbf{conservation of energy and momentum respectively}, we obtain a set of simultaneous equations, from which, we get \begin{equation}\label{eq:compton_wavelength_change}
+  \lambda' - \lambda_0  = \Delta \lambda = \frac{h}{m_ec}(1-\cos \theta)
+\end{equation}
+\img{compton2.png}{1}{The Compton Effect}{compton2}
+
+\subsection{Explaining the Peaks}
+
+\begin{enumerate}
+  \item The larger peak comes from the X-ray photon losing energy and hence increasing in wavelength due to the collision with an electron. This positive change in wavelength is given by \cref{eq:compton_wavelength_change}
+  \item The smaller peak is created in the occasions where the X-ray photon \textbf{collides with the whole of the carbon atom}, and not just the electron. In this case, the modified equation for $\Delta \lambda$ requires $m_e$ to be changed to $m_{\text{carbon}}$, which is about 20000 times larger. This means that the change in wavelength is about 20000 times smaller, effectively 0. Thus, we get a smaller peak that roughly matches the original wavelength.
+\end{enumerate}
+
+\section{Alternative Photon-Interaction}
+
+The previously described effects of the photoelectric effect and the Compton effect are not the only ways photons can interact with matter. They only apply to photons in certain energy rangers.
+\begin{itemize}
+  \item The photoelectric effect is most prominent among photons ranging from a few eV to a few keV.
+  \item The Compton effect is most prominent among photons ranging from a few keV to 1 MeV.
+  \item Between 1.022 and 2 MeV, the photons can interact with the nucleus of the atom to create an electron-positron pair. The energy of the incident photon must be at least sufficient to provide the rest mass energy of the particles in the electron-positron pair respectively.
+  \item At even higher energies, \textbf{photondisintegration} can happen, where the photon is absorbed by the nucleus, entering into a high-energy state, and then decaying with the ejection of a neutron, proton, or alpha particle.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Matter Waves and the de Broglie Hypothesis}
+
+This hypothesis is the claim that electrons and other particles can exhibit wave-like properties under the appropriate experimental condition.
+
+Since photons move at relativistic speeds, one can use Einstein's relativistic equation linking momentum and energy and obtain \cref{eq:photonmomentum}. This gives the de Broglie wavelength of a particle moving at a relativistic speed.
+
+\subsection{The Davisson-Germer Experiment}
+
+This experiment (1927) provided evidence for the wave nature of electrons, confirming Louis de Broglie's hypothesis that particles can exhibit wave-like properties.
+
+
+\begin{itemize}
+  \item Electron Beam: Electrons were accelerated and directed at a nickel crystal target in a vacuum chamber.
+  \item Scattering and Detection: The electrons scattered off the atoms in the crystal, and a detector was used to measure the number of electrons scattered at different angles.
+  \item Observation: The experimenters observed that at certain angles, the intensity of the scattered electrons was much higher, indicating constructive interference — a hallmark of wave behavior.
+\end{itemize}
+
+Key result:
+The pattern of electron scattering closely matched the diffraction pattern expected if the electrons were behaving like waves rather than particles. The wavelength of the electrons, calculated from the diffraction pattern, matched the value predicted by de Broglie's equation $\lambda = \dfrac{h}{p}$.
+In this case, the momentum of the electrons was given by $p = \sqrt{2m_eeV}$, where $m$ is the mass of the electron and $v$ is its velocity. Invoking de Broglie's hypothesis, the wavelength of the electrons was given by the following, where $V$ is the p.d. through which the electron is accelerated \begin{equation}\label{eq:davisson}
+  \lambda = \dfrac{h}{\sqrt{2m_eeV}}
+\end{equation}
+
+\end{document}

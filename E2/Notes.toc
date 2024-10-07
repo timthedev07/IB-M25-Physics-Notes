@@ -1,0 +1,15 @@
+\thispagestyle {empty}
+\contentsline {section}{\numberline {1}The Ultraviolet Catastrophe}{1}{section.1}%
+\contentsline {section}{\numberline {2}The Photoelectric Effect}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}The Photoelectric Equation}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Photon Momentum}{4}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Millikan's Photoelectric Experiment}{5}{section.3}%
+\contentsline {section}{\numberline {4}The Compton Effect}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Experimental Setup}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Failure of EM Wave Theory}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Explanation by Quantum Theory}{9}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Quantifying the Model}{9}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Explaining the Peaks}{10}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Alternative Photon-Interaction}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Matter Waves and the de Broglie Hypothesis}{12}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}The Davisson-Germer Experiment}{12}{subsection.5.2}%
