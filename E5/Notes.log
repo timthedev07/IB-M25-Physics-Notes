@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.26)  7 OCT 2024 15:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.26)  8 OCT 2024 02:34
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -423,11 +423,14 @@ Package caption Info: New subtype `subtable' on input line 239.
 \c@subtable=\count315
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/esdiff/esdiff.sty
 Package: esdiff 
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
+Package: dirtytalk 2010/11/21 A package making "quoting" easier
+\c@dirtytalk@qdepth=\count316
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
 \everycr=\toks39
 \minrowclearance=\skip64
-\rownum=\count316
+\rownum=\count317
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen189
@@ -440,31 +443,31 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen196
 \cmidrulekern=\dimen197
 \defaultaddspace=\dimen198
-\@cmidla=\count317
-\@cmidlb=\count318
+\@cmidla=\count318
+\@cmidlb=\count319
 \@aboverulesep=\dimen199
 \@belowrulesep=\dimen256
-\@thisruleclass=\count319
-\@lastruleclass=\count320
+\@thisruleclass=\count320
+\@lastruleclass=\count321
 \@thisrulewidth=\dimen257
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
  (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count321
-\calc@Bcount=\count322
+\calc@Acount=\count322
+\calc@Bcount=\count323
 \calc@Adimen=\dimen258
 \calc@Bdimen=\dimen259
 \calc@Askip=\skip65
 \calc@Bskip=\skip66
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count323
+\calc@Ccount=\count324
 \calc@Cskip=\skip67
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count324
+\g_MT_multlinerow_int=\count325
 \l_MT_multwidth_dim=\dimen260
 \origjot=\skip68
 \l_MT_shortvdotswithinadjustabove_dim=\dimen261
@@ -505,14 +508,14 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yd=\dimen279
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
-\c@pgf@counta=\count325
-\c@pgf@countb=\count326
-\c@pgf@countc=\count327
-\c@pgf@countd=\count328
+\c@pgf@counta=\count326
+\c@pgf@countb=\count327
+\c@pgf@countc=\count328
+\c@pgf@countd=\count329
 \t@pgf@toka=\toks44
 \t@pgf@tokb=\toks45
 \t@pgf@tokc=\toks46
-\pgf@sys@id@count=\count329
+\pgf@sys@id@count=\count330
  (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -523,21 +526,21 @@ File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count330
-\pgfsyssoftpath@bigbuffer@items=\count331
+\pgfsyssoftpath@smallbuffer@items=\count331
+\pgfsyssoftpath@bigbuffer@items=\count332
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen280
-\pgfmath@count=\count332
+\pgfmath@count=\count333
 \pgfmath@box=\box73
 \pgfmath@toks=\toks47
 \pgfmath@stack@operand=\toks48
 \pgfmath@stack@operation=\toks49
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count333
+\c@pgfmathroundto@lastzeros=\count334
 )) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen281
@@ -567,7 +570,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box74
 \pgf@hbox=\box75
 \pgf@layerbox@main=\box76
-\pgf@picture@serial@count=\count334
+\pgf@picture@serial@count=\count335
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen299
@@ -588,8 +591,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen304
-\pgf@sys@shading@range@num=\count335
-\pgf@shadingcount=\count336
+\pgf@sys@shading@range@num=\count336
+\pgf@shadingcount=\count337
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
@@ -624,7 +627,7 @@ Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count337
+\pgf@plot@mark@count=\count338
 \pgfplotmarksize=\dimen309
 )
 \tikz@lastx=\dimen310
@@ -639,17 +642,17 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box80
 \tikz@tempbox=\box81
 \tikz@tempbox@bg=\box82
-\tikztreelevel=\count338
-\tikznumberofchildren=\count339
-\tikznumberofcurrentchild=\count340
-\tikz@fig@count=\count341
+\tikztreelevel=\count339
+\tikznumberofchildren=\count340
+\tikznumberofcurrentchild=\count341
+\tikz@fig@count=\count342
  (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count342
-\pgfmatrixcurrentcolumn=\count343
-\pgf@matrix@numberofcolumns=\count344
+\pgfmatrixcurrentrow=\count343
+\pgfmatrixcurrentcolumn=\count344
+\pgf@matrix@numberofcolumns=\count345
 )
-\tikz@expandcount=\count345
+\tikz@expandcount=\count346
  (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
@@ -659,33 +662,33 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 \t@pgfplots@tokb=\toks53
 \t@pgfplots@tokc=\toks54
 \pgfplots@tmpa=\dimen318
-\c@pgfplots@coordindex=\count346
-\c@pgfplots@scanlineindex=\count347
+\c@pgfplots@coordindex=\count347
+\c@pgfplots@scanlineindex=\count348
  (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks55
 \t@pgf@tokb=\toks56
 \t@pgf@tokc=\toks57
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count348
+\c@pgfplotsarray@tmp=\count349
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count349
+\c@pgfplotstable@counta=\count350
 \t@pgfplotstable@a=\toks58
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count350
+\c@pgfplotslibrarysurf@no=\count351
  (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen319
 \pgfdecoratedremainingdistance=\dimen320
 \pgfdecoratedinputsegmentcompleteddistance=\dimen321
 \pgfdecoratedinputsegmentremainingdistance=\dimen322
 \pgf@decorate@distancetomove=\dimen323
-\pgf@decorate@repeatstate=\count351
+\pgf@decorate@repeatstate=\count352
 \pgfdecorationsegmentamplitude=\dimen324
 \pgfdecorationsegmentlength=\dimen325
 )
 \tikz@lib@dec@box=\box83
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count352
+\pgfplots@numplots=\count353
 \pgfplots@xmin@reg=\dimen326
 \pgfplots@xmax@reg=\dimen327
 \pgfplots@ymin@reg=\dimen328
@@ -712,19 +715,19 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box85
 \tcb@lowerbox=\box86
 \tcb@phantombox=\box87
-\c@tcbbreakpart=\count353
-\c@tcblayer=\count354
-\c@tcolorbox@number=\count355
+\c@tcbbreakpart=\count354
+\c@tcblayer=\count355
+\c@tcolorbox@number=\count356
 \tcb@temp=\box88
 \tcb@temp=\box89
 \tcb@temp=\box90
 \tcb@temp=\box91
  (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '6.0.1'
-\c@tcbrastercolumn=\count356
-\c@tcbrasterrow=\count357
-\c@tcbrasternum=\count358
-\c@tcbraster=\count359
+\c@tcbrastercolumn=\count357
+\c@tcbrasterrow=\count358
+\c@tcbrasternum=\count359
+\c@tcbraster=\count360
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.0.1'
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
@@ -754,28 +757,28 @@ Library (tcolorbox): 'tcbfitting.code.tex' version '6.0.1'
 \tcbfitdim=\dimen332
 \tcb@lowerfitdim=\dimen333
 \tcb@upperfitdim=\dimen334
-\tcb@cur@hbadness=\count360
+\tcb@cur@hbadness=\count361
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.0.1'
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '6.0.1'
 (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count361
+\lst@mode=\count362
 \lst@gtempboxa=\box96
 \lst@token=\toks61
-\lst@length=\count362
+\lst@length=\count363
 \lst@currlwidth=\dimen335
-\lst@column=\count363
-\lst@pos=\count364
+\lst@column=\count364
+\lst@pos=\count365
 \lst@lostspace=\dimen336
 \lst@width=\dimen337
-\lst@newlines=\count365
-\lst@lineno=\count366
+\lst@newlines=\count366
+\lst@lineno=\count367
 \lst@maxwidth=\dimen338
  (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count367
-\lst@skipnumbers=\count368
+\c@lstnumber=\count368
+\lst@skipnumbers=\count369
 \lst@framebox=\box97
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
@@ -789,7 +792,7 @@ Library (tcolorbox): 'tcbprocessing.code.tex' version '6.0.1'
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Unrestricted shell escape enabled on input line 75.
 ))
-\c@tcblisting=\count369
+\c@tcblisting=\count370
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
 Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
  (/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/stringenc.sty
@@ -814,21 +817,25 @@ File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowlength=\dimen340
 \pgfarrowwidth=\dimen341
 \pgfarrowlinewidth=\dimen342
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryangles.code.tex
+File: tikzlibraryangles.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-\c@lemma=\count370
-\c@proposition=\count371
-\c@remark=\count372
-\c@observation=\count373
+\c@lemma=\count371
+\c@proposition=\count372
+\c@remark=\count373
+\c@observation=\count374
  (/usr/local/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip69
 \enit@outerparindent=\dimen343
 \enit@toks=\toks62
 \enit@inbox=\box98
-\enit@count@id=\count374
-\enitdp@description=\count375
+\enit@count@id=\count375
+\enitdp@description=\count376
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 52.
+Package hyperref Info: Option `colorlinks' set `true' on input line 53.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip70
@@ -861,55 +868,55 @@ Package cleveref Info: no abbreviation of names on input line 7852.
 Package cleveref Info: always capitalise cross-reference names on input line 7852.
 Package cleveref Info: include cross-reference names in hyperlinks on input line 7852.
 )
-\c@tcb@cnt@prob=\count376
-\c@tcb@cnt@rem=\count377
-\c@tcb@cnt@defin=\count378
-\c@tcb@cnt@obs=\count379
-\c@tcb@cnt@lem=\count380
-\c@tcb@cnt@prop=\count381
-\c@tcb@cnt@hint=\count382
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 100.
+\c@tcb@cnt@prob=\count377
+\c@tcb@cnt@rem=\count378
+\c@tcb@cnt@defin=\count379
+\c@tcb@cnt@obs=\count380
+\c@tcb@cnt@lem=\count381
+\c@tcb@cnt@prop=\count382
+\c@tcb@cnt@hint=\count383
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 101.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count383
+\l__color_backend_stack_int=\count384
 \l__pdf_internal_box=\box99
 ) (./Notes.aux)
 \openout1 = `Notes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 100.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 101.
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count384
+\scratchcounter=\count385
 \scratchdimen=\dimen344
 \scratchbox=\box100
-\nofMPsegments=\count385
-\nofMParguments=\count386
+\nofMPsegments=\count386
+\nofMParguments=\count387
 \everyMPshowfont=\toks63
-\MPscratchCnt=\count387
+\MPscratchCnt=\count388
 \MPscratchDim=\dimen345
-\MPnumerator=\count388
-\makeMPintoPDFobject=\count389
+\MPnumerator=\count389
+\makeMPintoPDFobject=\count390
 \everyMPtoPDFconversion=\toks64
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -957,7 +964,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 100.
+Package hyperref Info: Link coloring ON on input line 101.
 (./Notes.out) (./Notes.out)
 \@outlinefile=\write5
 \openout5 = `Notes.out'.
@@ -968,9 +975,9 @@ Package caption Info: End \AtBeginDocument code.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 100.
+ on input line 101.
 
-\c@lstlisting=\count390
+\c@lstlisting=\count391
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks65
@@ -997,7 +1004,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.121 
+l.122 
        [1
 
 ]
@@ -1012,8 +1019,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.136 \section
-              {Star Luminosity and Temperature} [1
+l.153 
+       [1
 
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
@@ -1024,9 +1031,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2
+[2]
+<hr1.png, id=137, 466.74374pt x 367.3725pt>
+File: hr1.png Graphic file (type png)
+<use hr1.png>
+Package pdftex.def Info: hr1.png  used on input line 174.
+(pdftex.def)             Requested size: 227.62204pt x 179.16203pt.
+<hr2.png, id=139, 386.44376pt x 399.4925pt>
+File: hr2.png Graphic file (type png)
+<use hr2.png>
+Package pdftex.def Info: hr2.png  used on input line 177.
+(pdftex.def)             Requested size: 227.62204pt x 235.3084pt.
 
-]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1036,7 +1052,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3
 
-]
+ <./hr1.png> <./hr2.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1044,9 +1060,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4
-
-]
+[4]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1056,23 +1070,117 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [5
 
+]
+<lowmass1.png, id=166, 893.3375pt x 533.995pt>
+File: lowmass1.png Graphic file (type png)
+<use lowmass1.png>
+Package pdftex.def Info: lowmass1.png  used on input line 234.
+(pdftex.def)             Requested size: 455.24408pt x 272.13014pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6 <./lowmass1.png>]
+<lowmass.png, id=173, 498.86375pt x 146.5475pt>
+File: lowmass.png Graphic file (type png)
+<use lowmass.png>
+Package pdftex.def Info: lowmass.png  used on input line 242.
+(pdftex.def)             Requested size: 455.24408pt x 133.73856pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7 <./lowmass.png>]
+<highmass.png, id=185, 498.86375pt x 146.5475pt>
+File: highmass.png Graphic file (type png)
+<use highmass.png>
+Package pdftex.def Info: highmass.png  used on input line 263.
+(pdftex.def)             Requested size: 455.24408pt x 133.73856pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9 <./highmass.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10
+
+]
+<stellarparallax.png, id=212, 576.1525pt x 427.5975pt>
+File: stellarparallax.png Graphic file (type png)
+<use stellarparallax.png>
+Package pdftex.def Info: stellarparallax.png  used on input line 290.
+(pdftex.def)             Requested size: 455.24408pt x 337.87662pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11
+
+ <./stellarparallax.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13
+
 ] (./Notes.aux)
 Package rerunfilecheck Info: File `Notes.out' has not changed.
-(rerunfilecheck)             Checksum: A712DE109E0A550DCE0B9D76A5B8583F;1537.
+(rerunfilecheck)             Checksum: 2CC0F92D8F983F46146A398247F0A88E;2061.
  ) 
 Here is how much of TeX's memory you used:
- 47063 strings out of 476025
- 1127436 string characters out of 5790016
- 1854388 words of memory out of 5000000
- 66798 multiletter control sequences out of 15000+600000
- 519707 words of font info for 61 fonts, out of 8000000 for 9000
+ 47452 strings out of 476025
+ 1135547 string characters out of 5790016
+ 1861388 words of memory out of 5000000
+ 67107 multiletter control sequences out of 15000+600000
+ 520784 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,96p,774b,901s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Notes.pdf (7 pages, 59715 bytes).
+ 84i,12n,96p,774b,1266s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on Notes.pdf (15 pages, 2130979 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 221 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 311 PDF objects out of 1000 (max. 8388607)
+ 233 compressed objects within 3 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 291 words of extra memory for PDF output out of 10000 (max. 10000000)
 
