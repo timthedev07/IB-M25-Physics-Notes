@@ -207,7 +207,10 @@ The origins of the greenhouse effect have two categories --- artificial and natu
 \end{enumerate}
 
 The whole system is in an \textbf{equilibrium}, where
-$$\text{total incident energy from the Sun} = \text{total energy radiated away by the Earth}$$
+\begin{equation}\label{eq:energy-balance}
+  \text{incident energy from the Sun} = \text{energy radiated back into the space}
+\end{equation}
+The \say{Earth} refers to the entirety of the Earth-atmosphere system.
 The \textit{enhanced greenhouse effect} causes an increase in the level of energy retained in the system, which then requires an increase in the energy emission of the Earth to \textbf{maintain the equilibrium}. Per the \textit{Stefan-Boltzmann law}, this means that the Earth must \textbf{increase in temperature} until reaching a new and higher equilibrium point.
 
 \subsection{Energy Absorption}
@@ -228,9 +231,80 @@ This subsection explores why greenhouse gases absorb energy. Both ultraviolet an
 
 \subsection{Modeling Climate Balance}
 
+\subsubsection{Naive Model}
+
+\begin{minipage}{0.35\textwidth}
+  \img{naive.png}{1}{Naive Model}{naive}
+\end{minipage}%
+\hspace{0.05\textwidth}
+\begin{minipage}{0.6\textwidth}
+  The initial naive model uses the assumption that the atmosphere does not absorb any radiation emitted by the Earth.
+  \begin{enumerate}
+    \item We start by assuming that the Earth behaves like a black body and that it emits radiation with an intensity of $\SI{238}{\watt\per\meter\squared}$.
+    \item The Earth emits radiation at a temperature of 255 K in this case.
+  \end{enumerate}
+\end{minipage}
+\begin{enumerate}
+  \setcounter{enumi}{2}
+  \item The transmittance (the extent of transparency) is $\SI{100}{\percent}$ for all wavelengths, so the Earth's radiation completely passes through the atmosphere.
+\end{enumerate}
+
+\pagebreak
+
+\subsubsection{Revised Model}
+
+\begin{minipage}{0.6\textwidth}
+  In reality, the atmosphere absorb the infrared and ultraviolet parts of the spectrum.
+  \begin{enumerate}
+    \item The absorbed area is shown by the regions where the transmittance is $\SI{0}{\percent}$.
+    \item Ultraviolet is \textbf{below $\SI{300}{\nano\meter}$}, and infrared is \textbf{above $\SI{700}{\nano\meter}$}. The left-out region in the middle of the two is the visible light spectrum.
+    \item The atmosphere absorbs but then re-radiates it back to the Earth, \textbf{decreasing the level of energy going back into the space}.
+    \item This \textbf{breaks the equilibrium}; as the incoming energy is now greater, the Earth must increase in temperature to maintain the equilibrium.
+  \end{enumerate}
+\end{minipage}%
+\hspace{0.05\textwidth}
+\begin{minipage}{0.35\textwidth}
+  \img{notnaive.png}{1}{Corrected Model}{corrected}
+\end{minipage}
+\lb
+It must be noted that, for each of UV and IR, there also exist specific wavelengths within themselves that are absorbed by different gases. For example, for infrared, the transmittance graph is as follows
+\img{irtransmittance} {0.8} {Infrared Transmittance} {irtransmittance}
+
+
 \section{Earth Energy Balance}
+
+\img{systemsummary.png}{1}{Earth Energy Balance}{systemsummary}
+
+The above graph provides a simplified visualization of the energy balance system. The numbers do not matter.
+
+\pagebreak
 
 \subsection{Global Warming}
 
+Studies have shown that the global warming is mostly a result of \textbf{the burning of fossil fuels}, which releases carbon dioxide into the atmosphere. Since the industrial revolution, the concentration of CO$_2$ has increased from about 280 ppm to 410 ppm.
+
+\img{env.png}{0.8}{Global Warming}{env}
+
+Analysis of Antarctic ice cores has shown that the concentration of CO$_2$ has never been this high in the last 800,000 years.
+
+\img{icecore.png}{0.8}{Ice Core Analysis}{icecore}
+
+\pagebreak
+
+\subsubsection{Consequences that Further The Warming}
+
+Global warming leads to a series of consequences that themselves will further the warming:
+\begin{itemize}
+  \item The melting of ice caps and glaciers will \textbf{decrease the Earth's albedo}, which will increase the amount of radiation absorbed by the Earth.
+  \item Higher seawater temperatures will reduce the solubility of CO$_2$ in the water, which will increase the concentration of CO$_2$ in the atmosphere.
+\end{itemize}
+
+\pagebreak
+
+\vspace*{10cm}
+
+\begin{center}
+  \textbf{\Huge{Somebody stop global warming...}}
+\end{center}
 
 \end{document}

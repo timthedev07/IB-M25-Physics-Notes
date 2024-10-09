@@ -7,5 +7,8 @@
 \contentsline {subsection}{\numberline {4.1}The Temperature Equilibrium}{6}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Energy Absorption}{7}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Modeling Climate Balance}{8}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Earth Energy Balance}{9}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Global Warming}{9}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {4.3.1}Naive Model}{8}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Revised Model}{9}{subsubsection.4.3.2}%
+\contentsline {section}{\numberline {5}Earth Energy Balance}{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Global Warming}{11}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Consequences that Further The Warming}{12}{subsubsection.5.1.1}%
