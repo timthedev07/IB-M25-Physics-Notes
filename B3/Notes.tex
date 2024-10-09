@@ -126,21 +126,72 @@
 
 \section{Pressure}
 
+Pressure is defined as the force per unit area.
+\begin{equation}\label{eq:pressure_def}
+  P = \frac{F}{A}
+\end{equation}
+\begin{itemize}
+  \item \textbf{Solid}: The pressure due to the weight $W$ over an area $A$ is given by
+        \begin{equation}\label{eq:solid_pressure}
+          P = \frac{W}{A}
+        \end{equation}
+  \item \textbf{Liquid}: The pressure in a liquid at a depth $h$ is given by
+        \begin{equation}\label{eq:liquid_pressure}
+          P = \rho gh
+        \end{equation}
+        where $\rho$ is the density of the liquid, $g$ is the acceleration due to gravity, and $h$ is the depth.
+  \item \textbf{Gas}: Will be discussed later.
+\end{itemize}
+
 \subsection{Avogadro's Number and the Mole}
 
-\subsection{Molar Mass}
+The \textbf{mole} is the SI unit for the amount of substance. It has been historically defined as the number of atoms in approximately 12 grams of carbon-12. This quantity is known as the Avogadro number, $N_A$,
+
+$$N_A = 6.022 \times 10^{23} \text{ mol}^{-1}$$
+
+\say{Every mol is $N_A$ things}. For instance, 3 mol of electrons is simply the quantity of $3N_A$ electrons.
+
+
+\subsubsection{Molar Mass}
+
+\textbf{Molar mass} is the mass of one mole of a substance, typically given in grams per mole (g/mol). The molar mass of a substance is numerically equal to the atomic mass of the substance in atomic mass units (u). E.g. water has a molar mass of $18.015 \text{ g/mol} \equiv 18.015 \text{ u}$, and the mass of a single water molecule is $\dfrac{18.015}{N_A}$.
 
 \section{Gas Laws}
 
 \subsection{Boyle's Law}
 
+This states that the pressure of a gas is inversely proportional to its volume at constant temperature. Mathematically, this is
+$$P \propto \frac{1}{V}$$
+
+\img{boyle.png}{0.9}{Two graphs that arise from Boyle's Law}{boyle}
+\begin{itemize}
+  \item Every one of the curves in (a) is an isothermal curve.
+  \item In the second graph
+        \begin{enumerate}
+          \item For a higher temperature and the same mass of gas, the curve is steeper but still linear
+          \item For a higher mass of gas and the same temperature, the curve would also be steeper.
+        \end{enumerate}
+\end{itemize}
+
 \subsection{Charles' Law}
+
+This states that the \textbf{volume} of a gas is \textbf{directly proportional} to its \textbf{temperature} at \textbf{constant pressure}. Mathematically, this is
+$$V\propto T$$
 
 \subsection{Gay-Lussac's Law}
 
+This states that the \textbf{pressure} of a gas is \textbf{directly proportional} to its \textbf{temperature} at \textbf{constant volume}. Mathematically, this is
+$$P \propto T$$
+
 \subsection{Avogadro's Law}
 
+This states that the \textbf{volume} of a gas is \textbf{directly proportional} to the \textbf{quantity (in mol)} of the gas at \textbf{constant temperature and pressure}. Mathematically, this is
+$$V \propto n$$
+
 \subsection{The Ideal Gas Law}
+Derived from the previous laws; they combine to give
+$$PV = nRT \quad \text{ or } \quad R = \frac{PV}{nT}$$
+where $R$ is the ideal gas constant, $8.31 \text{ J mol}^{-1} \text{ K}^{-1}$.
 
 \section{Microscopic Model of Gases}
 
