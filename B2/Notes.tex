@@ -126,6 +126,27 @@
 
 \section{Gray Bodies and Emissivity}
 
+A gray body is one that emits less energy than a perfect black body, this is the case for most real-world objects. To encapsulate this reduction, the previously-mentioned Stefan-Boltzmann law is modified to include a factor $\varepsilon$ which is the emissivity of the body.
+\begin{itemize}
+  \item The emissivity of a body is a measure of how well it emits radiation compared to a black body.
+  \item Formally, the emissivity is defined as the ratio of the energy radiated by a body to the energy radiated by a black body at the same temperature.
+        $$\varepsilon = \frac{\text{power emitted by the object}}{\text{power emitted by a black body at the same temperature}}$$
+        \begin{enumerate}
+          \item for an ideal black body, $\varepsilon = 1$
+          \item for a total reflector, $\varepsilon = 0$
+        \end{enumerate}
+\end{itemize}
+
+The Stefan-Boltzmann law for gray bodies is given by
+\begin{equation}\label{eq:stefan-boltzmann-law-gray}
+  P = \varepsilon \sigma A T^4
+\end{equation}
+equivalently
+$$I = \varepsilon \sigma T^4$$
+where $I$ is the intensity of radiation emitted by the body.\lb
+Note that, if one were to calculate the \textbf{net power} radiated by a body in a surrounding of temperature $T_0$, one would have to discount the power absorbed by the body from the surroundings, because while the body emits radiation, it also absorbs radiation from the surroundings. This may also be referred to as the net power exchanged between the body and its surroundings.
+$$\Delta P = \varepsilon \sigma A \paren{T^4 - T_0^4}$$
+
 \section{The Solar Constant}
 
 \section{The Atmosphere}
