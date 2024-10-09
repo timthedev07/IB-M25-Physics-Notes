@@ -149,11 +149,82 @@ $$\Delta P = \varepsilon \sigma A \paren{T^4 - T_0^4}$$
 
 \section{The Solar Constant}
 
+The solar constant is defined as
+
+\begin{center}
+  the total intensity of solar radiation, across all wavelengths, that reaches a surface perpendicular to the line connecting the centers of the Earth and Sun at Earth's average distance from the Sun, taken at the top of the atmosphere
+\end{center}
+
+\img{solar-constant.jpg}{1}{The Solar Constant}{solar-constant}
+
+This constant has a value of about $\SI{1360}{\watt\per\meter\squared}$. However, this value varies periodically because
+\begin{itemize}
+  \item The output of the Sun varies by about $\SI{0.1}{\percent}$ over an 11-year cycle
+  \item The Earth's orbit is slightly elliptical
+  \item There are other longer periodic variations
+\end{itemize}
+
+S is calculated as
+$$S = \frac{L}{4\pi d^2}$$
+where $L$ is the luminosity of the Sun, $d$ is the distance from the Sun to the Earth. In other words, the solar constant for a particular planet $d'$ away from the Sun, in terms of $S$, is given by
+$$S' = S \paren{\frac{d}{d'}}^2$$
+
 \section{The Atmosphere}
+
+\img{atm_rad.png}{0.5}{The Atmosphere}{atm-rad}
+
+The radiation from the Sun that actually falls onto the Earth has an area of $\pi R^2$, where $R$ is the radius of the Earth. The atmosphere then distributes this energy over the entire surface of the Earth, which has an area of $4\pi R^2$. Thus, the average intensity of solar radiation actually \textbf{incident on the surface} is $\dfrac{1}{4}S$.\lb
+In reality, this theoretical prediction is higher than the practical value of the intensity on the surface --- the atmosphere also partially absorbs as well as reflects the radiation.\lb
+However, since the ground is not an idea black body, it will reflect off some of the incident radiation. The fraction of the total radiation reflected is called the \textbf{albedo}.
+
+\pagebreak
+
+\subsection{Albedo}
+
+The \textit{albedo} of a surface is the \textbf{fraction of the total radiation incident on the surface that is reflected}. It is a ratio and hence a dimensionless quantity between 0 and 1. The albedo of the Earth is about 0.3, which means that about 30\% of the radiation incident on the Earth is reflected back into space. Again, this value varies depending on the latitude, the surface, and the time of year.
+It is formally defined as
+$$\alpha = \frac{\text{total reflected power}}{\text{total incident power}}$$
+The \say{coefficient of absorption}, on the other hand, is $1 - \alpha$; it shows the portion of the radiation that is absorbed by the surface.
+
 
 \section{The Greenhouse Effect}
 
+The Earth and the Moon have roughly the same distance from the Sun, but the Earth is warmer than the Moon. This is because the Earth has an atmosphere.
+\begin{enumerate}
+  \item There are certain types of gases, e.g. CO$_2$, H$_2$O (water vapor), CH$_4$ (methane), and N$_2$O (nitrous oxide), that naturally occur in the atmosphere.
+  \item Others, such as Ozone, are partially natural and partially artificial; they contribute to the greenhouse effect too.
+  \item Collectively, they are the \textbf{greenhouse gases} --- they are inert to photons at the frequency of visible light, but they interact with and absorb infrared radiation.
+\end{enumerate}
+The origins of the greenhouse effect have two categories --- artificial and natural. The natural greenhouse effect is due to the naturally occurring levels of certain gases; the artificial greenhouse effect is due to human activities that increase the levels of these gases --- this is referred to as the \textbf{enhanced greenhouse effect}.
+
+\subsection{The Temperature Equilibrium}
+
+\begin{enumerate}
+  \item The atmosphere absorbs most of the infrared and ultraviolet radiation from the Sun, but allows most of the visible light to pass through. The surface then absorbs this visible light, increasing in temperature.
+  \item Since the Earth is above 0 K, it \textbf{re-radiates} back at the atmosphere, at a much lower frequency (longer wavelength) than the radiation it absorbed from the Sun.
+  \item Just as when the radiation came from the Sun, the atmosphere absorbs parts of the radiation from Earth in the infrared part of the spectrum, and re-radiates it arbitrarily in all directions.
+  \item Some are returned to the surface of the Earth, which increases the temperature of the Earth. This means that a portion of the energy is trapped.
+\end{enumerate}
+
+The whole system is in an \textbf{equilibrium}, where
+$$\text{total incident energy from the Sun} = \text{total energy radiated away by the Earth}$$
+The \textit{enhanced greenhouse effect} causes an increase in the level of energy retained in the system, which then requires an increase in the energy emission of the Earth to \textbf{maintain the equilibrium}. Per the \textit{Stefan-Boltzmann law}, this means that the Earth must \textbf{increase in temperature} until reaching a new and higher equilibrium point.
+
 \subsection{Energy Absorption}
+
+This subsection explores why greenhouse gases absorb energy. Both ultraviolet and infrared can be absorbed, but in different ways:
+\begin{enumerate}
+  \item Ultraviolet radiation has \textbf{high energy} and can \textbf{break molecular bonds} in gases.
+        \begin{enumerate}
+          \item For example, when oxygen molecules absorb UV light, they break into individual oxygen atoms, leading to the \textbf{formation of ozone} (O$_3$).
+          \item This process is a reaction in the upper atmosphere that protects us from harmful UV radiation by absorbing it.
+        \end{enumerate}
+  \item Infrared radiation has lower energy compared to UV, so it can't break chemical bonds. Instead, it interacts with the \textbf{vibrational modes of greenhouse gas} molecules like carbon dioxide.
+        \begin{enumerate}
+          \item Each gas molecule has specific vibrational modes that are like the natural frequency of the molecule.
+          \item \textbf{Resonance} occurs when the frequency of incoming IR radiation matches the natural frequency of the vibrational modes in the molecule. This causes the molecule to absorb energy and vibrate more intensely.
+        \end{enumerate}
+\end{enumerate}
 
 \subsection{Modeling Climate Balance}
 

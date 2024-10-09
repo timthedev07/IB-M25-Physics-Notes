@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1728489457 "/Users/timthedev07/Documents/物理笔记/B2/Notes.tex" "Notes.pdf" "Notes" 1728489458 0
-  "/Users/timthedev07/Documents/物理笔记/B2/Notes.tex" 1728489457 5867 706b8e797c7447c9bdc58965572d6b5c ""
+["pdflatex"] 1728502540 "/Users/timthedev07/Documents/物理笔记/B2/Notes.tex" "Notes.pdf" "Notes" 1728502541 0
+  "/Users/timthedev07/Documents/物理笔记/B2/Notes.tex" 1728502540 11861 2fbb3cbe8a57df215b00d12e5137c22c ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -24,6 +24,7 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1136768653 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/esvect/vect10.tfm" 1238776476 372 07da2e555f4c8dac959d0bb59cacb4dc ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/esvect/vect6.tfm" 1238776476 372 e6493454680b692175addf943602cee1 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/esvect/vect8.tfm" 1238776476 372 4f0047d7e99a201724968cf4743804cf ""
@@ -34,6 +35,8 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb" 1248133631 34586 5a65dc15601f9c74fe3fb3f37b3b8b6f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1248133631 36118 fad905eba93cff5bce1e185fe980a177 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1215737283 136101 f533469f523533d38317ab5729d00c8a ""
   "/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2023/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -271,10 +274,12 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1698351117 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1698351051 7883457 869e73afaf79a5825410c57d17702400 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Notes.aux" 1728489458 1723 f04ae72c7b05e0f616d259726d842f20 "pdflatex"
-  "Notes.out" 1728489458 1198 640f28a4fea04387e9145b2899a255b9 "pdflatex"
-  "Notes.tex" 1728489457 5867 706b8e797c7447c9bdc58965572d6b5c ""
-  "Notes.toc" 1728489458 655 0db1d3c8c0f6c515be68bdfddfae7620 "pdflatex"
+  "Notes.aux" 1728502541 2599 96c3c664243bb5022b43efc641835425 "pdflatex"
+  "Notes.out" 1728502541 1484 b1ecc452e308d17c23f7995b27b6b43e "pdflatex"
+  "Notes.tex" 1728502540 11861 2fbb3cbe8a57df215b00d12e5137c22c ""
+  "Notes.toc" 1728502541 820 693703e79592176177cfd83fde5fea4e "pdflatex"
+  "atm_rad.png" 1728498894 107980 fd9ca945900ebcda8470e1556395787a ""
+  "solar-constant.jpg" 1728490903 34562 5e9b29b5ec6dd23c045dc0913dca127e ""
   (generated)
   "Notes.aux"
   "Notes.log"
