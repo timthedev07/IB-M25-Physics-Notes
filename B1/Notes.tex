@@ -9,6 +9,7 @@
 \usepackage{esvect}
 \usepackage{soul}
 \usepackage{amsthm}
+\usepackage{svg}
 \usepackage{hyperref}
 \usepackage{longtable}
 \usepackage{float}
@@ -124,39 +125,301 @@
 \setcounter{page}{1}
 \addtocontents{toc}{\protect\thispagestyle{empty}}
 
+\section{The Kelvin Scale}
+
+The Kelvin scale is an absolute scale, where 0 K is the lowest possible temperature. The conversion to Celsius is given by
+$$T(K) = T(\degsym C) + 273$$
+E.g., 0 K is -273$\degsym$ C.
+
 \section{Phases of Matter}
 
 \begin{table}[H]
   \centering
-  \begin{tabular}{|c|c|c|c|c|}
+  \begin{tabular}{|p{0.15\textwidth}|p{0.15\textwidth}|p{0.25\textwidth}|p{0.15\textwidth}|p{0.2\textwidth}|}
     \hline
-    \textbf{Phase} & \textbf{Shape} & \textbf{Volume} & \textbf{Distance Between Particles} & \textbf{Ease of Compression} \\ \hline
-    Solid          & Fixed          & Fixed           & Very close                          & Very difficult               \\ \hline
-    Liquid         & Not fixed      & Fixed           & Close                               & Difficult                    \\ \hline
-    Gas            & Not fixed      & Not fixed       & Far apart                           & Easy                         \\ \hline
+    \textbf{Phase} & \textbf{Shape} & \textbf{Volume}                         & \textbf{Particular Separation} & \textbf{Compression} \\ \hline
+    Solid          & Fixed          & Fixed                                   & Very close                     & Very difficult       \\ \hline
+    Liquid         & Not fixed      & Fixed                                   & Close                          & Difficult            \\ \hline
+    Gas            & Not fixed      & Not fixed; expand to fill the container & Far apart                      & Easy                 \\ \hline
   \end{tabular}
   \caption{Comparison of properties of the three phases of matter}
   \label{tab:phases_of_matter}
 \end{table}
 
+Many substances such as water move between the three states depending on the kinetic energy in its molecules.
+
 \section{Temperature and Energy}
+
+When two objects with different temperatures come in contact, eventually they will reach thermal equilibrium (both at the same temperature).\lb
+All objects above 0 K possess some internal kinetic energy in its particles. The higher the temperature, the higher the average kinetic energy of the particles.
+
+\subsection{Internal Energy}
+
+Internal energy is defined as the sum of KE and potential, as follows
+\begin{center}
+  \textit{The internal energy of the system is the sum of the total potential energy arising from the intermolecular forces and the total KE of the molecules from Brownian motion.}
+\end{center}
+Notes on the potential energy:
+\begin{itemize}
+  \item The stronger the intermolecular attractive forces, the higher the potential energy.
+  \item The larger the separation between particles, also the higher the potential energy. This should not be confused with the impact of the attractive force --- a stronger attraction does not necessarily mean a closer separation.
+\end{itemize}
+
+For example, for a gas
+\begin{itemize}
+  \item The particles are very distant, thus they experience very little force between each other. Hence, the potential energy is very low.
+  \item As a result, the internal energy is mainly made up of the KE.
+\end{itemize}
+When energy is supplied to a substance, both components of the internal energy increase:
+\begin{itemize}
+  \item The increase in KE causes the particles to vibrate more vigorously, which increases the temperature.
+  \item The increase in potential energy causes the particles to move further apart, sufficiently so for the intermolecular bonds to be broken, decreasing density.
+\end{itemize}
+
+\pagebreak
+
+This can then help explain the phase changes of matter.
+\begin{itemize}
+  \item During \textbf{melting}, the potential energy increases while the KE of the particles remains constant. This means that the temperature during this period of change remains constant, and all the supplied energy is being used to break the bonds between the particles.
+  \item Post-melting, the KE of the particles now increases, which then will increase temperature.
+  \item Molecules gain enough kinetic energy to overcome all intermolecular forces. Molecules break free, becoming a gas. This is \textbf{evaporation}.
+  \item Energy transfer goes primarily to potential energy until all bonds are broken.
+\end{itemize}
+
+\subsection{Average Kinetic Energy}
+
+Planck linked the average translational KE, $E_k$ of a gas molecule to the Kelvin temperature $T$ of the gas
+$$E_k = \frac{3}{2}k_BT$$
+where $k_B$ is the Boltzmann constant, $1.381 \times 10^{-23} \si{\joule\per\kelvin}$.
+This constant can be thought of as the conversion factor from temperature to energy. In fact, temperature is a measure of the level of KE of the particles in a substance.
+
+\pagebreak
+
+\subsection{Specific Heat Capacity}
+
+The specific heat capacity of a substance is the amount of energy required to raise the temperature of 1 kg of the substance by 1 K or 1 degree Celsius (the Kelvin scale is more preferable). The equation is
+$$Q = mc\Delta T$$
+\begin{itemize}
+  \item  $Q$ is the energy supplied to the substance in joules.
+  \item $m$ is the mass of the substance in kg.
+  \item $c$ is the specific heat capacity of the substance in $\si{\joule\per\kilogram\per\kelvin}$.
+  \item $\Delta T$ is the change in temperature in K or $\degsym$ C.
+\end{itemize}
+
+\subsection{Specific Latent Heat}
+
+The specific latent heat $L$ for a phase change is the amount of energy $Q$ required to change one kilogram of the substance from one phase to another. In other words,
+
+$$L = \dfrac{Q}{m} \quad \text{ equivalently } \quad Q = mL$$
+
+\img{phasechangegraph}{0.65}{A typical phase change graph}{phase_change_graph}
+
+The above graph outlines how the temperature changes during a phase change.
+\begin{itemize}
+  \item The graph assumes that the energy is supplied at a constant rate, i.e. energy and time can be used interchangeably as the $x$-axis.
+  \item The horizontal segments represent the phase change itself, where the temperature remains constant and all the supplied energy is used to break the bonds.
+  \item The sloped lines represent intervals in which the temperature changes without changing the state.
+  \item There are two types of specific latent heat:
+        \begin{enumerate}
+          \item \textbf{Specific latent heat of fusion} is used for melting and freezing, i.e. phase changes between a solid and a liquid.
+          \item \textbf{Specific latent heat of vaporization} is used for boiling and condensation, i.e. phase changes between a liquid and a gas.
+        \end{enumerate}
+  \item The longer horizontal statements indicate a larger specific latent heat, assuming the mass is fixed.
+\end{itemize}
 
 \section{Conduction}
 
+It is an energy transfer mechanism without bulk movements of particles. There are two mechanisms of conduction:
+\begin{enumerate}
+  \item \textbf{Lattice vibration} in solids, the energy is transferred by the vibrations of the particles in the lattice. Through this mechanism, the particles in the hotter region transfer kinetic energy to the particles in the cooler region, hence propagating heat through the material.
+  \item \textbf{Free electron movement} in metals, the free electrons carry the energy from the hotter region to the cooler region, by colliding with atoms and electrons to transfer its kinetic energy.
+\end{enumerate}
+
+Metals are good conductors of heat due to the presence of \textbf{free electrons}; this allows them to propagate heat using both mechanisms. Non-metals are poor conductors due to the lack of free electrons --- they cannot propagate heat through free electron movement.\lb
+Conduction is much less important in liquids and gases, as the particles are much more spread out. In these states, convection is the primary mode of heat transfer.
+
+
+\subsection{Thermal Conductivity}
+
+\textbf{Thermal conductivity} is a measure of how well a thermal conductor can transfer thermal energy through itself in a \textit{steady state} (when the temperature at any point in the object is not changing).
+$$\text{conductivity} = \frac{\text{average rate of energy transfer}}{\text{area of material}\times\text{temperature gradient}}$$
+
+\pagebreak
+
+$$\frac{\Delta Q}{\Delta t} = \kappa A\times \frac{\Delta T}{\Delta x}\quad \text{ or } \quad \kappa = \frac{\Delta Q}{\Delta t}\times\frac{\Delta x}{A\Delta T}$$
+where
+\begin{itemize}
+  \item $\kappa$ is the thermal conductivity in $\si{\watt\per\meter\per\kelvin}$.
+  \item $Q$ is the energy transferred in joules.
+  \item $t$ is the time taken in seconds.
+  \item $A$ is the cross-sectional area of the material in $\si{\meter\squared}$, relative to the direction of heat propagation.
+  \item $\Delta T$ is the temperature gradient in K or $\degsym$ C; this is the temperature difference across the two ends of the material of length
+\end{itemize}
+
+The idea of thermal conductivity can be used in the design of \textit{double-glazed windows}: The air in between the two glass panels has a poor thermal conductivity --- this reduces the rate of heat transfer between the inside and outside of the building.
+
 \section{Convection}
+
+A heat transfer mechanism through the movement of particles in a fluid. The particles in the hotter region move faster, becoming less dense and rise. The particles in the cooler region are denser thus sink. This creates a convection current, which transfers heat from the hotter region to the cooler region.
+
+\subsection{Sea Breezes}
+
+During the day, the land has a higher surface temperature than the sea; it heats up the air above it, causing the air to expand (decrease density) and rise, pulling in cooler air from the sea. The inverse happens during the night.
+
+\begin{minipage}{0.5\textwidth}
+  \img{day.png}{1.0}{Sea breeze during the day}{day}
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+  \img{night.png}{1.0}{Land breeze during the night}{night}
+\end{minipage}%
+
+\pagebreak
+
+\subsection{Convection in Earth}
+
+In some parts of the world:
+\begin{enumerate}
+  \item The Earth's core is hot and acts at the heat source.
+  \item The mantle is a fluid, and the heat from the core causes the mantle to rise, creating an upwelling motion.
+  \item Two currents operate in the same direction and drive the crust upwards, creating new land.
+\end{enumerate}
+
+In other parts
+\begin{enumerate}
+  \item The convection currents pull the mantle down, creating a subduction zone.
+  \item This pulls the crust downwards.
+\end{enumerate}
+
+\subsection{Winds}
+
+\begin{enumerate}
+  \item The heating of the Earth's surface by the Sun is uneven.
+  \item This creates areas that are hotter and areas that are cooler.
+  \item In hotter areas, the air rises, creating a low-pressure zone.
+  \item Conversely, in cooler areas, the air sinks, creating a high-pressure zone.
+  \item Air flows from high- to low-pressure zones, creating winds.
+  \item The velocity of wind interacts with the Earth's rotation, creating the Coriolis effect.
+  \item This leads to the rotation of the air masses such that the air circulates in a clockwise direction in the northern hemisphere and anti-clockwise in the southern hemisphere.
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Hot Air Balloons}
+
+\begin{enumerate}
+  \item The air in the canopy is heated by a burner.
+  \item The temperature of the air increase, decreasing its density.
+  \item This creates a density difference between the hot air in the balloon and the cooler air outside.
+  \item Due to the pressure difference, the balloon experiences an upthrust.
+\end{enumerate}
+
+\subsection{Minimizing Convection Current}
+
+For instance, covering the liquid surface of a cup of hot drink with a layer of foam reduces the rate of heat loss.
+\begin{enumerate}
+  \item Conduction is reduced; foam traps air, which is a poor conductor.
+  \item Convection current is reduced; the upper surface of the foam is cooler, and this reduces the temperature difference with the surrounding air, thus, minimizing the convection current.
+\end{enumerate}
+
 
 \section{Thermal Radiation}
 
+This is the transfer of thermal energy through electromagnetic radiation. This means that the transfer does not require a medium, and can occur in a vacuum. The energy is transferred in the form of photons, which are massless particles that travel at the speed of light.\lb
+When ions accelerate, they emit electromagnetic radiation. This is the basis of thermal radiation.\lb
+Matt black surfaces are good emitters and absorbers of radiation, while shiny surfaces are poor absorbers and emitters but good reflectors.
+
 \section{Black Body Radiation}
+
+A \textbf{black body} is a perfect emitter and absorber of radiation that absorbs E.M. radiation of all wavelengths that are incident on it. This is an idealized concept that cannot be realized in practice. However, a good approximation is a small hole in a cavity, where the radiation is absorbed and re-emitted multiple times, thus approximating a black body.
+\begin{itemize}
+  \item \textbf{Perfect absorption}: When radiation enters the small hole, it has very little chance of escaping. The radiation bounces around inside the cavity, reflecting multiple times off the walls. With each reflection, some of the energy is absorbed by the cavity walls. Eventually, nearly all the incident radiation will be absorbed.
+\end{itemize}
+The following are true for the emission of radiation from the cavity:
+\begin{enumerate}
+  \item The intensity of radiation is independent of the material from which the cavity is made.
+  \item The intensity increases with increasing temperature.
+\end{enumerate}
 
 \subsection{The Emission Spectrum}
 
+Light consists of different wavelengths, and the intensity of radiation emitted at different wavelengths is called the emission spectrum. This can be measured by a spectrometer.\lb
+A spectrometer measures the intensity of radiation emitted for each of the different wavelengths that the radiation encapsulates.\lb
+Intensity, in $\si{\W\per\m\squared}$, is given as the power emitted per unit area
+$$I = \frac{P}{A}$$
+
+The following graph is one obtained from the spectrometer:
+
+\begin{minipage}{0.45\textwidth}
+  \img{spectrumgraph.png}{1}{Sun's spectrum, assuming it's a black-body}{spectrum}
+\end{minipage}%
+\hspace{0.1\textwidth}
+\begin{minipage}{0.5\textwidth}
+  \img{spectragraphs.png}{1}{Black-body spectra for
+    other temperatures}{spectra}
+\end{minipage}
+
+\cref{fig:spectrum} shows the following
+\begin{itemize}
+  \item There is a peak value at around $\SI{500}{\nano\m}$
+  \item The intensity is greater in the visible region than in the invisible region.
+  \item Towards the positive infinity direction on the $x$-axis, the intensity decreases, infinitely tending to zero.
+\end{itemize}
+
+The family of curves in \cref{fig:spectra} shows that, as temperature increases
+\begin{itemize}
+  \item the overall intensity of radiation increases
+  \item the curves skew towards shorter wavelengths; the peaks translate towards the origin.
+\end{itemize}
+
+\pagebreak
+
 \subsection{Wien's Displacement Law}
+
+This states that the wavelength at which the intensity of radiation is maximum $\lambda_{\max}$ is related to the absolute temperature of the black body $T$ by
+$$\lambda_{\max}T = b$$
+where $b$ is Wien's displacement constant, $2.9 \times 10^{-3} \si{\m\kelvin}$. This should not be confused with the apparent brightness of an object.\lb
+This equation allows us to predict the peak wavelength of the radiation emitted by a black body at a given temperature.
 
 \subsection{Stefan-Boltzmann Law}
 
+This states that the total power (total energy radiated per second), equivalently, the luminosity $L$ emitted by a black body is given by
+$$P \equiv L = \sigma A T^4$$
+\begin{itemize}
+  \item $A$ is the total surface area of the black body.
+  \item $\sigma$ is the Stefan-Boltzmann constant, $5.67 \times 10^{-8} \si{\W\per\m\squared\per\kelvin\tothe{4}}$.
+  \item $T$ is the temperature of the black body in K.
+\end{itemize}
+
+Note that this equation is often combined with \cref{eq:brightness}.
+
+\pagebreak
+
 \subsection{Observational Astronomy}
 
+\begin{figure}[H]
+  \centering
+  \includesvg[width=0.5\textwidth]{Inverse_square_law}
+\end{figure}
+
+The intensity $I$ of radiation decreases with distance $d$ from the source and it obeys the inverse square law. The following provides an intuitive explanation:
+\begin{itemize}
+  \item At $d = 1$, the intensity is $I$, and the total energy is distributed over an area of $A$.
+  \item At $d = 2$, the area over which the energy is distributed is $4A$ (by considering scale factors). However, the total energy is the same, but now it is distributed over four times the original, which means that the energy per unit area is $\dfrac{1}{4}$ of the original.
+\end{itemize}
+
+Formally, the relationship is given by
+\begin{equation}\label{eq:intensity}
+  I = \frac{P}{4\pi d^2}
+\end{equation}
+where $P$ is the total power emitted by the source and $I$ is measured in $\si{\W\per\m\squared}$
+
+
 \subsection{Apparent Brightness}
+
+The apparent brightness $b$ of a star is just the intensity of radiation received from the star at the Earth's surface. This is given by the following, which is analogous to \cref{eq:intensity}
+\begin{equation}\label{eq:brightness}
+  b = \frac{L}{4\pi d^2}
+\end{equation}
+where $L \equiv P$ is the luminosity of the star, and $d$ is the star-Earth distance.
 
 \end{document}
