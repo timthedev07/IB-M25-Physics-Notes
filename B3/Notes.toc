@@ -7,8 +7,11 @@
 \contentsline {subsection}{\numberline {2.2}Charles' Law}{4}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Gay-Lussac's Law}{4}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Avogadro's Law}{4}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}The Ideal Gas Law}{4}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Microscopic Model of Gases}{5}{section.3}%
-\contentsline {section}{\numberline {4}Kinetic Model of Ideal Gases}{6}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Temperature}{6}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Ideal vs. Real Gases}{6}{subsection.4.2}%
+\contentsline {subsection}{\numberline {2.5}The Ideal Gas Law}{5}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Proportionality Form}{5}{subsubsection.2.5.1}%
+\contentsline {section}{\numberline {3}Brownian Motion}{6}{section.3}%
+\contentsline {section}{\numberline {4}Kinetic Model of Ideal Gases}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Assumptions of the Model}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}The Model}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Temperature}{9}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Ideal vs. Real Gases}{9}{subsection.4.4}%
