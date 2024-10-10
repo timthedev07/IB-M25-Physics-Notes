@@ -198,7 +198,9 @@ Derived from the previous laws; they combine to give
 $$PV = nRT \quad \text{ or } \quad R = \frac{PV}{nT}$$
 where $R$ is the ideal gas constant, $8.31 \text{ J mol}^{-1} \text{ K}^{-1}$.\lb
 The relation can also be defined in terms of the \textbf{number of molecules} $N$ and the Boltzmann constant $k$ as
-$$\frac{PV}{NT} = k_B \quad \text{ or } \quad pV = Nk_BT$$
+\begin{equation}\label{eq:ideal_gas}
+  \frac{PV}{NT} = k_B \quad \text{ or } \quad pV = Nk_BT
+\end{equation}
 where $k_B = \dfrac{R}{N_A}$ has value $1.38 \times 10^{-23} \text{ J K}^{-1}$.
 
 \subsubsection{Proportionality Form}
@@ -255,10 +257,57 @@ $$\overline{F} = \frac{Nm}{L}\times\frac{1}{3}\overline{v^2}$$
 Since pressure is defined as the force per unit area, we divide by $L^2$
 $$P = \frac{Nm}{3L^3}\times\overline{v^2} = \frac{Nm}{3V}\times\overline{v^2}$$
 Also notice that $N \times m$ is the number of molecules $\times$ mass of each molecule; this is exactly the total mass of the gas, $M$. Then, $\dfrac{M}{V}$ is simply the density of the gas. Hence, we obtain
-$$P = \frac{1}{3}\rho\overline{v^2}$$
+\begin{equation}\label{eq:pressure_speed_density}
+  P = \frac{1}{3}\rho\overline{v^2}
+\end{equation}
 
 \subsection{Temperature}
 
+We can combine \cref{eq:ideal_gas} and \cref{eq:pressure_speed_density} (the algebra is omitted) to get
+\begin{equation}\label{eq:gas_internal}
+  \frac{1}{2}m\overline{v^2} = \frac{3}{2}k_BT
+\end{equation}
+
+Notice that the LHS of this equation measures the kinetic energy of the gas molecules. By previous argument, the internal energy of gas is almost entirely made of kinetic energy, as the intermolecular force is negligible. Thus, we can claim that
+$$\textbf{total internal energy of an idea gas} = \frac{3}{2}Nk_BT$$
+This gives us the following properties of an ideal gas
+\begin{itemize}
+  \item It's total energy is directly proportional to the temperature in Kelvin.
+  \item At constant temperature, the internal energy of the gas is proportional to the number of molecules.
+\end{itemize}
+
+\pagebreak
+
 \subsection{Ideal vs. Real Gases}
+
+The previously developed model only applies to \textit{monatomic} (single atom) gas molecules.\lb
+An example of a real gas behavior is \textbf{liquefaction}, this is impossible for an idea gas.
+\begin{itemize}
+  \item The process of turning a gas into a liquid.
+  \item This occurs when the gas is cooled and compressed. The gas molecules are then close enough to each other that the intermolecular forces become significant. This is why the ideal gas law fails at high pressures and low temperatures.
+\end{itemize}
+
+Let us revisit the following assumptions made for the ideal gas model:
+\begin{itemize}
+  \item Particles themselves \textbf{do not have volume}.
+  \item There are \textbf{no intermolecular forces} between the particles except during collisions.
+  \item All collisions are perfectly \textbf{elastic}.
+\end{itemize}
+
+However, for a real gas,
+\begin{itemize}
+  \item Real gas particles \textbf{have volume}.
+  \item \textbf{There are intermolecular forces} between gas particles, especially at lower temperatures and higher pressures.
+\end{itemize}
+Under these conditions, the behavior of real gases deviate from the ideal gas law
+\begin{itemize}
+  \item At \textit{low temperatures}: Real gas particles move \textbf{slower}, so \textbf{intermolecular forces} become more significant, leading to \textbf{liquefaction}.
+  \item At \textit{high pressures}: The volume of the particles becomes significant compared to the total volume of the gas, violating the ideal gas assumption of negligible particle volume.
+\end{itemize}
+
+This means that, for real gases, \cref{eq:ideal_gas} no longer holds, this means that $$\frac{PV}{RT}$$ is no longer a constant. To visualize this graphically:
+\img{realgasgraph.png}{0.5}{A graph showing the deviation of real gases from the ideal gas law, for a \textbf{single mole of gas}}{real_gas}
+
+It must be noted that the liquefaction of a gas it only possible under a certain temperature threshold.
 
 \end{document}

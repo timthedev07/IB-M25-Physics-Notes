@@ -1430,6 +1430,13 @@ INPUT boyle.png
 INPUT ./boyle.png
 INPUT ./boyle.png
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
+INPUT ./realgasgraph.png
+INPUT ./realgasgraph.png
+INPUT realgasgraph.png
+INPUT ./realgasgraph.png
+INPUT ./realgasgraph.png
 INPUT Notes.aux
 INPUT ./Notes.out
 INPUT ./Notes.out
