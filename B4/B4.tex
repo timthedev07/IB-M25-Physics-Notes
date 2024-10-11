@@ -46,6 +46,7 @@
 }
 \newcommand{\degsym}{^{\circ}}
 \newcommand{\eqor}{\quad \text{or} \quad}
+\newcommand{\eqand}{\quad \text{and} \quad}
 \newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
 \usepackage{hyperref}
 \hypersetup{
@@ -78,6 +79,7 @@
   capitalise,
   nameinlink,
 ]{cleveref}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
 
 \crefname{lemma}{Lemma}{Lemmas}
 \crefname{proposition}{Proposition}{Propositions}
@@ -99,6 +101,20 @@
 \newtcolorbox[auto counter]{hint}[1][]{fonttitle=\bfseries, title=\strut Hint.~\thetcbcounter,colback=OliveGreen!5!white,colframe=OliveGreen!75!gray,top=5mm,bottom=5mm}
 
 \newcommand{\assref}[1]{\textcolor{orange!100!black!90}{assumption #1}}
+
+\newcommand{\tripleimg}[9]{
+  \begin{minipage}{0.3\textwidth}
+    \img{#1}{1}{#2}{#3}
+  \end{minipage}%
+  \hspace*{0.05\textwidth}%
+  \begin{minipage}{0.3\textwidth}
+    \img{#4}{1}{#5}{#6}
+  \end{minipage}%
+  \hspace*{0.05\textwidth}%
+  \begin{minipage}{0.3\textwidth}
+    \img{#7}{1}{#8}{#9}
+  \end{minipage}%
+}
 
 \setlength{\belowcaptionskip}{-20pt}
 \begin{document}
@@ -182,27 +198,177 @@ The three quantities in \cref{eq:1stlaw} in this particular system are
 Consider the following situation
 \begin{itemize}
   \item The system consists of an \textbf{ideal gas} in a cylinder with a movable piston.
-  \item We assume, for the sake of simplicity, that the gas is kept at a \textbf{constant pressure}. This of course requires energy to be somehow transferred from the surroundings to the gas.
+  \item We assume, for the sake of simplicity, that the gas is kept at a \textbf{constant pressure}. This of course requires energy to be somehow transferred from the surroundings to the gas. Analogously, \hl{there is a positive $Q$}.
 \end{itemize}
 
 As the gas expands, the following occurs:
 \begin{enumerate}
   \item The volume of the gas increases.
-  \item The expansion pushes the piston upwards, doing work on the surroundings.
-  \item
+  \item The expansion pushes the piston upwards, doing work on the surroundings. Thus, \hl{there is a positive $W$}.
 \end{enumerate}
+
+This work done is given as \begin{equation}\label{eq:pistonwork}
+  W = P \Delta V > 0
+\end{equation}
+\begin{proof}
+  Let $\Delta x$ be the distance moved by the piston. Then, the work done is given as $F\Delta x$. Since $F = PA$, where $A$ is the area of the piston, we have $W = PA\Delta x$. Notice that $A\Delta x = \Delta V$, so $W = P\Delta V$.
+\end{proof}
+
+\subsection{Graphical Interpretation}
+
+\begin{minipage}{0.35\textwidth}
+  \img{pvarea.png}{1}{Pressure-Volume Graph}{pvarea}
+\end{minipage}%
+\hspace*{0.02\textwidth}%
+\begin{minipage}{0.6\textwidth}
+  \begin{itemize}
+    \item The area under the graph represents the work done by the gas.
+    \item The work done is positive when the gas expands, and negative when the gas is compressed. Use the arrow to verify this.
+    \item \textbf{Make sure that the axes start at 0}; otherwise, in the case of a false origin, add in the missing bit.
+  \end{itemize}
+
+\end{minipage}
 
 \section{Types of Changes in a Gas}
 
+\say{Iso} is a word of greek origin that means \say{same}.
+
+
+\tripleimg %
+{isovolumetric.png}{Isovolumetric Change}{isovolumetric}%
+{isothermal.png}{Isothermal Change}{isothermal}%
+{adiabatic.png}{Adiabatic Change}{adiabatic}
+
+
 \subsection{Isobaric Change}
+
+A change in a gas carried out at \hl{constant pressure} throughout.\lb
+The gas law that applies in this case, is the \textbf{Charle's Law}, i.e. $\dfrac{V}{T} = \text{constant}$.\lb
+On a P-V graph, this is represented by a horizontal line (see \cref{fig:pvarea}).\lb
+Note also, that \cref{eq:1stlaw} can be rewritten as
+$$\Delta U = Q - P\Delta V$$
+
+\pagebreak
 
 \subsection{Isovolumetric Change}
 
+A change in gas carried out at \hl{constant volume} throughout.\lb
+The gas law that applies is \textbf{Gay-Lussac's Law}, i.e. $\dfrac{P}{T} = \text{constant}$.\lb
+On a P-V graph, this is represented by a vertical line (see \cref{fig:isovolumetric}).\lb
+In this case, the first law is rewritten as
+\begin{align*}
+  \Delta U = Q - P\Delta V = Q - 0P = Q \\
+  \Delta U = Q
+\end{align*}
+
 \subsection{Isothermal Change}
+
+A change in gas carried out at \hl{constant temperature} (and hence constant internal energy) throughout.\lb
+The gas law that applies is \textbf{Boyle's Law}, i.e. $PV = \text{constant}$.\lb
+On a P-V graph, this is represented by an \textbf{isothermal curve}. Each temperature has a different curve (see \cref{fig:isothermal}). Each curve is referred to as an isotherm.\lb
+Since the internal energy goes through no change, we have $\Delta U = 0$. Thus, the first law is rewritten as
+$$Q = W$$
+\begin{enumerate}
+  \item The implication is that \textbf{all} the energy supplied to the gas is used to do work.
+  \item If $Q, W > 0$, then, the gas is \hl{expanding}, and energy is supplied to the gas, and the gas does work on the surroundings.
+  \item If $Q, W < 0$, then, the gas is \hl{compressed}, and energy is lost by the gas, and work is done on the gas by the surroundings.
+\end{enumerate}
+
+\pagebreak
+
+Practically, isothermal changes are not possible:
+\begin{enumerate}
+  \item Perfect isothermal changes would theoretically require infinite time, here's why
+        \begin{enumerate}
+          \item This requires the pressure change to be \textbf{quasi-static} (meaning it happens in such small, incremental steps that the system remains in thermal equilibrium throughout).
+          \item Each tiny change in volume must be \textbf{instantaneously counterbalanced} by an appropriate heat transfer to prevent a temperature drop.
+          \item This will then \hl{require each $\Delta V$ to be infinitely small}, which would take infinite time for the entire process to take place.
+        \end{enumerate}
+  \item A slow enough change can be considered near-isothermal.
+\end{enumerate}
 
 \subsection{Adiabatic Change}
 
+A change in gas carried out with \hl{no energy transfer} between the system and the surroundings. I.e the system is \textbf{thermally isolated}. This is done through insulating the system.\lb
+In this case, $Q = 0$, and so $\Delta U = -W$. This actually encapsulates two physical situations. It's straightforward that the two quantities have matching magnitudes; let us see why they have opposite signs.
+\begin{itemize}
+  \item \textbf{Gas compression}: The surrounding is doing work on the gas, and so $W < 0$. The gas is increasing in energy, and thus $\Delta U > 0$.
+  \item \textbf{Gas expansion}: The gas is doing work on the surroundings, and so $W > 0$. The gas is losing energy, and thus $\Delta U < 0$.
+\end{itemize}
+
+We introduce a new equation that has not been seen before. This is specific to adiabatic changes:
+\begin{equation}\label{eq:adiabatic}
+  PV^{\frac{5}{3}} = \text{constant} \eqand TV^{\frac{5}{3}} = \text{constant}
+\end{equation}
+Note that \textbf{the latter requires constant pressure} in addition to the adiabatic condition.
+
+Note that perfect adiabatic changes are also not practically feasible.
+\begin{enumerate}
+  \item The system must be perfectly insulated, which is impossible.
+  \item Another important reason is that a perfect adiabatic change would allow no time for change to take place.
+        \begin{enumerate}
+          \item The duration of the change must be \textbf{infinitely short} to prevent any heat loss through the boundaries of the system to the surroundings.
+          \item Thus, for a perfect adiabatic change to take place, the time taken must be 0.
+        \end{enumerate}
+  \item Again, rapid enough changes can approximate adiabatic changes.
+\end{enumerate}
+
+\subsection{Combining Different Types of Changes}
+
+There are many different ways in which the different types of changes can be combined.
+
+\tripleimg%
+{combined0.png}{Isobaric, isovolumetric, isothermal}{combined0}%
+{combined1.png}{Isothermal, adiabatic}{combined1}%
+{combined2.png}{Adiabatic, isovolumetric}{combined2}
+
+A general strategy is to
+\begin{enumerate}
+  \item For each change, \hl{recognize the type}.
+  \item Then, consider \hl{what is changing} and \hl{what is constant} based on the type of change. Considering the area can help.
+  \item Where necessary, \hl{invoke the associated gas laws}.
+\end{enumerate}
+
+The table below summarizes the changes
+
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|P{0.2\textwidth}|c|c|P{0.23\textwidth}|c|}
+    \hline
+    \rowcolor{cyan!80!black!40} \textbf{Shape} & \textbf{Type} & \textbf{Constant} & \textbf{Possible Variable}    & \textbf{Gas Laws}   \\ \hline
+    Horizontal line                            & Isobaric      & Pressure          & Volume                        & Charles'            \\ \hline
+    Vertical line                              & Isovolumetric & Volume            & Temperature                   & Gay-Lussac's        \\ \hline
+    Isothermal curve                           & Isothermal    & Temperature       & Pressure                      & Boyle's             \\ \hline
+    Skipping between two isotherms             & Adiabatic     & Internal energy   & Pressure, volume, temperature & \cref{eq:adiabatic} \\ \hline
+  \end{tabular}
+\end{table}
+
 \section{Heat Cycle and Engines}
+
+
+\begin{minipage}{0.35\textwidth}
+  \img{engine.png}{1}{Heat Engine}{heatengine}
+\end{minipage}\hspace*{0.02\textwidth}%
+\begin{minipage}{0.6\textwidth}
+  A \textbf{heat engine} is a device that converts \hl{thermal energy into mechanical work}. It takes in heat from a high-temperature source, does work, and releases some wasteful heat to a low-temperature sink.\lb
+  Simplified explanation of the mechanism:
+  \begin{enumerate}
+    \item The engine absorbs $Q_1$ energy from the hotter reservoir.
+    \item In the process of doing work, the engine releases $Q_2$ energy to the colder reservoir. This is because it is never 100\% efficient.
+    \item The useful work produced by the engine is $W = Q_1 - Q_2$.
+  \end{enumerate}
+\end{minipage}\lb
+
+The efficiency of this process $\eta$ is given by
+\begin{equation}\label{eq:heat_engine_efficiency}
+  \eta = \frac{Q_1 - Q_2}{Q_1} = 1 - \dfrac{Q_2}{Q_1}
+\end{equation}
+
+\pagebreak
+
+\subsection{The Carnot Cycle}
+
+
 
 \subsection{Refrigerators and Heat Pumps}
 

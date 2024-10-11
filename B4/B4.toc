@@ -3,14 +3,17 @@
 \contentsline {section}{\numberline {2}First Law of Thermodynamics}{2}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Piston -- Common Scenario Analysis}{3}{subsection.2.1}%
 \contentsline {section}{\numberline {3}Pressure-Volume Graphs}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Graphical Interpretation}{4}{subsection.3.1}%
 \contentsline {section}{\numberline {4}Types of Changes in a Gas}{5}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Isobaric Change}{5}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Isovolumetric Change}{5}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Isothermal Change}{5}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Adiabatic Change}{5}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Heat Cycle and Engines}{6}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Refrigerators and Heat Pumps}{6}{subsection.5.1}%
-\contentsline {section}{\numberline {6}The Second Law of Thermodynamics}{7}{section.6}%
-\contentsline {section}{\numberline {7}Entropy}{8}{section.7}%
-\contentsline {subsection}{\numberline {7.1}A Macroscopic Interpretation}{8}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}A Microscopic Interpretation}{8}{subsection.7.2}%
+\contentsline {subsection}{\numberline {4.2}Isovolumetric Change}{6}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Isothermal Change}{6}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Adiabatic Change}{7}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Combining Different Types of Changes}{8}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Heat Cycle and Engines}{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}The Carnot Cycle}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Refrigerators and Heat Pumps}{11}{subsection.5.2}%
+\contentsline {section}{\numberline {6}The Second Law of Thermodynamics}{12}{section.6}%
+\contentsline {section}{\numberline {7}Entropy}{13}{section.7}%
+\contentsline {subsection}{\numberline {7.1}A Macroscopic Interpretation}{13}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}A Microscopic Interpretation}{13}{subsection.7.2}%
