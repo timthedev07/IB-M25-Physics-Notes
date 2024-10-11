@@ -368,16 +368,183 @@ The efficiency of this process $\eta$ is given by
 
 \subsection{The Carnot Cycle}
 
+\img{carnot.png}{0.5}{Carnot cycle; area enclosed is work done by the gas}{carnot}
 
+The Carnot cycle is a theoretical cycle that is the most efficient possible heat engine cycle. It consists of four stages, two isothermal and two adiabatic stages. The stages are as follows:
+\begin{enumerate}
+  \item AB: Isothermal expansion as $Q_h = Q_1$ is supplied by the hot reservoir.
+  \item BC: Adiabatic expansion as the gas continues to expand, and the temperature drops to the lower $T_c$. There is a drop in the internal energy of the system, and the gas does work on the surroundings.
+  \item CD: Isothermal compression as $Q_c = Q_2 < 0$ is dumped to the cold reservoir. The surrounding is doing work on the gas.
+  \item DA: Adiabatic compression; the gas is compressed, and the temperature rises back to $T_h$, completely returning to its original state.
+\end{enumerate}
+
+\pagebreak
+
+The Carnot cycle is reversible:
+\begin{center}
+  A \textit{reversible process} is one in which a system can be returned to its previous state with only an extremely small change in the system or surroundings.
+\end{center}
+An alternative definition is
+\begin{center}
+  A \textit{reversible process} operates continuously in \hl{quasi-static state}.
+\end{center}
+
+This means that for a change to be reversible, it must have happened extremely slowly.\lb
+By way of illustration, consider the melting of ice:
+\begin{enumerate}
+  \item Initial state: The ice and its surroundings are both at the same temperature, 0°C. There is no temperature difference between the ice and the environment, so they are in thermal equilibrium.
+
+  \item Slow heat transfer: We now very slowly supply a tiny bit of heat energy to the ice, just enough for a small fraction of the ice to melt. Because the temperature of both the ice and the surroundings is the same, this tiny heat input occurs without a significant temperature gradient, ensuring that the process remains reversible. The ice starts to melt, but only a very small part, and the system stays close to equilibrium the entire time.
+
+  \item Melting continues slowly: As we keep adding heat slowly, more ice melts. At each tiny step, we could reverse the process by removing the exact amount of heat we added. If we did this, the water would freeze back into ice. This reversibility means the system can return to its original state without any net change in entropy for the entire system (ice + surroundings).
+
+  \item End state: Eventually, the entire block of ice melts. The process was done slowly enough that we can consider it a reversible operation. If we reversed the process step-by-step (cooling the water slowly), the water would freeze back into ice, and there would be no leftover changes.
+\end{enumerate}
+
+\subsubsection{Efficiency}
+In practice, a perfect Carnot engine is not possible. However, one can achieve near-Carnot engines by maximizing efficiency.\lb
+The efficiency of the Carnot cycle is given by
+$$\eta_{\text{Carnot}} = 1 - \dfrac{T_c}{T_h} = 1 - \dfrac{Q_c}{Q_h}$$
+where the temperatures are in Kelvin.\lb
+To maximize the efficiency of the engine, one must \hl{maximize the temperature difference} between the hot and cold reservoirs.
+
+\pagebreak
 
 \subsection{Refrigerators and Heat Pumps}
 
+As previously stated, an ideal heat engine is reversible. A diagram of the directions of energy transfer is shown below.
+
+\img{reversecarnot.jpg}{0.7}{Reversed Carnot Cycle}{reversed}
+
+\begin{enumerate}
+  \item Isothermal compression (ON): The gas is compressed at a high temperature; to keep the temperature constant, some \hl{heat is released to the hotter reservoir}.
+  \item Adiabatic compression (NM): The gas continues to expand, but now without exchanging heat with its surroundings. Thus, the gas cools as it expands. The temperature of the gas drops below the temperature of the cold reservoir.
+  \item Isothermal expansion (MP): The gas is now at the same temperature as the cold reservoir. As the gas expands under constant temperature, it absorbs heat from the cold reservoir to maintain the temperature. \hl{Heat is absorbed from the cold reservoir}.
+  \item Adiabatic expansion (PO): The gas continues to expand, but now without exchanging heat with its surroundings. This forces it to drop in temperature, returning to the initial state.
+\end{enumerate}
+
+The main difference between the Carnot cycle and the reversed Carnot cycle is that the former transfers thermal energy to mechanical work, while the latter transfers mechanical work to thermal energy.
+
+\subsubsection{Refrigerators}
+
+The coils of a refrigerator contain a liquid called the \say{refrigerant}. A good refrigerant has the following properties
+\begin{itemize}
+  \item low boiling point
+  \item high s.l.h. of evaporation
+  \item low s.h.c. of liquid
+  \item low vapor density
+  \item easily liquefiable
+\end{itemize}
+
+\img{refrigerator.png}{0.7}{Refrigerator}{refrigerator}
+We can match each component in this system to those in the heat engine:
+\begin{itemize}
+  \item The \say{gas} is the refrigerant.
+  \item They \say{work} is done by the compressor and the expansion valve.
+  \item The \say{cooler reservoir} is the internal heat exchange coil in the refrigerator; this provides the latent heat that will be extracted and ejected by the refrigerant.
+  \item The \say{hotter reservoir} is the external heat exchange coil.
+\end{itemize}
+
+The workflow is as follows
+\begin{enumerate}
+  \item The compressor raises the temperature of the refrigerant (currently a gas)
+  \item The refrigerant releases heat to the surroundings through the external coil.
+  \item It cools down and condenses into a liquid.
+  \item It then passes through the expansion valve, where it expands back into a gas using the latent heat from the internal coil.
+  \item This process cools the internal coil, and the cycle repeats.
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Heat Pumps}
+
+A heat pump follows the identical mechanism as a refrigerator, but with a different purpose. The goal of a heat pump is to, for example, transfer the heat from the outside of a house to the inside.
+
 \section{The Second Law of Thermodynamics}
+
+\begin{law}
+  The second law of thermodynamics states that\\
+  \begin{center}
+    \begin{minipage}{0.9\textwidth}
+      \begin{center}
+        heat cannot spontaneously (without external work done on the system) flow from a colder body to a hotter body.
+      \end{center}
+    \end{minipage}
+  \end{center}\vspace*{1cm}
+
+  An alternative definition is due to Kelvin and Planck:\\
+  \begin{center}
+    \begin{minipage}{0.9\textwidth}
+      \begin{center}
+        Energy cannot be extracted from a hot object and transferred entirely into work.
+
+      \end{center}
+
+    \end{minipage}
+  \end{center}
+
+\end{law}
+
+A consequence of this law is that the efficiency of a heat engine is always less than 100\%, or equivalently, the rejected (dumped) energy $Q_c$ is always greater than 0.
 
 \section{Entropy}
 
+Entropy is a measure of the disorder of a system and it quantifies the amount of energy in a system that is not available to do work.
+
 \subsection{A Macroscopic Interpretation}
 
+On a macroscopic level, the change in entropy ($\si{\joule\per\kelvin}$) for a reversible change in a system is defined as
+\begin{equation}\label{eq:macro_entropy}
+  \Delta S = \dfrac{\Delta Q}{T}
+\end{equation}
+where $\Delta Q$ is the heat supplied to the system, and $T$ is the temperature of the system at which the change occurs. This means that
+\begin{itemize}
+  \item If energy is removed from the system $\Delta Q < 0$, then $\Delta S < 0$, i.e. the entropy decreases.
+  \item If energy is added to the system $\Delta Q > 0$, then $\Delta S > 0$, i.e. the entropy increases.
+\end{itemize}
+Consider a reversible action $A \rightarrow B$
+\begin{itemize}
+  \item One can calculate the entropy change using \cref{eq:macro_entropy}
+  \item The total entropy change for a cycle is 0. This means that $A\rightarrow B \rightarrow A$ has a total entropy change of 0.
+\end{itemize}
+
+\pagebreak
+
+\subsubsection{Entropy for Irreversible Changes}
+
+The entropy change for an irreversible change, where heat flows from a hotter body to a colder body (the surroundings) is given by
+\begin{equation}\label{eq:irreversible}
+  \Delta S =\Delta Q\left(\frac{1}{T_\text{surroundings}} - \frac{1}{T_\text{gas}}\right)
+\end{equation}
+This change results in an increase in the entropy, and this implies that the \hl{entropy of the universe is always increasing}. This is another way of stating the second law of thermodynamics.
+
+\pagebreak
+
 \subsection{A Microscopic Interpretation}
+
+This definition of entropy is based on the number of possible microstates of a system. Consider a system with $\Omega$ different arrangements (a.k.a. \textbf{microstates}) of its particles, then, the entropy (\textbf{not the entropy change}) of these molecules is defined as
+
+\begin{equation}\label{eq:microentropy}
+  S(\Omega) = k_B\ln\Omega
+\end{equation}
+
+Consider a substance that originally has a perfect fixed lattice structure.
+\begin{enumerate}
+  \item Initially, there is just a single microstate, as the particles are all in a fixed position and cannot exchange positions with others to form new arrangements.
+  \item The entropy, in this case, is $$S(1) = k_B\ln 1 = 0$$
+  \item Remove one atom from the lattice, now there are more than just one microstate. Denote the number of arrangements now as $\Omega > 1$.
+  \item The entropy in this case is $$S(\Omega) = k_B\ln\Omega > 0$$
+        in fact, it would be a very large number.
+\end{enumerate}
+
+\pagebreak
+
+\subsubsection{Alternative Definition}
+
+Another definition is that the change in entropy arises from the energy $\Delta Q$ that has been required to remove the atom from the lattice at temperature $T$. This also leads to
+$$
+  \Delta S = \dfrac{\Delta Q}{T}
+$$
+
 
 \end{document}
