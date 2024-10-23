@@ -1,0 +1,421 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{setspace}
+\usepackage{sectsty}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage[a4paper, total={3in, 9in}, textwidth=16cm,bottom=1in,top=1.4in]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{amsmath}
+\usepackage{esvect}
+\usepackage{soul}
+\usepackage{amsthm}
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{amssymb}
+\usepackage{outlines}
+\usepackage{caption}
+\usepackage{fancyvrb}
+\usepackage{subcaption}
+\usepackage{esdiff}
+\usepackage{dirtytalk}
+\usepackage{colortbl}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{mathtools}
+\usepackage{tikz,pgfplots}
+\usepackage[most]{tcolorbox}
+\usetikzlibrary{positioning,decorations.markings,arrows.meta,angles,quotes}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{observation}{Observation}
+\doublespacing
+\let\oldsection\section
+\renewcommand\section{\clearpage\oldsection}
+\newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+\let\oldsi\si
+\renewcommand{\si}[1]{\oldsi[per-mode=reciprocal-positive-first]{#1}}
+\usepackage{enumitem}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+\newcommand{\degsym}{^{\circ}}
+\newcommand{\eqor}{\quad \text{or} \quad}
+\newcommand{\eqand}{\quad \text{and} \quad}
+\newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor = blue
+}
+\newcommand{\lb}{\\[8pt]}
+\newenvironment*{cell}[1][]{\begin{tabular}[c]{@{}c@{}}}{\end{tabular}}
+\newcommand{\img}[4]{\begin{center}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=#2\textwidth]{#1}
+    \caption{#3}
+    \label{fig:#4}
+  \end{figure}
+\end{center}}
+\parindent=0pt
+\usepackage{fancyhdr}
+\fancyfoot{}
+\fancypagestyle{fancy}{\fancyfoot[R]{\vspace*{1.5\baselineskip}\thepage}}
+\renewcommand{\contentsname}{Table of Contents}
+\newcommand{\angled}[1]{\langle{#1}\rangle}
+\newcommand{\paren}[1]{\left(#1\right)}
+\newcommand{\sqb}[1]{\left[#1\right]}
+\newcommand{\coord}[3]{\angled{#1,\, #2,\, #3}}
+\newcommand{\pair}[2]{\paren{#1,\, #2}}
+\newcommand{\atom}[3]{{}^{#1}_{#2}\text{#3}}
+\usepackage[
+  noabbrev,
+  capitalise,
+  nameinlink,
+]{cleveref}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+
+\crefname{lemma}{Lemma}{Lemmas}
+\crefname{proposition}{Proposition}{Propositions}
+\crefname{remark}{Remark}{Remarks}
+\crefname{observation}{Observation}{Observations}
+
+\newtcolorbox[auto counter]{prob}[2][]{fonttitle=\bfseries, title=\strut Problem~\thetcbcounter: #2,#1,colback=Orchid!5!white,colframe=Orchid!75!black,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{rem}[1][]{fonttitle=\bfseries, title=\strut Remark.~\thetcbcounter,colback=purple!5!white,colframe=purple!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{defin}[1][]{fonttitle=\bfseries, title=\strut Definition.~\thetcbcounter,colback=black!5!white,colframe=black!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{obs}[1][]{fonttitle=\bfseries, title=\strut Observation.~\thetcbcounter,colback=RedViolet!5!white,colframe=RedViolet!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{law}[1][]{fonttitle=\bfseries, title=\strut Law.~\thetcbcounter,colback=Maroon!5!white,colframe=Maroon!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{prop}[1][]{fonttitle=\bfseries, title=\strut Proposition.~\thetcbcounter,colback=RedOrange!5!white,colframe=RedOrange!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{hint}[1][]{fonttitle=\bfseries, title=\strut Hint.~\thetcbcounter,colback=OliveGreen!5!white,colframe=OliveGreen!75!gray,top=5mm,bottom=5mm}
+
+\newcommand{\assref}[1]{\textcolor{orange!100!black!90}{assumption #1}}
+
+\newcommand{\tripleimg}[9]{
+  \begin{minipage}{0.3\textwidth}
+    \img{#1}{1}{#2}{#3}
+  \end{minipage}%
+  \hspace*{0.05\textwidth}%
+  \begin{minipage}{0.3\textwidth}
+    \img{#4}{1}{#5}{#6}
+  \end{minipage}%
+  \hspace*{0.05\textwidth}%
+  \begin{minipage}{0.3\textwidth}
+    \img{#7}{1}{#8}{#9}
+  \end{minipage}%
+}
+
+\setlength{\belowcaptionskip}{-20pt}
+\begin{document}
+
+
+\pagenumbering{arabic}
+\pagestyle{fancy}
+
+
+\begin{titlepage}
+  \begin{center}
+
+    \vspace*{8cm}
+    \textbf{\Large {IB Physics Topic A5 Thermodynamics; HL}} \\
+    \vspace*{1cm}
+    \large{By timthedev07, M25 Cohort}
+
+  \end{center}
+\end{titlepage}
+
+
+\pagebreak
+\section*{Preface}
+Relativity at IB tends to be calculation heavy, and a huge part is not only knowing the equations, but also what each letter exactly refers to, and when and how these equations are used. This seems to be underaddressed in the textbooks.
+\pagebreak
+\tableofcontents
+\pagebreak
+
+\clearpage
+\setcounter{page}{1}
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+
+\section{Reference Frames}
+
+A reference frame is a set of coordinate axes and a set of clocks at every point contained within that physical space. All these clocks are synchronized; i.e. they measure the same time.\lb
+An \textbf{inertial reference frame} is one that is not accelerating. The laws of physics are the same in all inertial reference frames. \lb
+In a 3-dimensional space, an event can be uniquely represented by the coordinates $(x, y, z, t)$, where the first three indicate the position at which the event occurs and $t$ indicates the time at which it happens. This is known as the \textbf{spacetime} representation of an event.
+
+\section{Galilean Transformation}
+Galilean relativity has the following principle:
+\begin{center}
+  \textit{The laws of physics are the same in all inertial reference frames.}
+\end{center}
+\subsection{Positional Transformation}
+This works for objects not traveling at relativistic speeds, i.e. generally below $0.1c$. \lb
+Consider the following scenario:
+\img{galileanpos.png}{0.7}{Galilean Transformation}{galileanpos}
+positional transformation equation is as follows
+$$x' = x - vt$$
+\begin{itemize}
+  \item $x'$ is the position of the object in the $S'$ frame (the train's perspective).
+  \item $x$ is the position of the object in the $S$ frame.
+  \item $v$ is the speed of the train
+  \item $t$ is the time the train has been moving away from the origin
+\end{itemize}
+In this case, it must be noted that $t = t'$, which means both the observer and the train agree on the time and there is no discrepancy. This is an assumption that would not be valid in the case of special relativity.
+
+\subsection{Velocity Transformation}
+
+\img{galileanspeed.png}{0.7}{Galilean Velocity Transformation}{galileanspeed}
+
+Consider the following scenario: A train (reference frame $S'$) moving at speed $v$ carries an object moving at speed $u'$ as measured in $S'$. Denote the speed of a stationary observer in $S$ (the train station) as $u$. The velocity transformation equation is as follows:
+$$u' = u - v$$
+
+
+\section{Postulates of Special Relativity}
+
+Einstein proposed the following two postulates of special relativity:
+\begin{enumerate}
+  \item The laws of physics are the same in all inertial reference frames (following from Galilean relativity).
+  \item The speed of light is the same for all inertial observers, regardless of the motion of the light source or the observer.
+\end{enumerate}
+
+
+\section{Lorentz Transformations}
+
+Lorentz transformations must be used for relativistic behavior; it is an extension of the Galilean transformations, with the key difference being the Lorentz factor $\gamma$.
+
+\subsection{Notes on Notation}
+\begin{itemize}
+  \item The frame $S$ usually refers to the \say{stationary} observer, while $S'$ refers to the \say{moving} observer. This is made to simplify the scenarios, but in reality, there is no absolute stationary.
+  \item The symbol $v$ usually denotes the speed of the moving object measured in $S$.
+  \item Whatever that has a prime ($'$) denotes a quantity measured in the moving frame. E.g. $x'$ is the position of an event in the moving frame, and $t'$ is the time of the event also in the moving frame.
+\end{itemize}
+
+\subsection{The Lorentz Factor}
+
+The Lorentz factor, denoted by $\gamma$, is defined as follows:
+\begin{equation}\label{eq:lorentz}
+  \gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}
+\end{equation}
+
+An important property of this is that $\gamma \geq 1$ for all $v$.
+\pagebreak
+
+\subsection{Transformation Equations}
+Before we proceed, it must be noted that $x$, $x'$, $t$, $t'$ are the \textbf{position and time of the event} in the stationary and moving frames respectively.
+
+\begin{equation}
+  t' = \gamma \paren{t - \frac{vx}{c^2}} \quad \quad t = \gamma \paren{t' + \frac{vx'}{c^2}}
+\end{equation}
+
+These are used to determine the \textbf{time of an event or the time elapsed} in the moving frame, given the time in the stationary frame, and vice versa.
+
+\begin{equation}
+  x' = \gamma \paren{x - vt} \quad \quad x = \gamma \paren{x' + vt'}
+\end{equation}
+
+These are used to determine the \textbf{position of an event or the displaced distance} in the moving frame, given the position in the stationary frame, and vice versa.
+
+\pagebreak
+
+\subsection{Simultaneity}
+
+\begin{prop}
+  Two events cannot be simultaneous in different reference frames unless they occur at the same position. Conversely, two events are simultaneous in all inertial reference frames only if they occur at the same position.
+  \begin{proof}
+    Consider the time interval $\Delta t$ between two events in the stationary frame. Suppose these events are simultaneous in $S$, it then follows that $\Delta t = 0$. We now calculate the time difference in the moving frame; using the Lorentz transformation, we have
+    \begin{align*}
+      \lvert\Delta t'\rvert & = \left|\gamma\paren{\Delta t - \frac{v\Delta x}{c^2}}\right| \\
+                            & = \gamma\paren{\frac{v\Delta x}{c^2}}                         \\
+                            & = \paren{\frac{\gamma v}{c^2}}\Delta x
+    \end{align*}
+    Notice that the expression in the parentheses is non-zero (assuming $v$ is non-zero, since that's pretty much the point of this relativistic discussion), which means that the time interval measured in a moving frame is zero \textbf{if and only if} the spatial interval is zero, i.e. the two events occur at the same position.
+  \end{proof}
+\end{prop}
+
+\section{Time Dilation}
+
+In time dilation questions, we will have one object that is \textbf{at rest} relative to the events being timed, and one object that is moving relative to the frame of the event and the stationary observer. This object measures the \textbf{proper time interval}, and the other measures the \textbf{dilated time interval}. The relation is given by
+\begin{equation}
+  \text{dilated time} = \gamma \times \text{proper time interval}
+\end{equation}
+The use of symbols has been avoided for the sake of clarity.\lb
+Earlier in the definition of the Lorentz factor at \cref{eq:lorentz} we have observed that it is always greater than 1. This means that the \textbf{dilated time is always greater than the proper time interval}; analogously, suppose you are timing an event that is stationary relative to you, any observer moving at relativistic speeds relative to you will observe a longer time.
+
+
+\section{Length Contraction}
+
+Similar to time dilation, the perceived length of an object by an observer moving at a relativistic speed also changes. The \textbf{proper length} is measured by an inertial observer for whom the object is at rest. The contracted length and the proper length are related by
+\begin{equation}
+  \text{contracted length} = \frac{\text{proper length}}{\gamma}
+\end{equation}
+
+\section{Velocity Addition}
+
+Consider two frames $S$ and $S'$ moving at a relativistic speed $v$ relative to each other. Consider also an object, whose velocity measured by an observer in $S'$ is $u'$, we desire to find the velocity $u$ measured by an observer in $S$. The equation is given by
+$$u = \frac{u' + v}{1 + \dfrac{u'v}{c^2}}$$
+it also works in the reverse direction; if we are given $u$ and desire to find $u'$, simply rearrange and obtain
+$$u' = \frac{u - v}{1 - \dfrac{uv}{c^2}}$$
+
+\section{Muon Decay}
+
+\begin{itemize}
+  \item Muons provide evidence for the relativistic effects of time dilation and length contraction.
+  \item Muons are produced in the upper atmosphere by cosmic rays and have a half-life of 2.2 microseconds.
+  \item They travel at $0.98c$ and about $\SI{660}{\m}$ throughout their lifetime, and should not reach the Earth's surface before they decay (muons need to travel from 10 to 20 kilometers to reach the surface).
+  \item However, muons are actually detected at the surface.
+  \item This provides evidence for (a) \textit{time dilation}
+        \begin{enumerate}
+          \item If we compute the Lorentz factor for muons, we get that $\gamma \approx 5$
+          \item Since the $\SI{2.2}{\micro\s}$ lifetime is measured in the stationary frame of the muon, the time elapsed in the moving frame (the Earth) is $\SI{2.2}{\micro\s} \times 5 = \SI{11}{\micro\s}$.
+          \item This allows a much larger portion of muons to arrive at the Earth's surface.
+          \item This phenomenon is due to the slower passing of time the faster an object moves.
+        \end{enumerate}
+  \item Alternatively, this provides evidence for \textit{length contraction}
+        \begin{enumerate}
+          \item Consider an Earth observer; the $\SI{10}{\kilo\m}$ distance is what they measure, and hence proper length.
+          \item Now consider a muon, moving at $0.98c$; the distance in its frame is contracted by a factor of $\gamma \approx 5$.
+          \item This means that, for the muon, the distance they have to travel is actually $\dfrac{10}{\gamma} \approx \SI{2.2}{\kilo\m}$.
+        \end{enumerate}
+\end{itemize}
+
+\section{The Spacetime Interval}
+
+Previously we have seen that the quantities of space and time do vary between different reference frames. However, the spacetime interval is a quantity that is \textbf{invariant across all inertial reference frames}. It is defined as follows:
+$$
+  \Delta s^2 = c^2\Delta t^2 - \Delta x^2
+$$
+Hence, for two reference frames $S$ and $S'$, it holds that
+\begin{equation}
+  c^2(\Delta t)^2 - (\Delta x)^2 = c^2(\Delta t')^2 - (\Delta x')^2
+\end{equation}
+This relation means that given three of the quantities $x$, $x'$, $t$, $t'$, we can always find the missing fourth.
+
+\section{Spacetime Diagrams}
+
+Spacetime diagram use $ct$/$x$ axes.
+\img{spacetime.png}{1}{Spacetime Diagrams}{spacetime}
+\begin{itemize}
+  \item Every event can be uniquely identified by a coordinate-pair $(ct, x)$, and hence every point on the diagram represents an event. This is represented by the \textcolor{Plum}{purple dot}.
+  \item For an object that persists in a period of time, it is represented by a line on the diagram, which shows the sequence of events recording its position at different times. This line is called a \textbf{worldline}.
+        \begin{itemize}
+          \item The \textcolor{blue}{blue line} represents an object at rest; its position remains constant as time progresses.
+          \item The \textcolor{red}{red line} represents an object in motion. The speed of this object is given by
+                $$\frac{1}{c}\times\frac{\Delta x}{\Delta t} = \tan(\theta)$$
+        \end{itemize}
+\end{itemize}
+By definition, nothing can exceed the speed of light, which means that $\tan\theta < 1$ and so the angle between the world line and the $ct$ axis must be less than $45\degsym$.\lb
+In fact, a photon travels at the speed of light and hence its worldline is at $45\degsym$ to the $ct$ axis.
+
+\begin{minipage}{0.45\textwidth}
+  \img{worldlines.png}{1}{Worldlines}{worldlines}
+\end{minipage}%
+\hspace*{0.1\textwidth}
+\begin{minipage}{0.45\textwidth}
+  \img{pastvsfuture.png}{1}{Past and Future}{pastvsfuture}
+\end{minipage}
+
+Consider an event E.
+\begin{itemize}
+  \item It can be the cause of another event L only if  the time separation between E and L is greater than the time a photon would take to travel from E to L. This is the \textcolor{yellow!60!black!100}{yellow region}. Future events go in this region.
+  \item Conversely, it can be the effect of another event P only if the time separation between P and E is greater than the time a photon would take to travel from P to E. This is the \textcolor{blue!60!black!100}{blue region}. Past events go in this region.
+\end{itemize}
+
+\subsection{Using Slanted Axes}
+
+\img{slantedaxes.png}{0.6}{Slanted Axes}{slantedaxes}
+
+Given an event $P$, a set of axes for the frame $S$ (blue) and a set of axes for the frame $S'$ (red). To identify the space and time coordinates of $P$ in $S$, it's straightforward. In the case of $S'$, we draw lines parallel to the $ct'$ and $x'$ (red) axes, both crossing $P$. The intercepts of these lines with the primed axes give the coordinates of $P$ in $S'$.
+
+\subsection{Identifying the Scale of Slanted Axes}
+
+Just use the transformation equations for God's sake... I'm burned out, screw this...
+
+\pagebreak
+
+\subsection{Simultaneity}
+
+Consider the following diagram with A and B simultaneous in S but not so in $S'$.
+
+\img{diagramsimul.png}{0.6}{Simultaneity}{diagramsimul}
+
+To find out the time separation between A and B in $S'$, we can use the Lorentz transformation for time, with both sides multiplied by $c$ throughout:
+$$c\Delta t' = \gamma\paren{c\Delta t - \dfrac{v\Delta x}{c}}$$
+We can calculate/identify each quantity on the RHS individually
+\begin{itemize}
+  \item $\gamma$: For this we need the velocity between the two frames, this can be done by taking reciprocal of the gradient of the $ct'$ line.
+  \item $c\Delta t = 0$
+  \item $\Delta x$ is the spacial separation between A and B in the $S$ frame.
+\end{itemize}
+
+\pagebreak
+
+
+\subsection{Length Contraction}
+
+Consider a rod. There are two cases, depending on who measures the proper length.
+
+\subsubsection*{Case 1: S measures the proper length}
+
+\img{rod1.png}{0.7}{Length Contraction: S measures proper length}{rod1}
+
+In this case, the rod is rest in $S$ and so the proper length is measured by an observer in $S$. Then, $S$ measures a contracted length, and so the length on the red axes should be smaller than 1. The exact length can be calculated using the length contraction formula.
+
+\pagebreak
+
+\subsubsection*{Case 2: S' measures the proper length}
+
+\img{rod2.png}{0.7}{Length Contraction: S' measures proper length}{rod1}
+
+Suppose the proper length measured by $S'$ is 1. To find the contracted length in $S$, draw the \textcolor{blue!60!black!80}{blue line} parallel to the $ct'$ axis --- its intersection with the $x$ axis will be the contracted length.
+
+\pagebreak
+
+\subsection{Time Dilation}
+
+\begin{minipage}{0.475\textwidth}
+  \img{clock1.png}{1}{Time Dilation: S measures proper time}{clock1}
+\end{minipage}\hspace*{0.05\textwidth}%
+\begin{minipage}{0.475\textwidth}
+  \img{clock2.png}{1}{Time Dilation: S' measures proper time}{clock2}
+\end{minipage}
+
+\subsubsection*{Case 1: S measures the proper time}
+
+Consider now an event $P$ measured at time 1 in the frame $S$. See \cref{fig:clock1}. This means that $S$ measures a proper time of 1. To calculate the dilated time, one must draw the dashed purple line parallel to the $x'$ axis through $P$. The intersection of this line with the $ct'$ axis is the dilated time. Indeed, this is greater than one on the slanted axis, which means time is dilated.
+
+\subsubsection*{Case 2: S' measures the proper time}
+
+Consider an event $P$ measured at time 1 in the frame $S'$. This time, draw the dashed green line parallel to the $x$ axis through $P$. The intercept of it with the $ct$ axis gives the dilated time.
+
+\pagebreak
+
+\subsection{Invariant Hyperbolae}
+
+Recall the definition of the spacetime interval
+$$
+  \Delta s^2 = (c\Delta t)^2 - \Delta x^2
+$$
+this quantity is the same for all inertial frames.\lb
+Notice that the two terms on the RHS are the two axes of the spacetime diagram. For a particular event somewhere in spacetime, any $(x, y) = (x, ct)$ satisfy the relationship $y^2 - x^2 = C$, where $C$ is some constant. Although not taught at the IB, this is the shape of a hyperbola.
+\img{hyperbolae.png}{0.7}{Invariant Hyperbolae}{hyperbolae}
+There are two sets of hypebolae, depending on the sign of $C$.
+\begin{itemize}
+  \item \textbf{Lightlike}: If $C = 0$, the events are connected by a photon traveling at the speed of light. This is the boundary between the timelike and spacelike regions and corresponds to the light cone.
+  \item \textbf{Timelike Hyperbola}: If $C > 0$, the separation between events is primarily due to the time difference. This hyperbola corresponds to events that could be \hl{causally connected} (since they're within each other's light cones).
+  \item \textbf{Spacelike Hyperbola}: If $C < 0$, the separation between events is primarily spatial. These events are \hl{outside each other's yellow light cones} and cannot be causally connected.
+\end{itemize}
+
+\textit{Causally connected} means that one event can influence or cause another. In the context of spacetime and special relativity, this refers to two events being able to interact through a signal or influence that travels at or below the speed of light.
+
+
+\end{document}
