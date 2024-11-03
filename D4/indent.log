@@ -1,12 +1,12 @@
 INFO:  latexindent version 3.20.3, 2023-02-19, a script to indent .tex files
        latexindent lives here: /usr/local/texlive/2023/texmf-dist/scripts/latexindent/
-       Fri Sep 20 23:27:14 2024
-       Filename: /Users/timthedev07/Documents/ç©çç¬è®°/D4/__latexindent_temp_Notes.tex
+       Sun Nov  3 21:19:11 2024
+       Filename: /Users/timthedev07/Documents/ç©çç¬è®°/D1/__latexindent_temp_D1.tex
 INFO:  Processing switches:
        -y|--yaml: YAML settings specified via command line
        -c|--cruft: cruft directory
-INFO:  Directory for backup files and /Users/timthedev07/Documents/ç©çç¬è®°/D2//indent.log:
-       /Users/timthedev07/Documents/ç©çç¬è®°/D2/
+INFO:  Directory for backup files and /Users/timthedev07/Documents/ç©çç¬è®°/D4//indent.log:
+       /Users/timthedev07/Documents/ç©çç¬è®°/D4/
 INFO:  YAML settings read: defaultSettings.yaml
        Reading defaultSettings.yaml from /usr/local/texlive/2023/texmf-dist/scripts/latexindent/defaultSettings.yaml
 INFO:  YAML reading settings
