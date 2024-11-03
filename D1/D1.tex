@@ -10,6 +10,7 @@
 \usepackage{soul}
 \usepackage{amsthm}
 \usepackage{hyperref}
+\usepackage{dirtytalk}
 \usepackage{float}
 \usepackage{amssymb}
 \usepackage{outlines}
@@ -114,39 +115,207 @@
 \clearpage
 \setcounter{page}{1}
 \addtocontents{toc}{\protect\thispagestyle{empty}}
-\section{Gravitational Field Strength}
 
 \section{Newton's Law of Gravitation}
 
+Newton claimed that there is always an \textbf{attractive} force between two objects, and it is quantified by
+\begin{equation}\label{eq:newton}
+  F_G = \frac{Gm_1m_2}{r^2}
+\end{equation}
+where
+\begin{itemize}
+  \item $F_G$ is the force of gravity between the two objects,
+  \item $G = \SI{6.67e-11}{\newton\meter\squared\per\kilo\g\squared}$ is the gravitational constant,
+  \item $m_1$ and $m_2$ are the masses of the two objects,
+  \item $r$ is the distance of separation.
+\end{itemize}
+
+Note that this is another instance of an \textbf{inverse square law}. Assuming masses constant, when the separation is scaled by a factor of $k$, the force is \hl{divided by $k^2$}. This is a key feature to remember and use in exam questions, especially ratio questions.\lb
+An inverse square function tends to zero but does not exactly become zero as $r$ tends to infinity. This means that no matter how far away two objects are, there is always a gravitational force between them.
+
+\section{Gravitational Field Strength}
+
+From now on, we will proceed with the convention that $M$ usually denotes the mass of the more massive object (e.g. the planet, the Sun) and $m$ denotes the mass of the smaller object (e.g. the satellite, the Moon).\lb
+
+The formal definition of gravitational field strength is \hl{the force per unit mass} experienced by a small test mass placed at a particular point in a field.
+
+This is given by $$g = \frac{F}{m}$$
+
+In exam questions, the test mass in question is usually under the influence of more than one gravitational fields; in this case, there is a resultant gravitational field strength, which is the vector sum of the individual field strengths. Work on the vertical and horizontal components separately when the origins of the fields are not collinear with the test mass.
+
+Using \cref{eq:newton}, we can rewrite the gravitational field strength as
+$$g = \frac{GM}{r^2}$$
+where $M$ is the mass of the object creating the field, e.g. the planet.
+
+In the exam, this rewritten form is often more helpful as it does not require any knowledge of the mass of the object and computes the field strength directly from $M$ and the separation distance $r$.
+
+\section{Field Lines Around the Earth}
+
+The field lines around the Earth are \textbf{radial}, pointing towards the center of the Earth. This is because the Earth is a sphere, and the field lines are always perpendicular to the surface of the object creating the field. The field lines are also evenly spaced, indicating that the field strength is constant at any point on the same equipotential surface. However, at the surface, the field lines appear almost \textbf{uniform}, this is because the Earth's radius is big enough that the field lines are almost parallel to each other observed from a single point on the surface.
+
+\begin{minipage}{0.35\textwidth}
+  \img{earthradial.png}{1}{Radial field lines around the Earth}{earthradial}
+\end{minipage}\hspace*{0.1\textwidth}%
+\begin{minipage}{0.55\textwidth}
+  \img{earthuniform.png}{1}{Uniform pattern approximation}{earthuniform}
+\end{minipage}
+
+Drawing field lines is generally trivial but nevertheless requires great care. Use a ruler.
+\begin{itemize}
+  \item In a uniform field, all field lines must be parallel, equal in length, and evenly spaced. Often times, any number of lines greater than 5 should suffice.
+  \item In a radial field, all field lines must point inwards to the center of the object, also angularly equidistant. Often times, 8 lines should suffice.
+\end{itemize}
+
 \section{Extended Bodies and Point Masses}
+
+Extended bodies are the real-world objects; they can be treated as point masses (all mass of the object is condensed at its center of gravity) when and only when the following criteria are met:
+\begin{itemize}
+  \item The field is uniform.
+  \item Its size is small compared to the distances under study.
+\end{itemize}
 
 \section{Kepler's Laws of Planetary Motion}
 
+\img{orbit.png}{0.9}{An elliptical orbit}{orbit}
+
 \begin{itemize}
   \item \textbf{Kepler's First Law:} The orbit of a planet is an ellipse with the Sun at one of the two foci.
+        \begin{itemize}
+          \item The semi-major axis is the average distance of the planet from the Sun.
+        \end{itemize}
   \item \textbf{Kepler's Second Law:} A line segment joining a planet and the Sun sweeps out equal areas during equal intervals of time.
+        \begin{itemize}
+          \item $A_1 = A_2$, if the time intervals between $PP'$ and $QQ'$ are equal.
+          \item A consequence is that the average velocity of the planet between $PP'$ is greater than that between $QQ'$. This is because at Q, the area is much sensitive to a change in the position of the planet, and so to keep the area swept out equal, the planet must move a lot slower at Q than at P.
+        \end{itemize}
   \item \textbf{Kepler's Third Law:} The square of the orbital period of a planet is directly proportional to the cube of the semi-major axis of its orbit. $$T^2 \propto r^3$$
+        \begin{itemize}
+          \item Directly use this relation in ratio questions; forget about the constant of proportionality.
+        \end{itemize}
 \end{itemize}
 
 \subsection{Quantifying Kepler's Third Law}
 
+In exams, you are likely asked to derive this yourself.
+\begin{enumerate}
+  \item Equate the gravitational force with the centripetal force.
+        $$\frac{GMm}{r^2} = m\omega^2r$$
+  \item Make a substitution using the definition of angular velocity
+        $$\omega = \frac{2\pi}{T}$$
+
+  \item Rearrange to obtain \begin{equation}\label{eq:kepler}
+          T^2 = \paren{\frac{4\pi^2}{GM}}r^3\end{equation}
+        which is Kepler's Third Law.
+\end{enumerate}
+
 \section{Gravitational Potential Energy}
+
+The IGCSE equation $E = mgh$ does not work if the distance over which the change in potential energy occurs is large such that the gravitational field strength changes significantly.\lb
+The formal definition of GPE is \hl{the work done in moving a mass from infinity to a point in a gravitational field}. Strictly speaking, GPE is a \textbf{property of the system} and not of the object itself, although it is the same for both objects and so is often treated as a property of an object in a field.\lb
+It is given by
+$$U = -\frac{GMm}{r}$$
+where $U$ is the gravitational potential energy, $M$ is the mass of the object creating the field, and $r$ is the distance of separation. The interpretation of the negative sign is as follows
+\begin{itemize}
+  \item To separate the objects (thus increase $r$), work must be done on the system to overcome the attractive force. This means that the change in GPE is positive, and the resulting GPE is \say{less negative}.
+  \item To bring the objects closer together (thus decrease $r$), energy is released by the system. This means that the change in GPE is negative, and the resulting GPE is \say{more negative}.
+\end{itemize}
 
 \section{Gravitational Potential}
 
+The gravitational potential is similar to the gravitational field strength in the sense that both quantities do not depend on the mass of the test object but only on the $M$ and $r$. It is defined as \hl{work done on unit mass} and is given by
+$$V = -\frac{GM}{r}\quad \si{\J\per\kilo\g}$$
+where $V$ is the gravitational potential. The negative sign is interpreted in the same way as in the GPE equation.
+It can be obtained in the following ways, depending on what you are given in the question
+\begin{itemize}
+  \item If you are given the GPE, divide by the mass of the object $m$ to obtain the potential.
+        $$V = \frac{U}{m} = \frac{-\dfrac{GMm}{r}}{m} = -\frac{GM}{r}$$
+  \item If you are given the field strength, multiply by the distance $r$ to obtain the potential.
+        $$V = -g \cdot r = -\frac{GM}{r^2} \cdot r = -\frac{GM}{r}$$
+\end{itemize}
+
+
 \subsection{Change in Gravitational Potential Energy}
+
+The change in GPE is given by
+\begin{equation}\label{eq:change_GPE}
+  \Delta V_g = \frac{W}{m}
+\end{equation}
+\begin{itemize}
+  \item $\Delta V_g$ is the change in gravitational potential energy,
+  \item $W$ is the work done in moving the mass $m$ from one point to another
+  \item $m$ is the mass of the object
+\end{itemize}
+This equation uses the assumption that the change happened at a constant speed so that no work done is distributed to KE.
 
 \subsection{Equipotential Surfaces}
 
+These are imaginary circular surfaces around a point mass; each ring represents the locus of points where the gravitational potential is the same.
+
+\img{equipotential-surfaces.png}{0.6}{Equipotential surfaces around the Earth}{equipotential}
+
+A quick observation to make is that the separation between the rings occupying potentials at fixed intervals (-3, -4, -5 in the diagram) is not constant, this is because $V_g \propto \dfrac{1}{r}$ is an inversely proportional relation.\lb
+The field lines and field strengths are both always normal to the equipotential surfaces.
+
 \section{Linking to Gravitational Field Strength}
+
+We have previously mentioned the relation $$V = -g\times r$$
+we can now write this in a differential form as follows
+$$g = -\diff{V}{r}$$
+This is the tangential gradient of the potential/distance grahp at a point.
 
 \section{Orbital Motion Equations}
 
-\section{Types of Orbits}
+The first equation is the orbital speed --- the linear velocity at which a planet circles the Sun; again, it is derived by equating the gravitational force with the centripetal force.
+\begin{align*}
+  \frac{GMm}{r^2} & = \frac{mv^2}{r} \\
+  v^2             & = \frac{GM}{r}
+\end{align*}
+\begin{equation}\label{eq:orbital_speed}
+  v_{\text{orbital}}               = \sqrt{\frac{GM}{r}}
+\end{equation}
+We can then convert this to angular velocity using $\omega = \dfrac{v}{r}$ to obtain
+\begin{equation}\label{eq:angular_velocity}
+  \omega_{\text{orbital}} = \sqrt{\frac{GM}{r^3}}
+\end{equation}
+
+The time period $T$ can be found using the previously derived Kepler's Third Law, \cref{eq:kepler}.
 
 \section{Escape Velocity}
 
+To escape from the gravitational field of a planet, work must be done to take the object from the surface to infinity. This work is in fact the initial kinetic energy upon launch and equal to the GPE at the surface. Thus $$KE + GPE = 0$$
+Substitution and rearrangement gives \begin{equation}\label{eq:escape_velocity}
+  v_{\text{escape}} = \sqrt{\frac{2GM}{r}} = \sqrt{2gr} = \sqrt{-2V}
+\end{equation}
+Observations:
+\begin{itemize}
+  \item Independent of the object's mass
+  \item $v_{\text{escape}} = v_\text{orbital}\sqrt{2} > v_{\text{orbital}}$
+\end{itemize}
+
 \section{Total Energy of a Satellite}
+
+The total energy of a satellite in orbit is given by the sum of the kinetic and potential energies.
+$$\Sigma E = KE + GPE = \frac{1}{2}mv^2 - \frac{GMm}{r}$$
+Knowing the orbital speed formula we can rewrite KE:
+$$KE = \frac{1}{2}m\paren{\sqrt{\frac{GM}{r}}}^2 = \frac{1}{2}\times \frac{GMm}{r} = \frac{1}{2} GPE$$
+This means that the KE is always half the magnitude of GPE, assuming that the satellite is in a circular orbit at a constant speed. We can make a substitution back to the expression for $\Sigma E$ to obtain
+\begin{equation}\label{eq:total_energy}
+  \Sigma E = \frac{1}{2}GPE = -\frac{1}{2} \frac{GMm}{r}
+\end{equation}
+Let's now consider what happens when the satellite moves to a different orbital height. Consider moving the satellite to a height closer to the planet.
+\begin{itemize}
+  \item Suppose the kinetic energy is increased by $\Delta E > 0$. It is positive because moving it closer increases the centripetal force and thus angular speed.
+  \item Then, the GPE must be made more negative by $2\Delta E$, hence giving a GPE change of $-2\Delta E$.
+  \item The net change is $\Delta E - 2\Delta E = -\Delta E < 0$.
+\end{itemize}
+Hence, when the system loses (becoming more negative) $\Delta E$ joules of energy, the KE must have increased by $\Delta E$ joules, and the GPE must have decreased by $2\Delta E$ joules.
+
+\pagebreak
+
+\subsection{Impact of Viscous Drag}
+
+The syllabus also requires us to consider the impact of viscous drag on the satellite.\lb
+At low heights, the satellite collides with air molecules in the atmosphere, thus experiencing a drag force opposing the circular motion. The total energy of the satellite is decreased as a portion is lost to friction, and the satellite will undergo \hl{orbital decay}, whereby the altitude and analogously the orbital radius of the satellite decreases. This will cause its speed to increase, and the satellite will eventually burn up in the atmosphere. This is why it requires a boost in altitude every few years to maintain its orbit.
 
 
 \end{document}
