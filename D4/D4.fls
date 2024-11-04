@@ -1194,6 +1194,20 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryfad
 INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
 OUTPUT D4.pdf
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex
@@ -1318,6 +1332,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT ./D4.toc
@@ -1412,6 +1427,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.p
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.26)  9 OCT 2024 18:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.26)  4 NOV 2024 22:17
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/timthedev07/Documents/物理笔记/B1/Notes.tex
-(/Users/timthedev07/Documents/物理笔记/B1/Notes.tex
+**/Users/timthedev07/Documents/物理笔记/B1/B1.tex
+(/Users/timthedev07/Documents/物理笔记/B1/B1.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -278,10 +278,10 @@ Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-runsystem(uname -s > "Notes.w18")...executed.
+runsystem(uname -s > "B1.w18")...executed.
 
- (./Notes.w18)
-runsystem(rm -- "Notes.w18")...executed.
+ (./B1.w18)
+runsystem(rm -- "B1.w18")...executed.
 
 )
 \c@svg@param@lastpage=\count292
@@ -454,6 +454,8 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \c@LT@tables=\count315
 \c@LT@chunks=\count316
 \LT@p@ftn=\toks43
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
+Package: draftwatermark 2020/12/08 3.0 Put a gray textual watermark on document pages
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count317
@@ -702,8 +704,8 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 \pgfplots@tmpa=\dimen318
 \c@pgfplots@coordindex=\count349
 \c@pgfplots@scanlineindex=\count350
- (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex))
-(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks55
 \t@pgf@tokb=\toks56
@@ -869,7 +871,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count377
 \enitdp@description=\count378
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 54.
+Package hyperref Info: Option `colorlinks' set `true' on input line 58.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip70
@@ -909,36 +911,36 @@ Package cleveref Info: include cross-reference names in hyperlinks on input line
 \c@tcb@cnt@lem=\count383
 \c@tcb@cnt@prop=\count384
 \c@tcb@cnt@hint=\count385
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 102.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 106.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count386
 \l__pdf_internal_box=\box100
-) (./Notes.aux)
-\openout1 = `Notes.aux'.
+) (./B1.aux)
+\openout1 = `B1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 102.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 106.
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count387
@@ -998,10 +1000,10 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 102.
-(./Notes.out) (./Notes.out)
+Package hyperref Info: Link coloring ON on input line 106.
+(./B1.out) (./B1.out)
 \@outlinefile=\write5
-\openout5 = `Notes.out'.
+\openout5 = `B1.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
@@ -1009,16 +1011,21 @@ Package caption Info: End \AtBeginDocument code.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 102.
+ on input line 106.
 
 \c@lstlisting=\count393
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks65
 \inpenc@posthook=\toks66
-) [1
+)
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Notes.toc
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <149.37697> not available
+(Font)              size <24.88> substituted on input line 122.
+
+[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+] (./B1.toc
 LaTeX Font Info:    Trying to load font information for U+esvect on input line 5.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
@@ -1032,13 +1039,13 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write6
-\openout6 = `Notes.toc'.
+\openout6 = `B1.toc'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.123 
+l.127 
        [1
 
 ]
@@ -1053,17 +1060,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.134 \section
+l.138 \section
               {Phases of Matter} [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 []|\OT1/cmr/bx/n/12 Particular
  []
 
 
-Overfull \hbox (16.86581pt too wide) in paragraph at lines 138--145
+Overfull \hbox (16.86581pt too wide) in paragraph at lines 142--149
  [][] 
  []
 
@@ -1087,7 +1094,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [3
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Overfull \hbox (4.3854pt too wide) in paragraph at lines 185--186
+Overfull \hbox (4.3854pt too wide) in paragraph at lines 189--190
 []\OT1/cmr/m/n/12 Molecules gain enough ki-netic en-ergy to over-come all in-ter-molec-u-lar forces. Molecules
  []
 
@@ -1105,10 +1112,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
-<phasechangegraph.png, id=189, 424.58624pt x 309.155pt>
+<phasechangegraph.png, id=190, 424.58624pt x 309.155pt>
 File: phasechangegraph.png Graphic file (type png)
 <use phasechangegraph.png>
-Package pdftex.def Info: phasechangegraph.png  used on input line 215.
+Package pdftex.def Info: phasechangegraph.png  used on input line 219.
 (pdftex.def)             Requested size: 295.90587pt x 215.46826pt.
 
 
@@ -1145,15 +1152,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-<day.png, id=214, 250.9375pt x 138.5175pt>
+<day.png, id=215, 250.9375pt x 138.5175pt>
 File: day.png Graphic file (type png)
 <use day.png>
-Package pdftex.def Info: day.png  used on input line 270.
+Package pdftex.def Info: day.png  used on input line 274.
 (pdftex.def)             Requested size: 227.62204pt x 125.65375pt.
-<night.png, id=215, 250.9375pt x 138.5175pt>
+<night.png, id=216, 250.9375pt x 138.5175pt>
 File: night.png Graphic file (type png)
 <use night.png>
-Package pdftex.def Info: night.png  used on input line 273.
+Package pdftex.def Info: night.png  used on input line 277.
 (pdftex.def)             Requested size: 227.62204pt x 125.65375pt.
 
 
@@ -1192,18 +1199,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [12
 
 ]
-<spectrumgraph.png, id=255, 337.26pt x 252.945pt>
+<spectrumgraph.png, id=256, 337.26pt x 252.945pt>
 File: spectrumgraph.png Graphic file (type png)
 <use spectrumgraph.png>
-Package pdftex.def Info: spectrumgraph.png  used on input line 353.
+Package pdftex.def Info: spectrumgraph.png  used on input line 357.
 (pdftex.def)             Requested size: 204.85844pt x 153.6478pt.
-<spectragraphs.png, id=256, 503.8825pt x 398.48875pt>
+<spectragraphs.png, id=257, 503.8825pt x 398.48875pt>
 File: spectragraphs.png Graphic file (type png)
 <use spectragraphs.png>
-Package pdftex.def Info: spectragraphs.png  used on input line 358.
+Package pdftex.def Info: spectragraphs.png  used on input line 362.
 (pdftex.def)             Requested size: 227.62204pt x 180.01144pt.
 
-Overfull \hbox (25.37466pt too wide) in paragraph at lines 352--360
+Overfull \hbox (25.37466pt too wide) in paragraph at lines 356--364
 []$[]$  $[]$ 
  []
 
@@ -1233,24 +1240,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
-Package svg Info: Last page of `./svg-inkscape/Inverse_square_law_svg-tex.pdf' is 4 on input line 402.
+Package svg Info: Last page of `./svg-inkscape/Inverse_square_law_svg-tex.pdf' is 4 on input line 406.
  (./svg-inkscape/Inverse_square_law_svg-tex.pdf_tex
-<./svg-inkscape/Inverse_square_law_svg-tex.pdf, id=280, page=1, 361.35pt x 240.9pt>
+<./svg-inkscape/Inverse_square_law_svg-tex.pdf, id=281, page=1, 361.35pt x 240.9pt>
 File: ./svg-inkscape/Inverse_square_law_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Inverse_square_law_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Inverse_square_law_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 227.62204pt x 151.7494pt.
-<./svg-inkscape/Inverse_square_law_svg-tex.pdf, id=281, page=2, 361.35pt x 240.9pt>
+<./svg-inkscape/Inverse_square_law_svg-tex.pdf, id=282, page=2, 361.35pt x 240.9pt>
 File: ./svg-inkscape/Inverse_square_law_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Inverse_square_law_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/Inverse_square_law_svg-tex.pdf , page2 used on input line 58.
 (pdftex.def)             Requested size: 227.62204pt x 151.7494pt.
-<./svg-inkscape/Inverse_square_law_svg-tex.pdf, id=282, page=3, 361.35pt x 240.9pt>
+<./svg-inkscape/Inverse_square_law_svg-tex.pdf, id=283, page=3, 361.35pt x 240.9pt>
 File: ./svg-inkscape/Inverse_square_law_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Inverse_square_law_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/Inverse_square_law_svg-tex.pdf , page3 used on input line 60.
 (pdftex.def)             Requested size: 227.62204pt x 151.7494pt.
-<./svg-inkscape/Inverse_square_law_svg-tex.pdf, id=283, page=4, 361.35pt x 240.9pt>
+<./svg-inkscape/Inverse_square_law_svg-tex.pdf, id=284, page=4, 361.35pt x 240.9pt>
 File: ./svg-inkscape/Inverse_square_law_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Inverse_square_law_svg-tex.pdf, page 4>
 Package pdftex.def Info: ./svg-inkscape/Inverse_square_law_svg-tex.pdf , page4 used on input line 62.
@@ -1272,23 +1279,27 @@ pdfTeX warning: pdflatex (file ./svg-inkscape/Inverse_square_law_svg-tex.pdf): P
 > <./svg-inkscape/Inverse_square_law_svg-tex.pdf
 
 pdfTeX warning: pdflatex (file ./svg-inkscape/Inverse_square_law_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] (./Notes.aux)
-Package rerunfilecheck Info: File `Notes.out' has not changed.
+>] (./B1.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 124.49696pt have occurred.
+
+Package rerunfilecheck Info: File `B1.out' has not changed.
 (rerunfilecheck)             Checksum: CC3C2059DCA78D378277900388C5375B;3242.
  ) 
 Here is how much of TeX's memory you used:
- 48315 strings out of 476025
- 1156043 string characters out of 5790016
- 1860388 words of memory out of 5000000
- 67932 multiletter control sequences out of 15000+600000
- 520054 words of font info for 62 fonts, out of 8000000 for 9000
+ 48411 strings out of 476025
+ 1158567 string characters out of 5790016
+ 1861388 words of memory out of 5000000
+ 68024 multiletter control sequences out of 15000+600000
+ 520353 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,16n,96p,774b,963s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Notes.pdf (18 pages, 1137036 bytes).
+ 94i,16n,96p,771b,963s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on B1.pdf (18 pages, 1148036 bytes).
 PDF statistics:
- 530 PDF objects out of 1000 (max. 8388607)
- 418 compressed objects within 5 object streams
+ 535 PDF objects out of 1000 (max. 8388607)
+ 421 compressed objects within 5 object streams
  73 named destinations out of 1000 (max. 500000)
  383 words of extra memory for PDF output out of 10000 (max. 10000000)
 

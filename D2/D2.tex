@@ -14,6 +14,7 @@
 \usepackage{float}
 \usepackage{amssymb}
 \usepackage{outlines}
+\usepackage{draftwatermark}
 \usepackage{caption}
 \usepackage{fancyvrb}
 \usepackage{subcaption}
@@ -22,6 +23,9 @@
 \usepackage{mathtools}
 \usepackage{tikz,pgfplots}
 \usepackage[most]{tcolorbox}
+\SetWatermarkText{timthedev07}
+\SetWatermarkScale{4}
+\SetWatermarkColor[gray]{0.97}
 \usetikzlibrary{positioning,decorations.markings,calc}
 \DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
 \newtheorem{lemma}{Lemma}
@@ -219,11 +223,11 @@ The following is the field line pattern between two plates of opposite charges
 
 \subsection{Parallel Plates Equations}
 
-Recall that the definition of potential in general is the \hl{work done \textbf{per unit charge} to move a positive test charge from infinity to that point}. Using the $F = Eq$ equation, we can derive the following equation for the \textbf{potential difference} between two plates of opposite charges:
+Recall that the definition of potential in general is the \hl{work done \textbf{per unit something} to move a test object from infinity to a point}. Using the $F = Eq$ equation, we can derive the following equation for the \textbf{potential difference} between two plates of opposite charges:
 \begin{equation}\label{eq:plates}
-  \Delta V = Ed
+  \Delta V_e = Ed
 \end{equation}
-where $d$ is the separation distance between the plates. This equation only works for uniform fields.\lb
+where $d$ is the separation distance between the plates and $E$ is the field strength (\textbf{not the energy!}). This equation only works for uniform fields.\lb
 This equation is not merely used for parallel plates; it applies to the calculation of \hl{any change in potential in a uniform electric field through a distance $d$}.
 
 \subsection{Electron Volt Conversions}
@@ -294,6 +298,7 @@ Which means that the electric potential different between two points is given by
 \begin{equation}\label{eq:potential}
   \Delta V_e = \frac{W}{q}
 \end{equation}
+where $q$ is the test charge and not the charge creating the field.
 The unit for electric potential is the volt, which is equivalent to a Joule per Coulomb ($\text{V} \equiv \si{\J\per\C}$).\lb
 
 \subsubsection{Equipotentials}
@@ -309,10 +314,27 @@ The unit for electric potential is the volt, which is equivalent to a Joule per 
   For parallel plates, the equipotentials are \textit{parallel lines} equally spaced. The electric field lines are always perpendicular to the equipotentials.
 \end{minipage}
 
+\pagebreak
 
 \subsection{Electric Potential Energy}
 
+The electric potential energy is the work done to bring a charge from infinity to a point in an electric field. Similar to GPE, it is a property of a two-charge system. It is given by
+\begin{equation}\label{eq:epe}
+  E_p = F_e\times r = k\frac{q_1q_2}{r}
+\end{equation}
+If we know the potential of charge $q_1$ at position $r$ in the field of $q_2$, we can find the potential energy of charge $q_1$ at that point by multiplying the potential by the charge:
+\begin{equation}\label{eq:epe2}
+  E_p = q_1V
+\end{equation}
+
 \section{Magnetic Fields}
+
+Magnetic field lines have similar properties to those of electric field lines:
+\begin{itemize}
+  \item North to south
+  \item Higher field line density $\implies$ stronger field
+  \item
+\end{itemize}
 
 \subsection{Field Line Patterns}
 

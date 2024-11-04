@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.26)  3 NOV 2024 20:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.26)  4 NOV 2024 22:18
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -761,7 +761,9 @@ File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
 Library (tcolorbox): 'tcbposter.code.tex' version '6.0.1'
-)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
+Package: draftwatermark 2020/12/08 3.0 Put a gray textual watermark on document pages
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -779,7 +781,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count364
 \enitdp@description=\count365
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 49.
+Package hyperref Info: Option `colorlinks' set `true' on input line 53.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip65
@@ -814,7 +816,7 @@ Package cleveref Info: include cross-reference names in hyperlinks on input line
 )
 \c@tcb@cnt@defin=\count366
 \c@tcb@cnt@obs=\count367
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 91.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 95.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count368
@@ -829,28 +831,28 @@ LaTeX Warning: Label `fig:g1@cref' multiply defined.
 )
 \openout1 = `D4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 91.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 95.
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count369
@@ -910,7 +912,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 91.
+Package hyperref Info: Link coloring ON on input line 95.
 (./D4.out) (./D4.out)
 \@outlinefile=\write5
 \openout5 = `D4.out'.
@@ -921,16 +923,21 @@ Package caption Info: End \AtBeginDocument code.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 91.
+ on input line 95.
 
 \c@lstlisting=\count375
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks63
 \inpenc@posthook=\toks64
-) [1
+)
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./D4.toc
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <149.37697> not available
+(Font)              size <24.88> substituted on input line 112.
+
+[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+] (./D4.toc
 LaTeX Font Info:    Trying to load font information for U+esvect on input line 4.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
@@ -950,7 +957,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.113 
+l.117 
        [1
 
 ]
@@ -965,15 +972,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.124 \section
+l.128 \section
               {The Generator Effect} [1
 
 
 ]
-<righthandgrip.jpg, id=163, 315.1775pt x 147.55125pt>
+<righthandgrip.jpg, id=164, 315.1775pt x 147.55125pt>
 File: righthandgrip.jpg Graphic file (type jpg)
 <use righthandgrip.jpg>
-Package pdftex.def Info: righthandgrip.jpg  used on input line 142.
+Package pdftex.def Info: righthandgrip.jpg  used on input line 146.
 (pdftex.def)             Requested size: 295.90587pt x 138.53607pt.
 
 
@@ -986,10 +993,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [2
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./righthandgrip.jpg>]
-<bar.png, id=171, 417.56pt x 174.6525pt>
+<bar.png, id=172, 417.56pt x 174.6525pt>
 File: bar.png Graphic file (type png)
 <use bar.png>
-Package pdftex.def Info: bar.png  used on input line 147.
+Package pdftex.def Info: bar.png  used on input line 151.
 (pdftex.def)             Requested size: 273.14922pt x 114.25565pt.
 
 
@@ -1000,15 +1007,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3 <./bar.png>]
-<rolling1.png, id=180, 236.885pt x 212.795pt>
+<rolling1.png, id=181, 236.885pt x 212.795pt>
 File: rolling1.png Graphic file (type png)
 <use rolling1.png>
-Package pdftex.def Info: rolling1.png  used on input line 166.
+Package pdftex.def Info: rolling1.png  used on input line 170.
 (pdftex.def)             Requested size: 227.62204pt x 204.47893pt.
-<rolling2.png, id=181, 268.00125pt x 166.6225pt>
+<rolling2.png, id=182, 268.00125pt x 166.6225pt>
 File: rolling2.png Graphic file (type png)
 <use rolling2.png>
-Package pdftex.def Info: rolling2.png  used on input line 169.
+Package pdftex.def Info: rolling2.png  used on input line 173.
 (pdftex.def)             Requested size: 227.62204pt x 141.51791pt.
 
 
@@ -1019,10 +1026,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4 <./rolling1.png> <./rolling2.png>]
-<rollingarea.png, id=192, 268.00125pt x 166.6225pt>
+<rollingarea.png, id=193, 268.00125pt x 166.6225pt>
 File: rollingarea.png Graphic file (type png)
 <use rollingarea.png>
-Package pdftex.def Info: rollingarea.png  used on input line 193.
+Package pdftex.def Info: rollingarea.png  used on input line 197.
 (pdftex.def)             Requested size: 273.14922pt x 169.82303pt.
 
 
@@ -1033,10 +1040,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5 <./rollingarea.png>]
-<fluxdensity.png, id=202, 1242.6425pt x 381.425pt>
+<fluxdensity.png, id=203, 1242.6425pt x 381.425pt>
 File: fluxdensity.png Graphic file (type png)
 <use fluxdensity.png>
-Package pdftex.def Info: fluxdensity.png  used on input line 205.
+Package pdftex.def Info: fluxdensity.png  used on input line 209.
 (pdftex.def)             Requested size: 455.24408pt x 139.73404pt.
 
 Package siunitx Info: Option "per-mode = reciprocal-positive-first" has been
@@ -1073,15 +1080,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [8
 
 ]
-<g1.png, id=218, 467.7475pt x 353.32pt>
+<g1.png, id=219, 467.7475pt x 353.32pt>
 File: g1.png Graphic file (type png)
 <use g1.png>
-Package pdftex.def Info: g1.png  used on input line 255.
+Package pdftex.def Info: g1.png  used on input line 259.
 (pdftex.def)             Requested size: 227.62204pt x 171.93684pt.
-<g2.png, id=219, 467.7475pt x 318.18875pt>
+<g2.png, id=220, 467.7475pt x 318.18875pt>
 File: g2.png Graphic file (type png)
 <use g2.png>
-Package pdftex.def Info: g2.png  used on input line 257.
+Package pdftex.def Info: g2.png  used on input line 261.
 (pdftex.def)             Requested size: 227.62204pt x 154.84085pt.
 
 
@@ -1092,10 +1099,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9 <./g1.png> <./g2.png>]
-<generator.jpg, id=228, 702.625pt x 318.18875pt>
+<generator.jpg, id=229, 702.625pt x 318.18875pt>
 File: generator.jpg Graphic file (type jpg)
 <use generator.jpg>
-Package pdftex.def Info: generator.jpg  used on input line 275.
+Package pdftex.def Info: generator.jpg  used on input line 279.
 (pdftex.def)             Requested size: 455.24408pt x 206.16478pt.
 
 
@@ -1135,24 +1142,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [13] (./D4.aux)
 
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 124.49696pt have occurred.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `D4.out' has not changed.
 (rerunfilecheck)             Checksum: A61D67D9B64F58BB70F6E790A3638E0E;3790.
  ) 
 Here is how much of TeX's memory you used:
- 46603 strings out of 476025
- 1116471 string characters out of 5790016
- 1859388 words of memory out of 5000000
- 66312 multiletter control sequences out of 15000+600000
- 519707 words of font info for 61 fonts, out of 8000000 for 9000
+ 46699 strings out of 476025
+ 1119070 string characters out of 5790016
+ 1860388 words of memory out of 5000000
+ 66404 multiletter control sequences out of 15000+600000
+ 520006 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,96p,771b,1003s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on D4.pdf (15 pages, 828799 bytes).
+ 84i,13n,96p,771b,1003s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on D4.pdf (15 pages, 839587 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 224 compressed objects within 3 object streams
+ 306 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
  46 named destinations out of 1000 (max. 500000)
  370 words of extra memory for PDF output out of 10000 (max. 10000000)
 

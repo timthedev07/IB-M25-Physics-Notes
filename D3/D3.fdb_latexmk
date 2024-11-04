@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1730668399 "/Users/timthedev07/Documents/物理笔记/D3/D3.tex" "D3.pdf" "D3" 1730668400 0
-  "/Users/timthedev07/Documents/物理笔记/D3/D3.tex" 1730668398 3546 d3ca4fc5c2e4c2fe3c3dba0ee8ebd960 ""
+["pdflatex"] 1730755096 "/Users/timthedev07/Documents/物理笔记/D3/D3.tex" "D3.pdf" "D3" 1730755097 0
+  "/Users/timthedev07/Documents/物理笔记/D3/D3.tex" 1730755096 3658 6438b2a7961c252fa55627ba9d8b157f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -27,6 +27,7 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/esvect/vect8.tfm" 1238776476 372 4f0047d7e99a201724968cf4743804cf ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb" 1248133631 34586 5a65dc15601f9c74fe3fb3f37b3b8b6f ""
   "/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2023/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -168,6 +169,7 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty" 1678653221 71836 1a735454ad10692452eb2f2fc37f3865 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty" 1678653221 12462 ecf33913ce1e8012075d24e1f47f0d9b ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/cleveref/cleveref.sty" 1525128982 329481 7fc6b003158402a4c694bc0a1b729308 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty" 1607465154 6990 c19f0e2ee25970cd4873c23ce67e5a94 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty" 1561238569 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/environ/environ.sty" 1399239813 4378 f429f0da968c278653359293040a8f52 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
@@ -257,10 +259,10 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1698351117 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1698351051 7883457 869e73afaf79a5825410c57d17702400 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "D3.aux" 1730668400 1999 f7ec30dbe0a0d74b861388b59b0b84c6 "pdflatex"
-  "D3.out" 1730668400 1978 8659fbf9bd92a8f1c8ddf9e5c608b686 "pdflatex"
-  "D3.tex" 1730668398 3546 d3ca4fc5c2e4c2fe3c3dba0ee8ebd960 ""
-  "D3.toc" 1730668400 976 9007299bb3993774cb8fa123b7af53b4 "pdflatex"
+  "D3.aux" 1730755097 1999 f7ec30dbe0a0d74b861388b59b0b84c6 "pdflatex"
+  "D3.out" 1730755097 1978 8659fbf9bd92a8f1c8ddf9e5c608b686 "pdflatex"
+  "D3.tex" 1730755096 3658 6438b2a7961c252fa55627ba9d8b157f ""
+  "D3.toc" 1730755097 976 9007299bb3993774cb8fa123b7af53b4 "pdflatex"
   (generated)
   "D3.aux"
   "D3.log"

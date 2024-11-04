@@ -14,6 +14,7 @@
 \usepackage{float}
 \usepackage{amssymb}
 \usepackage{outlines}
+\usepackage{draftwatermark}
 \usepackage{caption}
 \usepackage{fancyvrb}
 \usepackage{subcaption}
@@ -29,6 +30,9 @@
 \newtheorem{remark}{Remark}
 \newtheorem{observation}{Observation}
 \doublespacing
+\SetWatermarkText{timthedev07}
+\SetWatermarkScale{4}
+\SetWatermarkColor[gray]{0.97}
 \let\oldsection\section
 \renewcommand\section{\clearpage\oldsection}
 \newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}

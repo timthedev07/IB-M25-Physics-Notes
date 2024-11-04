@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.26)  9 OCT 2024 23:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.26)  4 NOV 2024 22:17
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/timthedev07/Documents/物理笔记/B2/Notes.tex
-(/Users/timthedev07/Documents/物理笔记/B2/Notes.tex
+**/Users/timthedev07/Documents/物理笔记/B2/B2.tex
+(/Users/timthedev07/Documents/物理笔记/B2/B2.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -366,6 +366,8 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \c@LT@tables=\count306
 \c@LT@chunks=\count307
 \LT@p@ftn=\toks36
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
+Package: draftwatermark 2020/12/08 3.0 Put a gray textual watermark on document pages
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count308
@@ -835,7 +837,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count375
 \enitdp@description=\count376
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 53.
+Package hyperref Info: Option `colorlinks' set `true' on input line 57.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip70
@@ -875,36 +877,36 @@ Package cleveref Info: include cross-reference names in hyperlinks on input line
 \c@tcb@cnt@lem=\count381
 \c@tcb@cnt@prop=\count382
 \c@tcb@cnt@hint=\count383
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 101.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 105.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count384
 \l__pdf_internal_box=\box99
-) (./Notes.aux)
-\openout1 = `Notes.aux'.
+) (./B2.aux)
+\openout1 = `B2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 101.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 105.
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count385
@@ -964,10 +966,10 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 101.
-(./Notes.out) (./Notes.out)
+Package hyperref Info: Link coloring ON on input line 105.
+(./B2.out) (./B2.out)
 \@outlinefile=\write5
-\openout5 = `Notes.out'.
+\openout5 = `B2.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
@@ -975,16 +977,21 @@ Package caption Info: End \AtBeginDocument code.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 101.
+ on input line 105.
 
 \c@lstlisting=\count391
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks65
 \inpenc@posthook=\toks66
-) [1
+)
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Notes.toc
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <149.37697> not available
+(Font)              size <24.88> substituted on input line 121.
+
+[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+] (./B2.toc
 LaTeX Font Info:    Trying to load font information for U+esvect on input line 5.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
@@ -998,13 +1005,13 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write6
-\openout6 = `Notes.toc'.
+\openout6 = `B2.toc'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.122 
+l.126 
        [1
 
 ]
@@ -1019,15 +1026,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.150 \section
+l.154 \section
               {The Solar Constant} [1
 
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<solar-constant.jpg, id=131, 693.59125pt x 323.2075pt>
+<solar-constant.jpg, id=132, 693.59125pt x 323.2075pt>
 File: solar-constant.jpg Graphic file (type jpg)
 <use solar-constant.jpg>
-Package pdftex.def Info: solar-constant.jpg  used on input line 158.
+Package pdftex.def Info: solar-constant.jpg  used on input line 162.
 (pdftex.def)             Requested size: 455.24408pt x 212.14384pt.
 
 
@@ -1048,10 +1055,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
-<atm_rad.png, id=142, 232.87pt x 225.84375pt>
+<atm_rad.png, id=143, 232.87pt x 225.84375pt>
 File: atm_rad.png Graphic file (type png)
 <use atm_rad.png>
-Package pdftex.def Info: atm_rad.png  used on input line 174.
+Package pdftex.def Info: atm_rad.png  used on input line 178.
 (pdftex.def)             Requested size: 227.62204pt x 220.76364pt.
 
 
@@ -1082,13 +1089,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [6
 
 ]
-<naive.png, id=167, 275.0275pt x 324.21124pt>
+<naive.png, id=168, 275.0275pt x 324.21124pt>
 File: naive.png Graphic file (type png)
 <use naive.png>
-Package pdftex.def Info: naive.png  used on input line 237.
+Package pdftex.def Info: naive.png  used on input line 241.
 (pdftex.def)             Requested size: 159.3382pt x 187.83981pt.
 
-Overfull \hbox (2.618pt too wide) in paragraph at lines 236--248
+Overfull \hbox (2.618pt too wide) in paragraph at lines 240--252
 $[]$  $[]$ 
  []
 
@@ -1108,20 +1115,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8 <./naive.png>]
-<notnaive.png, id=189, 287.0725pt x 544.0325pt>
+<notnaive.png, id=190, 287.0725pt x 544.0325pt>
 File: notnaive.png Graphic file (type png)
 <use notnaive.png>
-Package pdftex.def Info: notnaive.png  used on input line 267.
+Package pdftex.def Info: notnaive.png  used on input line 271.
 (pdftex.def)             Requested size: 159.3382pt x 301.9665pt.
 
-Overfull \hbox (2.618pt too wide) in paragraph at lines 256--271
+Overfull \hbox (2.618pt too wide) in paragraph at lines 260--275
 $[]$  $[]$ 
  []
 
-<irtransmittance.png, id=190, 616.3025pt x 275.0275pt>
+<irtransmittance.png, id=191, 616.3025pt x 275.0275pt>
 File: irtransmittance.png Graphic file (type png)
 <use irtransmittance.png>
-Package pdftex.def Info: irtransmittance.png  used on input line 271.
+Package pdftex.def Info: irtransmittance.png  used on input line 275.
 (pdftex.def)             Requested size: 364.19664pt x 162.52919pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1131,10 +1138,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9 <./notnaive.png> <./irtransmittance.png>]
-<systemsummary.png, id=203, 601.24625pt x 427.5975pt>
+<systemsummary.png, id=204, 601.24625pt x 427.5975pt>
 File: systemsummary.png Graphic file (type png)
 <use systemsummary.png>
-Package pdftex.def Info: systemsummary.png  used on input line 276.
+Package pdftex.def Info: systemsummary.png  used on input line 280.
 (pdftex.def)             Requested size: 455.24408pt x 323.77042pt.
 
 
@@ -1147,15 +1154,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [10
 
  <./systemsummary.png>]
-<env.png, id=210, 481.8pt x 113.42375pt>
+<env.png, id=211, 481.8pt x 113.42375pt>
 File: env.png Graphic file (type png)
 <use env.png>
-Package pdftex.def Info: env.png  used on input line 286.
+Package pdftex.def Info: env.png  used on input line 290.
 (pdftex.def)             Requested size: 364.19664pt x 85.74083pt.
-<icecore.png, id=211, 488.82625pt x 250.9375pt>
+<icecore.png, id=212, 488.82625pt x 250.9375pt>
 File: icecore.png Graphic file (type png)
 <use icecore.png>
-Package pdftex.def Info: icecore.png  used on input line 290.
+Package pdftex.def Info: icecore.png  used on input line 294.
 (pdftex.def)             Requested size: 364.19664pt x 186.96205pt.
 
 
@@ -1181,23 +1188,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13] (./Notes.aux)
-Package rerunfilecheck Info: File `Notes.out' has not changed.
+[13] (./B2.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 124.49696pt have occurred.
+
+Package rerunfilecheck Info: File `B2.out' has not changed.
 (rerunfilecheck)             Checksum: E57EDC1A7725F66D6FD578CF24603E07;2011.
  ) 
 Here is how much of TeX's memory you used:
- 47309 strings out of 476025
- 1132586 string characters out of 5790016
- 1860388 words of memory out of 5000000
- 66979 multiletter control sequences out of 15000+600000
- 520361 words of font info for 63 fonts, out of 8000000 for 9000
+ 47405 strings out of 476025
+ 1135122 string characters out of 5790016
+ 1861388 words of memory out of 5000000
+ 67071 multiletter control sequences out of 15000+600000
+ 520660 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,96p,774b,999s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Notes.pdf (15 pages, 1790717 bytes).
+ 84i,13n,96p,771b,999s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on B2.pdf (15 pages, 1801480 bytes).
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
- 210 compressed objects within 3 object streams
+ 294 PDF objects out of 1000 (max. 8388607)
+ 213 compressed objects within 3 object streams
  60 named destinations out of 1000 (max. 500000)
  301 words of extra memory for PDF output out of 10000 (max. 10000000)
 
