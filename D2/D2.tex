@@ -8,6 +8,7 @@
 \usepackage{amsmath}
 \usepackage{esvect}
 \usepackage{soul}
+\usepackage{dirtytalk}
 \usepackage{amsthm}
 \usepackage{hyperref}
 \usepackage{float}
@@ -116,40 +117,198 @@
 \addtocontents{toc}{\protect\thispagestyle{empty}}
 
 \section{Electrostatics --- Interaction of Charges}
+Like charges attract; opposite charges repel. What else do you expect me to say here?
 
 \section{Conservation of Charge}
+
+The sum of the currents into a junction is equal to the sum of the currents away from the junction.
+
+\img{chargeconservation.png}{0.5}{Conservation of Charge}{chargeconservation}
+In the diagram above, the currents flowing into the junction are $I_1$, $I_2$, and $I_3$. The currents flowing out of the junction are $I_4$ and $I_5$. By conservation of charge, $I_1 + I_2 + I_3 = I_4 + I_5$.
 
 \section{Mechanisms of Charge Transfer}
 
 \subsection{Friction}
 
+\begin{itemize}
+  \item When two different materials are rubbed together, \hl{electrons can be transferred} from one material to the other.
+  \item The objects end up with \hl{opposite charges} --- one has a deficit of electrons and hence a positive overall charge, while the other has an excess of electrons and hence a negative overall charge, causing them to attract each other due to electrostatic forces.
+\end{itemize}
+
 \subsection{Contact}
 
+\begin{itemize}
+  \item When a \hl{charged object touches a neutral object}, electrons are transferred.
+  \item If the charged object has an excess of electrons, some will move to the neutral object; if it has a deficit, it may draw electrons from the neutral object.
+  \item After contact, both objects have \hl{similar charges}, though the total charge is shared between them.
+\end{itemize}
+
 \subsection{Induction}
+\begin{itemize}
+  \item Bringing a \hl{charged object close to but without touching a neutral one}.
+  \item This charged object causes electrons within the neutral object to \hl{move (but not transferred)}, either attracting them to the surface or repelling them to the other end of the object.
+  \item The object temporarily develops opposite charges on opposite sides (polarization). If grounded, it can be left with a permanent charge opposite to the one on the inducing object.
+\end{itemize}
 
 \section{Electric Fields}
 
 \subsection{Coulomb's Law}
 
+This is the attractive force between two charged objects.
+
+\begin{equation}\label{eq:coulomb}
+  F = k\frac{q_1q_2}{r^2}
+\end{equation}
+where
+\begin{itemize}
+  \item $k = 8.99 \times 10^9$ is Coulomb's constant.
+  \item $q_1$ and $q_2$ are the charges; if they have the same sign, then the force is positive and thus repulsive; conversely, if they have opposite signs, the force is negative and attractive.
+\end{itemize}
+
 \subsubsection{Coulomb's Constant}
+
+Coulumb's constant is given by
+\begin{equation}\label{eq:coulombconstant}
+  k = \frac{1}{4\pi\epsilon_0}
+\end{equation}
+where
+\begin{itemize}
+  \item $\epsilon_0 = 8.85 \times 10^{-12}$ is the \hl{permittivity of free space}.
+\end{itemize}
+The above only applies to calculations in a vacuum. In a different medium of permitivity $\epsilon$, $k$ would be newly defined as $k = \dfrac{1}{4\pi\epsilon}$.
+
+\pagebreak
 
 \subsection{Electric Field Strength}
 
-\subsection{Vector Addition of Fields}
+The electric field strength $E$ is given as
+\begin{equation}\label{eq:efield}
+  F = Eq \quad \text{ or } \quad E = \frac{F}{q}
+\end{equation}
+
+Formally, it is defined as the force per unit charge experienced by a small positive test charge place at that point. This is analogous to the idea of gravitational field strength.\lb
+Recall (if you don't, go read my notes) how we defined the gravitational field strength as
+$$g = \frac{GM}{r^2}$$
+Combining \cref{eq:coulomb} and \cref{eq:efield}, we can derive an analogous expression for the electric field strength experienced by a small positive test charge at a distance $r$ from a charge $Q$:
+\begin{equation}\label{eq:efield2}
+  E = \frac{kQ}{r^2}
+\end{equation}
+
+Observations of the similar forms:
+\begin{itemize}
+  \item Both are instances of the inverse square law.
+  \item Both do not require information about the test object specifically.
+  \item Both involve a constant of proportionality, one is $G$ and the other is $k$.
+  \item Both are dependent on either the mass or charge of the source.
+\end{itemize}
+
+\pagebreak
 
 \subsection{Field Line Patterns}
 
+A general rule of thumb is that field lines always point away from positive charges and towards negative charges. The field lines are always perpendicular to the surface of the charge. Also, the denser the field lines are in a region, the stronger the electric field in that region.\lb
+The following two diagrams show the field line patterns for two charges of opposite and similar signs respectively.
+\img{fieldlines.jpg}{0.8}{Field Line Patterns}{fieldlines}
+
+The following is the field line pattern between two plates of opposite charges
+\img{plates.jpeg}{0.4}{Field Line Patterns for Parallel Plates}{plates}
+\begin{itemize}
+  \item In the middle, the field lines are parallel and equidistant; this is a region of uniform electric field.
+  \item On the edges, the field lines are curved and weaker;  these are known as the edge effects.
+\end{itemize}
+
 \subsection{Parallel Plates Equations}
+
+Recall that the definition of potential in general is the \hl{work done \textbf{per unit charge} to move a positive test charge from infinity to that point}. Using the $F = Eq$ equation, we can derive the following equation for the \textbf{potential difference} between two plates of opposite charges:
+\begin{equation}\label{eq:plates}
+  \Delta V = Ed
+\end{equation}
+where $d$ is the separation distance between the plates. This equation only works for uniform fields.\lb
+This equation is not merely used for parallel plates; it applies to the calculation of \hl{any change in potential in a uniform electric field through a distance $d$}.
 
 \subsection{Electron Volt Conversions}
 
+One electronvolt (eV) is \hl{the energy gained by one electron when it moves through a potential difference of one volt}. This is equivalent to $1.6 \times 10^{-19}$ Joules.\lb
+Conversely, one Joule is equivalent to $6.24 \times 10^{18}$ electronvolts.
+
+\pagebreak
+
 \subsection{Field Close to a Conductor}
 
-\subsection{Field Around a Spherical Conductor}
+Consider a plate with area $A$ and total charge $q$, we define its surface charge density as $\sigma = \dfrac{q}{A}$. We desire to find the electric field close to the plate.\lb
+It is known that the total charge $q$ is given as the following
+\begin{equation}\label{eq:charge}
+  q = \frac{VA}{4\pi kd}
+\end{equation}
+
+We can then use $E = \dfrac{V}{d}$ to obtain
+\begin{align*}
+  q & = \frac{V}{d}\times\frac{A}{4\pi k} \\
+    & = \frac{EA}{4\pi k}                 \\
+  E & = \frac{q}{A} \times 4\pi k         \\
+    & =  4\pi k\sigma
+\end{align*}
+This expression gives the electric field between the two parallel plates, where each plate contributes half and so close to one plate, the field is $2\pi k\sigma$.\lb
+Recall that $E = \dfrac{V}{d}$ uses the assumption that the field is uniform; this gives away why we need the "close to the conductor" condition, because at the surface, the surface is locally flat and so the field can be treated as a uniform field.
+
+\pagebreak
 
 \subsection{Millikan's Oil Drop Experiment}
 
+\img{oildrop.jpg}{0.7}{Millikan's Oil Drop Experiment}{oildrop}
+Set-up:
+\begin{itemize}
+  \item Millikan sprayed a fine mist of oil droplets between two parallel, horizontal conducting plates.
+  \item  The droplets were tiny enough to remain suspended in the air for a while and were able to be observed through a microscope.
+  \item An electric field was applied across the plates by connecting them to a power source, with one plate positively charged and the other negatively charged.
+  \item X-rays were used to ionize the air, causing some oil droplets to pick up extra electrons, giving them a net negative charge.
+\end{itemize}
+Measurements:
+\begin{itemize}
+  \item Before turning on the electric field, the droplets were allowed to fall and eventually reach a terminal velocity.
+  \item At this constant velocity, weight = drag force + upthrust.
+        \begin{itemize}
+          \item The upthrust the buoyancy force acting on the droplet due to the air and can be found by $\rho gV$.
+          \item The drag force can be approximated as $6\pi\eta rv$.
+        \end{itemize}
+  \item Thus, he was able to work out the mass of the droplet.
+  \item With the electric field present, the droplets were observed to be eventually suspended in air, at which stage, the forces of the electric field ($F_e = Eq$, upwards) and the weight of the droplet ($w = mg$, downwards) were balanced.
+  \item Rearranging gives that the charge on the droplet is $q = mg/E$.
+\end{itemize}
+Evidence for quantization of charge:
+\begin{itemize}
+  \item Millikan measured the charge on many droplets and found that these charges were always whole-number multiples of a smallest, consistent value, $e$.
+  \item This observation led to the conclusion that charge is quantized --- it comes in discrete packets, rather than being continuous.
+  \item Experiments failed to find any charge less than $1.6 \times 10^{-19}$ Coulombs; this is then the value of the elementary charge, $e$.
+\end{itemize}
+
+\pagebreak
+
 \subsection{Electric Potential}
+
+Recall the definition of electric potential
+\begin{center}
+  \say{The work done per unit charge to move a positive test charge from infinity to a point.}
+\end{center}
+Which means that the electric potential different between two points is given by
+\begin{equation}\label{eq:potential}
+  \Delta V_e = \frac{W}{q}
+\end{equation}
+The unit for electric potential is the volt, which is equivalent to a Joule per Coulomb ($\text{V} \equiv \si{\J\per\C}$).\lb
+
+\subsubsection{Equipotentials}
+
+\begin{minipage}{0.45\textwidth}
+  \img{sphereequipotential.png}{1}{Equipotentials}{sphereequipotential}
+
+  We have met this idea in D1. Around a charge $Q$, the equipotentials are \textit{concentric spheres} not equally spaced. The closer the spheres are to the charge, the closer they are to each other. As before, the electric field lines are always perpendicular to the equipotentials.
+\end{minipage}\hspace*{0.1\textwidth}
+\begin{minipage}{0.45\textwidth}
+  \img{platesequipotential.png}{1}{Equipotentials for Parallel Plates}{platesequipotential}
+
+  For parallel plates, the equipotentials are \textit{parallel lines} equally spaced. The electric field lines are always perpendicular to the equipotentials.
+\end{minipage}
+
 
 \subsection{Electric Potential Energy}
 
