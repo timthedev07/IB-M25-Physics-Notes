@@ -300,6 +300,11 @@ Which means that the electric potential different between two points is given by
 \end{equation}
 where $q$ is the test charge and not the charge creating the field.
 The unit for electric potential is the volt, which is equivalent to a Joule per Coulomb ($\text{V} \equiv \si{\J\per\C}$).\lb
+The electric potential at a distance $r$ from the center of a field created by a charge $\pm Q$ is given by
+\begin{equation}\label{eq:potential__}
+  V_e = \pm \frac{kQ}{r}
+\end{equation}
+The $\pm$ signs just indicate that $Q$ and $V$ have the same sign.
 
 \subsubsection{Equipotentials}
 
@@ -313,6 +318,32 @@ The unit for electric potential is the volt, which is equivalent to a Joule per 
 
   For parallel plates, the equipotentials are \textit{parallel lines} equally spaced. The electric field lines are always perpendicular to the equipotentials.
 \end{minipage}
+
+\pagebreak
+
+\subsection{Electric Potential and Field Strength}
+Recall, from D1, that gravitational field strength can be given as
+$$g = -\diff{V_g}{r}$$
+Analogously, we can define the electric field strength as
+\begin{equation}\label{eq:potential2}
+  E = -\diff{V_e}{r}
+\end{equation}
+The graphical interpretation is that the electric field strength is the tangential gradient of the electric potential graph at some point.
+We can rewrite by integrating both sides:
+$$
+  \int E\,\mathrm{d}r = -V_e
+$$
+The graphical interpretation of this is that on a graph of electric field strength against distance, the area under the curve between two points $r_1$ and $r_2$ is the potential difference between the two points.
+\img{Ergraph.png}{0.5}{Electric Field Strength/Distance Graph}{Ergraph}
+
+\pagebreak
+
+\subsection{Potential and Fields Inside a Hollow Sphere}
+
+Outside the sphere, the calculations are the same as when we treat the sphere as a point charge.\lb
+Inside the sphere, however, the field is zero. This is because the field lines are canceled out by the opposite charges on the inner surface of the sphere.\lb
+Recall that $E = -\diff{V_e}{r}$; if the field is zero, then $$E = -\diff{V_e}{r} = 0$$
+This means that the potential inside the sphere is constant (since its rate of change is 0) and equal to the potential at the surface of the sphere.
 
 \pagebreak
 
@@ -333,15 +364,44 @@ Magnetic field lines have similar properties to those of electric field lines:
 \begin{itemize}
   \item North to south
   \item Higher field line density $\implies$ stronger field
-  \item
+  \item Field lines never cross
+  \item Opposite poles attract, similar poles repel
 \end{itemize}
 
 \subsection{Field Line Patterns}
 
 \subsubsection{Straight Wire}
 
-\subsubsection{Circular Coil}
+Consider a straight current-carrying wire --- the field lines are concentric circles around the wire. The direction of the circular field lines can be determined using the right-hand grip rule. \textbf{This rule assumes conventional current flow, from positive to negative.}
+
+\img{straightwire.jpg}{0.5}{Field Lines for a Straight Wire}{straightwire}
+
+\subsubsection{Single Loop of Circular Coil}
+
+\img{singleloop.png}{0.7}{Field Lines for a Single Loop}{singleloop}
+
+The direction of the field lines can also be determined using the right-hand grip rule. This time, the fingers curl in the direction of the current and the thumb points in the direction of the field lines.\lb
+On either sides of the coil, the field lines are in the opposite direction to the field lines running through the center.
+
+To strengthen the field:
+\begin{itemize}
+  \item Increase current
+  \item Add more turns to turn into a solenoid
+\end{itemize}
+
+\pagebreak
 
 \subsubsection{Solenoid}
+
+\img{solenoid.jpg}{0.9}{Field Lines for a Solenoid}{solenoid}
+
+Again, the right-hand rule determines the direction of the field. The current in the diagram is conventional current.\lb
+To strengthen the field:
+\begin{itemize}
+  \item Increase the current
+  \item Increase the number of turns
+  \item Add an iron core
+\end{itemize}
+The shape of the field lines look similar to those of a bar magnet; the end of the solenoid from which the field lines emerge is the north pole, and vice versa.
 
 \end{document}

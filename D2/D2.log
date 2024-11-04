@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.26)  4 NOV 2024 22:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.26)  4 NOV 2024 23:44
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -974,7 +974,7 @@ l.126 \section
 
 
 ]
-<chargeconservation.png, id=174, 292.09125pt x 273.02pt>
+<chargeconservation.png, id=184, 292.09125pt x 273.02pt>
 File: chargeconservation.png Graphic file (type png)
 <use chargeconservation.png>
 Package pdftex.def Info: chargeconservation.png  used on input line 130.
@@ -1018,12 +1018,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
-<fieldlines.jpg, id=207, 768.471pt x 308.8338pt>
+<fieldlines.jpg, id=217, 768.471pt x 308.8338pt>
 File: fieldlines.jpg Graphic file (type jpg)
 <use fieldlines.jpg>
 Package pdftex.def Info: fieldlines.jpg  used on input line 215.
 (pdftex.def)             Requested size: 364.19664pt x 146.36299pt.
-<plates.jpeg, id=208, 282.05376pt x 129.98563pt>
+<plates.jpeg, id=218, 282.05376pt x 129.98563pt>
 File: plates.jpeg Graphic file (type jpg)
 <use plates.jpeg>
 Package pdftex.def Info: plates.jpeg  used on input line 218.
@@ -1053,7 +1053,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-<oildrop.jpg, id=226, 642.4pt x 413.545pt>
+<oildrop.jpg, id=236, 642.4pt x 413.545pt>
 File: oildrop.jpg Graphic file (type jpg)
 <use oildrop.jpg>
 Package pdftex.def Info: oildrop.jpg  used on input line 262.
@@ -1081,23 +1081,18 @@ Package siunitx Info: Option "per-mode = reciprocal-positive-first" has been
 (siunitx)             
 (siunitx)             Use "per-mode = power-positive-first" as a replacement.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--303
-
- []
-
-<sphereequipotential.png, id=236, 351.3125pt x 342.27875pt>
+<sphereequipotential.png, id=246, 351.3125pt x 342.27875pt>
 File: sphereequipotential.png Graphic file (type png)
 <use sphereequipotential.png>
-Package pdftex.def Info: sphereequipotential.png  used on input line 307.
+Package pdftex.def Info: sphereequipotential.png  used on input line 312.
 (pdftex.def)             Requested size: 204.85844pt x 199.59769pt.
-<platesequipotential.png, id=237, 396.48125pt x 244.915pt>
+<platesequipotential.png, id=247, 396.48125pt x 244.915pt>
 File: platesequipotential.png Graphic file (type png)
 <use platesequipotential.png>
-Package pdftex.def Info: platesequipotential.png  used on input line 312.
+Package pdftex.def Info: platesequipotential.png  used on input line 317.
 (pdftex.def)             Requested size: 204.85844pt x 126.54556pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 306--316
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 311--321
 $[]$|  $[]$ 
  []
 
@@ -1117,6 +1112,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12 <./sphereequipotential.png> <./platesequipotential.png>]
+<Ergraph.png, id=264, 333.245pt x 238.8925pt>
+File: Ergraph.png Graphic file (type png)
+<use Ergraph.png>
+Package pdftex.def Info: Ergraph.png  used on input line 337.
+(pdftex.def)             Requested size: 227.62204pt x 163.17743pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1124,7 +1125,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13]
+[13 <./Ergraph.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1132,29 +1133,78 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14
+[14]
 
-] (./D2.aux)
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15]
+<straightwire.jpg, id=283, 451.6875pt x 310.15875pt>
+File: straightwire.jpg Graphic file (type jpg)
+<use straightwire.jpg>
+Package pdftex.def Info: straightwire.jpg  used on input line 377.
+(pdftex.def)             Requested size: 227.62204pt x 156.30473pt.
+<singleloop.png, id=284, 465.74pt x 174.6525pt>
+File: singleloop.png Graphic file (type png)
+<use singleloop.png>
+Package pdftex.def Info: singleloop.png  used on input line 381.
+(pdftex.def)             Requested size: 318.66946pt x 119.50565pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16
+
+ <./straightwire.jpg>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17 <./singleloop.png>]
+<solenoid.jpg, id=297, 513.92pt x 189.70876pt>
+File: solenoid.jpg Graphic file (type jpg)
+<use solenoid.jpg>
+Package pdftex.def Info: solenoid.jpg  used on input line 396.
+(pdftex.def)             Requested size: 409.71689pt x 151.24615pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18 <./solenoid.jpg>] (./D2.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 124.49696pt have occurred.
 
 Package rerunfilecheck Info: File `D2.out' has not changed.
-(rerunfilecheck)             Checksum: 098CAA4DB8B510F26C1689BE226D8F3F;3578.
+(rerunfilecheck)             Checksum: 0AA38CB5DC27F58610839EB89205F088;4210.
  ) 
 Here is how much of TeX's memory you used:
- 46745 strings out of 476025
- 1120450 string characters out of 5790016
+ 46799 strings out of 476025
+ 1121343 string characters out of 5790016
  1864388 words of memory out of 5000000
- 66438 multiletter control sequences out of 15000+600000
+ 66476 multiletter control sequences out of 15000+600000
  520353 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,96p,771b,1087s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on D2.pdf (16 pages, 1344299 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on D2.pdf (20 pages, 1524887 bytes).
 PDF statistics:
- 326 PDF objects out of 1000 (max. 8388607)
- 250 compressed objects within 3 object streams
- 54 named destinations out of 1000 (max. 500000)
- 371 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 372 PDF objects out of 1000 (max. 8388607)
+ 284 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 407 words of extra memory for PDF output out of 10000 (max. 10000000)
 
