@@ -20,6 +20,7 @@
 \usepackage{setspace}
 \usepackage{mathtools}
 \usepackage{tikz,pgfplots}
+\usepackage{dirtytalk}
 \usepackage{draftwatermark}
 \usepackage[most]{tcolorbox}
 \SetWatermarkText{timthedev07}
@@ -119,26 +120,185 @@
 \setcounter{page}{1}
 \addtocontents{toc}{\protect\thispagestyle{empty}}
 
-\section{Motion --- Two Current Carrying Wire}
+\section{Notes on Graphical Notation}
 
-\subsection{Direction}
+\img{intooutof.jpg}{0.6}{Into and out of the page}{intooutof}
 
-\subsection{Magnitude}
+This notation uses the direction of \textbf{conventional current}.\lb
+Imagine an arrow going in the direction of the current: The tail looks like an X and so that would be into the page, and vice versa.\lb
+It is important to note that it can represent both currents and magnetic field lines; read the question carefully to determine which one it is referring to.
+
+\section{Field Strength around a Current-Carrying Wire}
+
+Consider a single straight wire carrying a current $I$; at a distance of $r$ from the wire, the \textbf{magnetic field strength} is given by
+\begin{equation}\label{eq:wire_fieldstrength}
+  B = \frac{\mu_0I}{2\pi r}
+\end{equation}
+where $\mu_0$ is the \hl{permeability of free space} (\textbf{not to confuse with permittivity!}), with a value of $4\pi \times 10^{-7}$ \si{\tesla\metre\per\ampere}.
+Also notice that, unlike past field strengths we have seen, it does not follow the inverse square law and is instead an inverse proportionality.
+
+\pagebreak
 
 \section{Motion --- Straight Wire and Bar Magnet}
 
 \subsection{Direction}
 
+Consider a current-carrying wire placed in a magnetic field between two bar magnets.
+
+\img{wireinmagneticfield.jpg}{0.6}{Wire in a magnetic field}{wireinmagneticfield}
+
+There is a resultant force on the wire; in the scenario illustrated in the diagram, it is downwards. This is because, at the top of the wire, the field lines of the wire and the magnetic field respectively are in the same direction, creating a strong force; conversely, at the bottom, the field lines are in the opposite direction, creating an area of weak force.
+
+\img{wireinmagneticfield_1.png}{0.6}{Force direction}{force}
+
 \subsection{Magnitude}
 
-\section{Equations for Moving Charge in a Field}
+\img{wireinmagneticfield_angle.png}{0.35}{Cutting at an angle $\theta$}{force}
+
+The following relation quantifies this force:
+\begin{equation}\label{eq:BIL}
+  F = BIL\sin\theta
+\end{equation}
+where
+\begin{itemize}
+  \item $F$ is the force on the wire,
+  \item $B$ is the magnetic field strength, unit \si{\tesla} $\equiv$ \si{\newton\per\ampere\per\metre},
+  \item $I$ is the current in the wire, and
+  \item $L$ is the length of the wire \textbf{in the magnetic field}.
+\end{itemize}
+An alternative form is
+\begin{equation}\label{eq:BIL2}
+  F = qvB\sin\theta
+\end{equation}
+where
+\begin{itemize}
+  \item $F$ is the force acting on a charge $q$,
+  \item $v$ is the velocity of the charge, and
+  \item $B$ is the magnetic field strength.
+\end{itemize}
+
+
+\section{Motion --- Two Current-Carrying Wire}
+
+Consider the case of two straight current-carrying wires placed parallel to each other side by side. We will study both the direction and magnitude of the resultant field.
+
+\subsection{Direction}
+
+\begin{minipage}{0.45\textwidth}
+  \img{twowirecases/samedir.png}{1}{Two wires with current in the same direction}{samedir}
+
+  The field in between the wires is effectively "canceled out" as the field lines in that region are opposing. The resulting field would produce an attractive force that brings the wires together.
+\end{minipage}\hspace*{0.1\textwidth}
+\begin{minipage}{0.45\textwidth}
+  \img{twowirecases/diffdir.png}{1}{Two wires with current in the different directions}{diffdir}
+
+  The field in the central region is now reinforced as the field lines are in the same direction. The wires would repel each other as a result.\\
+\end{minipage}
+
+
+\subsection{Magnitude}
+Consider the following configuration:
+\img{twowireforce.png}{0.45}{Force between two wires}{twowireforce}
+Let $r$ be the separation distance between the two wires, and $I_1$ and $I_2$ be the currents in the wires. Let $L$ be the length over which the two wires are influencing each other.\lb
+Previously, we have seen the magnetic field strength at a point around a single wire. In our case, we have two wires, we can combine them as follows:
+\begin{enumerate}
+  \item The field strength at the position of wire 1 due to wire 2 is $$B_1 = \frac{\mu_0I_2}{2\pi r}$$
+  \item Using $F = BIL$ with $I = I_1$ to make a substitution
+        $$F = \frac{\mu_0I_1I_2L}{2\pi r}$$
+  \item We may rewrite it as follows
+        \begin{equation}\label{eq:forcebetweentwowires}
+          \frac{F}{L} = -\frac{\mu_0I_1I_2}{2\pi r}
+        \end{equation}
+\end{enumerate}
+The form in \cref{eq:forcebetweentwowires} gives the \hl{force per unit length} between two wires carrying currents $I_1$ and $I_2$ respectively.\lb
+This force is mutual: wire 1 exerts this force on wire 2 and so does wire 2 on wire 1.\lb
+For the sake of consistency, following the convention that attractive forces are negative, we have added in a negative sign in the equation:
+\begin{itemize}
+  \item When the two wires are in the same direction, $\frac{\mu_0I_1I_2}{2\pi r}$ is positive, and so to reflect the attractive nature of the force, we add a negative sign.
+  \item In contrast, when the wires are in opposite directions, $\frac{\mu_0I_1I_2}{2\pi r}$ is negative, and so to reflect the repulsive nature of the force, we add a negative sign to obtain a positive value.
+\end{itemize}
+
+\section{Moving Charge}
 
 \subsection{Uniform Electric Field}
 
-\subsection{Uniform Magnetic Field}
+Consider a charge $q$ moving across a uniform electric field perpendicular to the field lines. The "tunnel" has a length of $L$. We will \textbf{ignore gravity, air resistance, and the edge effects} at the boundaries where the charge enters and exits the field.
+\img{move1.png}{0.8}{Charge moving in a uniform electric field}{move1}
+
+Consider the acceleration of the charge. The force acting on the charge is given by $F = \dfrac{qV}{d}$
+$$a = \frac{F}{m_e} = \frac{qV}{m_ed}$$
+All values on the RHS are constant, which means that the charge has a constant acceleration, and thus \hl{we can use kinematic equations to analyze the situation}.\lb
+Also note that there is \hl{no horizontal force} acting on the charge and so the horizontal velocity will remain constant. This means that we can find out the duration of the entire journey through the field:
+$$T = \frac{L}{v_x}$$
+where $v_x$ is the horizontal velocity of the charge.
+
+
+\subsection{Uniform Magnetic Field}\label{subsec:uniformmagneticfield}
+Consider the following scneario: A charge $q$ is moving in a uniform magnetic field perpendicular to the field lines (the currents are directed into/out of the page and so the charge will be traveling on the plane of the page).\lb
+In short, the charge will move in a circle. Let's see why.\lb
+
+\begin{minipage}[t]
+  {0.6\textwidth}
+  Consider an electron ($e^-$) moving in the magnetic field shown. As per Flemming's left-hand rule (it uses convention current so we take the opposite direction in which the electron travels), the force acting on the electron is directed inwards. This force is \hl{the centripetal force that keeps the electron in a circular path}.
+\end{minipage}\hspace*{0.05\textwidth}%
+\begin{minipage}[t]
+  {0.35\textwidth}
+  \img{move2.png}{1}{Charge moving in a uniform magnetic field}{move2}
+\end{minipage}
+
+
+\pagebreak
+The centripetal force is provided by $F = evB$, we equate the two quantities to obtain
+\begin{align*}
+  evB & = \frac{m_ev^2}{r} \\
+  v   & = \frac{Ber}{m_e}
+\end{align*}
+In the scenario under study, the tangential velocity $v$ is constant throughout. Let us now rearrange to find an expression for the radius of the circular trajectory:
+\begin{align*}
+  r & = \frac{m_ev}{Be}
+\end{align*}
+Notice that the numerator is the momentum of the charge, so just bear that in mind if you are given only the momentum instead of the mass and the velocity. Moreover, $m_ev  = \sqrt{2m_eE_k}$, where $E_k$ is the kinetic energy of the charge; this form is useful when you are not given the velocity but the kinetic energy instead.\lb
+Now consider tilting the plane of the page so that it makes an angle $\theta$ with the magnetic field. The radius of the circular path is now given by $$r = \dfrac{m_ev\sin\theta}{Be}$$
+However, the tilted plane will mean that the charge will move in a helical path, \say{escalating} along the direction of the magnetic field.
+\img{helicalpath.png}{0.4}{Helical path}{helicalpath}
+
 
 \subsection{Perpendicular Magnetic and Electric Fields}
+In the below configuration, an electric field is combined with a magnetic field at a right angle.
+
+\img{move3.png}{0.6}{Charge moving in a magnetic and electric field}{move3}
+
+Let's recall the behavior of the charge in the two fields separately:
+\begin{itemize}
+  \item In a magnetic field alone it will move in a circular path, as the magnetic force constantly changes its direction but not its speed.
+  \item In an electric field alone, it will follow a parabolic trajectory due to the constant force exerted in one direction.
+\end{itemize}
+
+In the combined field, we can get a straight-line resultant pass under certain conditions. That is, when the upward and downward forces $F_e$ and $F_B$ respectively are equal in magnitude. This gives \begin{align*}
+  F_e & = F_B         \\
+  qE  & = qvB         \\
+  v   & = \frac{E}{B}
+\end{align*}
+For every combination of $(E, B)$, the velocity of the charged particle must be exactly $v = \dfrac{E}{B}$ to get a straight-line path without deviations.\lb
+This property allows the setup to be used as a \textit{velocity selector} to select particles of a certain velocity.
+\begin{itemize}
+  \item This setup acts as a velocity selector: only particles with the precise speed $v = \dfrac{E}{B}$ will experience balanced forces and continue in a straight line.
+  \item Particles moving slower than this speed will be deflected upwards (since the magnetic force will be weaker than the electric force).
+  \item Particles moving faster will be deflected downwards (since the magnetic force will be stronger).
+\end{itemize}
+
 
 \section{The Charge-Mass Ratio Derivation}
+The scenario described in \cref{subsec:uniformmagneticfield} allows for the computation of the charge-mass ratio of the charge. The ratio is given by the following and is derived by equating KE and $W = eV_e$ and using circular motion equations:
+\begin{equation}
+  \frac{e}{m_e} = \frac{2V}{B^2r^2}
+\end{equation}
+However, we can also apply this to any charge $q$ and not just an electron:
+
+\begin{equation}
+  \frac{q}{m_q} = \frac{2V}{B^2r^2}
+\end{equation}
+
+
 
 \end{document}
