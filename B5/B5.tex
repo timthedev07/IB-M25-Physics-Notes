@@ -4,7 +4,7 @@
 \usepackage{siunitx}
 \usepackage{graphicx}
 \usepackage[a4paper, total={3in, 9in}, textwidth=16cm,bottom=1in,top=1.4in]{geometry}
-\usepackage[dvipsnames]{xcolor}
+\usepackage[dvipsnames,table]{xcolor}
 \usepackage{amsmath}
 \usepackage{esvect}
 \usepackage{soul}
@@ -122,40 +122,251 @@
 
 \section{Electric Conduction}
 
-\section{Potential Difference}
+Electric conduction uses the flow of electrons: Metals are good conductors of electricity because their atoms have \hl{loosely bound electrons} that can easily leave their parent atom and move to other parts of the material; this \hl{flow of electrons constitutes an electric current} --- when a voltage is applied across the conductor, there is an \hl{electric field exerting a force on the electrons (a.k.a. charge carriers) in a certain direction}. In fact, the direction of the current flow is opposite to that of the electric field. \lb In contrast, insulators have tightly bound electrons that cannot move freely, so they do not conduct electricity. Semiconductors have properties between those of conductors and insulators.
 
-\section{Electrical Current, p.d., and Power}
+\section{Current and Charge}
+
+Current is the rate of flow of charge, and is measured in amperes (A). The charge is measured in coulombs (C). The current is given by the equation $$I = \frac{q}{t}$$where
+\begin{itemize}
+  \item $I$ is the current,
+  \item $q$ is the charge,
+  \item $t$ is the time taken for the charge to flow.
+\end{itemize}
+Electric currents can produce the following effects:
+\begin{itemize}
+  \item Heating effect; energy transferred from electrons to the component as internal energy
+  \item Magnetic effect; produces a magnetic field around the conductor
+  \item Chemical effect; causes chemical reactions in the conductor
+\end{itemize}
+
+\subsection{Charge and Electrons}
+
+One unit of charge can be essentially treated as a massive packet of electrons.\lb
+The charge of an electron is $-1.6 \times 10^{-19}$ C; conversly, one coulomb of charge is equivalent to $6.25 \times 10^{18}$ electrons.
+
+
+\section{Electric Potential Difference}
+
+In topic D we discussed the idea of potential; it is the work done per unit something to move an object from one point to another. In the case of electric potential difference, it is the work done on a unit charge to move it from one point to another. The potential difference is measured in volts (V). The potential difference is given by the equation $$\Delta V = \frac{W}{q}$$where
+\begin{itemize}
+  \item $V$ is the potential difference,
+  \item $W$ is the work done,
+  \item $q$ is the total charge moved
+\end{itemize}
+A rephrasing of the equation is as follows:
+\begin{center}
+  \say{A p.d. of 1 V between two points arises when 1 J of work is done to move 1 C of charge from one point to another.}
+\end{center}
 
 \section{Electromotive Force}
+
+Electromotive force, or EMF, is the \hl{energy provided by a power source per unit charge to drive electrons through a circuit}. Although it is called a "force," EMF is actually a potential difference or voltage, measured in volts (V).\lb
+Formally, EMF is the \hl{maximum potential difference between the terminals of a battery or generator when no current flows through the circuit} (i.e., an open circuit, thus no energy lost to internal resistance).\lb
+
+
+\section{Power}
+
+Power is the rate at which energy is transferred or converted. The power is given by the equation \begin{equation}
+  P = \frac{W}{t}
+\end{equation}where $W$ is the work done in time $t$. The power is measured in watts (W). The power can also be given by the equation $$P = IV$$
+Other alternative forms exist:
+\begin{equation}
+  P = I^2R \\
+\end{equation}
+\begin{equation}
+  P = \frac{V^2}{R} \\
+\end{equation}
+These equations can be used to calculate the \hl{power dissipated in a circuit component}, as a result of the \textbf{heating effect}.
+
+\section{Measurement Devices}
+
+\begin{itemize}
+  \item The voltmeter is for measuring potential difference, and is connected in parallel to the component/part of the circuit across which the p.d. is to be measured.
+  \item The ammeter is for measuring current, and is connected in series to the component/part of the circuit through which the current is to be measured.
+\end{itemize}
 
 \section{Electrical Resistance}
 
 \subsection{Ohm's Law}
 
+Ohm's Law states that the current flowing through a conductor between two points is directly proportional to the voltage across those points, \textbf{provided the temperature and other physical conditions remain constant}.
+\img{ohmic.png}{0.7}{Ohmic behavior}{ohm}
+The resistance of a component/part of the circuit is given in the following relation
+\begin{equation}
+  V = IR
+\end{equation}
+The unit is the ohm ($\Omega$ $\equiv$ $\si{\kilo\g\m\squared\per\s\cubed\per\A\squared}$).\lb
+An ohmic conductor is one that obeys Ohm's Law --- as the current is varied, the voltage across the conductor remains directly proportional to the current. Graphically, if we plot the values of $(I, V)$, an ohmic conductor will yield a straight line through the origin.
+\subsection{Non-Ohmic Behavior}
+\img{bulb.png}{0.7}{Filament Lamp}{bulb}
+Inversely, a non-ohmic conductor is one that does not obey Ohm's Law --- the resistance of the conductor changes as the current is varied. The resistance of a non-ohmic conductor is not constant, and the graph of $(I, V)$ will not be a straight line through the origin. An example of this is a filament lamp: As voltage is supplied and current flows through the filament, hence the filament heats up and its resistance increases.
+
+\pagebreak
+
 \subsection{Resistivity}
 
-\subsection{Non-Ohmic Behavior}
+Resistivity is how strongly a material resists the flow of electric current. It is an intrinsic characteristic, meaning it depends only on the material itself and not on its shape or size; it is the same for all pure samples of a material. The resistivity is given by the equation
+\begin{equation}
+  \rho = \frac{RA}{L}
+\end{equation}
+where
+\begin{itemize}
+  \item $R$ is the component of the resistance, measured in ohms ($\Omega$),
+  \item $L$ is the length of the conductor, measured in meters (m),
+  \item $A$ is the cross-sectional area of the conductor, measured in square meters ($\si{\m\squared}$),
+\end{itemize}
+
 
 \section{Circuit Arrangements}
 
 \subsection{Series Connection}
 
+Consider part of a circuit with a few resistors connected in series:
+\img{series.png}{0.9}{Series Connection}{series}
+\begin{itemize}
+  \item The total resistance are added together:
+        $$\sum R = R_1 + R_2 + R_3 + \ldots$$
+  \item The current is the same across all components
+  \item The voltage across all components is shared between them:
+        $$V = V_1 + V_2 + V_3 + \ldots$$
+\end{itemize}
+
+\pagebreak
+
 \subsection{Parallel Connection}
+\img{parallel.png}{0.7}{Parallel Connection}{parallel}
+\begin{itemize}
+  \item This time, the current is shared:
+        $$I = I_1 + I_2 + I_3 + \ldots$$
+  \item Similarly, the voltage is now the same across all
+        $$V = V_1 = V_2 = V_3 = \ldots$$
+  \item The total resistance is given by the equation
+        $$\frac{1}{R} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \ldots$$
+\end{itemize}
 
 \section{Variable Resistors}
 
 \subsection{Thermistors}
 
+A thermistor is a device whose electrical resistance changes with temperature.\lb
+The type discussed here is a negative temperature coefficient (NTC) thermistor, made of semiconductors. As temperature increases, the resistance of an NTC thermistor decreases, which is opposite to how metals behave.
+\img{thermistor.png}{0.7}{Thermistor}{thermistor}
+
+In semiconductors, resistance is high because they have fewer free electrons than metals. However, as temperature rises, two seemingly opposing things happen:
+
+\begin{itemize}
+  \item Increased vibration: Lattice ions vibrate more, slightly increasing resistance as they hinder charge movement.
+  \item More charge carriers: Higher temperatures free more charge carriers, greatly reducing resistance.
+\end{itemize}
+
+The second effect is stronger, so the net result is a decrease in resistance as temperature increases.
+
 \subsection{LDR}
+
+LDR is also made out of semiconductors, but its resistance decreases as light intensity increases. The resistance of an LDR is high in darkness, but decreases as light intensity increases. This is because with more luminosity, the light photons excite electrons in the semiconductor, freeing them to conduct electricity more easily and hence reducing resistance.
+
+\img{ldr.png}{0.7}{LDR}{ldr}
+
+\pagebreak
 
 \subsection{Variable Resistors}
 
+\img{varresistor.png}{0.4}{Variable Resistor}{varresistor}
+
+A variable resistor is one whose resistance can be manually adjusted.
+\begin{itemize}
+  \item Adjusting the variable resistor changes the total resistance in the circuit and therefore affects the current.
+  \item When the variable resistor has a high resistance, the circuit's current is low.
+  \item Variable resistors normally do not provide a great range of resistance values and so are often less effective.
+\end{itemize}
+
+\pagebreak
+
+
 \subsection{Potential Dividers and Potentiometers}
+
+\img{potential_divider.png}{0.5}{Potential Divider}{potentialdivider}
+
+A potential divider is a setup that uses a potentiometer to vary the potential difference across a component.
+\begin{itemize}
+  \item The potentiometer is the rectangular box (resistance winding) in the diagram; it has three terminals, two at the ends and one to connect with the slider.
+  \item The main component in this circuit is a resistive track with a slider, which can move up and down to divide the voltage. The top end of the resistive track is connected to the positive terminal of the battery (2V in this example), and the bottom end is connected to the negative terminal (0V).
+  \item It provides a greater range of resistance values than a variable resistor.
+\end{itemize}
+\pagebreak
+Put simply, the slider literally divides the component into two parts each with a different voltage. \lb
+In the image below, when the slider is placed at exactly the center of the resistive track, we can treat the circuit as two resistors in series, each with half the resistance of the original resistor.
+\img{divider1.png}{0.7}{Potential divider at half way through}{divider1}
+Similarly, when the slider is placed at, for example, $\frac{3}{4}$ of the way through the resistive track, we can treat the circuit as two resistors in series, one with $\frac{3}{4}$ of the resistance and the other with $\frac{1}{4}$ of the resistance.
+\img{divider2.png}{0.7}{Potential divider at $\frac{3}{4}$ through}{divider2}
 
 \section{Cells and Batteries}
 
+\img{battery_symbol.png}{0.45}{Battery Symbol}{batterysymbol}
+
+\begin{itemize}
+  \item In batteries, a chemical reaction causes electrons to move and transfers energy to them, producing an electric current. This electric current can be sent out of the battery to power devices.
+  \item Cells and battery produce a one-way flow of electrons (direct current). Electrons start at the negative terminal, move through a circuit, and return to the positive terminal. The conventional current is the opposite direction.
+  \item Notation-wise, the longer line represents the positive terminal, and the shorter line represents the negative terminal.
+\end{itemize}
+
+\subsection{Types of Cells}
+Primary cells:
+\begin{itemize}
+  \item These are \hl{single-use} batteries, like those in flashlights or toys.
+  \item Once the chemical reaction is complete, they \hl{cannot be recharged or reused}.
+\end{itemize}
+Secondary cells:
+\begin{itemize}
+  \item These are \hl{rechargeable batteries}, like those in phones or laptops.
+  \item They can be recharged by \hl{reversing the chemical reaction}, which allows them to be used multiple times.
+\end{itemize}
+
+\pagebreak
+Solar cells:
+\begin{itemize}
+  \item Solar cells use sunlight to generate electricity. \hl{When sunlight hits the solar cell, it releases electrons}, which move through a circuit to provide power.
+  \item They are commonly used in solar panels for houses or devices.
+  \item A single solar cell produces a small amount of electricity, so multiple cells are combined in panels for higher output.
+  \item Solar cells normally have a low efficiency of around 20\%.
+\end{itemize}
+
 \section{Internal Resistance}
 
+Cells and batteries themselves have \textit{internal resistance}, which sometimes must be accounted for in calculations too. We can model a realistic cell as \hl{an ideal cell in series with an internal resistance}, as shown by the blue box.
+
+\img{internalresistance.png}{0.7}{Internal Resistance}{internalresistance}
+
+The emf $\varepsilon$ is no longer simply $IR$; instead, we should add in the voltage distributed to the internal resistance of the power cell --- it is given by $$\varepsilon = V + Ir$$where $V = IR$ is the voltage across the blue box cell.\lb
+The lost p.d., which is $Ir$, refers to the difference between the emf and the terminal p.d. of the cell.
+
 \section{Non-Ideal Cells --- Power}
+
+In the previous section we saw that cells have internal resistance and a certain portion of the energy is dissipated to this internal resistance. Let's look at the
+\begin{enumerate}
+  \item the power dissipated to the internal resistance,
+  \item the power delivered to the external part of the circuit,
+\end{enumerate}
+First, let's consider the current in the circuit. Using $\varepsilon = I(R + r)$, rearranging gives
+\begin{equation}
+  I = \frac{\varepsilon}{R + r}
+\end{equation}
+where $R$ is the total external resistance.
+We know that the power dissipated in component $X$ is given as $P_X = I^2R_X$,
+or alternatively $P_X = IV_X$.
+We can compute the following:
+\begin{itemize}
+  \item The total power provided by the emf is $$P_{\varepsilon} = \varepsilon I = \frac{\varepsilon^2}{R + r}$$
+  \item The power dissipated in the internal resistance is $$P_r = I^2r = \frac{\varepsilon^2r}{(R + r)^2}$$
+  \item The power delivered to the external part of the circuit is $$P_{R} = I^2R = \frac{\varepsilon^2R}{(R + r)^2}$$
+\end{itemize}
+Indeed, $P_R + P_r = P_{\varepsilon}$.
+
+\pagebreak
+
+\img{peakre.png}{0.7}{Power in Non-Ideal Cells}{power}
+
+This graph shows that, when the external resistance (load resistance) equals the internal resistance, the power delivered to the external part of the circuit is maximized.
+
 
 \end{document}
