@@ -18,6 +18,7 @@
 \usepackage{subcaption}
 \usepackage{esdiff}
 \usepackage{setspace}
+\usepackage{dirtytalk}
 \usepackage{mathtools}
 \usepackage{tikz,pgfplots}
 \usepackage{dirtytalk}
@@ -122,13 +123,78 @@
 
 \section{Isochronous Oscillations}
 
+This refers to periodic oscillations that maintain a constant frequency regardless of changes in amplitude. In reality, the amplitude of the motion will gradually drop because of energy losses; but isochronous oscillations will maintain a constant frequency.
+
 \section{Defining Periodic Motion}
+No matter which system we are looking at, be it the spring-mass or pendulum, the displacement, velocity, and acceleration of the system will be sin/cos functions of time. The following displacement-time diagram shows important properties of an s.h.m. system.
+\img{graphlabeledintro.png}{0.8}{Labeled s.h.m. system}{graphlabeledintro}
+\begin{itemize}
+  \item The displacement is simply the distance from the equilibrium position, and the amplitude is the maximum displacement from the equilibrium position.
+  \item The equilibrium position is the position where the system is naturally at rest (this is also where the acceleration is 0 and velocity is maximum when the system is oscillating).
+  \item The period is the time taken for the system to complete one full cycle/oscillation.
+  \item The frequency --- number of cycles per second, is given by
+        $$f = \frac{1}{T}$$
+        where $T$ is the period.
+\end{itemize}
 
-\section{S.H.M. Motion Equations}
 
-\section{S.H.M. Energy Equations}
+\section{S.H.M. Basic Equations}
+
+S.h.m is a type of isochronous oscillatory motion where \hl{the force acting on the oscillator is directly proportional to its displacement} from a central equilibrium position and \hl{is directed toward that position}. The constant of proportionality is the square of the angular frequency, namely $\omega^2$. The equation of motion for s.h.m. is given by
+\begin{equation}
+  F = -\omega^2 x
+\end{equation}
+This means that the force/displacement (or analogously acceleration/displacement) graph will be a negative-slope straight line through the origin.
+\img{shmrequirement.png}{0.4}{Force-displacement graph for s.h.m.}{shmrequirement}
+The angular frequency $\omega$ is given by
+$$\omega = \frac{2\pi}{T} = 2\pi f$$
+where $f$ is the frequency of the oscillator. Although angular frequency can take on the unit $\si{\radian\per\second}$, the radians are often omitted since it is a unitless ratio --- it is simply $2\pi$ times the frequency, which has unit $\si{\hertz}\equiv \si{\per\s}$.
+
+There are two systems we study at the IB level: the spring-mass system and the pendulum system. We will examine each one separately.
+
+\pagebreak
+
+\subsection{Spring Mass}
+
+Consider a mass $m$ attached to a spring with spring constant $k$, moving on a frictionless surface along the horizontal axis. Initially, it is at rest on the surface and the spring is relaxed. We pull the mass $x_0$ away from the initial position --- this will be the amplitude of the subsequent s.h.m.
+
+\hspace*{0.1\textwidth}
+\begin{minipage}{0.3\textwidth}
+  \img{springmass1.png}{1}{Spring-mass system at equilibrium}{springmass1}
+\end{minipage}\hspace*{0.1\textwidth}%
+\begin{minipage}{0.4\textwidth}
+  \img{springmass2.png}{1}{Spring-mass system displaced}{springmass2}
+\end{minipage}\hspace*{0.1\textwidth}\lb
+
+Using \hl{Hooke's Law} on the oscillator, we obtain that the restoring force is
+$$F = ma = -kx$$
+where $k$ is the spring constant. Comparing coefficients with the s.h.m. equation, we get that the angular frequency is given by
+$$\omega = \sqrt{\frac{k}{m}}$$
+Similarly, the period and frequency are given by
+$$T = 2\pi\sqrt{\frac{m}{k}}\quad\text{ and }\quad f = \frac{1}{2\pi}\sqrt{\frac{k}{m}}$$
+My advice is forget about these two, as they look similar to each other and to $\omega$, and so it's easy to confuse them.
+
+\pagebreak
+
+\subsection{Pendulum}
+
+Consider a pendulum of length $l$ and mass $m$ swinging in a gravitational field of strength $g$. In this case, the displacement will be the arc length that the mass makes with the origin at any point during oscillation.
+\img{pendulumlabeled.png}{0.6}{Labeled pendulum system}{pendulumlabeled}
+It must be noted that the pendulum obeys the s.h.m only for small angles of $\theta$ (typically less than 10 degrees).\lb
+In this case, the restoring acceleration is $mg\sin\theta$; using small angle approximation and the fact that $l$ is the radius of the arc $x$ subtended by the angle $\theta$, we get that the angular frequency is given by
+\begin{equation}
+  \omega = \sqrt{\frac{g}{l}}
+\end{equation}
 
 \section{S.H.M. Equations --- Circular Motion Form}
+As mentioned earlier, the displacement, velocity, and acceleration of the system will be sin/cos functions of time. Let us now transform this oscillatory system into a circular motion system to obtain information about these quantities.\lb
+Firstly, we must know that the trajectory of a circle with radius $r$ centered at the origin on the Cartesian plane with axes y/x can be expressed in a parametric form as follows
+$$x = r\cos\theta\quad\text{ and }\quad y = r\sin\theta$$
+where $r$ is the radius of the circle and $\theta = \omega t$ is the so called \say{phase angle}. We can use this to transform the s.h.m. system into a circular motion system. The following diagram shows the transformation.
+\img{circ.png}{0.6}{Transformation of s.h.m. to circular motion}{circ}
+From \cref{fig:circ}, notice that the peak height of the trig. function, which is the amplitude, maps to the radius of the circular motion. This means that $r = x_0$. The $r\cos \theta$ is for s.h.m. beginning at an extreme position, and inversely, $r\sin \theta$ is for s.h.m. beginning at the equilibrium position.
+
+\section{S.H.M. Energy Equations}
 
 \section{Phase Difference}
 

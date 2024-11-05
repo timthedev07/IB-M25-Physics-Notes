@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1730755116 "/Users/timthedev07/Documents/物理笔记/D4/D4.tex" "D4.pdf" "D4" 1730755117 0
-  "/Users/timthedev07/Documents/物理笔记/D4/D4.tex" 1730755116 15201 d23f39765a617ab0471204b18304f3e5 ""
+["pdflatex"] 1730839454 "/Users/timthedev07/Documents/物理笔记/D4/D4.tex" "D4.pdf" "D4" 1730839456 0
+  "/Users/timthedev07/Documents/物理笔记/D4/D4.tex" 1730839454 15195 a25ccfabf309b8a24628d0e2f2546a94 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -267,10 +267,10 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1698351117 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1698351051 7883457 869e73afaf79a5825410c57d17702400 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "D4.aux" 1730755117 6062 f479023a7f36c0027e304a5b0b725e0e "pdflatex"
-  "D4.out" 1730755117 3790 a61d67d9b64f58bb70f6e790a3638e0e "pdflatex"
-  "D4.tex" 1730755116 15201 d23f39765a617ab0471204b18304f3e5 ""
-  "D4.toc" 1730755117 1852 f15495bce5d4617c593150cfab203f6f "pdflatex"
+  "D4.aux" 1730839456 6062 f479023a7f36c0027e304a5b0b725e0e "pdflatex"
+  "D4.out" 1730839456 3790 a61d67d9b64f58bb70f6e790a3638e0e "pdflatex"
+  "D4.tex" 1730839454 15195 a25ccfabf309b8a24628d0e2f2546a94 ""
+  "D4.toc" 1730839456 1852 f15495bce5d4617c593150cfab203f6f "pdflatex"
   "bar.png" 1726868258 150908 9f5f324d5f60bbd6ffb6ba77100789b3 ""
   "fluxdensity.png" 1726873316 134174 36374fbf0bfa525513cb9f7fc2bc470e ""
   "g1.png" 1727855705 92281 3985d932adc519f6f75d9e81d877e4b9 ""
