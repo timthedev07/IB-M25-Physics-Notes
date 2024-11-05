@@ -1,0 +1,11 @@
+\thispagestyle {empty}
+\contentsline {section}{\numberline {1}Doppler Effect --- Qualitative Observations}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Case I: Stationary Observer, Moving Source}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Case II: Moving Observer, Stationary Source}{1}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Doppler Effect --- Equations}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Case I: Stationary Observer, Moving Source}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Case II: Moving Observer, Stationary Source}{2}{subsection.2.2}%
+\contentsline {section}{\numberline {3}The Doppler Effect for Light}{3}{section.3}%
+\contentsline {section}{\numberline {4}Applications of the Doppler Effect}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Medical}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}RADAR}{4}{subsection.4.2}%
