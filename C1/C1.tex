@@ -4,7 +4,7 @@
 \usepackage{siunitx}
 \usepackage{graphicx}
 \usepackage[a4paper, total={3in, 9in}, textwidth=16cm,bottom=1in,top=1.4in]{geometry}
-\usepackage[dvipsnames]{xcolor}
+\usepackage[dvipsnames,table]{xcolor}
 \usepackage{amsmath}
 \usepackage{esvect}
 \usepackage{soul}
@@ -14,6 +14,7 @@
 \usepackage{amssymb}
 \usepackage{outlines}
 \usepackage{caption}
+\usepackage{makecell}
 \usepackage{fancyvrb}
 \usepackage{subcaption}
 \usepackage{esdiff}
@@ -142,9 +143,9 @@ No matter which system we are looking at, be it the spring-mass or pendulum, the
 
 S.h.m is a type of isochronous oscillatory motion where \hl{the force acting on the oscillator is directly proportional to its displacement} from a central equilibrium position and \hl{is directed toward that position}. The constant of proportionality is the square of the angular frequency, namely $\omega^2$. The equation of motion for s.h.m. is given by
 \begin{equation}
-  F = -\omega^2 x
+  a = -\omega^2 x
 \end{equation}
-This means that the force/displacement (or analogously acceleration/displacement) graph will be a negative-slope straight line through the origin.
+This means that the acceleration/displacement graph will be a negative-slope straight line through the origin.
 \img{shmrequirement.png}{0.4}{Force-displacement graph for s.h.m.}{shmrequirement}
 The angular frequency $\omega$ is given by
 $$\omega = \frac{2\pi}{T} = 2\pi f$$
@@ -192,14 +193,61 @@ Firstly, we must know that the trajectory of a circle with radius $r$ centered a
 $$x = r\cos\theta\quad\text{ and }\quad y = r\sin\theta$$
 where $r$ is the radius of the circle and $\theta = \omega t$ is the so called \say{phase angle}. We can use this to transform the s.h.m. system into a circular motion system. The following diagram shows the transformation.
 \img{circ.png}{0.6}{Transformation of s.h.m. to circular motion}{circ}
-From \cref{fig:circ}, notice that the peak height of the trig. function, which is the amplitude, maps to the radius of the circular motion. This means that $r = x_0$. The $r\cos \theta$ is for s.h.m. beginning at an extreme position, and inversely, $r\sin \theta$ is for s.h.m. beginning at the equilibrium position.
+From \cref{fig:circ}, notice that the peak height of the trig. function, which is the amplitude, maps to the radius of the circular motion. This means that $r = x_0$. The $r\cos \theta$ is for s.h.m. beginning at an extreme position, and inversely, $r\sin \theta$ is for s.h.m. beginning at the equilibrium position. In summary, the displacement is either $x_0\cos(\omega t)$ or $x_0\sin(\omega t)$, depending on the initial position of the oscillator. The respective expressions for velocity and acceleration are of a similar form and can be trivially found by differentiation. The table on the next page puts everything together.\pagebreak
+\begin{table}[H]
+  \centering
+  \def\arraystretch{1.2}
+  \begin{tabular}{|c | c |}
+    \hline \rowcolor{Blue!25} Starts at extreme & Starts at equilibrium             \\
+    \hline
+    $x = x_0\cos(\omega t)$                     & $x = x_0\sin(\omega t)$           \\ \hline
+    $v = -\omega x_0\sin(\omega t)$             & $v = \omega x_0\cos(\omega t)$    \\ \hline
+    $a = -\omega^2 x_0\cos(\omega t)$           & $a = -\omega^2 x_0\sin(\omega t)$ \\\hline
+  \end{tabular}
+\end{table}
+Notice that the above forms are all used when we are given the time; there are alternative forms for both velocity and acceleration to be used when we are given the displacement.
+\begin{itemize}
+  \item $v = \pm \omega \sqrt{x_0^2 - x^2}$
+  \item $a = -\omega^2 x$
+\end{itemize}
 
 \section{S.H.M. Energy Equations}
 
+\begin{itemize}
+  \item When the oscillator passes through the equilibrium position, it has maximum speed and thus maximum kinetic energy (all of the initial energy is transferrd into KE).
+  \item At the extreme positions, the oscillator has maximum potential (either gravitational or elastic) energy and zero kinetic energy.
+\end{itemize}
+
+The following diagram summarizes the energy changes in an oscillator starting from the equilibrium position.
+\img{energy1.png}{0.7}{Energy changes in an oscillator}{energy}
+Recall that we have an expression for the speed of the oscillator, we can thus find an expression for the kinetic energy at any displacement $x$:
+\begin{equation}
+  E_K = \frac{1}{2}m\omega^2\paren{x_0^2 - x^2}
+\end{equation}
+Also, the total energy is given by the KE at the fastest point, i.e. at $x = 0$:
+\begin{equation}
+  \sum E = \frac{1}{2}m\omega^2x_0^2
+\end{equation}
+We can now obtain the potential energy:
+\begin{equation}
+  E_P = \sum E - E_K = \frac{1}{2}m\omega^2x^2
+\end{equation}
+
+\begin{minipage}[t]{0.5\textwidth}
+  On the right is the graph of the variation of KE and PE with displacement. Notice that the sum of the two is constant, which is the total energy of the system.\lb
+  The point at which KE = PE is slightly off half of the amplitude.
+\end{minipage}\hspace*{0.1\textwidth}%
+\begin{minipage}[t]{0.4\textwidth}
+  \img{rel.png}{1}{Energy changes in an oscillator}{rel}
+\end{minipage}
+
+
 \section{Phase Difference}
 
-\section{Energy Revisit --- KE, GPE, and Total Energy}
-
-
-
+Apart from the extreme and the equilibrium positions, the oscillator can be at any position in between. To account for this possibility, we can add in a phase difference $\phi$ to the displacement equation.
+$$x = x_0\sin(\omega t + \phi)$$
+Mathematically speaking, this is permitted because it is in fact the general solution to the s.h.m. second order differential equation.\lb
+Consider the following graph:
+\img{shmphase.png}{0.6}{Phase difference in s.h.m.}{shmphase}
+The red curve is actually ahead of the blue one, although it appears to be behind. Consider the first red peak: At the time it reaches that peak, the blue curve is still rising and just about to reach that peak. This argument holds for any position on the graph.
 \end{document}

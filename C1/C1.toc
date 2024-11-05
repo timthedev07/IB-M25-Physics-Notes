@@ -5,6 +5,5 @@
 \contentsline {subsection}{\numberline {3.1}Spring Mass}{5}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Pendulum}{6}{subsection.3.2}%
 \contentsline {section}{\numberline {4}S.H.M. Equations --- Circular Motion Form}{7}{section.4}%
-\contentsline {section}{\numberline {5}S.H.M. Energy Equations}{8}{section.5}%
-\contentsline {section}{\numberline {6}Phase Difference}{9}{section.6}%
-\contentsline {section}{\numberline {7}Energy Revisit --- KE, GPE, and Total Energy}{10}{section.7}%
+\contentsline {section}{\numberline {5}S.H.M. Energy Equations}{9}{section.5}%
+\contentsline {section}{\numberline {6}Phase Difference}{11}{section.6}%
