@@ -20,7 +20,12 @@
 \usepackage{setspace}
 \usepackage{mathtools}
 \usepackage{tikz,pgfplots}
+\usepackage{dirtytalk}
+\usepackage{draftwatermark}
 \usepackage[most]{tcolorbox}
+\SetWatermarkText{timthedev07}
+\SetWatermarkScale{4}
+\SetWatermarkColor[gray]{0.97}
 \usetikzlibrary{positioning,decorations.markings,calc}
 \DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
 \newtheorem{lemma}{Lemma}
@@ -99,7 +104,7 @@
   \begin{center}
 
     \vspace*{8cm}
-    \textbf{\Large {IB Physics Topic D2 Electric and Magnetic Fields; SL \& HL}} \\
+    \textbf{\Large {IB Physics Topic D4 Current and Circuits; SL \& HL}} \\
     \vspace*{1cm}
     \large{By timthedev07, M25 Cohort}
 
@@ -108,9 +113,49 @@
 \end{titlepage}
 
 \pagebreak
+\tableofcontents
+\pagebreak
 
-Consider a list of $n$ distinct positive integers with sum $S$. We wish to show that, if we remove an entry $k$ from the list such that the resulting mean is larger, then it must be the case that $k < \frac{S}{n}$.\lb
-The old mean is $\frac{S}{n}$, and the new mean is $\frac{S - k}{n - 1}$. The "if" part of the statement is equivalent to $$\frac{S - k}{n - 1} > \frac{S}{n} = \frac{S - \frac{S}{n}}{n-1}$$
-This is true if and only if $$k < \frac{S}{n}$$
+\clearpage
+\setcounter{page}{1}
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+
+\section{Electric Conduction}
+
+\section{Potential Difference}
+
+\section{Electrical Current, p.d., and Power}
+
+\section{Electromotive Force}
+
+\section{Electrical Resistance}
+
+\subsection{Ohm's Law}
+
+\subsection{Resistivity}
+
+\subsection{Non-Ohmic Behavior}
+
+\section{Circuit Arrangements}
+
+\subsection{Series Connection}
+
+\subsection{Parallel Connection}
+
+\section{Variable Resistors}
+
+\subsection{Thermistors}
+
+\subsection{LDR}
+
+\subsection{Variable Resistors}
+
+\subsection{Potential Dividers and Potentiometers}
+
+\section{Cells and Batteries}
+
+\section{Internal Resistance}
+
+\section{Non-Ideal Cells --- Power}
 
 \end{document}
