@@ -4,7 +4,7 @@
 \usepackage{siunitx}
 \usepackage{graphicx}
 \usepackage[a4paper, total={3in, 9in}, textwidth=16cm,bottom=1in,top=1.4in]{geometry}
-\usepackage[dvipsnames]{xcolor}
+\usepackage[table,dvipsnames]{xcolor}
 \usepackage{amsmath}
 \usepackage{esvect}
 \usepackage{soul}
@@ -122,18 +122,119 @@
 
 \section{Parts and Attributes of a Wave}
 
-\section{Transverse vs. Longitudinal Waves}
+\begin{minipage}{0.45\textwidth}
+  \img{transverse1.png}{1}{Transverse wave}{transverse1}
+\end{minipage}\hspace*{0.1\textwidth}%
+\begin{minipage}{0.45\textwidth}
+  \img{longitudinal1.png}{1}{Longitudinal wave}{longitudinal1}
+\end{minipage}
 
-\subsection{Graphing Transverse Waves}
+A wave has the following attributes:
+\begin{itemize}
+  \item Amplitude $x_0$: maximum displacement from the equilibrium position.
+  \item Frequency $f$: number of oscillations per unit time.
+  \item Time period $T$: time taken for one complete oscillation.
+  \item Wavelength $\lambda$: distance between two consecutive points in phase.
+  \item Wave speed $v$: speed at which the wave propagates.
+\end{itemize}
+These properties are linked by the following equation
+\begin{align*}
+  v = \lambda f = \frac{\lambda}{T} \\
+  fT = 1
+\end{align*}
 
-\subsection{Graphing Longitudinal Waves}
+\section{Graphing Waves}
 
-\section{The Wave Equation}
+Transverse waves and longitudinal waves differ in their directions of energy transfer/particle movement:
+\begin{itemize}
+  \item Transverse waves: perpendicular to the direction of wave propagation.
+  \item Longitudinal waves: parallel to the direction of wave propagation.
+\end{itemize}
 
-\section{Sound Waves}
+\subsection{Displacement-Time Graphs}
 
-\section{Electromagnetic Waves}
+\img{distancetime.png}{0.9}{Displacement-time graph}{distancetime}
+
+This provides information about the movement of one particular particle on the wave, but it is also the same for every particle on the wave.
+
+
+\subsection{Displacement-Distance Graphs}
+
+\subsubsection{Transverse Waves}
+
+\img{dd_transverse.png}{0.9}{Displacement-distance graph for transverse waves}{dd_transverse}
+
+\begin{itemize}
+  \item This can be seen as a snapshot of the plot of the position of particles on the wave at a given instant.
+  \item What cannot be inferred from the graph is the time period or frequency of the wave unless the wave speed is given.
+\end{itemize}
+
+\pagebreak
+
+\subsubsection{Longitudinal Waves}
+
+Recall that particles in a longitudinal wave essentially move left and right.
+
+\img{dd_long.png}{0.9}{Displacement-distance graph for longitudinal waves}{dd_long}
+\hl{The second row reflects the actual position of the particles at this particular instant}. Here is how the plot of them is obtained:
+\begin{itemize}
+  \item For each point, find its corresponding point on the curve below.
+  \item If the point is below the x-axis, the curve would have been displaced in the negative direction, that is, on the distance $x$ axis, a movement to the left.
+        \begin{itemize}
+          \item  Take the second point in the top row as an example
+          \item  Its corresponding point on the curve below is at $-0.5$.
+          \item This means that it is displaced by $0.5$ units to the left, horizontally.
+        \end{itemize}
+  \item If the point is above the x-axis, the curve would have been displaced in the positive direction, that is, on the distance $x$ axis, a movement to the right.
+\end{itemize}
+
+\pagebreak
+
+As a general rule of thumb:
+\begin{itemize}
+  \item The centers of rarefraction and compression are at the \hl{roots of the curve}.
+        \begin{itemize}
+          \item If gradient at a root is positive (increasing), then, it is a center of rarefraction.
+                \img{rarefraction.png}{0.4}{Center of rarefraction}{rarefraction}
+          \item Inversely, if the gradient at a root is negative (decreasing), then, it is a center of compression.
+                \img{compression.png}{0.4}{Center of compression}{compression}
+        \end{itemize}
+\end{itemize}
+More observations:
+\begin{itemize}
+  \item Neither rarefraction nor compression occurs at the peaks.
+\end{itemize}
+\pagebreak
+
+\img{4.png}{0.7}{A sequence of snapshots}{4}
+
+\section{Mechanical Waves}
+
+Mechanical waves can be both transverse and longitudinal. They require a medium to propagate through.
+\begin{itemize}
+  \item Gases and liquids cannot support transverse waves due to the lack of a restoring force, but solids can transmit both wave types due to strong atomic bonds.
+\end{itemize}
+\img{sound.png}{0.6}{Sound wave}{sound}
+Sound from a smartphone loudspeaker creates alternating high- and low-pressure regions in the air, which travel as a longitudinal wave to the listener's ear. These pressure variations correspond to compressions and rarefactions in the wave. As the wave spreads out, its amplitude decreases due to energy loss, partly from heating the air.\lb
+Each adjacent pair of compressions and rarefactions is a quarter of a wavelength away, or $\frac{\pi}{2}$ out of phase.
+
+\section{E.M. Waves}
+
+All E.M. waves share the following properties:
+\begin{itemize}
+  \item Are transverse
+  \item Can travel through a vacuum
+  \item Travel at the speed of light $c = 3.00 \times 10^8 \si{\meter\per\second}$ in a vacuum
+  \item Consist of oscillating electric and magnetic fields perpendicular to each other and the direction of wave propagation
+        \img{em.png}{0.6}{E.M. wave}{em}
+  \item They are generated when accelerated electrons or other charged particles emit photons due to energy changes.
+  \item Like all waves, they have frequency and wavelength; however, only the wavelength changes in different media, while frequency remains constant.
+\end{itemize}
+
+\pagebreak
 
 \subsection{The E.M. Spectrum}
+
+\img{emspectrum.jpg}{0.9}{E.M. spectrum}{emspectrum}
 
 \end{document}
