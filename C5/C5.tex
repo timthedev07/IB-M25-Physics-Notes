@@ -120,24 +120,124 @@
 \setcounter{page}{1}
 \addtocontents{toc}{\protect\thispagestyle{empty}}
 
-\section{Doppler Effect --- Qualitative Observations}
+\section{The Doppler Effect for Sound}
+The Doppler effect is a change in observed the frequency and wavelength of a wave that arises from relative motion between the source and the observer. In the following parts we will look at how one can compute the shifted frequencies; it must be noted, however, that these only hold for low speeds, below $0.2c$. Otherwise, one must use the relativistic Doppler effect, which is not covered.
+
 
 \subsection{Case I: Stationary Observer, Moving Source}
 
+\begin{minipage}{0.45\textwidth}
+  \img{1A.png}{1}{Moving towards the observer}{1A}
+\end{minipage}\hspace*{0.1\textwidth}%
+\begin{minipage}{0.45\textwidth}
+  \img{1B.png}{1}{Moving away from the observer}{1B}
+\end{minipage}
+
+\begin{itemize}
+  \item In the first sub-case, where the source is moving towards the observer at speed $u_s$, the \hl{the observed frequency is higher}, as the wavefronts are compressed. The formula for the shifted frequency is given by the following, \textbf{where $v$ is the wave speed}
+        \begin{equation}
+          f' = f\paren{\frac{v}{v - |u_s|}} > f
+        \end{equation}
+  \item In the second sub-case, where the source is moving away from the observer, the \hl{observed frequency is lower}, as the wavefronts are stretched.
+        \begin{equation}
+          f' = f\paren{\frac{v}{v + |u_s|}} < f
+        \end{equation}
+\end{itemize}
+
+\pagebreak
+
+
 \subsection{Case II: Moving Observer, Stationary Source}
 
-\section{Doppler Effect --- Equations}
+When the source is stationary and the observer is moving, there are also shifts in the observed frequency.
+\begin{itemize}
+  \item If the observer is moving towards the source, the observed frequency is higher, as it will \hl{cross more wavefronts in a given time} than if it were stationary.
+        \begin{equation}
+          f' = f\paren{\frac{v + |u_o|}{v}} > f
+        \end{equation}
+  \item Inversely, if the observer is moving away from the source, the observed frequency is lower, as it will \hl{cross fewer wavefronts in a given time}.
+        \begin{equation}
+          f' = f\paren{\frac{v - |u_o|}{v}} < f
+        \end{equation}
+\end{itemize}
 
-\subsection{Case I: Stationary Observer, Moving Source}
+\subsection{The Combined Effect}
 
-\subsection{Case II: Moving Observer, Stationary Source}
+The complete equation that encapsulates both cases is given by
+\begin{equation}
+  f' = f\paren{\frac{v\pm |u_O|}{v\pm |u_S|}}
+\end{equation}
+where
+\begin{itemize}
+  \item $f$ is the frequency of the source
+  \item $f'$ is the observed frequency
+  \item $v$ is the wave speed
+  \item $u_O$ is the velocity of the observer
+  \item $u_S$ is the velocity of the source
+\end{itemize}
+
+The ones discussed before are just special cases of this general relation.
 
 \section{The Doppler Effect for Light}
 
+The previous analysis does not apply to light for the following reasons:
+\begin{itemize}
+  \item E.M. waves do not require a medium
+  \item Light travels at the same speed in all frames of reference, but this is not the case with sound.
+  \item In special relativity, there is no such concept as a source and an observer, as all motion is relative. Thus, only the relative velocity between the source and the observer matters.
+\end{itemize}
+
+When $\Delta u$, \textbf{the relative velocity between the two is much less than the speed of light}, we may use a relation that is modified by
+\begin{itemize}
+  \item substituting the speed of light for the wavespeed
+  \item using the relative velocity between the source and the observer, denote it as $\Delta u$
+\end{itemize}
+Eventually we arrive with the relation
+\begin{equation}
+  f' = f\paren{1 - \frac{\Delta u}{c}}
+\end{equation}
+If we denote the change in frequency as $\Delta f = f - f'$, we can rewrite the equation as
+\begin{equation}
+  \Delta f = f\frac{\Delta u}{c} \iff \frac{\Delta \lambda}{\lambda} = \frac{\Delta f}{f} = \frac{\Delta u}{c}
+\end{equation}
+
+\pagebreak
+
+\subsection{Stellar and Galatic Motion}
+
+The Doppler effect is used to determine the motion of stars and galaxies. \lb
+Observe the light spectra of light emitted by a star at two distinct timestamps.
+\begin{itemize}
+  \item If the most recent one's spectra lines are shifted toward the blue terminal of the spectrum, which represents a \hl{blue shift} (increase in frequency and hence decrease in wavelength), the star is moving towards the observer.
+  \item If the most recent one's spectra lines are shifted toward the red terminal of the spectrum, which represents a \hl{red shift} (decrease in frequency and hence increase in wavelength), the star is moving away from the observer.
+\end{itemize}
+
 \section{Applications of the Doppler Effect}
 
-\subsection{Medical}
+\subsection{Blood Flow Measurement}
+
+\img{bloodvessel.png}{0.5}{Blood flow measurement}{bloodvessel}
+
+\begin{equation}
+  \frac{\Delta f}{f} = \frac{2u\cos\theta}{v}
+\end{equation}
+where
+\begin{itemize}
+  \item $u$ is the speed of the blood (wrong in the diagram)
+  \item $\theta$ is the angle between the direction of the blood flow and the direction of the sound wave
+  \item $v$ is the speed of sound in the blood
+\end{itemize}
+
+\pagebreak
 
 \subsection{RADAR}
+
+This includes the following applications:
+\begin{itemize}
+  \item flow measurements, e.g. medical, rain cloud speed measurements, weather forecasting
+  \item vehicle speed determinations (police speed traps)
+  \item remote sensing of ocean currents
+  \item measurement of turbulence in river and ocean flow
+\end{itemize}
 
 \end{document}
