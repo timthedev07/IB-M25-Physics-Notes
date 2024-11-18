@@ -120,19 +120,71 @@
 \setcounter{page}{1}
 \addtocontents{toc}{\protect\thispagestyle{empty}}
 
-\section{Origin of Standing Waves}
+\section{Formation of Standing Waves}
 
-\section{Parts of a Standing Wave}
+A standing wave originates from the superposition of two waves of the \textbf{same frequency and amplitude} traveling in \textbf{opposite directions}.
+\img{standingwaveparts.png}{0.8}{Formation of a standing wave}{standingwaveparts}
+In the diagram above, the blue and red waves are two traveling waves of the same frequency and amplitude, moving in opposite directions. The result of their superposition (the summation of the amplitudes of the two waves at every point of overlap) is the standing wave shown in green. The standing wave has \textbf{nodes} (points of zero amplitude; destructive inteference) and \textbf{antinodes} (points of maximum amplitude; constructive interference).\lb
+Consider a few examples:
+\begin{enumerate}
+  \item A guitar string is plucked, and the wave travels along the string. The wave reflects off the end of the string and interferes with the incoming wave. This interference creates a standing wave.
+  \item A sound wave is produced in a pipe. The wave reflects off the end of the pipe and interferes with the incoming wave. This interference creates a standing wave.
+\end{enumerate}
 
-\section{Boundary Conditions for Standing Waves}
+One important characteristic to distinguish between a traveling and a stationary wave is the \textbf{amplitude}. In a traveling wave, the amplitude is \textbf{the same at all points}. In a standing wave, at each point on the wave, the amplitude is different from that of its neighboring points.\lb
+Let a \textit{nodal region} be the region of points between any two adjacent nodes.
+\begin{itemize}
+  \item All points in a nodal region are in phase (0 phase difference).
+  \item Points in nodal region $R_1$ are out of phase with points in one of the two neighboring nodal regions $R_2$ by $\pi$ radians.
+\end{itemize}
 
-\section{All Cases of Standing Waves}
+\subsection{Harmonics}
+
+A harmonic is a standing wave pattern of a particular frequency. The first harmonic occurs at the fundamental frequency.
+
+
+\section{Pulse Reflection --- Boundary Conditions}
+\img{pulse.png}{0.8}{Pulse reflection}{pulse}
+
+\begin{enumerate}
+  \item Fixed end; the reflected wave is inverted.
+  \item Free end; the reflected wave is not inverted.
+\end{enumerate}
+
+\section{Standing Waves on a String}
 
 \subsection{Fixed-Fixed}
 
+\img{string1.png}{0.65}{Fixed-Fixed}{string1}
+
+For the $n$-th harmonic:
+\begin{itemize}
+  \item $\lambda_n = \dfrac{2L}{n}$
+  \item The fundamental frequency is $f_1 = \dfrac{v}{2L}$
+  \item Subsequent harmonics have frequencies $f_n = nf_1 = \dfrac{nv}{2L}$
+\end{itemize}
+
+\pagebreak
+
 \subsection{Fixed-Free}
 
+\img{string2.png}{0.65}{Fixed-Free}{string2}
+
+It must be noted that the second harmonic that exists actually has a harmonic number of 3. Similarly, the third harmonic has a harmonic number of 5, and so on.
+
+For the harmonic with harmonic number $n$ (not the $n$th harmonic that exists!), where $n$ is odd:
+
+\begin{itemize}
+  \item $\lambda_n = \dfrac{4L}{n}$
+  \item The fundamental frequency is $f_1 = \dfrac{v}{4L}$
+  \item Subsequent harmonics have frequencies $f_n = nf_1 = \dfrac{nv}{4L}$
+\end{itemize}
+
+\pagebreak
+
 \subsection{Free-Free}
+
+\img{string3.png}{0.45}{Free-Free}{string3}
 
 \section{Standing Waves in Pipes}
 

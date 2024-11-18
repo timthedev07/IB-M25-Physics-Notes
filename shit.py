@@ -9,7 +9,13 @@ class Date:
         m = self.month
         d = self.day
         y = self.year
-        return f"{d}{m}{y}"
+        return f"{d}{str(m).zfill(2)}{y}"
+
+    def humanStr(self):
+        m = self.month
+        d = self.day
+        y = self.year
+        return f"{d}/{str(m).zfill(2)}/{y}"
 
     def __sub__(self, _date):
         d1 = date(2000 + self.year, self.month, self.day)
@@ -19,18 +25,21 @@ class Date:
 dates = []
 
 for year in range(2024, 2100):
-    for month in range(10, 13):
-        for day in range(1, 10):
+    for month in range(1, 13):
+        for day in range(2, 10):
             dates.append(Date(day, month, year - 2000))
 
 def isGoodDate(date):
     m = date.month
     d = date.day
     y = date.year
-    return m % d == 0 and y % m == 0
+    return m % d == 0 and y % m == 0 and 1 < d < m < y
 
 
 filteredDates = [d for d in dates if isGoodDate(d)]
+
+for d in filteredDates:
+    print(d.humanStr())
 
 longestGap = 0
 bestPair = ()
@@ -41,6 +50,5 @@ for i in range(0, len(filteredDates) - 1):
         bestPair = (filteredDates[i], filteredDates[i + 1])
 
 (a, b) = bestPair
-print(a)
-print(b)
+print(f"{a}{b}")
 print(longestGap)
