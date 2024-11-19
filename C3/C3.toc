@@ -1,17 +1,14 @@
 \thispagestyle {empty}
 \contentsline {section}{\numberline {1}Wavefronts and Rays}{1}{section.1}%
 \contentsline {section}{\numberline {2}Refraction}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Transmission}{2}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Snell's Law}{2}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Critical Angle}{2}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Reflection}{3}{section.3}%
-\contentsline {subsection}{\numberline {3.1}TIR}{3}{subsection.3.1}%
-\contentsline {section}{\numberline {4}Superposition of Waves}{4}{section.4}%
-\contentsline {section}{\numberline {5}Diffraction Equations}{5}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Single Slit Diffraction}{5}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Double Slit Diffraction}{5}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Diffraction Pattern}{6}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Effect of Single Slit}{6}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Effect Double Slit}{6}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Combined Effect}{6}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Diffraction Grating}{7}{section.7}%
+\contentsline {subsection}{\numberline {2.1}Snell's Law}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Critical Angle}{3}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Reflection}{4}{section.3}%
+\contentsline {section}{\numberline {4}Double Source Interference}{5}{section.4}%
+\contentsline {section}{\numberline {5}Diffraction}{6}{section.5}%
+\contentsline {section}{\numberline {6}Double Slit Diffraction}{7}{section.6}%
+\contentsline {section}{\numberline {7}Single Slit Diffraction}{10}{section.7}%
+\contentsline {section}{\numberline {8}Combined Effect}{13}{section.8}%
+\contentsline {section}{\numberline {9}Multi-Slit Diffraction}{14}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Diffraction Grating}{15}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Grating Spacing}{15}{subsection.9.2}%

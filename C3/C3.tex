@@ -89,7 +89,7 @@
 
 \newtcolorbox[auto counter]{defin}[1][]{fonttitle=\bfseries, title=\strut Definition.~\thetcbcounter,colback=black!5!white,colframe=black!65!gray,top=5mm,bottom=5mm}
 
-\newtcolorbox[auto counter]{obs}[1][]{fonttitle=\bfseries, title=\strut Observation.~\thetcbcounter,colback=RedViolet!5!white,colframe=RedViolet!65!gray,top=5mm,bottom=5mm}
+\newtcolorbox[auto counter]{ass}[1][]{fonttitle=\bfseries, title=\strut Assumption.~\thetcbcounter,colback=RedViolet!5!white,colframe=RedViolet!65!gray,top=5mm,bottom=5mm}
 
 \setlength{\belowcaptionskip}{-20pt}
 
@@ -121,37 +121,210 @@
 \addtocontents{toc}{\protect\thispagestyle{empty}}
 
 \section{Wavefronts and Rays}
+\img{wavefrontray.png}{0.5}{Wavefronts and Rays}{wavefrontray}
+\begin{itemize}
+  \item Wavefronts are surfaces that move with the wave and are \textbf{perpendicular to the direction of the wave motion}. Consecutive wavefronts are imagined to be one wavelength apart
+  \item Rays are lines that show the \textbf{direction of energy transfer} by the wave. They are locally perpendicular to the wavefront.
+\end{itemize}
+
 
 \section{Refraction}
 
-\subsection{Transmission}
+Refraction refers to the change in speed and direction of a wave as it passes from one medium to another. The change in speed will depend on the optical density of the medium.
+
+A general rule of thumb when considering the bending of the wave is that
+\begin{itemize}
+  \item If the wave slows down, it will bend towards the normal
+  \item If the wave speeds up, it will bend away from the normal
+\end{itemize}
+The image below shows how refraction is drawn.
+\img{refractionwavefront.png}{0.5}{Refraction of Wavefronts}{refractionwavefront}
+
+\pagebreak
 
 \subsection{Snell's Law}
 
+In refraction, the frequency stays the same as the wave passes from one medium to another. However, the speed and wavelength of the wave will change. The full relationship is given as follows
+
+$$\frac{\sin \theta_1}{\sin \theta_2} = \frac{v_1}{v_2} = \frac{\lambda_1}{\lambda_2} = \frac{n_2}{n_1}$$
+where the quantities with subscript 1 are the quantities in the first medium and the quantities with subscript 2 are the quantities in the second medium. $n$ is the refractive index of a medium.\lb
+The way to remember this is, a chained equality of ratios, all except the refractive index is in the same order (medium 1 over medium 2, or vice versa).
+
+
 \subsection{Critical Angle}
 
+The critical angle is defined as the angle of incidence that produces an angle of refraction of 90 degrees. This is the angle beyond which total internal reflection occurs. The critical angle is given as follows
+$$\sin c = \frac{n_2}{n_1}$$
+where $n_1$ is the refractive index of the medium the wave is coming from and $n_2$ is the refractive index of the medium the wave is entering. By this definition, this only works if the wave is going from a medium with a higher refractive index to a medium with a lower refractive index (i.e. $n_1 > n_2$), since the sine function cannot exceed 1 in any way.
+
 \section{Reflection}
+The law of reflection states that the angle of incidence is equal to the angle of reflection.\lb
+However, reflection can be partial or total.
+\begin{itemize}
+  \item Partial reflection is when part of the wave is reflected while the rest is transmitted through the medium and refracted.
+  \item A total internal reflection is when all of the waves are reflected and none are transmitted. This is often used in optical fibres, periscopes, binoculars, and endoscopy (medicine).
+\end{itemize}
 
-\subsection{TIR}
+Total internal reflection occurs when the angle of incidence is greater than the critical angle.
 
-\section{Superposition of Waves}
+\section{Double Source Interference}
 
-\section{Diffraction Equations}
+Consider the waves coming from two identical sources $S_1$ and $S_2$; they have the same amplitude, frequency, and wavelength.
 
-\subsection{Single Slit Diffraction}
+\img{doublesource.png}{0.4}{Double Source Interference}{doublesource}
 
-\subsection{Double Slit Diffraction}
-
-\section{Diffraction Pattern}
-
-\subsection{Effect of Single Slit}
-
-\subsection{Effect Double Slit}
-
-\subsection{Combined Effect}
-
-\section{Diffraction Grating}
+At any general point $P$, the \textbf{path difference} is the difference in the distance travelled by the two waves. Numerically, that is $$\Delta r = \lvert S_1P - S_2P \rvert$$
+In this particular example, for the specific point P, $$\Delta r_P = |2\lambda - 3\lambda| = \lambda$$
+The path difference will tell us whether the interference is constructive or destructive.
+\begin{itemize}
+  \item If the path difference is an integer multiple of the wavelength, the interference is constructive. I.e., when $\Delta r = n\lambda$, where $n \in \mathbb{Z}$; the amplitude is doubled.
+  \item If $\Delta r = (n + \frac{1}{2})\lambda$, where $n \in \mathbb{Z}$, then, it is a destructive interference; the superposed amplitude at this point is 0.
+\end{itemize}
 
 
+\section{Diffraction}
+
+Diffraction is the spreading of waves as they pass through an aperture or around an obstacle. The amount of diffraction that occurs depends on the wavelength of the wave and the size of the gap or obstacle.
+
+\begin{minipage}{0.45\textwidth}
+  \img{diffractionedge.png}{1}{Diffraction around an edge}{diffraction}
+\end{minipage}\hspace*{0.1\textwidth}%
+\begin{minipage}{0.45\textwidth}
+  \img{diffractionaperture.png}{1}{Diffraction through an aperture}{diffractionaperture}
+\end{minipage}
+
+
+\pagebreak
+
+\section{Double Slit Diffraction}
+
+Consider the following scenario: a wave is incident on a surface that has two slits separated by a distance $d$. The wavefronts from the two slits will interfere with each other, constructively at some points and destructively at others. A requirement of this is that the waves coming out of the two slits must be \textbf{coherent}, i.e. they sustain a constant phase difference over time.
+
+\img{doubleslit.png}{0.46}{Double Slit Diffraction}{doubleslit}
+\begin{enumerate}
+  \item The slit separation $d$ is almost negligible, thus we can consider the two rays to be parallel.
+  \item Consider $P$ to be a point on the screen, we now analyze the interference at this point.
+  \item Define $\theta$ as shown in the diagram. With some geometric sense, the path difference is given as
+        $$\Delta r = |S_2Z| = d\sin\theta$$
+  \item If we want to find points of constructive interference, we require $\Delta r = n\lambda$, where $n \in \mathbb{Z}$. Thus, we have
+        \begin{equation}\label{eq:double}
+          d\sin\theta = n\lambda
+        \end{equation}
+  \item Conversely, if we want to find points of destructive interference, we require $\Delta r = (n + \frac{1}{2})\lambda$, where $n \in \mathbb{Z}$. Thus, we have
+        \begin{equation}\label{eq:double2}
+          d\sin\theta = (n + \frac{1}{2})\lambda
+        \end{equation}
+  \item An important concept here is that $\theta$ is also very small, so we can use the small angle approximation $\sin\theta \approx \tan\theta$ (just take limits...)
+  \item By construction, we have that $$\tan\theta = \frac{s_n}{D}$$
+        where $D$ is the distance to the screen and $s_n$ is the distance from the central maximum to the $n$th maximum.
+  \item If we just focus on the points of constructive interference, we can rewrite \cref{eq:double} as
+        $$\frac{s_nd}{D} = n\lambda$$
+        which can be rearranged to give
+        \begin{equation}\label{eq:double3}
+          s_n = \frac{n\lambda D}{d}
+        \end{equation}
+  \item Now, this allows us to work out the \textbf{separation between any two maxima or minima} on the screen, $s$:
+        $$s = s_{n + 1} - s_n = \frac{\lambda D}{d}$$
+        \begin{equation}
+          s = \frac{\lambda D}{d}
+        \end{equation}
+
+\end{enumerate}
+
+The displacement or angular displacement vs. intensity graph \textbf{only concerning the effect of double slit diffraction} is shown below.
+\img{doubleslitgraph.png}{0.5}{Graph of intensity vs. Angular displacement}{doubleslitgraph}
+An important feature is that, the \textbf{intensity is proportional to the square of the amplitude}; this means that, two waves of amplitude $A$ interfering constructively at point $P$ will have an amplitude of $2A$ and an intensity of four times the original.\lb
+\begin{ass}{}
+  It must be noted that this graph, with peaks at roughly the same intensities, is only true when the slit widths are negligible so that the single slit effect will not be taken into account.
+\end{ass}
+
+\section{Single Slit Diffraction}
+
+Consider a single slit of width $b$ and a wave incident on it. The wavefronts will spread out as they pass through the slit.
+\img{singleslit.png}{0.5}{Single Slit Diffraction}{singleslit}
+Our aim is now to identify the \textbf{angular displacement of the first minimum} (first point of destructive inteference). Before we proceed, we need to accept the assumptions of Huygen's principle:
+\begin{center}
+  \textit{Every point on a wavefront acts as a source of secondary spherical wavelets, and the wavefront at any later time is the envelope of these wavelets.}
+\end{center}
+If we consider the wave incident on the slit, we can split the slit into a number of point sources, each of which will emit a wavefront.
+\pagebreak
+\begin{enumerate}
+  \item Consider the pair of wavelets emitted from $A_1$ and $B_1$; the path difference between the two wavelets is given as
+        $$\Delta r = |A_1P - B_1P| = \frac{b}{2}\sin\theta$$
+  \item Again, this relies on the approximation of the two rays being parallel.
+  \item To achieve destructive interference, we require $\Delta r = (n + \frac{1}{2})\lambda$, where $n \in \mathbb{Z}$. Thus, we have
+        \begin{equation}\label{eq:single}
+          \frac{b}{2}\sin\theta = (n + \frac{1}{2})\lambda
+        \end{equation}
+  \item Since we are only concerned with the first minimum, we take $n = 0$.
+  \item We can now rearrange \cref{eq:single} to give
+        \begin{equation}\label{eq:single2}
+          b\sin\theta = \lambda
+        \end{equation}
+  \item With small angle approximation, we obtain that
+        \begin{equation}\label{eq:single_final}
+          \theta = \frac{\lambda}{b}
+        \end{equation}
+\end{enumerate}
+
+The intensity graph is as follows:
+\img{singleslitintensity.png}{0.4}{Graph of intensity vs. angular displacement}{singleslitintensity}
+Effects of \hl{decreasing} the slit width (assuming a fixed wavelength):
+\begin{itemize}
+  \item The angular displacement of the first minimum (and in fact, other minima) will increase. This means that the graph will be more spread out.
+  \item Suppose the slit width is dropped to $\dfrac{1}{k}$ of the original, then, the amplitude will also drop to $\dfrac{1}{k}$ of the original. Hence, the intensity will drop to $\dfrac{1}{k^2}$ of the original.
+\end{itemize}
+
+\section{Combined Effect}
+
+\begin{minipage}{0.475\textwidth}
+  \img{combine1.png}{1}{Overlay of the effects}{combined}
+\end{minipage}\hspace*{0.05\textwidth}%
+\begin{minipage}{0.475\textwidth}
+  \img{combine2.png}{1}{Resulting graph}{combined2}
+\end{minipage}
+
+In \cref{fig:combined2}, the blue curve shows the resulting intensity graph. It is essentially the original double slit graph suppressed by the single red curve.
+
+
+
+\section{Multi-Slit Diffraction}
+
+Consider adding more and more slits. Below shows the graphs for four and six slits respectively.
+
+\begin{minipage}{0.475\textwidth}
+  \img{fourslit.png}{1}{Four Slit Diffraction}{fourslit}
+\end{minipage}\hspace*{0.05\textwidth}%
+\begin{minipage}{0.475\textwidth}
+  \img{sixslit.png}{1}{Six Slit Diffraction}{sixslit}
+\end{minipage}
+
+Previously, in \cref{fig:combined2}, there is only one \textit{secondary minimum} between every pair of maxima. However, as observed, in the case of four slits, there are 2 secondary minima between every pair of maxima. The general rule of thumb for $N$ slits is that:
+\begin{itemize}
+  \item There are $N - 2$ secondary minima between every pair of maxima.;
+  \item The intensity of the central maximum is $N^2$ times the intensity of just one slit by itself.
+\end{itemize}
+With increasing $N$:
+\begin{itemize}
+  \item The primary maxima remain at the same angles
+  \item The primary maxima get narrower and brighter
+  \item The secondary maxima become unimportant.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Diffraction Grating}
+
+A diffraction grating is a configuration that consists of a large number of slits of negligible width.
+
+\img{gratingintensity.png}{0.5}{Diffraction Grating}{gratingintensity}
+
+The equations for destructive and constructive interference are the same as the ones developed previously, namely \cref{eq:double} and \cref{eq:double2}.
+
+\subsection{Grating Spacing}
+
+Since the slit width is negligible, we can treat each slit as a single line. The grating spacing is the distance between two adjacent lines. If we are told that the grating is $N$ lines per unit length, then the grating spacing is given as
+$$d = \frac{1}{N}$$
+in that unit.
 
 \end{document}
