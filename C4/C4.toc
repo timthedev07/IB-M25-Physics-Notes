@@ -7,8 +7,10 @@
 \contentsline {subsection}{\numberline {3.2}Fixed-Free}{5}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Free-Free}{6}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Standing Waves in Pipes}{7}{section.4}%
-\contentsline {section}{\numberline {5}Resonance}{8}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Pros and Cons of Resonance}{8}{subsection.5.1}%
-\contentsline {section}{\numberline {6}Natural Frequency}{9}{section.6}%
-\contentsline {section}{\numberline {7}Damping}{10}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Forced Vibrations}{10}{subsection.7.1}%
+\contentsline {subsection}{\numberline {4.1}Closed-Closed}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Closed-Open}{8}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Open-Open}{9}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Summary --- Standing Wave Equations}{10}{section.5}%
+\contentsline {section}{\numberline {6}Resonance}{11}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Resonance with Damping}{12}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Pros and Cons of Resonance}{14}{subsection.6.2}%

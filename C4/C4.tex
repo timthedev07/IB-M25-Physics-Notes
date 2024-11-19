@@ -4,7 +4,7 @@
 \usepackage{siunitx}
 \usepackage{graphicx}
 \usepackage[a4paper, total={3in, 9in}, textwidth=16cm,bottom=1in,top=1.4in]{geometry}
-\usepackage[dvipsnames]{xcolor}
+\usepackage[dvipsnames,table]{xcolor}
 \usepackage{amsmath}
 \usepackage{esvect}
 \usepackage{soul}
@@ -186,16 +186,109 @@ For the harmonic with harmonic number $n$ (not the $n$th harmonic that exists!),
 
 \img{string3.png}{0.45}{Free-Free}{string3}
 
+The formulae are identical to those for the fixed-free string. The only difference is the positions of the nodes and antinodes.
+
 \section{Standing Waves in Pipes}
+
+In a pipe, there can also be a standing wave pattern. It is slightly different from the case of strings, but similar analysis can be performed.
+Consider the following diagram, where the dots represent vibrating air molecules.
+\img{pipe.png}{0.8}{Standing wave in a pipe}{pipe}
+\begin{itemize}
+  \item The particles oscillate left and right in a fixed position. The amplitude, previously the vertical displacement of a point on the string, is now the range of horizontal movement of the particles.
+  \item A free end is an antinode
+  \item A fixed end is a node
+\end{itemize}
+
+\pagebreak
+
+\img{pipe_summary.png}{0.95}{Summary of standing wave patterns in pipes}{pipe_summary}
+
+\subsection{Closed-Closed}
+
+Notice that this is completely analogous to the fixed-fixed string case.
+
+\begin{itemize}
+  \item For the $n$th harmonic, $\lambda_n = \dfrac{2L}{n}$
+  \item The fundamental frequency is $f_1 = \dfrac{v}{2L}$
+  \item Subsequent harmonics have frequencies $f_n = nf_1 = \dfrac{nv}{2L}$
+\end{itemize}
+
+\subsection{Closed-Open}
+
+Notice that this is completely analogous to the fixed-free string case.
+
+In this case, the even harmonics are omitted.
+\begin{itemize}
+  \item For the harmonic numbered $n$, $\lambda_n = \dfrac{4L}{n}$
+  \item The fundamental frequency is $f_1 = \dfrac{v}{4L}$
+  \item Subsequent harmonics have frequencies $f_n = nf_1 = \dfrac{nv}{4L}$
+\end{itemize}
+
+\subsection{Open-Open}
+
+This is completely analogous to the free-free string case as well as the closed-closed pipe case.
+
+\section{Summary --- Standing Wave Equations}
+
+The following table works for both the string and pipe cases, since both are analogous.
+
+\begin{table}[H]
+  \centering
+  \def\arraystretch{1.5}
+  \begin{tabular}{|c|c | c|}\hline
+    Case                                           & Wavelength                  & Frequency                     \\ \hline
+    Both ends same condition; $n \in \mathbb{Z}^+$ & $\lambda_n = \dfrac{2L}{n}$ & $f_n = nf_1 = \dfrac{nv}{2L}$ \\ \hline
+    Two ends different conditions; $n$ is odd      & $\lambda_n = \dfrac{4L}{n}$ & $f_n = nf_1 = \dfrac{nv}{4L}$ \\ \hline
+  \end{tabular}
+\end{table}
 
 \section{Resonance}
 
+Resonance occurs when the driving frequency $f_D$ is equal to the natural frequency $f_0$ of the system. The amplitude of the system increases significantly; without damping, the amplitude would tend towards infinity, which is impossible.
+\img{resonance.png}{0.4}{Resonance}{resonance}
+The driven oscillator may initially oscillate at a different frequency than the driving frequency, but it will eventually reach the driving frequency.
+\begin{itemize}
+  \item \textit{Natural frequency}: The frequency at which a system oscillates on its own.
+  \item \textit{Driving frequency}: The frequency of an external force driving the system.
+\end{itemize}
+\pagebreak
+
+\subsection{Resonance with Damping}
+
+\img{resonancewithdamping.png}{0.4}{Resonance with damping}{resonancewithdamping}
+Let's now investigate this refined graph with damping considered.
+\begin{itemize}
+  \item Each red curve of the family represents an oscillatory system with a different level of damping.
+  \item The lower the peak of a red curve, the higher the damping associated with it.
+  \item With low damping, the peak occurs closest to the natural frequency. As damping increases, the peak shifts away from the natural frequency and becomes flatter.
+\end{itemize}
+
+\pagebreak
+
+\img{damping.png}{0.6}{Damping}{damping}
+
+\begin{itemize}
+  \item \textit{Critical damping}: The system returns to equilibrium as quickly as possible without oscillating.
+  \item \textit{Heavy damping}: The system returns to equilibrium slowly without oscillating.
+  \item \textit{Light damping}: The system returns to equilibrium slowly with oscillations; the amplitude decreases exponentially (decay) with time.
+\end{itemize}
+
+\pagebreak
+
 \subsection{Pros and Cons of Resonance}
 
-\section{Natural Frequency}
+\begin{table}[H]
+  \centering
 
-\section{Damping}
+  \def\arraystretch{1.1}
+  \begin{tabular}{|p{0.45\textwidth}|p{0.45\textwidth}|}\hline
+    \rowcolor{Magenta!30!white} \textbf{Pros}                                      & \textbf{Cons}                                                                                                                       \\ \hline
+    Microwave Ovens: Resonance excites water molecules to heat food efficiently.   & Structural Damage: Bridges like Tacoma Narrows and Millennium Footbridge suffered instability due to resonance; fixed with dampers. \\ \hline
+    Ozone Layer: Resonance absorbs harmful UV radiation, protecting living tissue. & Mechanical Vibrations: Unwanted resonance in vehicle mirrors, engines, and washing machines causes noise and wear.                  \\ \hline
+    Nuclear Magnetic Resonance (NMR): Used in MRI for medical diagnostics.         &                                                                                                                                     \\ \hline
+    Lasers: Produced by setting up standing waves at specific light frequencies.   &                                                                                                                                     \\ \hline
+  \end{tabular}
+\end{table}
 
-\subsection{Forced Vibrations}
 
 \end{document}
