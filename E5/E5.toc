@@ -12,3 +12,4 @@
 \contentsline {section}{\numberline {5}Stellar Parallax}{11}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Convenient Units}{12}{subsection.5.1}%
 \contentsline {section}{\numberline {6}Stellar Radius}{13}{section.6}%
+\contentsline {section}{\numberline {7}Exam Questions}{14}{section.7}%
