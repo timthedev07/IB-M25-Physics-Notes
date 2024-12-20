@@ -21,3 +21,4 @@
 \contentsline {subsection}{\numberline {10.4}Length Contraction}{17}{subsection.10.4}%
 \contentsline {subsection}{\numberline {10.5}Time Dilation}{19}{subsection.10.5}%
 \contentsline {subsection}{\numberline {10.6}Invariant Hyperbolae}{20}{subsection.10.6}%
+\contentsline {subsubsection}{\numberline {10.6.1}Calibrating the Axes}{21}{subsubsection.10.6.1}%
