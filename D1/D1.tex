@@ -192,7 +192,7 @@ Extended bodies are the real-world objects; they can be treated as point masses 
           \item $A_1 = A_2$, if the time intervals between $PP'$ and $QQ'$ are equal.
           \item A consequence is that the average velocity of the planet between $PP'$ is greater than that between $QQ'$. This is because at Q, the area is much sensitive to a change in the position of the planet, and so to keep the area swept out equal, the planet must move a lot slower at Q than at P.
         \end{itemize}
-  \item \textbf{Kepler's Third Law:} The square of the orbital period of a planet is directly proportional to the cube of the semi-major axis of its orbit. $$T^2 \propto r^3$$
+  \item \textbf{Kepler's Third Law:} The square of the orbital period of a planet is directly proportional to the cube of the semi-major axis of its orbit. $$T^2 \propto r^3 \quad\text{or}\quad \left(\frac{T_1}{T_2}\right)^2 = \left(\frac{r_1}{r_2}\right)^3$$
         \begin{itemize}
           \item Directly use this relation in ratio questions; forget about the constant of proportionality.
         \end{itemize}
@@ -295,6 +295,7 @@ Observations:
   \item Independent of the object's mass
   \item $v_{\text{escape}} = v_\text{orbital}\sqrt{2} > v_{\text{orbital}}$
 \end{itemize}
+In fact, this works for an object at any orbital height, not just the surface. For an object above the surface, the orbital speed must be increased to $\sqrt{2}v_{\text{orbital}}$ to escape, analogously, the kinetic energy must be raised to twice the original (since velocity is squared when computing KE, the factor of $\sqrt{2}$ is squared to give 2).
 
 \section{Total Energy of a Satellite}
 
@@ -321,5 +322,18 @@ Hence, when the system loses (becoming more negative) $\Delta E$ joules of energ
 The syllabus also requires us to consider the impact of viscous drag on the satellite.\lb
 At low heights, the satellite collides with air molecules in the atmosphere, thus experiencing a drag force opposing the circular motion. The total energy of the satellite is decreased as a portion is lost to friction, and the satellite will undergo \hl{orbital decay}, whereby the altitude and analogously the orbital radius of the satellite decreases. This will cause its speed to increase, and the satellite will eventually burn up in the atmosphere. This is why it requires a boost in altitude every few years to maintain its orbit.
 
+\pagebreak
+
+\section{Exam Tips and Notes}
+
+\subsection{The Radius}
+
+In questions, always bear in mind that the radius is the distance from the center of the planet (or any other object creating the field) to the satellite, \hl{not the distance from the surface of the planet to the satellite}. Consider the following
+\begin{quote}
+  A satellite is in an orbit at a height $h$ above the surface of Earth. The gravitational potential at its location is $V$.
+
+  The satellite is transferred to a different orbit where the gravitational potential is $\dfrac{V}{2}$ What can be deduced about the new height of this satellite from the surface of Earth?
+\end{quote}
+One may easily fall into the pitfall of thinking that, since $V = -\dfrac{GM}{r}$, if $V$ is halved, then $r$ is doubled, and so the new height is $2h$. However, this is incorrect; the radius is the distance from the center of the Earth to the satellite! Let $R$ be the radius of the Earth; the old \textbf{orbital radius} is $R + h$ and the new is $2(R + h)$, so the new height is $2R + 2h - R = R + 2h > 2h$.
 
 \end{document}
