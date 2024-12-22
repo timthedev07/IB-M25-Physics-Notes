@@ -358,6 +358,23 @@ If we know the potential of charge $q_1$ at position $r$ in the field of $q_2$, 
   E_p = q_1V
 \end{equation}
 
+\pagebreak
+
+\subsection{Combined Potentials}
+
+First consider two identical point charges $Q_1$ and $Q_2$ at a distance $R$ from each other.
+\img{combined.png}{0.9}{Combined Potentials}{combined}
+The resulting potential at a point P that is $x$ away from $Q_1$ can be derived as follows:
+\begin{align*}
+  \sum V = V_1 + V_2 & = \frac{kQ_1}{x} + \frac{kQ_2}{R - x}
+\end{align*}
+It is worth noting that this graph has a minimum at $x = \dfrac{1}{2} R$
+Now consider the case when the two charges are replaced by two identical conducting spheres.
+\img{combinedhollow.png}{0.9}{Combined Potentials for Conducting Spheres}{combinedhollow}
+The above is the shape of the graph of $\sum V$.\lb
+In the region between the two spheres, the graph has the same shape as if the two charges were point charges. However, once reaching into one of the spheres, the potential becomes a horizontal segment. This is because the field inside a conductor is zero, and so the potential is constant, since $$E = -\diff{V}{r} = 0$$
+In this case, the potential due to the sphere on the other side no longer matters, because any contribution to the electric field from external charges (e.g., right sphere) is canceled out by the redistribution of charge on the surface of the left sphere. This is a property of conductors, where external fields cannot penetrate inside.
+
 \section{Magnetic Fields}
 
 Magnetic field lines have similar properties to those of electric field lines:
