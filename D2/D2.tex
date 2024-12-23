@@ -151,7 +151,7 @@ In the diagram above, the currents flowing into the junction are $I_1$, $I_2$, a
 \begin{itemize}
   \item Bringing a \hl{charged object close to but without touching a neutral one}.
   \item This charged object causes electrons within the neutral object to \hl{move (but not transferred)}, either attracting them to the surface or repelling them to the other end of the object.
-  \item The object temporarily develops opposite charges on opposite sides (polarization). If grounded, it can be left with a permanent charge opposite to the one on the inducing object.
+  \item The object temporarily develops opposite charges on opposite sides (polarization). \hl{If grounded, it can be left with a permanent charge opposite to the one on the inducing object}.
 \end{itemize}
 
 \section{Electric Fields}
@@ -233,7 +233,8 @@ This equation is not merely used for parallel plates; it applies to the calculat
 \subsection{Electron Volt Conversions}
 
 One electronvolt (eV) is \hl{the energy gained by one electron when it moves through a potential difference of one volt}. This is equivalent to $1.6 \times 10^{-19}$ Joules.\lb
-Conversely, one Joule is equivalent to $6.24 \times 10^{18}$ electronvolts.
+Conversely, one Joule is equivalent to $6.24 \times 10^{18}$ electronvolts.\lb
+If we consider a particle of charge $ne$ with $n\in \mathbb{N}$ that is accelerated through a potential difference of $V$, the work done on the particle is $neV$.
 
 \pagebreak
 
@@ -270,7 +271,7 @@ Set-up:
 Measurements:
 \begin{itemize}
   \item Before turning on the electric field, the droplets were allowed to fall and eventually reach a terminal velocity.
-  \item At this constant velocity, weight = drag force + upthrust.
+  \item At this constant velocity, \hl{weight = drag force + upthrust}.
         \begin{itemize}
           \item The upthrust the buoyancy force acting on the droplet due to the air and can be found by $\rho gV$.
           \item The drag force can be approximated as $6\pi\eta rv$.
@@ -285,6 +286,7 @@ Evidence for quantization of charge:
   \item This observation led to the conclusion that charge is quantized --- it comes in discrete packets, rather than being continuous.
   \item Experiments failed to find any charge less than $1.6 \times 10^{-19}$ Coulombs; this is then the value of the elementary charge, $e$.
 \end{itemize}
+\textbf{Note}: it is helpful to remember the derivation of this experiment --- it may appear in exams. Quite simply it is the highlighted line, from there you can form equations and rearrange to find desired expressions.
 
 \pagebreak
 
@@ -319,7 +321,11 @@ The $\pm$ signs just indicate that $Q$ and $V$ have the same sign.
   \img{platesequipotential.png}{1}{Equipotentials for Parallel Plates}{platesequipotential}
 
   For parallel plates, the equipotentials are \textit{parallel lines} equally spaced. The electric field lines are always perpendicular to the equipotentials.
-\end{minipage}
+\end{minipage}\lb
+
+It is worth noting that in \cref{fig:platesequipotential}, the most work is done when one moves the positive charge towards the positive plate against the arrows, and conversely, the least work is done when one moves the positive charge towards the negative plate with the arrows.\lb
+Also, the motion of the charge in \cref{fig:platesequipotential} is uniformly accelerated, since the field is uniform.\lb
+Lastly, it must be noted that in \cref{fig:platesequipotential}, any motion perpendicular to the field lines does not require work to be done; there is no change in potential.
 
 \pagebreak
 
@@ -422,5 +428,19 @@ To strengthen the field:
   \item Add an iron core
 \end{itemize}
 The shape of the field lines look similar to those of a bar magnet; the end of the solenoid from which the field lines emerge is the north pole, and vice versa.
+
+\section{Exam Questions}
+
+\subsection{Force and Field Strength Directions}
+
+P and Q are two opposite point charges. The force F acting on P due to Q and the electric field strength E at P are shown.
+\img{ex/estrengthdirection.png}{0.5}{Force and Field Strength Directions}{estrengthdirection}
+Which diagram shows the force on Q due to P and the electric field strength at Q?
+\img{ex/estrengthdirection_options.png}{0.8}{Options}{estrengthdirection}
+
+\begin{enumerate}
+  \item Firstly, since P and Q have opposite charges, there must be an attractive force between them, this means that while P points toward Q, Q also points toward P. This eliminates options C and D.
+  \item Recall that the electric field strength is the force per unit charge experienced by a small positive test charge at that point. The fact that $E_P$ and $F_P$ are in opposite directions suggests that P has a negative charge. This means that Q must have a positive charge, and so the field lines must point toward P (since field lines go from positive to negative). This gives option B.
+\end{enumerate}
 
 \end{document}
