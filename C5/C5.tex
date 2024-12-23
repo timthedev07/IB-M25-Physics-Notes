@@ -121,7 +121,7 @@
 \addtocontents{toc}{\protect\thispagestyle{empty}}
 
 \section{The Doppler Effect for Sound}
-The Doppler effect is a change in observed the frequency and wavelength of a wave that arises from relative motion between the source and the observer. In the following parts we will look at how one can compute the shifted frequencies; it must be noted, however, that these only hold for low speeds, below $0.2c$. Otherwise, one must use the relativistic Doppler effect, which is not covered.
+\hl{The Doppler effect is a change in observed the frequency and wavelength of a wave that arises from relative motion between the source and the observer}. In the following parts we will look at how one can compute the shifted frequencies; it must be noted, however, that these only hold for low speeds, below $0.2c$. Otherwise, one must use the relativistic Doppler effect, which is not covered.
 
 
 \subsection{Case I: Stationary Observer, Moving Source}
@@ -134,7 +134,7 @@ The Doppler effect is a change in observed the frequency and wavelength of a wav
 \end{minipage}
 
 \begin{itemize}
-  \item In the first sub-case, where the source is moving towards the observer at speed $u_s$, the \hl{the observed frequency is higher}, as the wavefronts are compressed. The formula for the shifted frequency is given by the following, \textbf{where $v$ is the wave speed}
+  \item In the first sub-case, where the \hl{relative velocity} between the two is $u_s$, the \hl{the observed frequency is higher}, as the wavefronts are compressed. The formula for the shifted frequency is given by the following, \textbf{where $v$ is the wave speed}
         \begin{equation}
           f' = f\paren{\frac{v}{v - |u_s|}} > f
         \end{equation}
@@ -178,7 +178,7 @@ where
 
 The ones discussed before are just special cases of this general relation.
 
-\section{The Doppler Effect for Light}
+\section{The Doppler Effect for E.M. Waves}
 
 The previous analysis does not apply to light for the following reasons:
 \begin{itemize}
@@ -239,5 +239,57 @@ This includes the following applications:
   \item remote sensing of ocean currents
   \item measurement of turbulence in river and ocean flow
 \end{itemize}
+
+\section{Exam Questions}
+
+\subsection{Intensity and Frequency Changes}
+
+A train approaches a station and sounds a horn of constant frequency and constant intensity. An observer waiting at the station detects a frequency $f_\text{obs}$ and an intensity $I_\text{obs}$. What are the changes, if any, in $f_\text{obs}$ and $I_\text{obs}$ as the train slows down?
+\begin{table}[H]
+  \centering
+  \begin{tabular}{c | c}
+    $I_\text{obs}$ & $f_\text{obs}$ \\
+    \hline
+    no change      & decreases      \\
+    increases      & increases      \\
+    no change      & increases      \\
+    increases      & decreases
+  \end{tabular}
+\end{table}
+\begin{itemize}
+  \item It is tempted to say that $f_\text{obs}$ increases because the source is approaching the observer. However, the question is not asking for $f_\text{obs}$ relative to $f_\text{source}$, but rather the change in $f_\text{obs}$ itself as the train slows down. In this case, the source is approaching the observer at a slower rate, so while $f_\text{obs}$ will be higher than $f_\text{source}$, it will decrease as the train slows down.
+  \item Recall that the \textbf{observed intensity} $I_\text{obs}$ obeys the inverse square law
+        $$I_\text{obs} = \frac{P_\text{source}}{4\pi r^2}$$
+        we are given that the intensity of the source is constant and thus the power of the source is constant. As the train slows down, the distance between the source and the observer decreases, thus increasing $I_\text{obs}$.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Applying the Doppler Effect}
+
+Sea waves move towards a beach at a constant speed of $2.0 \mathrm{~m} \mathrm{~s}^{-1}$. They arrive at the beach with a frequency of 0.10 Hz . A girl on a surfboard is moving in the sea at right angles to the wave fronts. She observes that the surfboard crosses the wave fronts with a frequency of 0.40 Hz .
+\img{ex/sea.png}{0.5}{Sea waves}{sea}
+What is the speed of the surfboard and the direction of motion of the surfboard relative to the beach? To tackle Doppler effect questions,
+\begin{enumerate}
+  \item Identify the source and observer --- in this case, the source is somewhere in the sea and stationary (no explicit references to the source moving); the observer is the girl.
+  \item Identify the wave speed --- this is given as $v = 2.0 \mathrm{~m} \mathrm{~s}^{-1}$.
+  \item Identify the direction of motion of the observer relative to the source --- this is not explicitly given, but if we think about the clue in the question that the observer detects a higher frequency, we can infer that the observer is moving towards the source, so we know that the desired relation is
+        $$f' = f\paren{\frac{v + |u_o|}{v}}$$
+  \item Plug in the values and solve for $u_o$.
+\end{enumerate}
+
+\subsection{Reflected Doppler Effect}
+
+\img{ex/plate.png}{0.5}{Plate}{plate}
+
+A plate performs simple harmonic oscillations with a frequency of 39 Hz and an amplitude of 8.0 cm. Sound of frequency 2400 Hz is emitted from a stationary source towards the oscillating plate. The speed of sound is $\SI{340}{\meter\per\second}$. Determine the maximum frequency of the sound that is received back at the source after reflection at the plate.
+\begin{enumerate}
+  \item \hl{The reflected sound wave will have the highest frequency when the plate is at its maximum speed towards the source}. Consider kicking a soccer ball approaching you, if you kick in the opposite motion of the approaching ball with the greatest strength and speed, the ball will have the highest speed when it goes back.
+  \item By s.h.m. equations in C1, we conclude that the highest speed of the plate is $\SI{19.6}{\meter\per\second}$.
+  \item Putting all this together, let's first calculate the frequency of the sound that arrives at the plate when it is at $\SI{19.6}{\meter\per\second}$ towards the source:
+        $$f' = f\paren{\frac{v + |u_o|}{v}} = 2400\paren{\frac{340 + 19.6}{340}} = 2400\paren{\frac{359.6}{340}} = 2538\mathrm{~Hz}$$
+  \item Now, we must consider the reflected sound. In this half of the journey, the plate acts as the \say{source} and it is moving towards the actual source. Thus, the frequency of the reflected sound is
+        $$f'' = f'\paren{\frac{v}{v - |u_s|}} = 2538\paren{\frac{340}{340 - 19.6}} = 2694 \approx 2700 \mathrm{~Hz}$$
+\end{enumerate}
 
 \end{document}
