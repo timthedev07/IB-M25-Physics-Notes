@@ -473,6 +473,11 @@ INPUT ./galileanspeed.png
 INPUT ./galileanspeed.png
 INPUT ./galileanspeed.png
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT ./ex/eqcaution1.png
+INPUT ./ex/eqcaution1.png
+INPUT ./ex/eqcaution1.png
+INPUT ./ex/eqcaution1.png
+INPUT ./ex/eqcaution1.png
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm
 INPUT ./spacetime.png

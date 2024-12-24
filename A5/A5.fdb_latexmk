@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1734734278.54918 "/Users/timthedev07/Documents/物理笔记/A5/A5.tex" "A5.pdf" "A5" 1734734280.38377 0
-  "/Users/timthedev07/Documents/物理笔记/A5/A5.tex" 1734734278.2821 22327 434fb852d05ba16a2a9864790126fc82 ""
+["pdflatex"] 1735081154.29936 "/Users/timthedev07/Documents/物理笔记/A5/A5.tex" "A5.pdf" "A5" 1735081156.10613 0
+  "/Users/timthedev07/Documents/物理笔记/A5/A5.tex" 1735081153.84881 25708 a603550f8f3e4cfb082ce3cb32f75793 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -279,14 +279,15 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731313331.24492 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731313254 8221454 067b6d98d3b5175b15c9caab9e14d269 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "A5.aux" 1734734280.27131 6992 5c1570dbed38ad6431a2bcd95c64e443 "pdflatex"
-  "A5.out" 1734734280.27292 3551 0b5ecb146c19c7b3175785f74e7d470e "pdflatex"
-  "A5.tex" 1734734278.2821 22327 434fb852d05ba16a2a9864790126fc82 ""
-  "A5.toc" 1734734280.27311 1927 96bdbfe7f9797b43469f5ca41cae8bb1 "pdflatex"
+  "A5.aux" 1735081155.99572 7380 42fd7d847c392a83c66f7815985f054c "pdflatex"
+  "A5.out" 1735081155.9967 3644 a3700f9a62b09de3b20f374227d3af6c "pdflatex"
+  "A5.tex" 1735081153.84881 25708 a603550f8f3e4cfb082ce3cb32f75793 ""
+  "A5.toc" 1735081155.99689 2001 3e9d071694d4be3c3e38164820c701fa "pdflatex"
   "calibrate.png" 1734733696.64004 70191 0ce000bf1bd5f3bef01332940ee9ff54 ""
   "clock1.png" 1729711470.5394 190098 23abf93877dee3d6a96109c89f1d5d59 ""
   "clock2.png" 1729711459.29974 180595 b78e57ac1458b634e675d848a0ca0881 ""
   "diagramsimul.png" 1729712104.28532 229448 2091a2ce531d468347d376f3d7e5ed5b ""
+  "ex/eqcaution1.png" 1735078009.28994 51508 0f053cb9b07b6fe2e1df607a89041c2e ""
   "galileanpos.png" 1729668725.03804 129240 eaaf996ed7484b2561dcbd7c2315b887 ""
   "galileanspeed.png" 1729669334.77307 62404 e2446d6ad77226af8007326c8e01f75a ""
   "hyperbolae.png" 1729713620.71031 927317 c03e3af550f3bbf3d7ff05deb73924ba ""

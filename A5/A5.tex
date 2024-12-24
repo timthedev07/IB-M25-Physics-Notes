@@ -154,7 +154,7 @@ Relativity at IB tends to be calculation heavy, and a huge part is not only know
 \section{Reference Frames}
 
 A reference frame is a set of coordinate axes and a set of clocks at every point contained within that physical space. All these clocks are synchronized; i.e. they measure the same time.\lb
-An \textbf{inertial reference frame} is one that is not accelerating. The laws of physics are the same in all inertial reference frames. \lb
+An \textbf{inertial reference frame} is one that is not accelerating. The laws of physics are the same in all inertial reference frames. In the exam, please don't start your definition by saying "it is a reference frame that ..."; incorporate also the definition of a reference frame there --- a coordinate system. \lb
 In a 3-dimensional space, an event can be uniquely represented by the coordinates $(x, y, z, t)$, where the first three indicate the position at which the event occurs and $t$ indicates the time at which it happens. This is known as the \textbf{spacetime} representation of an event.
 
 \section{Galilean Transformation}
@@ -192,6 +192,14 @@ Einstein proposed the following two postulates of special relativity:
   \item The speed of light is the same for all inertial observers, regardless of the motion of the light source or the observer.
 \end{enumerate}
 
+It led to a paradigm shift characterized by (exam question):
+\begin{itemize}
+  \item The speed of light is the maximum feasible speed and is the same across all frames.
+  \item Velocity addition is frame dependent.
+  \item Length, time, mass, and fields are all relative quantities.
+  \item The Newtonian/Galilean mechanics are valid only for low speeds.
+\end{itemize}
+
 
 \section{Lorentz Transformations}
 
@@ -215,7 +223,7 @@ An important property of this is that $\gamma \geq 1$ for all $v$.
 \pagebreak
 
 \subsection{Transformation Equations}
-Before we proceed, it must be noted that $x$, $x'$, $t$, $t'$ are the \textbf{position and time of the event} in the stationary and moving frames respectively.
+Before we proceed, it must be noted that $x$, $x'$, $t$, $t'$ are the \textbf{position and time of the event} in the stationary and moving frames respectively, and that $v$ is the \hl{relative velocity between the two frames}, not between two moving objects.
 
 \begin{equation}
   t' = \gamma \paren{t - \frac{vx}{c^2}} \quad \quad t = \gamma \paren{t' + \frac{vx'}{c^2}}
@@ -248,12 +256,36 @@ These are used to determine the \textbf{position of an event or the displaced di
 
 \section{Time Dilation}
 
-In time dilation questions, we will have one object that is \textbf{at rest} relative to the events being timed, and one object that is moving relative to the frame of the event and the stationary observer. This object measures the \textbf{proper time interval}, and the other measures the \textbf{dilated time interval}. The relation is given by
+In time dilation questions, one observer measures the \textbf{proper time}, and the other measures the \textbf{dilated time}. The \textbf{proper time} is the time elapsed between two events that occur at the same position in the observer's frame of reference. For instance, for particle traveling at a relativistic speed between two points, the proper time is measured by the (frame of the) particle --- imagine the particle is holding a clock; the clock is held by the particle from the start to the end and so has the same spatial coordinate in the particle's frame.\lb
+The relation is given by
 \begin{equation}
   \text{dilated time} = \gamma \times \text{proper time interval}
 \end{equation}
 The use of symbols has been avoided for the sake of clarity.\lb
-Earlier in the definition of the Lorentz factor at \cref{eq:lorentz} we have observed that it is always greater than 1. This means that the \textbf{dilated time is always greater than the proper time interval}; analogously, suppose you are timing an event that is stationary relative to you, any observer moving at relativistic speeds relative to you will observe a longer time.
+Earlier in the definition of the Lorentz factor at \cref{eq:lorentz} we have observed that it is always greater than 1. This means that the \textbf{dilated time is always greater than the proper time interval}; analogously, suppose you are timing an event that is stationary relative to you, any observer moving at relativistic speeds relative to you will observe a longer time.\pagebreak
+\subsection{Caution}
+It must be noted that this equation is a special case of the general Lorentz transformation equation, where the spatial separation is zero. It cannot be used for any question and enough care must be taken before you proceed with this simplified version. Consider the following example:
+\begin{quote}
+  Star A and star B are separated by a fixed distance of 4.8 light years as measured in the
+  reference frame in which they are stationary. An observer P at rest in a space station moves
+  to the right with speed 0.78c relative to the stars. A shuttle S travels from star A to star B at a
+  speed of 0.30c relative to the stars. \textbf{Calculate} the time, according to observer P, that the shuttle S takes to travel from star A
+  to star B.
+\end{quote}
+\img{ex/eqcaution1.png}{0.85}{Example Scenario}{eqcaution1}
+\begin{enumerate}
+  \item One may attempt to use the simplified time dilation equation to solve this problem, but this will not work as the two events (the start and end of the shuttle's journey), in P's frame, do not occur at the same position. This means that we must use the full Lorentz transformation equation:
+        $$t' = \gamma\paren{t - \frac{vx}{c^2}}$$
+  \item Let us now identify each quantity
+        \begin{itemize}
+          \item $v = 0.78c$, this is the relative velocity between P's frame (we shall denote it as frame S') and the frame of the stars (conversely frame S), \textbf{not} the relative velocity between the space station and the shuttle.
+          \item $x = 4.8\text{ly}$, this is the spatial separation measured in frame S.
+          \item $\gamma = \dfrac{1}{\sqrt{1 - 0.78^2}} \approx 1.6$, this is the Lorentz factor.
+          \item $t = \dfrac{4.8 \mathrm{ly}}{0.3c}$, this is the time taken for the shuttle to travel from star A to star B, as measured in frame S; it is simply distance over time.
+        \end{itemize}
+\end{enumerate}
+
+In short, consider the case when looking for the time measured by some observer T: If in T's frame, the two events occur at the same position, then you can use the simplified time dilation equation. If not, you must use the full Lorentz transformation equation; for the above example, if we were looking for the time measured by the shuttle instead, the change in spatial coordinate would be 0 and hence we can simply use the time dilation formula; in fact, the shuttle measured the proper time. This concept applies similarly to the length contraction equation.
 
 
 \section{Length Contraction}

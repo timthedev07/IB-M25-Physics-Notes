@@ -10,15 +10,16 @@
 \contentsline {subsection}{\numberline {4.3}Transformation Equations}{6}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Simultaneity}{7}{subsection.4.4}%
 \contentsline {section}{\numberline {5}Time Dilation}{8}{section.5}%
-\contentsline {section}{\numberline {6}Length Contraction}{9}{section.6}%
-\contentsline {section}{\numberline {7}Velocity Addition}{10}{section.7}%
-\contentsline {section}{\numberline {8}Muon Decay}{11}{section.8}%
-\contentsline {section}{\numberline {9}The Spacetime Interval}{12}{section.9}%
-\contentsline {section}{\numberline {10}Spacetime Diagrams}{13}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Using Slanted Axes}{15}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Identifying the Scale of Slanted Axes}{15}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Simultaneity}{16}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}Length Contraction}{17}{subsection.10.4}%
-\contentsline {subsection}{\numberline {10.5}Time Dilation}{19}{subsection.10.5}%
-\contentsline {subsection}{\numberline {10.6}Invariant Hyperbolae}{20}{subsection.10.6}%
-\contentsline {subsubsection}{\numberline {10.6.1}Calibrating the Axes}{21}{subsubsection.10.6.1}%
+\contentsline {subsection}{\numberline {5.1}Caution}{9}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Length Contraction}{11}{section.6}%
+\contentsline {section}{\numberline {7}Velocity Addition}{12}{section.7}%
+\contentsline {section}{\numberline {8}Muon Decay}{13}{section.8}%
+\contentsline {section}{\numberline {9}The Spacetime Interval}{14}{section.9}%
+\contentsline {section}{\numberline {10}Spacetime Diagrams}{15}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Using Slanted Axes}{17}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Identifying the Scale of Slanted Axes}{17}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Simultaneity}{18}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Length Contraction}{19}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}Time Dilation}{21}{subsection.10.5}%
+\contentsline {subsection}{\numberline {10.6}Invariant Hyperbolae}{22}{subsection.10.6}%
+\contentsline {subsubsection}{\numberline {10.6.1}Calibrating the Axes}{23}{subsubsection.10.6.1}%
