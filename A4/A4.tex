@@ -1,0 +1,230 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{setspace}
+\usepackage{sectsty}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage[a4paper, total={3in, 9in}, textwidth=16cm,bottom=1in,top=1.4in]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{amsmath}
+\usepackage{esvect}
+\usepackage{soul}
+\usepackage{amsthm}
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{amssymb}
+\usepackage{outlines}
+\usepackage{caption}
+\usepackage{fancyvrb}
+\usepackage{subcaption}
+\usepackage{esdiff}
+\usepackage{dirtytalk}
+\usepackage{colortbl}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{mathtools}
+\usepackage{tikz,pgfplots}
+\usepackage[most]{tcolorbox}
+\usepackage{draftwatermark}
+\SetWatermarkText{timthedev07}
+\SetWatermarkScale{4}
+\SetWatermarkColor[gray]{0.97}
+\usetikzlibrary{positioning,decorations.markings,arrows.meta,angles,quotes}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{observation}{Observation}
+\doublespacing
+\let\oldsection\section
+\renewcommand\section{\clearpage\oldsection}
+\newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+\let\oldsi\si
+\renewcommand{\si}[1]{\oldsi[per-mode=reciprocal-positive-first]{#1}}
+\usepackage{enumitem}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+\newcommand{\degsym}{^{\circ}}
+\newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor = blue
+}
+\newcommand{\lb}{\\[8pt]}
+\newenvironment*{cell}[1][]{\begin{tabular}[c]{@{}c@{}}}{\end{tabular}}
+\newcommand{\img}[4]{\begin{center}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=#2\textwidth]{#1}
+    \caption{#3}
+    \label{fig:#4}
+  \end{figure}
+\end{center}}
+\parindent=0pt
+\usepackage{fancyhdr}
+\fancyfoot{}
+\fancypagestyle{fancy}{\fancyfoot[R]{\vspace*{1.5\baselineskip}\thepage}}
+\renewcommand{\contentsname}{Table of Contents}
+\newcommand{\angled}[1]{\langle{#1}\rangle}
+\newcommand{\paren}[1]{\left(#1\right)}
+\newcommand{\sqb}[1]{\left[#1\right]}
+\newcommand{\coord}[3]{\angled{#1,\, #2,\, #3}}
+\newcommand{\pair}[2]{\paren{#1,\, #2}}
+\newcommand{\atom}[3]{{}^{#1}_{#2}\text{#3}}
+\usepackage[
+  noabbrev,
+  capitalise,
+  nameinlink,
+]{cleveref}
+
+\crefname{lemma}{Lemma}{Lemmas}
+\crefname{proposition}{Proposition}{Propositions}
+\crefname{remark}{Remark}{Remarks}
+\crefname{observation}{Observation}{Observations}
+
+\newtcolorbox[auto counter]{prob}[2][]{fonttitle=\bfseries, title=\strut Problem~\thetcbcounter: #2,#1,colback=Orchid!5!white,colframe=Orchid!75!black,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{rem}[1][]{fonttitle=\bfseries, title=\strut Remark.~\thetcbcounter,colback=purple!5!white,colframe=purple!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{defin}[1][]{fonttitle=\bfseries, title=\strut Definition.~\thetcbcounter,colback=black!5!white,colframe=black!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{obs}[1][]{fonttitle=\bfseries, title=\strut Observation.~\thetcbcounter,colback=RedViolet!5!white,colframe=RedViolet!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{lem}[1][]{fonttitle=\bfseries, title=\strut Lemma.~\thetcbcounter,colback=Maroon!5!white,colframe=Maroon!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{prop}[1][]{fonttitle=\bfseries, title=\strut Proposition.~\thetcbcounter,colback=RedOrange!5!white,colframe=RedOrange!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{hint}[1][]{fonttitle=\bfseries, title=\strut Hint.~\thetcbcounter,colback=OliveGreen!5!white,colframe=OliveGreen!75!gray,top=5mm,bottom=5mm}
+
+\setlength{\belowcaptionskip}{-20pt}
+\begin{document}
+
+
+\pagenumbering{arabic}
+\pagestyle{fancy}
+
+
+\begin{titlepage}
+  \begin{center}
+
+    \vspace*{8cm}
+    \textbf{\Large {IB Physics Topic A4 Rigid Body Mechanics; HL}} \\
+    \vspace*{1cm}
+    \large{By timthedev07, M25 Cohort}
+
+  \end{center}
+\end{titlepage}
+
+\pagebreak
+\tableofcontents
+\pagebreak
+
+\clearpage
+\setcounter{page}{1}
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+
+\section{Kinematic Equation --- Rotational Equivalent}
+
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|c|c|c|}
+    \hline
+    Quantity         & Linear                          & Angular                                       \\
+    \hline
+    Displacement     & $s$                             & $\theta$                                      \\
+    \hline
+    Average velocity & $v = \frac{\Delta s}{\Delta t}$ & $\omega = \frac{\Delta\theta}{\Delta t}$      \\
+    \hline
+    Acceleration     & $a = \frac{\Delta v}{\Delta t}$ & $\alpha = \frac{\Delta\omega}{\Delta t}$      \\
+    \hline
+                     & $v = u + at$                    & $\omega = \omega_0 + \alpha t$                \\
+    \hline
+                     & $s = ut + \frac{1}{2}at^2$      & $\theta = \omega_0 t + \frac{1}{2}\alpha t^2$ \\
+    \hline
+                     & $v^2 = u^2 + 2as$               & $\omega^2 = \omega_0^2 + 2\alpha\theta$       \\
+    \hline
+                     & $s = \frac{1}{2}(u + v)t$       & $\theta = \frac{1}{2}(\omega_0 + \omega)t$    \\
+    \hline
+    Kinetic energy   & $E_K = \frac{1}{2}mv^2$         & $E_K = \frac{1}{2}I\omega^2$                  \\
+    \hline
+  \end{tabular}
+\end{table}
+
+The angular speed and the tangential/linear speed are related by the equation $$v = \omega r$$where $r$ is the radius of the circular trajectory. Similarly, $$a = \alpha r$$
+
+\section{Torque}
+
+Torque is defined as the measure of the force that leads to the rotation of an object about its axis. It is the rotational equivalent of force. Put formally, we define the torque $\tau$ of the force $F$ about the rotational axis to be the product of the force and the perpendicular distance between the line of action of
+the force and the axis. Mathematically, $$\tau = Fr\sin\theta$$where $r$ is the distance between the axis and the line of action of the force, $F$ is the force, and $\theta$ is the angle between the force and the line of action of the force. The unit of torque is the newton-meter (N$\cdot$m).
+
+\section{Moment of Inertia}
+
+\begin{itemize}
+  \item Translational equilibrium: The net force acting on the object is zero. The center of mass of the body remains at rest or moves in a straight line at constant speed.
+  \item Rotational equilibrium: The net torque acting on the object is zero.
+\end{itemize}
+
+The moment of inertia of a rigid body is a measure of the body's resistance to rotational motion about a given axis. It is the rotational equivalent of mass. The moment of inertia is given as $$I = \sum m_ir_i^2$$where $m_i$ is the mass of the $i$th particle and $r_i$ is the distance of the $i$th particle from the axis of rotation. The unit of moment of inertia is the kilogram-meter squared (kg$\cdot$m$^2$).\lb
+These so-called particles refer to the small individual masses that make up a rigid body. These particles are conceptualized as point masses, each having a specific mass ($m_i$) and a defined position relative to the axis of rotation.\lb
+To calculate the moment of inertia $I$, the rigid body is thought of as being composed of these discrete particles. Each particle's contribution to the moment of inertia is determined by its mass $m_i$ and the square of its perpendicular distance $r_i$ from the axis of rotation.\lb
+In exam questions, you will often be given the formula of moment of inertia for the object under study, and it is in the form of $I = kmr^2$, where $k$ is some given constant.
+
+\section{Newton's Laws --- Rotational Equivalent}
+
+\begin{enumerate}
+  \item Newton's first law: An object moves at a constant angular velocity unless acted upon by a net external torque.
+  \item Newton's second law: The net torque acting on an object is equal to the product of the moment of inertia and the angular acceleration. Mathematically, $$\tau = I\alpha$$where $\tau$ is the net torque, $I$ is the moment of inertia, and $\alpha$ is the angular acceleration.
+  \item Newton's third law: When object A applies a torque to object B, then object B will apply an equal and opposite torque to object A.
+\end{enumerate}
+
+\section{Angular Momentum}
+
+The angular momentum is denoted by $L$ and is defined as follows:
+$$L = I\omega$$where $I$ is the moment of inertia and $\omega$ is the angular velocity. The unit of angular momentum is the kilogram-meter squared per second (kg$\cdot$m$^2$/s).\lb
+The \textbf{conservation of momentum} also applies to rotational motion:
+\begin{quote}
+  The total angular momentum of a system remains constant provided no
+  external torque acts on the system.
+\end{quote}
+Similar to how we formulated $E_K = \dfrac{p^2}{2m}$ in linear motion, we can also express the kinetic energy in rotational motion as $$E_K = \dfrac{L^2}{2I}$$
+
+\subsection{Angular Impulse}
+
+This is the change in angular momentum of an object. It is given by $$\Delta L = \tau \Delta t = \Delta(I\omega)$$which is analogous to$$\Delta p = \Delta(Ft) = \Delta(mv)$$where $\tau$ is the torque, $\Delta t$ is the time interval, $I$ is the moment of inertia, and $\omega$ is the (change in) angular velocity.\lb
+Again, recall the definition of force as $F = \diff{p}{t} = \diff{(mv)}{t} = m\diff{m}{t} + v\diff{m}{t}$, we can do the same for torque: $$\tau = \diff{L}{t} = \diff{(I\omega)}{t} = I\diff{\omega}{t} + \omega\diff{I}{t}$$
+
+\section{Rolling and Sliding}
+Rolling and sliding are two distinct motions:
+\begin{itemize}
+  \item Rolling: The object rotates about its axis along the surface.
+  \item Sliding: The object moves along a surface without rotating. When an object moves on a perfectly frictionless surface, it cannot roll and must slide.
+\end{itemize}
+
+When there is friction between surface and object, the point of contact between the two is instantaneously at rest; this implies that \hl{the coefficient of static friction $\mu_s$ must be used in any calculation}.
+
+\subsection{Rolling without Slipping}
+
+When an object rolls without slipping, \hl{the point of contact between the object and the surface is instantaneously at rest}. Another way to think about this is that the center of mass of the body has moved forward a distance of $2\pi r$ in a time equal to the period of revolution $T$, where $r$ is the distance from the center of mass to the point of contact. This is much like unfolding the circumference of a circle to form a straight line.\lb
+Let us now consider a rotating wheel: Its top point has a combined velocity of $v + \omega r$, while the bottom point has a combined velocity of $v - \omega r$. The top point has a greater velocity than the bottom point, and this difference in velocity is what causes the wheel to rotate. The velocity of the center of mass is $v$, and the angular velocity is $\omega$.
+
+\img{rolling.png}{0.8}{Rolling without slipping}{rolling}
+
+However, based on the assumption that the object does not slip, $\omega r$ must be equal to the tangential velocity $v$. Hence, the velocity at the top is $2v$ and the velocity at the bottom is zero (this matches the assumption of no slipping). The acceleration of the center of mass is $a = \alpha r$.
+
+\subsubsection{Energy}
+
+In this case, while the object is rotating, it is also moving forward from a translational perspective. Then, the total kinetic energy is the sum of both the linear and the rotational kinetic energies: $$E_K = \dfrac{1}{2}mv^2 + \dfrac{1}{2}I\omega^2$$where $m$ is the mass of the object, $v$ is the linear velocity, $I$ is the moment of inertia, and $\omega$ is the angular velocity.
+If the object is rolling down a slope of height $\Delta h$, then, we can say that $(-)\Delta GPE = (+)\Delta KE$
+$$mg\Delta h = \dfrac{1}{2}mv^2 + \dfrac{1}{2}I\omega^2$$
+Assuming that the moment of inertia is given as $I = kmr^2$, then we can derive a simplified form:
+\begin{align*}
+  g\Delta h & = \dfrac{1}{2}v^2 + \dfrac{1}{2}kr^2\omega^2 \\
+            & = \frac{1}{2}v^2(k + 1)
+\end{align*}
+
+\end{document}
