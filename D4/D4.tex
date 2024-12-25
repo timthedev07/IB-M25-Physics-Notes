@@ -332,4 +332,49 @@ Occurrence of the phenomenon:
   \item This newly induced voltage, however, opposes the very change that created it (by Lenz's Law). It is as if the coil resists the current's attempt to speed up or slow down. This resistance to change is what we call self-induction.
 \end{itemize}
 
+
+\section{Exam Questions}
+
+\subsection{Terminal Velocity}
+\img{ex/droppedloop.png}{0.45}{Dropped loop}{droppedloop}
+\begin{quote}
+  A vertical rectangular loop of conducting wire is dropped in a region of horizontal magnetic
+  field. The diagram shows the loop as it leaves the region of the magnetic field. Just before the loop is about to completely exit the region of magnetic field, the loop moves with constant terminal speed $v$.
+  The following data is available; find $v$.
+\end{quote}
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|c|c|}
+    \hline
+    Mass of loop          & $m = 4.0$g                                       \\
+    Resistance of loop    & $R = \SI{25}{\milli\ohm}$                        \\
+    Width of loop         & $L = \SI{15}{\centi\metre}$                      \\
+    Magnetic flux density & $                         B = \SI{0.80}{\tesla}$ \\
+    \hline
+  \end{tabular}
+\end{table}
+
+\begin{enumerate}
+  \item The terminal velocity is reached when forces are balanced. Let's identify the two opposing force that must be equal in magnitude in this case:
+        \begin{itemize}
+          \item The downward force is due to gravity, $w = mg$.
+          \item The upward force is due to the magnetic field, $F = BIL$.
+        \end{itemize}
+  \item Let us now list the known quantities
+        \begin{itemize}
+          \item $w = mg = 4 \times 10^{-3} \times 9.8$
+          \item $BL = 0.8 \times 0.15$
+        \end{itemize}
+  \item Now we must bring the velocity into this equation somehow, which hints at the use of the formula $\varepsilon = Blv$. However, the $emf$ can be expressed as $\varepsilon = IR$, and thus $Blv = IR$.
+  \item In the equation $mg = BIL$, $I$ is the unknown quantity that we do not desire to find, thus we proceed by making the substitution $I = \dfrac{Blv}{R}$.
+  \item Combining everything together, we have
+        \begin{align*}
+          mg & = BL(\frac{Blv}{R})  \\
+          v  & = \frac{mgR}{B^2L^2}
+        \end{align*}
+  \item This will allow us to compute the desired value of $v$.
+\end{enumerate}
+
+
+
 \end{document}

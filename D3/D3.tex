@@ -134,7 +134,7 @@ Consider a single straight wire carrying a current $I$; at a distance of $r$ fro
 \begin{equation}\label{eq:wire_fieldstrength}
   B = \frac{\mu_0I}{2\pi r}
 \end{equation}
-where $\mu_0$ is the \hl{permeability of free space} (\textbf{not to confuse with permittivity!}), with a value of $4\pi \times 10^{-7}$ \si{\tesla\metre\per\ampere}.
+where $\mu_0$ is the \hl{permeability of free space} (\textbf{not to confuse with permittivity!}), with a value of $4\pi \times 10^{-7}$\si{\tesla\metre\per\ampere}$ \equiv 4\pi \times 10^{-7} $\si{\kilo\gram\meter\per\ampere\squared\per\second\squared}.\lb
 Also notice that, unlike past field strengths we have seen, it does not follow the inverse square law and is instead an inverse proportionality.
 
 \pagebreak
@@ -218,12 +218,20 @@ For the sake of consistency, following the convention that attractive forces are
   \item In contrast, when the wires are in opposite directions, $\frac{\mu_0I_1I_2}{2\pi r}$ is negative, and so to reflect the repulsive nature of the force, we add a negative sign to obtain a positive value.
 \end{itemize}
 
+It is important to always remember that this force is mutual to both wires. For example, consider
+\begin{quote}
+  Two long parallel wires X and Y carry equal currents $I$. The magnetic force exerted per unit length of each wire is $F$.
+  The current in X is halved and the current in Y is doubled. What is the force per unit length of each wire after the change?
+\end{quote}
+\img{ex/forceismutual.png}{0.8}{Options}{forceismutual}
+Using this knowledge, we can immediately eliminate B and C where the two magnitudes are different. Then, the formula gives option A.
+
 \section{Moving Charge}
 
 \subsection{Uniform Electric Field}
 
-Consider a charge $q$ moving across a uniform electric field perpendicular to the field lines. The "tunnel" has a length of $L$. We will \textbf{ignore gravity, air resistance, and the edge effects} at the boundaries where the charge enters and exits the field.
-\img{move1.png}{0.8}{Charge moving in a uniform electric field}{move1}
+Consider a charge $q$ moving across a uniform electric field perpendicular to the field lines. The "tunnel" has a length of $L$. We will \textbf{ignore gravity, air resistance, and the edge effects} at the boundaries where the charge enters and exits the field. The path in blue is a \hl{parabolic trajectory}.
+\img{move1.png}{0.7}{Charge moving in a uniform electric field}{move1}
 
 Consider the acceleration of the charge. The force acting on the charge is given by $F = \dfrac{qV}{d}$
 $$a = \frac{F}{m_e} = \frac{qV}{m_ed}$$
@@ -239,12 +247,13 @@ In short, the charge will move in a circle. Let's see why.\lb
 
 \begin{minipage}[t]
   {0.6\textwidth}
-  Consider an electron ($e^-$) moving in the magnetic field shown. As per Flemming's left-hand rule (it uses convention current so we take the opposite direction in which the electron travels), the force acting on the electron is directed inwards. This force is \hl{the centripetal force that keeps the electron in a circular path}.
+  Consider an electron ($e^-$) moving in the magnetic field shown. As per Flemming's left-hand rule (it uses convention current so we take the opposite direction in which the electron travels), the force acting on the electron is perpendicular to the direction of motion and directed inwards. This force is constant in magnitude and is \hl{the centripetal force that keeps the electron in a circular path}. The above explanation is adapted from exam mark schemes, feel safe to use it in your exams.
 \end{minipage}\hspace*{0.05\textwidth}%
 \begin{minipage}[t]
   {0.35\textwidth}
   \img{move2.png}{1}{Charge moving in a uniform magnetic field}{move2}
 \end{minipage}
+
 
 
 \pagebreak
@@ -286,6 +295,7 @@ This property allows the setup to be used as a \textit{velocity selector} to sel
   \item Particles moving slower than this speed will be deflected upwards (since the magnetic force will be weaker than the electric force).
   \item Particles moving faster will be deflected downwards (since the magnetic force will be stronger).
 \end{itemize}
+It must be noted that, since the charge $q$ was canceled out in the calculation, the velocity selector can be used for any charged particle, not just electrons, the only factor that determines deflection is the velocity of the particle, whether it matches $v = \dfrac{E}{B}$.
 
 
 \section{The Charge-Mass Ratio Derivation}
@@ -298,6 +308,26 @@ However, we can also apply this to any charge $q$ and not just an electron:
 \begin{equation}
   \frac{q}{m_q} = \frac{2V}{B^2r^2}
 \end{equation}
+
+\pagebreak
+
+\section{Exam Questions}
+
+\subsection{A Wire and The Motor Effect}
+
+A long straight vertical conductor carries a current $I$ upwards. An electron moves with horizontal speed $v$ to the right.
+
+\img{ex/wiremotor.png}{0.25}{Wire and motor effect}{wiremotor}
+
+What is the direction of the magnetic force on the electron?
+\begin{enumerate}
+  \item Clearly we have to use the left-hand rule for motor effect.
+        \begin{itemize}
+          \item The current is to the left, since it is the conventional current and opposite to the direction of electron flow.
+          \item The magnetic field in this case is into the page \textbf{at the point of the electron}: First, with the right-hand grip rule, we establish the direction of the circular field lines around the wire; its tangential direction is into the page at the electron.
+        \end{itemize}
+  \item It should then follow that the force on the electron is downwards.
+\end{enumerate}
 
 
 

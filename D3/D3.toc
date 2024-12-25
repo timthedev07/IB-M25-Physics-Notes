@@ -12,3 +12,5 @@
 \contentsline {subsection}{\numberline {5.2}Uniform Magnetic Field}{9}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Perpendicular Magnetic and Electric Fields}{11}{subsection.5.3}%
 \contentsline {section}{\numberline {6}The Charge-Mass Ratio Derivation}{13}{section.6}%
+\contentsline {section}{\numberline {7}Exam Questions}{14}{section.7}%
+\contentsline {subsection}{\numberline {7.1}A Wire and The Motor Effect}{14}{subsection.7.1}%

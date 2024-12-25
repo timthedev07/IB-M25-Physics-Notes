@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1734994388.68134 "/Users/timthedev07/Documents/物理笔记/D2/D2.tex" "D2.pdf" "D2" 1734994390.27066 0
-  "/Users/timthedev07/Documents/物理笔记/D2/D2.tex" 1734994388.42932 21084 880d6a959a66adab3980b9b6a62fb623 ""
+["pdflatex"] 1735155187.70798 "/Users/timthedev07/Documents/物理笔记/D2/D2.tex" "D2.pdf" "D2" 1735155189.39419 0
+  "/Users/timthedev07/Documents/物理笔记/D2/D2.tex" 1735155187.44464 22418 2990ea6babab0c33c263dce5efeeae06 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -271,10 +271,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731313331.24492 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731313254 8221454 067b6d98d3b5175b15c9caab9e14d269 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "D2.aux" 1734994390.16754 9842 3d70afd8327c0502a60f6d3eeb9e628b "pdflatex"
-  "D2.out" 1734994390.16854 4729 db753f5d7da5638ca95868eae2e0d347 "pdflatex"
-  "D2.tex" 1734994388.42932 21084 880d6a959a66adab3980b9b6a62fb623 ""
-  "D2.toc" 1734994390.16877 2478 2bc48f40805ee4b4c7d0fd5e56bc86e3 "pdflatex"
+  "D2.aux" 1735155189.28318 10263 5b1abe30456d305a5d99f443a675a786 "pdflatex"
+  "D2.out" 1735155189.28422 5229 be831bf9496e8a2bb3e57789d0be89dc "pdflatex"
+  "D2.tex" 1735155187.44464 22418 2990ea6babab0c33c263dce5efeeae06 ""
+  "D2.toc" 1735155189.28446 2686 fe539ae054879c4aaa4cbb74835fb454 "pdflatex"
   "Ergraph.png" 1730759883.82992 133954 a2fdae00dccf0a05ca2c39930505f857 ""
   "chargeconservation.png" 1730731707.38124 78910 6b93c93c39ee98b675216b243e36da03 ""
   "combined.png" 1734907072.42679 18719 590659a92dbec91b1431730276f181be ""
