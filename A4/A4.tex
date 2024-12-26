@@ -172,7 +172,8 @@ the force and the axis. Mathematically, $$\tau = Fr\sin\theta$$where $r$ is the 
 The moment of inertia of a rigid body is a measure of the body's resistance to rotational motion about a given axis. It is the rotational equivalent of mass. The moment of inertia is given as $$I = \sum m_ir_i^2$$where $m_i$ is the mass of the $i$th particle and $r_i$ is the distance of the $i$th particle from the axis of rotation. The unit of moment of inertia is the kilogram-meter squared (kg$\cdot$m$^2$).\lb
 These so-called particles refer to the small individual masses that make up a rigid body. These particles are conceptualized as point masses, each having a specific mass ($m_i$) and a defined position relative to the axis of rotation.\lb
 To calculate the moment of inertia $I$, the rigid body is thought of as being composed of these discrete particles. Each particle's contribution to the moment of inertia is determined by its mass $m_i$ and the square of its perpendicular distance $r_i$ from the axis of rotation.\lb
-In exam questions, you will often be given the formula of moment of inertia for the object under study, and it is in the form of $I = kmr^2$, where $k$ is some given constant.
+In exam questions, you will often be given the formula of moment of inertia for the object under study, and it is in the form of $I = kmr^2$, where $k$ is some given constant.\lb
+When comparing the moments of inertia of two rigid bodies, the one whose mass is distributed closer to the axis of rotation will have a smaller moment of inertia.
 
 \section{Newton's Laws --- Rotational Equivalent}
 
@@ -191,12 +192,28 @@ The \textbf{conservation of momentum} also applies to rotational motion:
   The total angular momentum of a system remains constant provided no
   external torque acts on the system.
 \end{quote}
-Similar to how we formulated $E_K = \dfrac{p^2}{2m}$ in linear motion, we can also express the kinetic energy in rotational motion as $$E_K = \dfrac{L^2}{2I}$$
+Similar to how we formulated $E_K = \dfrac{p^2}{2m}$ in linear motion, we can also express the kinetic energy in rotational motion as  $$E_K = \dfrac{L^2}{2I}$$
 
 \subsection{Angular Impulse}
 
 This is the change in angular momentum of an object. It is given by $$\Delta L = \tau \Delta t = \Delta(I\omega)$$which is analogous to$$\Delta p = \Delta(Ft) = \Delta(mv)$$where $\tau$ is the torque, $\Delta t$ is the time interval, $I$ is the moment of inertia, and $\omega$ is the (change in) angular velocity.\lb
 Again, recall the definition of force as $F = \diff{p}{t} = \diff{(mv)}{t} = m\diff{m}{t} + v\diff{m}{t}$, we can do the same for torque: $$\tau = \diff{L}{t} = \diff{(I\omega)}{t} = I\diff{\omega}{t} + \omega\diff{I}{t}$$
+
+\subsection{Conservation of Angular Momentum}
+
+\img{ex/1.png}{0.95}{Conservation of angular momentum}{conservation}
+The initial angular momentum is given by
+$$L_0 = \frac{1}{2}MR^2\omega$$
+The final angular momentum is given by
+$$L' = \omega'\left(\frac{1}{2}MR^2 + mR^2\right)$$
+This is because \hl{the moment of inertia of the point mass $m$} is simply $mR^2$.\lb
+By the conservation of angular momentum, we have
+\begin{align*}
+  \frac{1}{2}MR^2\omega & = \omega'\left(\frac{1}{2}MR^2 + mR^2\right) \\
+  M\omega               & = \omega'\left(M + 2m\right)                 \\
+  \omega'               & = \frac{M\omega}{M + 2m}
+\end{align*}
+
 
 \section{Rolling and Sliding}
 Rolling and sliding are two distinct motions:
