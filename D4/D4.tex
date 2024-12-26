@@ -136,14 +136,17 @@ When there is a relative motion between a conductor and a magnetic field, a curr
 
 \subsection{Lenz's Law}
 
-The induced magnetic current in a coil by inserting a magnet into the coil must oppose the motion creating the current. Analogously, the insertion must be north-to-north or south-to-south; conversely, if we are pulling the magnet away from the coil, the facing poles should be opposite and attractive.\lb
-The induced current is continuous only if there is a complete circuit for charge to flow.
+The induced magnetic current in a coil by inserting a magnet into the coil must oppose the motion creating the current. In other words, an insertion must be north-to-north or south-to-south; conversely, if we are pulling the magnet away from the coil, the facing poles should be opposite and attractive.\lb
+The induced current is continuous only if there is a complete circuit for charge to flow.\lb
+This effect law is explained by the \hl{conservation of energy}. Consider dropping a bar magnet vertically through a coil: The magnetic force created by cutting field lines should oppose the falling motion of the magnet both at the top and the bottom of the coil to decelerate/resist its downward motion, otherwise, we would have a system where the energy output is greater than the energy input, thereby creating energy. This is impossible and disobeys the conservation of energy.
+\pagebreak
 
 \subsection{Right-hand Grip}
 
 This rule determines where the north-pole of a solenoid/coil is. The direction in which the fingers curl is the direction of current, and the thumb points to the north-pole.
 
 \img{righthandgrip.jpg}{0.65}{Right Hand Grip}{rhgrip}
+\pagebreak
 
 \subsection{Explaining the Generator Effect}
 
@@ -300,6 +303,12 @@ Other ways of increasing the induced emf
   \item Increasing the coil area
 \end{itemize}
 
+The rule of thumb of the generator is that
+\begin{itemize}
+  \item When the coil is perpendicular to the field, the emf is 0 and the flux linkage is maximum.
+  \item When the coil is parallel to the field, the emf is maximum and the flux linkage is 0.
+\end{itemize}
+
 \subsection{Power}
 
 The voltage (induced emf) and current graphs are both sinusoidal, with different vertical scaling factors but the same zeroes. Since power is calculated by $P = IV$, the power graph will be a \textbf{sine squared graph}.
@@ -307,6 +316,14 @@ The voltage (induced emf) and current graphs are both sinusoidal, with different
   \item The mean power is given by $\dfrac{1}{2}V_{\text{rms}}I_{\text{rms}}$
   \item $I_{\text{rms}} = \dfrac{I_{\text{max}}}{\sqrt{2}}$ (root mean square)
   \item $V_{\text{rms}} = \dfrac{V_{\text{max}}}{\sqrt{2}}$ (root mean square)
+\end{itemize}
+
+\subsection{Effect of Changing the Frequency}
+
+If the frequency of the generator is doubled with no other changes being made, then
+\begin{itemize}
+  \item The peak emf doubles.
+  \item The time period halves.
 \end{itemize}
 
 \section{Mutual and Self-Induction}
@@ -338,10 +355,14 @@ Occurrence of the phenomenon:
 \subsection{Terminal Velocity}
 \img{ex/droppedloop.png}{0.45}{Dropped loop}{droppedloop}
 \begin{quote}
-  A vertical rectangular loop of conducting wire is dropped in a region of horizontal magnetic
-  field. The diagram shows the loop as it leaves the region of the magnetic field. Just before the loop is about to completely exit the region of magnetic field, the loop moves with constant terminal speed $v$.
-  The following data is available; find $v$.
+  A vertical rectangular loop of conducting wire is dropped in a region of horizontal magnetic field. The diagram shows the loop as it leaves the region of the magnetic field.
 \end{quote}
+(i) Explain, by reference to Faraday's law of electromagnetic induction, why there is an electromotive force (emf) induced in the loop as it leaves the region of magnetic field.
+\begin{itemize}
+  \item First simply state the law: \hl{Faraday's states that the induced emf is proportional to the rate of change of magnetic flux linkage}.
+  \item Now we must explain why there is a change in the flux linkage $N\Phi = BAN$; we must identify the quantity that is changing that makes the linkage change. In this case when the loop leaves the region, the area $A$ interacting with the field decreases.
+\end{itemize}
+(ii) Just before the loop is about to completely exit the region of magnetic field, the loop moves with constant terminal speed $v$. The following data is available; find $v$.
 \begin{table}[H]
   \centering
   \begin{tabular}{|c|c|}
@@ -375,6 +396,56 @@ Occurrence of the phenomenon:
   \item This will allow us to compute the desired value of $v$.
 \end{enumerate}
 
+\pagebreak
 
+\subsection{Induction and Current}
+
+Two coils of wire are wound around an iron cylinder. One coil is connected in a circuit with a cell and a switch that is initially closed. The other coil is connected to an ammeter. The switch is opened at time $t_0$.
+\img{ex/gencur.png}{0.45}{Diagram}{gencur}
+
+What is the ammeter reading before $t_0$, and what is the ammeter reading after $t_0$?
+\begin{enumerate}
+  \item First we must recall that current arises from induced emf, which in turn results from a change in magnetic flux linkage.
+  \item Before the switch was opened, the magnetic field was constant and thus there was no change in flux linkage. Thus, the induced emf and consequently the ammeter reading was 0.
+  \item At the moment the switch is opened, the current drops to 0, and there is now a change in flux linkage. This change in flux linkage induces an emf, and thus a current in the second coil. This then falls back to 0 as the flux linkage eventually stabilizes at 0.
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Mutual Induction}
+
+Two conducting rings, A and B, have their centres on the same line. The planes of A and B
+are parallel. There is a constant clockwise current in A. Ring A is stationary and ring B moves
+towards ring A at a constant speed.
+
+\img{ex/mutual.png}{0.45}{Diagram}{mutual}
+
+(a) Outline why the magnetic flux in ring B increases.
+\begin{itemize}
+  \item Magnetic flux is given by $\Phi = BA$.
+  \item In this case, the quantity of the field strength $B$ is increasing, because the rings are \hl{cutting more and more field lines}.
+\end{itemize}
+(b) State the direction of the induced current in ring B.
+\begin{itemize}
+  \item By Lenz's law, the induced current will be in the direction that opposes the change in the magnetic field.
+  \item Since the field is increasing, the induced current will be in the opposite direction to the current in ring A.
+  \item Thus, the induced current will be counterclockwise.
+\end{itemize}
+\pagebreak
+(c) The graph shows how the magnetic flux in ring B varies with time.
+\img{ex/mutual1.png}{0.45}{Graph}{mutual1}
+Discuss the variation with time of the induced current in ring B.
+\begin{itemize}
+  \item First things first, when the question talks about the induced emf, stick Faraday's Law in your answer before anything.
+        \begin{enumerate}
+          \item The \textbf{rate of change} of magnetic flux in B increases (any graph that is not a straight line has a changing gradient)
+          \item so, by Faraday's Law (stated at the beginning), the induced current will increase (in the direction that opposes the motion creating it) because resistance of ring is constant
+        \end{enumerate}
+\end{itemize}
+(d) Outline why work must be done on ring B as it moves towards ring A at a constant speed.
+\begin{itemize}
+  \item The current induced in B gives rise to a magnetic field opposing that of A (by Lenz's) and thus an opposing force repelling B.
+  \item Work must be done to move B in the opposite direction to this force such that the net force becomes 0 to achieve a constant speed.
+\end{itemize}
 
 \end{document}
