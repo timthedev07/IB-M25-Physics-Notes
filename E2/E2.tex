@@ -137,7 +137,7 @@ Max Planck proposed that the energy of the oscillators in the black body was qua
 
 \section{The Photoelectric Effect}
 
-The \textit{photoelectric effect} is a phenomenon where electrons are ejected from the surface of a material (usually a metal) when it is exposed to light of a certain frequency or higher.\lb
+The \textit{photoelectric effect} is a phenomenon where electrons are ejected from the surface of a material (usually a metal) when it is exposed to light of a certain frequency or higher. \hl{It is an evidence that light are particles (photons)}.\lb
 The classical predictions have the following implications
 \begin{itemize}
   \item Light was only understood as a wave. The classical idea was that with enough intensity, waves of any frequency should be able to transfer the binding energy to electrons and free them.
@@ -247,6 +247,9 @@ The expected results per Einstein's photoelectric equation are as follows (this 
           \item The gradient is a constant, and is equal to $\dfrac{hc}{e}$. It does not depend on anything.
           \item Different metal surfaces just give parallel lines with different axes intercepts.
         \end{enumerate}
+  \item We may also rewrite it in terms of frequencies
+        $$V_s = \frac{h}{e}\paren{f - f_0}$$
+  \item Also note that the ideas also apply to graphs of $E_k$ against $f$, since $E_k = eV_s$.
 \end{itemize}
 
 
@@ -264,7 +267,7 @@ For $\theta \not = 0$, the graph of $\lambda$ against $\theta$ is a straight lin
 
 \subsection{Failure of EM Wave Theory}
 
-Following from the classical theory of EM waves, the X-ray causes the electrons in the graphite to oscillate at the same frequency as the X-ray, and thereby emit radiation at the same wavelength as the incident X-rays. This would force $$\text{X-ray wavelength} = \text{Scattering wavelength}$$
+Following from the classical theory of EM waves, the X-ray causes the electrons in the graphite to oscillate at the same frequency as the X-ray, and thereby emit radiation at the same wavelength as the incident X-rays. This would force $$\text{Incoming X-ray wavelength} = \text{Outgoing wavelength}$$
 
 But this contradicts the experimental observations!
 
@@ -283,6 +286,9 @@ Using the \textbf{conservation of energy and momentum respectively}, we obtain a
   \lambda' - \lambda_0  = \Delta \lambda = \frac{h}{m_ec}(1-\cos \theta)
 \end{equation}
 \img{compton2.png}{1}{The Compton Effect}{compton2}
+
+In this case, the quantity $\Delta \lambda$ is known as the \hl{Compton shift}.
+The scattered photon's wavelength is increased because some of its original energy is transferred to the electron, in which process it loses energy itself and hence increases in wavelength.
 
 \subsection{Explaining the Peaks}
 
@@ -305,7 +311,7 @@ The previously described effects of the photoelectric effect and the Compton eff
 
 \subsection{Matter Waves and the de Broglie Hypothesis}
 
-This hypothesis is the claim that electrons and other particles can exhibit wave-like properties under the appropriate experimental condition.
+This hypothesis is the claim that electrons and other particles can exhibit wave-only properties such as diffraction and interference under the appropriate experimental condition.
 
 Since photons move at relativistic speeds, one can use Einstein's relativistic equation linking momentum and energy and obtain \cref{eq:photonmomentum}. This gives the de Broglie wavelength of a particle moving at a relativistic speed.
 
@@ -323,9 +329,72 @@ This experiment (1927) provided evidence for the wave nature of electrons, confi
 Key result:
 The pattern of electron scattering closely matched the diffraction pattern expected if the electrons were behaving like waves rather than particles. The wavelength of the electrons, calculated from the diffraction pattern, matched the value predicted by de Broglie's equation $\lambda = \dfrac{h}{p}$.
 In this case, the momentum of the electrons was given by $p = \sqrt{2m_eeV}$, where $m$ is the mass of the electron and $v$ is its velocity. Invoking de Broglie's hypothesis, the wavelength of the electrons was given by the following, where $V$ is the p.d. through which the electron is accelerated \begin{equation}\label{eq:davisson}
-  \lambda = \dfrac{h}{\sqrt{2m_eeV}}
+  \lambda = \frac{h}{mv} = \frac{h}{\sqrt{2m_eeV}}
 \end{equation}
 
-De Broglie's hypothesis is thus inconsistent with Bohr's model of the atom: De Broglie's states that electrons are represented by waves and thus cannot be localized/have a fixed position.
+De Broglie's hypothesis is thus inconsistent with Bohr's model of the atom: De Broglie's states that electrons are represented by waves and thus cannot be localized/have a fixed position.\lb
+In the exam, when describing the De Broglie hypothesis, make sure to include both of the parts below:
+\begin{itemize}
+  \item A moving particle has wave properties
+  \item The De Broglie wavelength of a particle is given by $\lambda = \dfrac{h}{p}$
+\end{itemize}
+
+\section{Exam Questions}
+
+\subsection{Intensity and Frequency}
+
+A metallic surface is first irradiated with infrared radiation and photoelectrons are emitted from the surface. The infrared radiation is replaced by ultraviolet radiation of the same intensity.
+
+What will be the change in the kinetic energy of the photoelectrons and the rate at which they are ejected?
+\begin{enumerate}
+  \item Firstly, UV has a higher frequency and thus higher energy than IR. This means that the photoelectrons will have a higher kinetic energy when UV is used.
+  \item Since each UV photon possesses more energy, there must be fewer photons arriving per unit time at per unit area to maintain the same intensity; thus the rate of ejection decreases.
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Evidence for Wave/Particle}
+
+Monochromatic light of very low intensity is incident on a metal surface. The light causes the emission of electrons almost instantaneously. Explain how this observation
+(i) does not support the wave nature of light.
+\begin{itemize}
+  \item Low intensity light would transfer energy to the electron at a low rate/slowly
+  \item Time would be required for the electron to absorb the required energy to escape/be emitted
+\end{itemize}
+(ii) does support the photon nature of light.
+\begin{itemize}
+  \item In the photon theory of light, the electron interacts with a single photon
+  \item and absorbs all the energy and gets ejected immediately.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Photoelectric Experiment --- IV Graphs}
+
+In a photoelectric effect experiment, a beam of light is incident on a metallic surface W in a vacuum.
+
+\img{ex/pe.png}{0.4}{Diagram}{pe}
+The graph shows how the current $I$ varies with the potential difference $V$ when three different beams X, Y, and Z are incident on W at different times.
+\img{ex/pegraph.png}{0.5}{Graph}{pegraph}
+\begin{enumerate}[label=\Roman*. ]
+  \item X and Y have the same frequency.
+  \item Y and Z have different intensity.
+  \item Y and Z have the same frequency.
+\end{enumerate}
+Explanation:
+\begin{itemize}
+  \item Recall that the stopping potential is a direct measure of the maximum kinetic energy of the emitted electrons and thus the frequency of the incident wave. The stopping potential is the $x$-intercept of the graph --- it is when the electrons do not have enough energy to overcome the potential difference and thus the current is 0. Any pair that has the same root will have the same frequency.
+  \item To compare the intensity, we can consider the relative positions of the graph. In this case, Y and Z, although they have the same root, line Y is clearly above line Z for all values of $V$, this indicates that the current is higher for Y than for Z, and this means that more electrons are ejected by Y than by Z.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Energy Transfer --- Electron and Photon}
+
+An electron of non-relativistic speed $v$ interacts with an atom. All the energy of the electron is transferred to an emitted photon of frequency $f$. An electron of speed $2v$ now interacts with the same atom and all its energy is transmitted to a second photon. What is the frequency of the second photon?
+\begin{itemize}
+  \item For the electron, we should consider its kinetic energy. Suppose the first electron has $E = \frac{1}{2}m_ev^2$, then, the second electron has $E = \frac{1}{2}m_e(2v)^2 = 4\frac{1}{2}m_ev^2 = 4E$.
+  \item Now, we have to invoke the $E = hf$ relationship. Suppose the frequency of the first photon is $f$. Since the energy of the second electron is 4 times that of the first, the frequency of the second photon is $4f$.
+\end{itemize}
 
 \end{document}

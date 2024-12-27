@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1735231740.85932 "/Users/timthedev07/Documents/物理笔记/E2/E2.tex" "E2.pdf" "E2" 1735231742.40352 0
-  "/Users/timthedev07/Documents/物理笔记/E2/E2.tex" 1735231740.60016 18657 91368a261ef4bdb2cadeab478a3b8f03 ""
+["pdflatex"] 1735333004.44739 "/Users/timthedev07/Documents/物理笔记/E2/E2.tex" "E2.pdf" "E2" 1735333006.05136 0
+  "/Users/timthedev07/Documents/物理笔记/E2/E2.tex" 1735333004.1886 23143 24bc533eada17c4f711181881d8559a9 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -274,12 +274,14 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731313331.24492 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731313254 8221454 067b6d98d3b5175b15c9caab9e14d269 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "E2.aux" 1735231742.30224 3515 d59619f86821d7f380956c2d201b49a2 "pdflatex"
-  "E2.out" 1735231742.3029 2629 d1fb01a030dc3654567516e31c8f4d7c "pdflatex"
-  "E2.tex" 1735231740.60016 18657 91368a261ef4bdb2cadeab478a3b8f03 ""
-  "E2.toc" 1735231742.30309 1261 0d5649ee30dde346015d20b3e16faca9 "pdflatex"
+  "E2.aux" 1735333005.94491 4665 9efd1fb6c613618cb206364f65832e2c "pdflatex"
+  "E2.out" 1735333005.94563 3633 9fedefab557b28f7c2e6556f851a941e "pdflatex"
+  "E2.tex" 1735333004.1886 23143 24bc533eada17c4f711181881d8559a9 ""
+  "E2.toc" 1735333005.9458 1726 ac36614b59d889aee92fcf597ccf0b0c "pdflatex"
   "compton.png" 1728309281.8265 369013 38fc850a24f258fd012260eb6e7c08a5 ""
   "compton2.png" 1728322080.14127 186742 b8831daded652f43c5a916e8a95be13e ""
+  "ex/pe.png" 1735327679.68492 61787 19f5454e3dcd4d469bbec1d7e19c92a4 ""
+  "ex/pegraph.png" 1735330729.48965 45907 28f208fb439869bf8f277cb095acd54a ""
   "workfunction.png" 1728285813.33882 147788 626966462df6cac214af2b5ca52bd438 ""
   (generated)
   "E2.aux"
