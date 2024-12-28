@@ -131,7 +131,7 @@
 Definitions:
 
 \begin{itemize}
-  \item Isotopes are a set of atoms that have the same proton number but different nucleon numbers; i.e. they have different numbers of neutrons.
+  \item Isotopes are a set of atoms that have the same proton number but different nucleon numbers; i.e. they have different numbers of neutrons. They possess the same chemical properties but different physical properties.
   \item Isotones are a set of atoms with the same number of neutrons but different numbers of protons \& electrons.
   \item A nuclide is a distinct kind of atom or nucleus characterized by a specific number of protons and neutrons. E.g. carbon-12 is a nuclide of carbon with 6 protons and 6 neutrons.
 \end{itemize}
@@ -142,7 +142,7 @@ It is a random and natural process that happens to any unstable nucleus (iterati
 Radioactive decay has the below properties
 \begin{itemize}
   \item Arbitrary
-  \item Spontaneous --- we cannot influence the rate of decay by changing physical conditions of the sample such as its temperature, pressure, etc.
+  \item Spontaneous --- one cannot influence the rate of decay by changing physical conditions of the sample such as its temperature, pressure, etc. This is not to be confused with fusion and fission.
 \end{itemize}
 
 For any radioactive decay to take place, the \textbf{difference in energy} between parent and daughter nuclides must be \textbf{sufficiently large}.
@@ -174,16 +174,16 @@ Momentum is conserved in the system. The momentum of the daughter nucleus and th
 
 Because $M_{\text{daughter}} \gg M_{\alpha}$, the alpha particle moves much faster.
 
-They are highly ionizing but \textbf{lose energy quickly}, making them easily stopped by paper or a few centimeters of air. All alpha particles emitted by the same decay event have the \textbf{same initial energy}, and they lose \textbf{roughly a fixed amount of energy per collision} with each air atom as they travel.\lb
-
+They are highly ionizing but \textbf{lose energy quickly}, making them easily stopped by paper or a few centimeters of air. All alpha particles emitted by the same decay event have the \textbf{same initial energy}, and they lose \textbf{roughly a fixed amount of energy per collision} with each air atom as they travel.
 The \textbf{mass ratio} of the alpha particle and the daughter/parent nucleus can be accurately estimated by the \textbf{ratio of their nucleon numbers}.
+They are more ionizing than gamma photons because they are \hl{electrically charged and hence more likely to interact with electrons in the surrounding material}. They are also more ionizing than beta particles because they are \hl{heavier and slower} and \hl{carry a larger charge}.
 
 \pagebreak
 
 \subsubsection{Beta Decay}
 
 \begin{itemize}
-  \item \textbf{Beta-minus decay} is the process where a neutron decays into a proton, an electron, and an antineutrino. The \textbf{electron is emitted} from the nucleus, the \textbf{proton is retained} within the nucleus, and \textbf{the antineutrino (an antiparticle, signified by the overbar) is emitted to conserve momentum}:
+  \item \textbf{Beta-minus decay} is the process where a neutron decays into a proton, an electron, and an antineutrino. The \textbf{electron is emitted} from the nucleus, the \textbf{proton is retained} within the nucleus, and \textbf{the antineutrino (an antiparticle, signified by the overbar) is emitted to conserve momentum}. This occurs to atoms whose $\dfrac{\text{neutron}}{\text{proton}}$ ratio is too high, e.g. $^{132}_{52}$Te, which has 80 neutrons and 52 protons.
         \[
           \atom{A}{Z}{X} \rightarrow \atom{A}{Z+1}{Y} + e^- + \bar{\nu}_e
         \]
@@ -210,10 +210,9 @@ An alternative notation for $e^+$ is $\atom{0}{-1}{$\beta$}$, and for $e^-$ is $
 
 \begin{itemize}
   \item Gamma decay is the process where an unstable nucleus emits a gamma ray.
-  \item A gamma ray is a high-energy photon, its energy level is usually measured in MeV.
-  \item The energy of the gamma ray is equal to the energy difference between the parent and daughter nuclides.
-  \item The atomic and mass numbers remain the same.
+  \item A gamma ray is a high-energy photon, its energy level is usually measured in MeV. The energy of the gamma ray is equal to the energy difference between the parent and daughter nuclides. The atomic and mass numbers remain the same.
   \item Can be a subsequent decay after alpha or beta decay, when the daughter nucleus is in an excited state with a surplus of energy.
+  \item Evidence for quantized \textbf{nuclear energy levels}.
 \end{itemize}
 
 \subsection{Energy Levels}
@@ -277,6 +276,37 @@ Mass defect is also the \textbf{difference} between the mass of the nucleus and 
 
 \pagebreak
 
+\subsection{Example Question --- Energy Released}
+
+The following data is available for atomic masses for the fusion reaction
+$$\atom{2}{1}{H} + \atom{3}{1}{H} \rightarrow \atom{4}{2}{He} + n$$
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|c|c|}
+    \hline
+    Atom              & Mass (u) \\ \hline
+    $\atom{2}{1}{H}$  & 2.0141   \\ \hline
+    $\atom{3}{1}{H}$  & 3.0160   \\ \hline
+    $\atom{4}{2}{He}$ & 4.0026   \\ \hline
+  \end{tabular}
+\end{table}
+(i) Show that the energy released is about 18 MeV.
+\begin{align*}
+  \mu = \text{Mass defect} & = m_\text{LHS} - m_\text{RHS}                                                        \\
+                           & = (2.0141 + 3.0160) - (4.0026 + \underbrace{1.0087}_{\footnotesize{\text{neutron}}}) \\
+                           & = 0.0188u                                                                            \\
+  \Delta E                 & = \mu c^2
+  \\ & = 0.0188 \times 931.5 \approx 17.512 \si{\mega\electronvolt}
+\end{align*}
+Note that, in exams, simply multiply the mass defect in $u$ (which is about $\SI{1.66e-27}{\kilo\gram}$) by $931.5$ to get the energy released. This constant encapsulates
+\begin{itemize}
+  \item The conversion factor between $u$ and kg.
+  \item The speed of light squared.
+  \item The conversion factor between joules and MeV.
+\end{itemize}
+
+\pagebreak
+
 \subsection{Binding Energy per Nucleon}
 
 Binding energy per nucleon is simply the binding energy of the nucleus divided by the number of nucleons in the nucleus. It is a measure of the \textbf{stability} of the nucleus: the higher the binding energy per nucleon, the more energy that is required to separate each nucleon from the nucleus, and the more stable the nucleus is. It is given by
@@ -293,13 +323,23 @@ Features and key information from the graph:
   \item In the region from $A = 1$ to $A = 20$, some elements have a binding energy per nucleon that is much higher (and is thus more stable) compared to atoms of similar mass numbers nearby, e.g. helium-4, carbon-12, and oxygen-16.
 \end{enumerate}
 
+\subsection{Example Question}
+The rest mass of the helium isotope $\atom{3}{2}{He}$ is $m$. What is the expression for the binding energy per nucleon for $\atom{3}{2}{He}$ in terms of $m$, proton mass $m_p$, and neutron mass $m_n$?
+\begin{itemize}
+  \item The binding energy is in general given by $E = (Zm_p + (A-Z)m_n - m)c^2$.
+  \item In this case, $Z = 2$, $A = 3$, and $E = (2m_p + m_n - m)c^2$.
+  \item Then, the binding energy per nucleon is given by $\dfrac{E}{A} = \dfrac{(2m_p + m_n - m)c^2}{3}$.
+\end{itemize}
+
 \section{The Nucleus}
 
 \subsection{Nuclear Mass}
 
-The unified atomic mass unit, denoted by $u$, is defined as one twelfth of the mass of a carbon, its value is approximately $$1.66 \times 10^{-27} \si{\kilo\gram} \equiv 931.5 \si{\mega\electronvolt\per c^2}$$
+The unified atomic mass unit, denoted by $u$, is defined as one twelfth of the mass of a carbon, its value is approximately $$1\mathrm{u} \equiv 1.66 \times 10^{-27} \si{\kilo\gram} \equiv 931.5 \si{\mega\electronvolt\per c^2}$$
 with uncertainty of $\pm 5\times 10^{-39} \si{\kilo\gram}$.\lb
 The \textbf{neutron} has a mass \textbf{slightly greater} than that of a proton.
+
+Also note that the value of the unified atomic mass in grams and the value of the Avogadro constant in $\si{\per\mol}$ multiply to give 1.
 
 \subsection{The Strong Nuclear Force}
 
@@ -381,6 +421,7 @@ Previous models that did not involve neutrons in the nuclide were unable to expl
           \end{figure}
         \end{minipage}
 \end{enumerate}
+It is critical to remember this graph and its characteristics.
 
 \section{Half Lives}
 
@@ -399,7 +440,7 @@ In constant time intervals of size $T$, the ratio $$\frac{\text{number of nuclei
 is constant.
 Hence, if $A$ is the activity, i.e. the number of decay events per unit time, and $N$ is the initial number of nuclei at the start of the time interval, then \begin{equation}\label{eq:decay_constant}
   A = \lambda N
-\end{equation}where $\lambda$ is the \textbf{decay constant}.
+\end{equation}where $\lambda$ is the \textbf{decay constant} given in $\si{\per\second}$.
 By definition, $$A = \diff{N}{t}$$
 thus $$\diff{N}{t} = \lambda N$$
 we can solve this differential equation to get \begin{equation}\label{eq:NN_0}
@@ -408,7 +449,7 @@ we can solve this differential equation to get \begin{equation}\label{eq:NN_0}
 where $N_0$ is the initial number of nuclei at $t = 0$, and $t$ is the time elapsed since then.
 We also get an expression for the activity, since $A = \lambda N$
 $$A = A_0 e^{-\lambda t}$$
-where $A_0 = \lambda N_0$ is the initial activity at $t = 0$.
+where $A_0 = \lambda N_0$ is the initial activity at $t = 0$. This is a very important equation to remember for this topic.
 
 \subsubsection{Definition of the Decay Constant}
 
@@ -540,6 +581,101 @@ In imaging and diagnosis, radioactive isotopes are inhaled, ingested, or injecte
   \item Other naturally occurring decay chains exist, such as the thorium and actinium series, and some decay chains involve synthetic elements.
 \end{itemize}
 
+\section{Exam Questions}
+
+\subsection{M23 Paper 2 TZ2 Question 9}
+
+Magnesium-27 nuclei ($\atom{27}{12}{Mg}$) decay by beta-minus ($\beta$-) decay to form nuclei of aluminium-27 (Al).
+
+\begin{enumerate}[label=(\alph*)]
+  \item Show, using the data, that the energy released in the decay of one magnesium-27 nucleus is about 2.62 MeV.
+\end{enumerate}
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|c|c|}\hline
+    Atom                & Mass (u) \\ \hline
+    $\atom{27}{12}{Al}$ & 26.98153 \\ \hline
+    $\atom{27}{13}{Mg}$ & 26.98434 \\ \hline
+  \end{tabular}
+\end{table}
+
+\begin{itemize}
+  \item Let us first write out the decay equation for the process:
+        $$\atom{27}{12}{Mg} \rightarrow \atom{27}{13}{Al} + e^- + \bar{\nu}_e$$
+  \item Now that it's easier to visualize the masses on each side, we can calculate the mass defect
+        \begin{align*}
+          \mu      & = 26.98434 - 26.98153  = 0.00226 \si{\atomicmassunit}                           \\
+          \Delta E & = \mu c^2         = 0.00226 \times 931.5 \approx 2.6175 \si{\mega\electronvolt}
+        \end{align*}
+\end{itemize}
+
+\begin{enumerate}[resume*]
+  \item A Magnesium-27 nucleus can decay by one of two routes:
+
+        \textbf{Route 1:} 70\% of the beta particles are emitted with a maximum kinetic energy of
+        1.76656 MeV, accompanied by a gamma photon of energy 0.84376 MeV.
+
+        \textbf{Route 2}: 30\% of the beta particles have a maximum kinetic energy of 1.59587 MeV
+        with a gamma photon of energy 1.01445 MeV.
+
+        The final state of the aluminium-27 nucleus is the same for both routes.
+        \begin{enumerate}[label=(\roman*)]
+          \item State the conclusion that can be drawn from the existence of these two routes.
+                \begin{itemize}
+                  \item The fact that there are two discrete routes for the decay of the magnesium-27 nucleus indicates there are two different quantized energy levels for the daughter nucleus, aluminium-27.
+                \end{itemize}
+          \item Calculate the difference between the magnitudes of the total energy transfers in parts (a) and (b).
+                $$\Delta E =2.6175 - 1.76656 - 0.84376 = 0.007195 \si{\mega\electronvolt}$$
+          \item Explain how the difference in part (b)(ii) arises.
+                \begin{itemize}
+                  \item An anti neutrino is emitted in the decay process, carrying away some energy. The above calculation only accounted for the energy of the beta particle and the gamma photon.
+                \end{itemize}
+
+        \end{enumerate}
+  \item Small amounts of magnesium in a material can be detected by firing neutrons at
+        magnesium-26 nuclei. This process is known as irradiation.
+        Magnesium-27 is formed because of irradiation. The products of the beta-particle
+        emission are observed as the magnesium-27 decays to aluminium-27.
+        \begin{enumerate}
+          \item The smallest mass of magnesium that can be detected with this technique is $\SI{1.1e-8}{\kilo\gram}$. Show that the smallest number of magnesium atoms that can be detected with this technique is about $10^{17}$.
+                \begin{itemize}
+                  \item We divide this mass by the atomic mass of magnesium to get the number of atoms.
+                        $$\frac{1.1 \times 10^{-8}}{26.98434} \approx 2.5 \times 10^{17}$$
+                \end{itemize}
+          \item A sample of glass is irradiated with neutrons so that all the magnesium atoms
+                become magnesium-27. The sample contains $\SI{9.50e15}{}$ magnesium atoms.
+                The decay constant of magnesium-27 is $\SI{1.22e-3}{\per\s}$.
+                Determine the number of aluminium atoms that form in 10.0 minutes after the
+                irradiation ends.
+                \begin{align*}
+                  N & = N_0e^{-\lambda t}                                             \\
+                    & = 9.5 \times 10^{15} \times e^{-1.22 \times 10^{-3} \times 600} \\
+                    & =4.57 \times 10^{15}
+                \end{align*}
+                This is the number of magnesium atoms that remain after 10 minutes. The number of aluminium atoms formed is the number of magnesium atoms that decayed. This is found by
+                $$9.5 \times 10^{15} - 4.57 \times 10^{15} = 4.93 \times 10^{15}$$
+          \item Estimate, in W, the average rate at which energy is transferred by the decay of magnesium-27 during the 10.0 minutes after the irradiation ends.
+                \begin{itemize}
+                  \item To find this, we must find the total energy produced in this time period. This is the energy produced per decay multiplied by the number of decays.
+                        $$4.93 \times 10^{15} \times 2.6175 \times 10^6 = 1.29 \times 10^{22} \si{\eV} \approx 2100 \si{\joule}$$
+                  \item Then, the averate rate of energy transfer is
+                        $$P = \frac{2100}{600} = 3.5 \si{\watt}$$
+                \end{itemize}
+        \end{enumerate}
+
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Half-Life and Activity}
+
+Two nuclides present in spent nuclear fuel are $\atom{137}{55}{Cs}$ and $\atom{144}{58}{Ce}$ respectively. The initial activity of a sample of pure $\atom{144}{58}{Ce}$ is about 40 times greater than the activity of the same amount of pure $\atom{137}{55}{Cs}$. Discuss which of the two nuclides is more likely to require long-term storage once removed from the reactor.
+\begin{itemize}
+  \item Consider the relation $A = \lambda N$. The decay constant $\lambda$ is inversely proportional to the half-life of the nuclide and is defined as $\lambda = \dfrac{\ln 2}{T_{\frac{1}{2}}}$, where $T_{\frac{1}{2}}$ is the half-life. Hence, the activity of a sample is inversely proportional to the half-life, provided that the number of nuclei is the same.
+  \item A higher activity therefore implies a shorter half-life, and vice versa.
+  \item Thus $\atom{137}{55}{Cs}$ is more likely to require long-term storage once removed from the reactor, as it has a longer half-life and lower activity.
+  \item Half-lives of their decay products need also be considered when planning storage.
+\end{itemize}
 
 
 \end{document}
