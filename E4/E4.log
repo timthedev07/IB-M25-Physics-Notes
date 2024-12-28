@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  28 DEC 2024 19:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  28 DEC 2024 23:23
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1034,10 +1034,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [2
 
 ]
-<u235g.png, id=124, 529.98pt x 378.41376pt>
+<u235g.png, id=134, 529.98pt x 378.41376pt>
 File: u235g.png Graphic file (type png)
 <use u235g.png>
-Package pdftex.def Info: u235g.png  used on input line 169.
+Package pdftex.def Info: u235g.png  used on input line 171.
 (pdftex.def)             Requested size: 227.62204pt x 162.52419pt.
 
 
@@ -1058,10 +1058,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [4
 
 ]
-<reactor.png, id=136, 706.64pt x 400.49625pt>
+<reactor.png, id=146, 706.64pt x 400.49625pt>
 File: reactor.png Graphic file (type png)
 <use reactor.png>
-Package pdftex.def Info: reactor.png  used on input line 193.
+Package pdftex.def Info: reactor.png  used on input line 195.
 (pdftex.def)             Requested size: 455.24408pt x 258.0156pt.
 
 
@@ -1098,47 +1098,47 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-Underfull \hbox (badness 2027) in paragraph at lines 257--257
+Underfull \hbox (badness 2027) in paragraph at lines 264--264
 []|\OT1/cmr/m/n/12 Useless daugh-ter
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 257--257
+Underfull \hbox (badness 1609) in paragraph at lines 264--264
 \OT1/cmr/m/n/12 events take place, there
  []
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 257--257
+Underfull \hbox (badness 1845) in paragraph at lines 264--264
 \OT1/cmr/m/n/12 will be more and more
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 \OT1/cmr/m/n/12 rod's phys-i-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
 []|\OT1/cmr/m/n/12 Regularly re-mov-ing the fis-sion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 []|\OT1/cmr/m/n/12 Long half-life
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 \OT1/cmr/m/n/12 ucts have half-lives of
  []
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 261--261
+Underfull \hbox (badness 1655) in paragraph at lines 268--268
 \OT1/cmr/m/n/12 rel-a-tively low, com-pared
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 262--262
+Underfull \hbox (badness 1342) in paragraph at lines 269--269
 []|\OT1/cmr/m/n/12 This in-cludes the gloves
  []
 
@@ -1157,7 +1157,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10] (./E4.aux)
+[10]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11
+
+] (./E4.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1168,21 +1178,21 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 124.49696pt have occurred.
 
 Package rerunfilecheck Info: File `E4.out' has not changed.
-(rerunfilecheck)             Checksum: 38D43C20AA82154ACA064A9726B55D19;1493.
+(rerunfilecheck)             Checksum: 0D2D5CB693B28FB4BF9BA0E5C7595D2E;1746.
  ) 
 Here is how much of TeX's memory you used:
- 47283 strings out of 474116
- 1131514 string characters out of 5743681
+ 47293 strings out of 474116
+ 1131627 string characters out of 5743681
  1939187 words of memory out of 5000000
- 68907 multiletter control sequences out of 15000+600000
+ 68910 multiletter control sequences out of 15000+600000
  566135 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,96p,771b,1029s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on E4.pdf (12 pages, 744598 bytes).
+Output written on E4.pdf (13 pages, 747765 bytes).
 PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 169 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 247 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 261 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 263 words of extra memory for PDF output out of 10000 (max. 10000000)
 

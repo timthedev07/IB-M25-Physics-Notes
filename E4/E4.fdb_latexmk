@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1735410307.09078 "/Users/timthedev07/Documents/物理笔记/E4/E4.tex" "E4.pdf" "E4" 1735410308.51921 0
-  "/Users/timthedev07/Documents/物理笔记/E4/E4.tex" 1735410306.84107 17293 84dc8d47c056890da7ebb2b5551a8795 ""
+["pdflatex"] 1735424620.0925 "/Users/timthedev07/Documents/物理笔记/E4/E4.tex" "E4.pdf" "E4" 1735424621.57046 0
+  "/Users/timthedev07/Documents/物理笔记/E4/E4.tex" 1735424619.83918 18626 3531a09d332c9a34e4b9693e005c92c3 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -274,10 +274,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731313331.24492 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731313254 8221454 067b6d98d3b5175b15c9caab9e14d269 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "E4.aux" 1735410308.42309 2253 3973b93f2fe5d6e135de3c8cfc420c72 "pdflatex"
-  "E4.out" 1735410308.42367 1493 38d43c20aa82154aca064a9726b55d19 "pdflatex"
-  "E4.tex" 1735410306.84107 17293 84dc8d47c056890da7ebb2b5551a8795 ""
-  "E4.toc" 1735410308.42385 831 ecc061c11c6251ed9e1ad0b18ceb9654 "pdflatex"
+  "E4.aux" 1735424621.47108 2488 33e03d64e6ba975ae2ba25cc1756aaf9 "pdflatex"
+  "E4.out" 1735424621.47174 1746 0d2d5cb693b28fb4bf9ba0e5c7595d2e "pdflatex"
+  "E4.tex" 1735424619.83918 18626 3531a09d332c9a34e4b9693e005c92c3 ""
+  "E4.toc" 1735424621.47192 984 da62856a37221d281e853e424d73f12d "pdflatex"
   "reactor.png" 1728238958.10058 501188 0b916d8c9cb9c7df0f1310d20f9d1210 ""
   "u235g.png" 1728233205.61278 218182 20ce2caf5cda08775fd2039e2beeca7b ""
   (generated)
