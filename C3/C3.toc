@@ -3,12 +3,21 @@
 \contentsline {section}{\numberline {2}Refraction}{2}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Snell's Law}{3}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Critical Angle}{3}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Reflection}{4}{section.3}%
-\contentsline {section}{\numberline {4}Double Source Interference}{5}{section.4}%
-\contentsline {section}{\numberline {5}Diffraction}{6}{section.5}%
-\contentsline {section}{\numberline {6}Double Slit Diffraction}{7}{section.6}%
-\contentsline {section}{\numberline {7}Single Slit Diffraction}{10}{section.7}%
-\contentsline {section}{\numberline {8}Combined Effect}{13}{section.8}%
-\contentsline {section}{\numberline {9}Multi-Slit Diffraction}{14}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Diffraction Grating}{15}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Grating Spacing}{15}{subsection.9.2}%
+\contentsline {subsection}{\numberline {2.3}Chaining Refractions}{3}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Reflection}{5}{section.3}%
+\contentsline {section}{\numberline {4}Double Source Interference}{6}{section.4}%
+\contentsline {section}{\numberline {5}Diffraction}{7}{section.5}%
+\contentsline {section}{\numberline {6}Double Slit Diffraction}{8}{section.6}%
+\contentsline {section}{\numberline {7}Single Slit Diffraction}{11}{section.7}%
+\contentsline {section}{\numberline {8}Combined Effect}{14}{section.8}%
+\contentsline {section}{\numberline {9}Multi-Slit Diffraction}{15}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Diffraction Grating}{16}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Grating Spacing}{16}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Exam Questions}{17}{section.10}%
+\contentsline {subsection}{\numberline {10.1}May 2023 Paper 2 HL TZ1 Question 3}{17}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}May 2023 Paper 2 SL TZ1 Question 3}{20}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}May 2019 Paper 2 SL TZ1 Question 3}{22}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Diffraction Grating and Particle Scattering}{24}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}May 2021 Paper 2 HL TZ2 Question 8}{26}{subsection.10.5}%
+\contentsline {subsection}{\numberline {10.6}Applying the Snell Equality Chain}{29}{subsection.10.6}%
+\contentsline {subsection}{\numberline {10.7}Colors}{30}{subsection.10.7}%

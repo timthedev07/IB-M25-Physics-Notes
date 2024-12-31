@@ -130,7 +130,7 @@
 
 \section{Refraction}
 
-Refraction refers to the change in speed and direction of a wave as it passes from one medium to another. The change in speed will depend on the optical density of the medium.
+Refraction refers to the change in speed and direction of a wave as it passes from one medium to another. The change in speed will depend on the optical density of the medium. In refraction, the frequency of the wave remains constant, but the wavelength and speed of the wave will change.
 
 A general rule of thumb when considering the bending of the wave is that
 \begin{itemize}
@@ -156,6 +156,25 @@ The way to remember this is, a chained equality of ratios, all except the refrac
 The critical angle is defined as the angle of incidence that produces an angle of refraction of 90 degrees. This is the angle beyond which total internal reflection occurs. The critical angle is given as follows
 $$\sin c = \frac{n_2}{n_1}$$
 where $n_1$ is the refractive index of the medium the wave is coming from and $n_2$ is the refractive index of the medium the wave is entering. By this definition, this only works if the wave is going from a medium with a higher refractive index to a medium with a lower refractive index (i.e. $n_1 > n_2$), since the sine function cannot exceed 1 in any way.
+
+
+\subsection{Chaining Refractions}
+
+When a wave passes through multiple media, the wave will refract at each boundary. The angle of incidence at each boundary will be the angle of refraction from the previous boundary (consider alternate angles).\lb
+A refractive index can be absolute or relative:
+\begin{itemize}
+  \item The absolute refractive index $n_X$ of a material X is defined as
+        $$n_X = \frac{c}{v_X}$$
+        where $c$ is the speed of light in a vacuum (or in the air, if this approximation is allowed/inferred) and $v_X$ is the speed of light in material X.
+
+        Notice that this is substituting the speed of light and the absolute refractive index of the air into $$\frac{n_X}{n_{\text{air}}} = \frac{v_{\text{air}}}{v_X}$$
+  \item The relative refractive index of a material Y with respect to another material X defined as
+        $$_Xn_Y = \frac{n_Y}{n_X}=\frac{v_X}{v_Y}$$
+\end{itemize}
+
+Consider a wave that travels through materials A, B, and C in that order, then, if one were to treat the transition of $A\to B \to C$ altogether as $A\to C$, then the refractive index of the combined medium $A\to C$ is given as $$_An_C = \frac{n_C}{n_A}$$
+if we are instead given the relative refractive indices $_An_B$ and $_Bn_C$, then the refractive index of the combined medium is given as $$_An_C = \frac{n_C}{n_A} = \frac{n_B}{n_A}\times \frac{n_C}{n_B}  = \phantom{}_An_B \times \phantom{}_Bn_C$$
+In short, simply multiply the relative refractive indices to get the refractive index of the combined medium.
 
 \section{Reflection}
 The law of reflection states that the angle of incidence is equal to the angle of reflection.\lb
@@ -206,11 +225,11 @@ Consider the following scenario: a wave is incident on a surface that has two sl
   \item Consider $P$ to be a point on the screen, we now analyze the interference at this point.
   \item Define $\theta$ as shown in the diagram. With some geometric sense, the path difference is given as
         $$\Delta r = |S_2Z| = d\sin\theta$$
-  \item If we want to find points of constructive interference, we require $\Delta r = n\lambda$, where $n \in \mathbb{Z}$. Thus, we have
+  \item If we want to find points of constructive interference, we require $\Delta r = n\lambda$, where $n \in \mathbb{Z}$ is represents the $n$th maximum. Thus, we have
         \begin{equation}\label{eq:double}
           d\sin\theta = n\lambda
         \end{equation}
-  \item Conversely, if we want to find points of destructive interference, we require $\Delta r = (n + \frac{1}{2})\lambda$, where $n \in \mathbb{Z}$. Thus, we have
+  \item Conversely, if we want to find points of destructive interference, we require $\Delta r = (n + \frac{1}{2})\lambda$, where $n \in \mathbb{Z}$ represents the $(n-1)$th dark spot. Thus, we have
         \begin{equation}\label{eq:double2}
           d\sin\theta = (n + \frac{1}{2})\lambda
         \end{equation}
@@ -233,7 +252,7 @@ Consider the following scenario: a wave is incident on a surface that has two sl
 
 The displacement or angular displacement vs. intensity graph \textbf{only concerning the effect of double slit diffraction} is shown below.
 \img{doubleslitgraph.png}{0.5}{Graph of intensity vs. Angular displacement}{doubleslitgraph}
-An important feature is that, the \textbf{intensity is proportional to the square of the amplitude}; this means that, two waves of amplitude $A$ interfering constructively at point $P$ will have an amplitude of $2A$ and an intensity of four times the original.\lb
+An important feature is that, the \textbf{intensity is proportional to the square of the amplitude}; this means that, two waves of amplitude $A$ interfering constructively at point $P$ will have an amplitude of $2A$ and an intensity of four times the original.
 \begin{ass}{}
   It must be noted that this graph, with peaks at roughly the same intensities, is only true when the slit widths are negligible so that the single slit effect will not be taken into account.
 \end{ass}
@@ -274,6 +293,7 @@ Effects of \hl{decreasing} the slit width (assuming a fixed wavelength):
   \item The angular displacement of the first minimum (and in fact, other minima) will increase. This means that the graph will be more spread out.
   \item Suppose the slit width is dropped to $\dfrac{1}{k}$ of the original, then, the amplitude will also drop to $\dfrac{1}{k}$ of the original. Hence, the intensity will drop to $\dfrac{1}{k^2}$ of the original.
 \end{itemize}
+Also note that the angular position of the first minimum is a measure of the width of the central maximum.
 
 \section{Combined Effect}
 
@@ -286,6 +306,11 @@ Effects of \hl{decreasing} the slit width (assuming a fixed wavelength):
 
 In \cref{fig:combined2}, the blue curve shows the resulting intensity graph. It is essentially the original double slit graph suppressed by the single red curve.
 
+With the single slit diffraction effect, we had $$\theta = \frac{\lambda}{b}$$
+With the double slit diffraction effect, we had $$s = \frac{\lambda D}{d}$$
+We can link these two using their common term $\lambda$ to give
+$$b\theta_\text{1st min} = \frac{sd}{D}$$
+This may be of use in questions where both effects are present.
 
 
 \section{Multi-Slit Diffraction}
@@ -326,5 +351,267 @@ The equations for destructive and constructive interference are the same as the 
 Since the slit width is negligible, we can treat each slit as a single line. The grating spacing is the distance between two adjacent lines. If we are told that the grating is $N$ lines per unit length, then the grating spacing is given as
 $$d = \frac{1}{N}$$
 in that unit.
+
+\section{Exam Questions}
+
+\subsection{May 2023 Paper 2 HL TZ1 Question 3}
+
+\begin{enumerate}[label=(\alph*)]
+  \item Monochromatic light is incident on two very narrow slits. The light that passes through
+        the slits is observed on a screen. M is directly opposite the midpoint of the slits.
+        $x$ represents the displacement from M in the direction shown.
+        \img{ex/1.png}{0.5}{Question 1}{ex1}
+        A student argues that what will be observed on the screen will be a total of two bright
+        spots opposite the slits. Explain why the student's argument is incorrect.
+        \begin{itemize}
+          \item First, we must understand the student's claim --- it is the assertion that the light will shine direct through the slits and travel in a straight line until hitting the screen.
+          \item The reason why this is not correct is that
+                \begin{itemize}
+                  \item Light acts as a wave and not a particle in this situation
+                  \item Light at slits will \hl{diffract}
+                  \item Light passing through slits will \hl{interfere}, creating bright and dark spots
+                \end{itemize}
+        \end{itemize}
+        \pagebreak
+  \item The graph shows the actual variation with displacement $x$ from M of the intensity of the light on the screen. $I_0$ is the intensity of light at the screen from one slit only.
+        \img{ex/2.png}{0.5}{Question 2}{ex2}
+
+        \begin{enumerate}[label=(\roman*)]
+          \item Explain why the intensity of light at $x=0$ is $4I_0$.
+                \begin{itemize}
+                  \item At $x = 0$, the light waves from the two slits are in phase, and so the waves will constructively interfere. Thus, the amplitude doubles.
+                  \item Since the intensity is proportional to the square of the amplitude, the intensity will be four times the original.
+                \end{itemize}
+          \item The slits are separated by a distance of 0.18 mm and the distance to the screen is 2.2 m. Determine, in m, the wavelength of light.
+                \begin{itemize}
+                  \item Let's list out the known quantities
+                        \begin{itemize}
+                          \item $d = 1.8 \times 10^{-4}$ m
+                          \item $D = 2.2$ m
+                          \item we can spot from the graph that the separation between any two maxima is $s = \dfrac{1.7}{300}$m
+                        \end{itemize}
+                  \item From the double slit formula, we have
+                        \begin{align*}
+                          \lambda & = \frac{sd}{D}                                     \\
+                                  & = \frac{1.7\times1.8 \times 10^{-4}}{300\times2.2} \\
+                                  & \approx4.6 \times 10^{-7} \text{ m}                \\
+                                  & = 460 \text{ nm}
+                        \end{align*}
+                  \item The two slits are replaced by many slits of the same separation. State one feature of the intensity pattern that will remain the same and one that will change.
+                        \begin{itemize}
+                          \item Unchanged: The peak separation $s$ remains unchanged, since all of its dependencies remain the same.
+                          \item Changed: The peak intensity
+                        \end{itemize}
+                \end{itemize}
+        \end{enumerate}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{May 2023 Paper 2 SL TZ1 Question 3}
+
+Blue light of wavelength $\lambda$ is incident on a double slit. Light from the double slit falls on a
+screen. A student measures the distance between nine successive fringes on the screen
+to be 15cm. The separation of the double slit is 60\si{\micro\m}; the double slit is 2.5m from the screen.
+\img{ex/3.png}{0.7}{Diagram}{ex3}
+\begin{enumerate}[label=(\alph*)]
+  \item Explain the pattern seen on the screen.
+        \begin{itemize}
+          \item There will be interference.
+          \item Bright fringe occurs when light from the slits arrives in phase.
+          \item Dark fringe occurs when light from the slits arrives $\pi$ out of phase.
+        \end{itemize}
+  \item Calculate, in nm, $\lambda$.
+        \begin{itemize}
+          \item First, we must pay close attention to the given information: The distance between nine successive fringes is 15cm. This means that 8 times the separation between the fringes is 15cm. Hence, we find that $s = \dfrac{15}{800}$m.
+                \begin{align*}
+                  \lambda & = \frac{sd}{D}                                   \\
+                          & = \frac{15\times6\times 10^{-5}}{2.5 \times 800}
+                  = 4.5 \times 10^{-7} \text{ m}                             \\
+                          & = 450 \text{ nm}
+                \end{align*}
+        \end{itemize}
+  \item The student changes the light source to one that emits two colors:
+        \begin{itemize}
+          \item blue light of wavelength $\lambda$, and
+          \item red light of wavelength $1.5\lambda$.
+        \end{itemize}
+        Predict the pattern that the student will see on the screen.
+        \begin{itemize}
+          \item We should consider the two colors separately:
+                \begin{itemize}
+                  \item For the blue light, the pattern will be as calculated in part (b). It will not change.
+                  \item For the red light, since $s = \dfrac{\lambda D}{d}$, the separation between the fringes will be $1.5s$. This means that the red light will have a larger separation between the fringes, with a scale factor of 1.5.
+                \end{itemize}
+          \item Also, at some points, the two colors coincide to make a purple fringe.
+        \end{itemize}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{May 2019 Paper 2 SL TZ1 Question 3}
+
+A beam of microwaves is incident normally on a pair of identical narrow slits S1 and S2.
+
+\img{ex/4.png}{0.7}{Diagram}{ex4}
+
+When a microwave receiver is initially placed at W which is equidistant from the slits, a
+maximum in intensity is observed. The receiver is then moved towards Z along a line parallel
+to the slits. Intensity maxima are observed at X and Y with one minimum between them. W, X
+and Y are consecutive maxima.
+
+\begin{enumerate}[label=(\alph*)]
+  \item Explain why intensity maxima are observed at X and Y.
+        \begin{itemize}
+          \item At the points X and Y, there is constructive interference between the two waves from the two slits.
+          \item This is because the \textbf{path difference} is an \hl{integer multiple of the wavelength}.
+        \end{itemize}
+  \item The distance from S1 to Y is 1.243m and the distance from S2 to Y is 1.181m. Determine the frequency of the microwaves.
+        \begin{itemize}
+          \item Since Y is the second (0-indexed counting) maximum, the path difference is $2\lambda$.
+                $$\lambda = \frac{1.243 - 1.181}{2} = 0.031 \text{ m}$$
+          \item Then, the frequency is given by
+                $$f = \frac{c}{\lambda} = \frac{3 \times 10^8}{0.031} = 9.7 \times 10^9 \text{ Hz}$$
+        \end{itemize}
+  \item Outline one reason why the maxima observed at W, X and Y will have different intensities from each other.
+        \begin{itemize}
+          \item The intensity graph is modulated by a single slit diffraction envelope (recall the section on the combined effect)
+          \item Also, the intensity varies with distance, and the maxima are further and further away from the slits.
+        \end{itemize}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Diffraction Grating and Particle Scattering}
+
+In an experiment to determine the radius of a carbon-12 nucleus, a beam of neutrons is scattered by a thin film of carbon-12. The graph shows the variation of intensity of the scattered neutrons with scattering angle. The de Broglie wavelength of the neutrons is $\SI{1.6e-15}{m}$
+
+\img{ex/5.png}{0.5}{Diagram}{ex5}
+
+Estimate, using the graph, the radius of a carbon-12 nucleus.
+\begin{itemize}
+  \item This question may initially be very daunting, but let us look at it from the perspective of diffraction grating.
+  \item The phrase "thin film" gives away the that you can consider the material as a single layer of carbon-12 nuclei. This then becomes the layer of slits in the diffraction grating.
+        \img{ex/6.png}{0.99}{The grating setup}{ex6}
+        \begin{itemize}
+          \item The slit spacing in this case is the diameter of the carbon-12 nucleus.
+          \item The wavelength of the neutron beam is given as $\SI{1.6e-15}{m}$.
+          \item The angle of the first minimum is given in the diagram as $17\degsym$.
+        \end{itemize}
+  \item The calculation becomes trivial once we have recognized and understood the scenario.
+        \begin{align*}
+          r & = \frac{d}{2}                                                           \\
+            & = \frac{1}{2}\paren{\frac{n\lambda}{\sin\theta}}                        \\
+            & = \frac{1}{2}\paren{\frac{1\times 1.6 \times 10^{-15}}{\sin 17\degsym}} \\
+            & \approx 2.8 \times 10^{-15} \text{ m}
+        \end{align*}
+\end{itemize}
+
+\pagebreak
+
+\subsection{May 2021 Paper 2 HL TZ2 Question 8}
+
+\begin{enumerate}
+  \item Monochromatic light of wavelength $\lambda$ is normally incident on a diffraction grating.
+        The diagram shows adjacent slits of the diffraction grating labelled V, W and X.
+        Light waves are diffracted through an angle $\theta$ to form a second-order diffraction
+        maximum. Points Z and Y are labelled.
+        \img{ex/7.png}{0.7}{Diagram}{ex7}
+        \begin{enumerate}[label=(\roman*)]
+          \item State the phase difference between the waves at V and Y.
+                \begin{itemize}
+                  \item First, we must recognize that the shown rays are those that meet at a point of constructive interference
+                  \item This is where the path difference is $2\lambda$ and the phase difference is $0\bmod{2\pi}$.
+                \end{itemize}
+          \item State, in terms of $\lambda$, the path length between points X and Z.
+                \begin{itemize}
+                  \item You should know that in this kind of multi-slit configuration, $WY = 2\lambda$, $XZ = 4\lambda$, and so on for further slits.
+                \end{itemize}
+          \item The separation of adjacent slits is d. Show that for the second-order diffraction maximum $2\lambda = d\sin\theta$.
+                \begin{align*}
+                  \sin \theta & = \frac{XZ}{VX}       \\
+                              & = \frac{4\lambda}{2d} \\
+                              & = \frac{2\lambda}{d}  \\
+                \end{align*}
+        \end{enumerate}
+  \item Monochromatic light of wavelength 633nm is normally incident on a diffraction grating. The diffraction maxima incident on a screen are detected and their angle $\theta$ to the central beam is determined. The graph shows the variation of $\sin \theta$ with the order $n$ of the maximum. The central order corresponds to $n=0$.
+        \img{ex/8.png}{0.7}{Graph}{ex8}
+        Determine a mean value for the number of slits per millimeter of the grating.
+        \begin{itemize}
+          \item The number of slits $N$ contained in a unit length is given by $N = \dfrac{1}{d}$, where $d$ is the slit spacing.
+          \item Recall the multi-slit diffraction formula: $n\lambda = d\sin\theta$
+                rearranging gives
+                $$\frac{\sin\theta}{n} = \frac{\lambda}{d}$$
+          \item First, let us convert the quantity $\lambda$ into millimeters so that it's consistent with the unit of $d$ asked in the question. This is $633 \times 10^{-9}$m $\equiv$ $633 \times 10^{-6}$mm.
+          \item Graphically, this is the gradient of the given straight line, so
+                \begin{align*}
+                  \frac{\lambda}{d} & = \frac{0.4}{5}                      \\
+                  N                 & = \frac{1}{d} = \frac{0.4}{5\lambda}
+                  \approx 126
+                \end{align*}
+        \end{itemize}
+  \item State the effect on the graph of the variation of $\sin\theta$ with $n$ of:
+        \begin{enumerate}[label=(\roman*)]
+          \item using a light source with a smaller wavelength.
+                \begin{itemize}
+                  \item Gradient decreases
+                \end{itemize}
+          \item increasing the distance between the diffraction grating and the screen.
+                \begin{itemize}
+                  \item No change. If we were talking about the actual position of the maximum (in length units), then, this would make a difference, however angles don't scale and stay constant.
+                \end{itemize}
+        \end{enumerate}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Applying the Snell Equality Chain}
+
+A ray of monochromatic light is incident on the parallel interfaces between three media. The speeds of light in the media are $v_1$, $v_2$, and $v_3$ respectively.
+
+\img{ex/9.png}{0.5}{Diagram}{ex9}
+
+\begin{itemize}
+  \item By the relation $$\frac{\sin\theta_1}{\sin\theta_2} = \frac{v_1}{v_2}$$
+        we know that the speed has a positive correlation with the angle in that medium. This means that, in a medium whose speed is greater, the angle of refraction will be greater.
+  \item In medium 2, the angle is the smallest, so the speed is the smallest.
+  \item By similar arguments, $v_2 < v_1 < v_3$.
+
+\end{itemize}
+
+\pagebreak
+
+\subsection{Colors}
+
+
+In two different experiments, white light is passed through a single slit and then is either refracted through a prism or diffracted with a diffraction grating. The prism produces a band of colors from M to N. The diffraction grating produces a first order spectrum P to Q.
+
+\img{ex/10.png}{0.9}{Diagram}{ex10}
+
+\begin{table}[H]
+
+  \begin{tabular}{|c|c|c|}
+    \hline
+      & M      & P      \\ \hline
+    A & red    & red    \\ \hline
+    B & red    & violet \\ \hline
+    C & violet & red    \\ \hline
+    D & violet & violet \\ \hline
+  \end{tabular}
+\end{table}
+
+\begin{itemize}
+  \item Let's consider the first setup --- this is clearly a refraction problem.
+        \begin{itemize}
+          \item Looking at the two rays, the difference is the angles of refraction.
+          \item Using our knowledge about the Snell equality chain, the longer the wavelength, the larger the angle of refraction$$\frac{\sin\theta_1}{\sin\theta_2} = \frac{\lambda_1}{\lambda_2}$$
+          \item Thus, we can see that, since M has a larger angle of refraction, it must have a longer wavelength and thus should be red.
+        \end{itemize}
+  \item The second setup is a diffraction problem.
+        \begin{itemize}
+          \item We know that $$\theta = \frac{\lambda}{b}$$is how spread out the first minimum in the diffraction grating pattern is. Thus, the longer the wavelength, the larger the angle.
+          \item Clearly, P is at a larger angular position and so it must possess a longer wavelength, thus it should also be red.
+        \end{itemize}
+\end{itemize}
 
 \end{document}
