@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1735081154.29936 "/Users/timthedev07/Documents/物理笔记/A5/A5.tex" "A5.pdf" "A5" 1735081156.10613 0
-  "/Users/timthedev07/Documents/物理笔记/A5/A5.tex" 1735081153.84881 25708 a603550f8f3e4cfb082ce3cb32f75793 ""
+["pdflatex"] 1736720512.16807 "/Users/timthedev07/Documents/物理笔记/A5/A5.tex" "A5.pdf" "A5" 1736720514.22213 0
+  "/Users/timthedev07/Documents/物理笔记/A5/A5.tex" 1736720511.86052 25709 86fa2827d42ab337735276932cc6f38f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -279,10 +279,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731313331.24492 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731313254 8221454 067b6d98d3b5175b15c9caab9e14d269 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "A5.aux" 1735081155.99572 7380 42fd7d847c392a83c66f7815985f054c "pdflatex"
-  "A5.out" 1735081155.9967 3644 a3700f9a62b09de3b20f374227d3af6c "pdflatex"
-  "A5.tex" 1735081153.84881 25708 a603550f8f3e4cfb082ce3cb32f75793 ""
-  "A5.toc" 1735081155.99689 2001 3e9d071694d4be3c3e38164820c701fa "pdflatex"
+  "A5.aux" 1736720514.1024 7380 42fd7d847c392a83c66f7815985f054c "pdflatex"
+  "A5.out" 1736720514.10324 3644 a3700f9a62b09de3b20f374227d3af6c "pdflatex"
+  "A5.tex" 1736720511.86052 25709 86fa2827d42ab337735276932cc6f38f ""
+  "A5.toc" 1736720514.1034 2001 3e9d071694d4be3c3e38164820c701fa "pdflatex"
   "calibrate.png" 1734733696.64004 70191 0ce000bf1bd5f3bef01332940ee9ff54 ""
   "clock1.png" 1729711470.5394 190098 23abf93877dee3d6a96109c89f1d5d59 ""
   "clock2.png" 1729711459.29974 180595 b78e57ac1458b634e675d848a0ca0881 ""
