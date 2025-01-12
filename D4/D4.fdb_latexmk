@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1735245477.72047 "/Users/timthedev07/Documents/物理笔记/D4/D4.tex" "D4.pdf" "D4" 1735245479.47969 0
-  "/Users/timthedev07/Documents/物理笔记/D4/D4.tex" 1735245475.67192 21976 878fb4f74b5b90b60328e60acd798dba ""
+["pdflatex"] 1736701036.92615 "/Users/timthedev07/Documents/物理笔记/D4/D4.tex" "D4.pdf" "D4" 1736701038.88438 0
+  "/Users/timthedev07/Documents/物理笔记/D4/D4.tex" 1736701036.60218 21976 7d3427294b36774199f571e49e3ff6ed ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -266,10 +266,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731313331.24492 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731313254 8221454 067b6d98d3b5175b15c9caab9e14d269 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "D4.aux" 1735245479.37348 7205 4b77406c0aa793cfebba4c896474dba8 "pdflatex"
-  "D4.out" 1735245479.37479 4593 0238e09f87e0a908b2f01e70ef8f115d "pdflatex"
-  "D4.tex" 1735245475.67192 21976 878fb4f74b5b90b60328e60acd798dba ""
-  "D4.toc" 1735245479.37502 2278 f409a367ce4e51539e0ae9561849a268 "pdflatex"
+  "D4.aux" 1736701038.78189 7205 4b77406c0aa793cfebba4c896474dba8 "pdflatex"
+  "D4.out" 1736701038.783 4593 0238e09f87e0a908b2f01e70ef8f115d "pdflatex"
+  "D4.tex" 1736701036.60218 21976 7d3427294b36774199f571e49e3ff6ed ""
+  "D4.toc" 1736701038.78326 2278 f409a367ce4e51539e0ae9561849a268 "pdflatex"
   "bar.png" 1726868258.98402 150908 9f5f324d5f60bbd6ffb6ba77100789b3 ""
   "ex/droppedloop.png" 1735134430.48148 73390 61a6dcd529815f89c62279ddc1975c9b ""
   "ex/gencur.png" 1735243418.70618 129267 ac32c4eac32187c76a1c8f10cbe537b3 ""
