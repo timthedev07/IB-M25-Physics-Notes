@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  31 JAN 2025 12:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  31 JAN 2025 13:11
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1161,13 +1161,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9]
-<engine.png, id=271, 314.17375pt x 346.29375pt>
+<engine.png, id=272, 314.17375pt x 346.29375pt>
 File: engine.png Graphic file (type png)
 <use engine.png>
-Package pdftex.def Info: engine.png  used on input line 354.
+Package pdftex.def Info: engine.png  used on input line 357.
 (pdftex.def)             Requested size: 159.3382pt x 175.62463pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--365
+Underfull \hbox (badness 10000) in paragraph at lines 356--368
 
  []
 
@@ -1184,7 +1184,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <carnot.png, id=283, 258.9675pt x 208.78pt>
 File: carnot.png Graphic file (type png)
 <use carnot.png>
-Package pdftex.def Info: carnot.png  used on input line 375.
+Package pdftex.def Info: carnot.png  used on input line 378.
 (pdftex.def)             Requested size: 227.62204pt x 183.51668pt.
 
 
@@ -1214,7 +1214,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <reversecarnot.jpg, id=308, 238.491pt x 157.0668pt>
 File: reversecarnot.jpg Graphic file (type jpg)
 <use reversecarnot.jpg>
-Package pdftex.def Info: reversecarnot.jpg  used on input line 421.
+Package pdftex.def Info: reversecarnot.jpg  used on input line 424.
 (pdftex.def)             Requested size: 318.66946pt x 209.88841pt.
 
 
@@ -1228,7 +1228,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <refrigerator.png, id=319, 623.32875pt x 534.99875pt>
 File: refrigerator.png Graphic file (type png)
 <use refrigerator.png>
-Package pdftex.def Info: refrigerator.png  used on input line 443.
+Package pdftex.def Info: refrigerator.png  used on input line 446.
 (pdftex.def)             Requested size: 318.66946pt x 273.51515pt.
 
 
@@ -1255,12 +1255,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 470--471
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--480
+Underfull \hbox (badness 10000) in paragraph at lines 482--483
 
  []
 
@@ -1336,7 +1336,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  84i,13n,96p,771b,1015s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on B4.pdf (24 pages, 2883017 bytes).
+Output written on B4.pdf (24 pages, 2883968 bytes).
 PDF statistics:
  455 PDF objects out of 1000 (max. 8388607)
  354 compressed objects within 4 object streams
