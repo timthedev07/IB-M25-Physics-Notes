@@ -169,15 +169,17 @@ This constant has a value of about $\SI{1360}{\watt\per\meter\squared}$. However
 \end{itemize}
 
 S is calculated as
-$$S = \frac{L}{4\pi d^2}$$
+$$S = \frac{L}{4\pi d^2} = \varepsilon \sigma T^4$$
 where $L$ is the luminosity of the Sun, $d$ is the distance from the Sun to the Earth. In other words, the solar constant for a particular planet $d'$ away from the Sun, in terms of $S$, is given by
-$$S' = S \paren{\frac{d}{d'}}^2$$
+\begin{equation}\label{eq:solar-constant}
+  S' = S \paren{\frac{d}{d'}}^2
+\end{equation}
 
 \section{The Atmosphere}
 
 \img{atm_rad.png}{0.5}{The Atmosphere}{atm-rad}
 
-The radiation from the Sun that actually falls onto the Earth has an area of $\pi R^2$, where $R$ is the radius of the Earth. The atmosphere then distributes this energy over the entire surface of the Earth, which has an area of $4\pi R^2$. Thus, the average intensity of solar radiation actually \textbf{incident on the surface} is $\dfrac{1}{4}S$.\lb
+The radiation from the Sun that actually falls onto the Earth has an area of $\pi R^2$, where $R$ is the radius of the Earth. The atmosphere then distributes this energy over the entire surface of the Earth, which has an area of $4\pi R^2$. Thus, \textbf{the average intensity} of solar radiation \textbf{on the entire surface} is $\dfrac{1}{4}S$.\lb
 In reality, this theoretical prediction is higher than the practical value of the intensity on the surface --- the atmosphere also partially absorbs as well as reflects the radiation.\lb
 However, since the ground is not an idea black body, it will reflect off some of the incident radiation. The fraction of the total radiation reflected is called the \textbf{albedo}.
 
@@ -302,6 +304,125 @@ Global warming leads to a series of consequences that themselves will further th
 \begin{itemize}
   \item The melting of ice caps and glaciers will \textbf{decrease the Earth's albedo}, which will increase the amount of radiation absorbed by the Earth.
   \item Higher seawater temperatures will reduce the solubility of CO$_2$ in the water, which will increase the concentration of CO$_2$ in the atmosphere.
+\end{itemize}
+
+\section{Exam Questions}
+
+\subsection{Re-radiating Infrared}
+
+The average temperature of ocean surface water is 289 K. Oceans behave as black bodies.
+\begin{enumerate}[label=(\alph*)]
+  \item Show that the intensity radiated by the oceans is about 400 $\si{\W\per\m\squared}$
+
+        \begin{align*}
+          \varepsilon & = 1                                                                                       \\
+          I           & = \varepsilon \sigma T^4 = 1 \times \sigma \times 289^4 \approx 400 \si{\W\per\m\squared}
+        \end{align*}
+  \item Explain why some of this radiation is returned to the oceans from the atmosphere. [3]
+        \begin{itemize}
+          \item Most of the emitted radiation is in the infrared part of the spectrum, this is because $$\lambda = \frac{b}{T} = \frac{2.9 \times 10^{-3}}{289} \approx 10 \times 10^{-6} \si{\m} = 10 \si{\micro\m}$$
+          \item This radiation is absorbed by greenhouse gases in the atmosphere such as CO2 or methane.
+          \item The gas then re-emits/re-radiates this radiation ...
+          \item ... partly back towards oceans and partly into other arbitrary directions.
+        \end{itemize}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{M19 SL Paper 2 TZ1 Q6}
+
+The Moon has no atmosphere and orbits the Earth. The diagram shows the Moon with rays
+of light from the Sun that are incident at 90° to the axis of rotation of the Moon.
+
+\img{ex/1.png}{0.7}{Moon}{moon}
+
+\begin{enumerate}[label=(\alph*)]
+  \item \begin{enumerate}[label=(\roman*)]
+          \item A black body is on the Moon’s surface at point A. Show that the maximum
+                temperature that this body can reach is 400 K. Assume that the Earth and the
+                Moon are the same distance from the Sun. [2]
+                \begin{align*}
+                  T^4 & = \frac{S}{\varepsilon \sigma} = \frac{1360}{1 \times 5.67 \times 10^{-8}} \\
+                  T   & \approx 400 \si{\K}
+                \end{align*}
+          \item Another black body is on the Moon's surface at point B. Outline, without calculation, why the maximum temperature of the black body at point B is less than at point A.
+
+                \textcolor{ForestGreen}{Answer:} \begin{enumerate}
+                  \item Energy/Power/Intensity lower at B, since it is further away from the Sun.
+
+                  \item Since $T^4 \propto I$, the temperature at B will be lower.
+                \end{enumerate}
+        \end{enumerate}
+  \item The albedo of the Earth's atmosphere is 0.28. Outline why the maximum temperature of a black body on the Earth when the Sun is overhead is less than that at point A on the Moon.
+        \begin{itemize}
+          \item Because a portion of the radiation from the Sun is reflected back into space by the atmosphere; this portion is about 28\%.
+        \end{itemize}
+  \item The Moon orbits the Earth in a circular path.
+        Outline why
+        \begin{enumerate}[label=(\roman*)]
+          \item a force acts on the Moon.
+                \begin{itemize}
+                  \item There is an attractive gravitational force between the planet and the Moon.
+                \end{itemize}
+          \item this force does no work on the Moon.
+                \begin{itemize}
+                  \item The force and the velocity are at 90$\degsym$ to each other and there is no change in GPE of the moon.
+                \end{itemize}
+        \end{enumerate}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Radiation Processes in the Atmosphere}
+
+What is the average intensity radiated by the atmosphere towards the surface?
+\img{ex/2.png}{0.7}{Radiation Processes in the Atmosphere}{rad}
+\begin{itemize}
+  \item We must first identify the quantity we are interested in determining --- this is the right-most unlabeled arrow.
+  \item It is important to realize that the \hl{intensity emitted by the surface must equal the intensity absorbed by the surface}. This is the most crucial step in any question of this kind.
+  \item The total emitted intensity is 390 $\si{\W\per\m\squared}$, and the total absorbed intensity is 240 + our desired quantity.
+  \item Baby maths -- the answer is 150.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Titan and the Sun}
+
+Titan is a moon of Saturn. The Titan-Sun distance is 9.3 times greater than the Earth-Sun distance.
+\begin{enumerate}[label=(\alph*)]
+  \item Show that the intensity of the solar radiation at the location of Titan is 16 $\si{\W\per\m\squared}$.
+        \begin{itemize}
+          \item We invoke the equation \cref{eq:solar-constant} with $\dfrac{d}{d'} = \dfrac{1}{9.3}$ to obtain
+                $$S' = 1360 \times \paren{\frac{1}{9.3}}^2 = 15.72... \approx 16 \si{\W\per\m\squared}$$
+        \end{itemize}
+  \item Titan has an atmosphere of nitrogen. The albedo of the atmosphere is 0.22. The surface of Titan may be assumed to be a black body. Explain why the \textbf{average} intensity of solar radiation \textbf{absorbed} by the whole surface of Titan is 3.1$\si{\W\per\m\squared}$.
+        \begin{itemize}
+          \item An albedo of 0.22 means that 22\% of the radiation is reflected back into space and only 0.78 enter the atmosphere. Also, because the area of contact with radiation is $\pi R^2$ and the total surface area is $4\pi R^2$, the average intensity across the whole Moon is $\dfrac{1}{4}$ of the previously calculated value.
+                \begin{align*}
+                  0.78 \times 16 \times \frac{1}{4} = 3.12 \approx 3.1 \si{\W\per\m\squared}
+                \end{align*}
+        \end{itemize}
+  \item Show that the equilibrium surface temperature of Titan is about 90K.
+        \begin{align*}
+          T & = \sqrt[4]{\frac{S}{\varepsilon \sigma}} = \sqrt[4]{\frac{3.1}{1 \times 5.67 \times 10^{-8}}} = 85.98... \approx 90 \si{\K} \\
+        \end{align*}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Emissivity Ratio Question}
+
+Two surfaces X and Y emit radiation of the same surface intensity. X emits a radiation of peak wavelength twice that of Y.
+
+What is $\dfrac{\text{emissivity of X}}{\text{emissivity of Y}}$?
+
+\begin{itemize}
+  \item We use Wien's Law $$\lambda \propto \frac{1}{T}$$
+        to deduce that the temperature of X is half that of Y.
+  \item We then use the Stefan-Boltzmann law for intensity $$I = \varepsilon \sigma T^4 \implies \varepsilon \propto \frac{1}{T^4}$$
+        joined with the previous proportionality to obtain
+        $$\varepsilon \propto \frac{1}{T^4} \propto \lambda^4$$
+  \item Hence, a factor multiplied to the wavelength is raised to the power of 4 when applied to the emissivity. Hence the answer is 16.
 \end{itemize}
 
 \pagebreak
