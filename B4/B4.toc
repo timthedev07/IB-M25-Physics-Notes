@@ -22,3 +22,5 @@
 \contentsline {subsubsection}{\numberline {7.1.1}Entropy for Irreversible Changes}{20}{subsubsection.7.1.1}%
 \contentsline {subsection}{\numberline {7.2}A Microscopic Interpretation}{21}{subsection.7.2}%
 \contentsline {subsubsection}{\numberline {7.2.1}Alternative Definition}{22}{subsubsection.7.2.1}%
+\contentsline {section}{\numberline {8}Exam Questions}{23}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Identifying Processes}{23}{subsection.8.1}%

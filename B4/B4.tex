@@ -163,7 +163,7 @@ Definitions:
 
 \begin{law}
   \begin{equation}\label{eq:1stlaw}
-    \Delta U = Q - W
+    Q = \Delta U + W
   \end{equation}
   \begin{itemize}
     \item $\Delta U$ is the change in internal energy of the system.
@@ -339,11 +339,11 @@ The table below summarizes the changes
   \centering
   \begin{tabular}{|P{0.2\textwidth}|c|c|P{0.23\textwidth}|c|}
     \hline
-    \rowcolor{cyan!80!black!40} \textbf{Shape} & \textbf{Type} & \textbf{Constant} & \textbf{Possible Variable}    & \textbf{Gas Laws}   \\ \hline
-    Horizontal line                            & Isobaric      & Pressure          & Volume                        & Charles'            \\ \hline
-    Vertical line                              & Isovolumetric & Volume            & Temperature                   & Gay-Lussac's        \\ \hline
-    Isothermal curve                           & Isothermal    & Temperature       & Pressure                      & Boyle's             \\ \hline
-    Skipping between two isotherms             & Adiabatic     & Internal energy   & Pressure, volume, temperature & \cref{eq:adiabatic} \\ \hline
+    \rowcolor{cyan!80!black!40} \textbf{Shape} & \textbf{Type} & \textbf{Constant} & \textbf{Gas Laws}   \\ \hline
+    Horizontal line                            & Isobaric      & Pressure          & Charles'            \\ \hline
+    Vertical line                              & Isovolumetric & Volume            & Gay-Lussac's        \\ \hline
+    Isothermal curve                           & Isothermal    & Temperature       & Boyle's             \\ \hline
+    Skipping between two isotherms             & Adiabatic     & Internal energy   & \cref{eq:adiabatic} \\ \hline
   \end{tabular}
 \end{table}
 
@@ -506,7 +506,7 @@ On a macroscopic level, the change in entropy ($\si{\joule\per\kelvin}$) for a r
 \end{equation}
 where $\Delta Q$ is the heat supplied to the system, and $T$ is the temperature of the system at which the change occurs. This means that
 \begin{itemize}
-  \item If energy is removed from the system $\Delta Q < 0$, then $\Delta S < 0$, i.e. the entropy decreases. However, whenever something happens, there can only be more disorder created than order (so entropy must increase), hence, this drop in entropy in this specific place is compensated by a greater increase in entropy somewhere else.
+  \item If energy is removed from the system $\Delta Q < 0$, then $\Delta S < 0$, i.e. the entropy decreases. However, whenever something happens, there can only be more disorder created than order (so entropy must increase), hence, this drop in entropy in this specific place is compensated by a greater increase in entropy somewhere else. This leads to the conclusion that \hl{the entropy of a non-isolated system can only decrease if the entropy of the surroundings increases.}
   \item If energy is added to the system $\Delta Q > 0$, then $\Delta S > 0$, i.e. the entropy increases.
 \end{itemize}
 Consider a reversible action $A \rightarrow B$
@@ -514,6 +514,7 @@ Consider a reversible action $A \rightarrow B$
   \item One can calculate the entropy change using \cref{eq:macro_entropy}
   \item The total entropy change for a cycle is 0. This means that $A\rightarrow B \rightarrow A$ has a total entropy change of 0.
 \end{itemize}
+For a thermodynamic process, the entropy of the universe never decreases during the process. It can remain the same -- in fact, for a reversible change, the entropy of the surrounding remains unchanged due to the idealization and inexistence of disturbance of the surroundings.
 
 \pagebreak
 
@@ -523,7 +524,8 @@ The entropy change for an irreversible change, where heat flows from a hotter bo
 \begin{equation}\label{eq:irreversible}
   \Delta S =\Delta Q\left(\frac{1}{T_\text{surroundings}} - \frac{1}{T_\text{gas}}\right)
 \end{equation}
-This change results in an increase in the entropy, and this implies that the \hl{entropy of the universe is always increasing}. This is another way of stating the second law of thermodynamics.
+This change results in an increase in the entropy, and this implies that the \hl{entropy of the universe is always increasing}. This is another way of stating the second law of thermodynamics.\lb
+A key point to note about irreversible changes is that the final state has a greater number of microstates than the initial state.
 
 \pagebreak
 
@@ -552,6 +554,19 @@ Another definition is that the change in entropy arises from the energy $\Delta 
 $$
   \Delta S = \dfrac{\Delta Q}{T}
 $$
+
+\pagebreak
+
+\section{Exam Questions}
+
+\subsection{Identifying Processes}
+
+\img{ex/1.png}{0.5}{Cycle}{ex1}
+
+\begin{itemize}
+  \item YZ is a \textbf{vertical line}, and so it is an \textbf{isovolumetric} process.
+  \item Now, we know that an adiabatic change involves skipping from one isothermal to another and so an adiabatic curve should be steeper than an isothermal curve.
+\end{itemize}
 
 
 \end{document}

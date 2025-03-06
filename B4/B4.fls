@@ -458,8 +458,8 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 OUTPUT B4.toc
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsl12.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
@@ -518,6 +518,11 @@ INPUT ./refrigerator.png
 INPUT ./refrigerator.png
 INPUT ./refrigerator.png
 INPUT ./refrigerator.png
+INPUT ./ex/1.png
+INPUT ./ex/1.png
+INPUT ./ex/1.png
+INPUT ./ex/1.png
+INPUT ./ex/1.png
 INPUT B4.aux
 INPUT ./B4.out
 INPUT ./B4.out
