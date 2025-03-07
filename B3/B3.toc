@@ -9,6 +9,7 @@
 \contentsline {subsection}{\numberline {2.4}Avogadro's Law}{4}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}The Ideal Gas Law}{5}{subsection.2.5}%
 \contentsline {subsubsection}{\numberline {2.5.1}Proportionality Form}{5}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Link to Internal Energy}{5}{subsubsection.2.5.2}%
 \contentsline {section}{\numberline {3}Brownian Motion}{6}{section.3}%
 \contentsline {section}{\numberline {4}Kinetic Model of Ideal Gases}{7}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Assumptions of the Model}{7}{subsection.4.1}%

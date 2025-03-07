@@ -651,17 +651,80 @@ The energy diagram shows two possible configurations of the system. Each dot in 
 
 \pagebreak
 
-\subsection{May 2019 Paper 3 TZ1 HL Question 9}
+\subsection{May 2019 Paper 3 TZ2 HL Question 9}
 
 \begin{enumerate}[label=(\alph*)]
   \item Show that during an adiabatic expansion of an ideal monatomic gas the temperature $T$ and volume $V$ are given by.
         $$TV^{\frac{2}{3}} = \text{constant}$$
-        Solution:
+        Solution: We use the equation $PV^{\frac{5}{3}} = \text{constant}$ without needing to prove it.
         \begin{align*}
-          d
+          P                              & = \frac{nRT}{V}   \\
+          (\frac{nRT}{V})V^{\frac{5}{3}} & = \text{constant} \\
+          nRTV^{\frac{2}{3}}             & = \text{constant} \\
+          TV^{\frac{2}{3}}               & = \text{constant}
         \end{align*}
+  \item The diagram shows a Carnot cycle for an ideal monatomic gas.
+        \img{ex/4.png}{0.3}{Carnot Cycle}{ex4}
+        The highest temperature in the cycle is 620 K and the lowest is 340 K.
+        \begin{enumerate}[label=(\roman*)]
+          \item Calculate the efficiency of the cycle.
+                \begin{align*}
+                  \eta & = 1 - \frac{340}{620} = 0.45
+                \end{align*}
+          \item The work done during the isothermal expansion A $\to$ B is 540 J. Calculate the
+                thermal energy that leaves the gas during one cycle.
+                \begin{align*}
+                  Q_\text{in}                    & = 540\si{\joule} \\
+                  Q_\text{out} = 0.55 \times 540 & = 297\si{\joule}
+                \end{align*}
+                The important bit here is to realize that the question is asking for the heat released and not the useful work done, which means that we want the complement of the efficiency ($1 - 0.45 = 0.5$) to calculate the portion of the total 540 Joules that we need.
+          \item Calculate $\dfrac{V_C}{V_B}$ where $V_C$ and $V_B$ are the volumes at C and B respectively.
+                \begin{align*}
+                  V_CT_C^\frac{3}{2}                                         & = V_BT_B^\frac{3}{2}                             \\
+                  \frac{V_C}{V_B} = \left(\frac{T_B}{T_C}\right)^\frac{3}{2} & = \left(\frac{620}{340}\right)^\frac{3}{2} = 2.5
+                \end{align*}
+        \end{enumerate}
+        \begin{enumerate}[label=(\roman*)]
+          \item Calculate the change in the entropy of the gas during the change A to B.
+                \begin{align*}
+                  \Delta S & = \frac{Q}{T} = \frac{540}{620} = 0.87\si{\joule\per\kelvin}
+                \end{align*}
+          \item Explain, by reference to the second law of thermodynamics, why a real engine
+                operating between the temperatures of 620 K and 340 K cannot have an
+                efficiency greater than the answer to (b)(i).
+                \begin{itemize}
+                  \item The idea that the Carnot cycle is an ideal cycle with the maximum possible efficiency.
+                  \item A real engine can never work at the ideal Carnot efficiency...
+                  \item ... because it would have additional losses due to friction.
+                  \item The 2nd of thermodynamics states that it is impossible to
+                        convert all the input heat into mechanical work
+                \end{itemize}
+        \end{enumerate}
+
 \end{enumerate}
 
 
+\subsection{May 2019 Paper 3 TZ2 HL Question 12}
+
+A heat pump is modelled by the cycle A→B→C→A.
+
+\img{ex/5.png}{0.5}{Heat Pump}{ex5}
+
+The heat pump transfers thermal energy to the interior of a building during processes
+C→A and A→B and absorbs thermal energy from the environment during process B→C.
+The working substance is an ideal gas.
+
+\begin{enumerate}[label=(\alph*)]
+  \item Show that the work done on the gas for the isothermal process C→A is approximately 440 J.
+        \begin{itemize}
+          \item By counting squares, we estimate the total area under the AC curve to be about 17-18 squares.
+          \item Each square is the equivalent of $$0.5 \times 10^{-3} \times 0.5 \times 10^5 = 25\si{\joule}$$
+          \item The estimated work done is given by the following, which lies within the acceptable range in the mark scheme $$17 \times 25 = 425\si{\joule}$$
+        \end{itemize}
+  \item Calculate the
+        \begin{enumerate}[label=(\roman*)]
+          \item change in internal energy of the gas for the process A→B.
+        \end{enumerate}
+\end{enumerate}
 
 \end{document}
