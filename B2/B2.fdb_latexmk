@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1741202687.16291 "/Users/timthedev07/Documents/物理笔记/B2/B2.tex" "B2.pdf" "B2" 1741202689.07647 0
-  "/Users/timthedev07/Documents/物理笔记/B2/B2.tex" 1741202686.90016 22132 8916f8e5140b016e7afa01b622bd8d74 ""
+["pdflatex"] 1741344245.41683 "/Users/timthedev07/Documents/物理笔记/B2/B2.tex" "B2.pdf" "B2" 1741344247.31021 0
+  "/Users/timthedev07/Documents/物理笔记/B2/B2.tex" 1741344243.12894 22132 8916f8e5140b016e7afa01b622bd8d74 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -278,10 +278,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731313331.24492 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731313254 8221454 067b6d98d3b5175b15c9caab9e14d269 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "B2.aux" 1741202688.97424 5798 b222d1fbf0cb5682ac663f44e3ebad1e "pdflatex"
-  "B2.out" 1741202688.97501 3068 4afb6ce8713da27213a6fdf0f41b3450 "pdflatex"
-  "B2.tex" 1741202686.90016 22132 8916f8e5140b016e7afa01b622bd8d74 ""
-  "B2.toc" 1741202688.97521 1639 5a0bdd09bb0cd54e6733d57f2797ee69 "pdflatex"
+  "B2.aux" 1741344247.20889 5798 b222d1fbf0cb5682ac663f44e3ebad1e "pdflatex"
+  "B2.out" 1741344247.20974 3068 4afb6ce8713da27213a6fdf0f41b3450 "pdflatex"
+  "B2.tex" 1741344243.12894 22132 8916f8e5140b016e7afa01b622bd8d74 ""
+  "B2.toc" 1741344247.20996 1639 5a0bdd09bb0cd54e6733d57f2797ee69 "pdflatex"
   "atm_rad.png" 1728498894.1535 107980 fd9ca945900ebcda8470e1556395787a ""
   "env.png" 1728509205.60384 85604 b017682c6d6208abc33ec6ca4cf07c9c ""
   "ex/1.png" 1741110838.08357 86274 e6e484e9a2afd812ed2f960567bde073 ""

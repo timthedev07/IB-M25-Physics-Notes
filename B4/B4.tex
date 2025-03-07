@@ -154,7 +154,7 @@ Definitions:
   \item \textbf{System}: A system is a portion of the universe that has been chosen for study. Put simply, it is a set of objects to be analyzed. Conversely, the universe is a system that is made up of sub-systems within it.
         \begin{enumerate}
           \item A \textbf{closed system} is one that \hl{does not exchange matter} with its surroundings. I.e. the quantity of matter in the system is constant.
-          \item An \textbf{isolated system} has even stricter requirements --- it is one where \hl{neither matter nor energy} can be exchanged with the surroundings.
+          \item An \textbf{isolated system} has even stricter requirements --- it is one where \hl{neither mass nor energy} can be exchanged with the surroundings.
         \end{enumerate}
   \item In contrast, the \textbf{surroundings} are everything external to the system that may also interact with it.
 \end{itemize}
@@ -304,7 +304,6 @@ We introduce a new equation that has not been seen before. This is specific to a
 \begin{equation}\label{eq:adiabatic}
   PV^{\frac{5}{3}} = \text{constant} \eqand TV^{\frac{2}{3}} = \text{constant}
 \end{equation}
-Note that \textbf{the latter requires constant pressure} in addition to the adiabatic condition.
 
 Note that perfect adiabatic changes are also not practically feasible.
 \begin{enumerate}
@@ -490,6 +489,8 @@ A heat pump follows the identical mechanism as a refrigerator, but with a differ
     \end{minipage}
   \end{center}
 
+  The other claim as part of this law is that in an isolated system, the entropy spontaneously increases over time, and the system evolves toward a state of maximum entropy.
+
 \end{law}
 
 A consequence of this law is that the efficiency of a heat engine is always less than 100\%, or equivalently, the rejected (dumped) energy $Q_c$ is always greater than 0.
@@ -557,16 +558,110 @@ $$
 
 \pagebreak
 
+\subsection{Microstate vs. Macrostate}
+
+\begin{itemize}
+  \item A microstate is one unique arrangement of a system assuming that each entity in the system is distinguishable
+  \item A macrostate is an arrangement of microstates which have an identical outcome when individuals are not treated as distinguishable.
+  \item Consider a simplified scenario of a system of 10 counters, where each can be red or blue.
+  \item \begin{itemize}
+          \item A macrostate in this case is the combination of the number of red counters and the number of blue counters. For example, if we denote $(r, b)$ as the combination of numbers, then, a macrostate could be $(3, 7)$.
+          \item A microstate is the exact arrangement of the particles, e.g. rrrbbbbbbb is a microstate of the macrostate of $(3, 7)$.
+        \end{itemize}
+\end{itemize}
+
 \section{Exam Questions}
 
 \subsection{Identifying Processes}
 
-\img{ex/1.png}{0.5}{Cycle}{ex1}
+\img{ex/1.png}{0.3}{Cycle}{ex1}
 
 \begin{itemize}
   \item YZ is a \textbf{vertical line}, and so it is an \textbf{isovolumetric} process.
   \item Now, we know that an adiabatic change involves skipping from one isothermal to another and so an adiabatic curve should be steeper than an isothermal curve.
 \end{itemize}
+
+\subsection{Microstate Calculations}
+
+In one throw the coins all land heads upwards. The following throw results in 7 heads and 3 tails. Calculate, in terms of $k_B$, the change in entropy between the two throws.
+\begin{itemize}
+  \item The initial state has a single microstate, whereas the final state has $\binom{10}{3}$ microstates.
+  \item The initial entropy is $$S(1) = k_B\ln 1 = 0$$
+  \item The final entropy is $$S(\binom{10}{3}) = k_B\ln\binom{10}{3}$$
+  \item Then, the change in entropy is $$\Delta S = k_B\ln\binom{10}{3} = 4.8k_B$$
+\end{itemize}
+
+\pagebreak
+
+\subsection{Entropy and Irreversible Processes}
+
+The particles of an ideal gas initially occupy one half of an isolated container, whose second half is
+initially empty. The gas is then allowed to expand freely into the second half. The diagram shows two
+configurations of the gas: the initial configuration A and configuration B, in which equal numbers of
+particles occupy each half of the container.
+\img{ex/2.png}{0.5}{Two configurations}{ex2}
+When a particle moves to a new position within the same half of the container, the microstate of the gas is
+considered unchanged. When a particle moves to the other half of the container, a new microstate is
+formed.
+\begin{enumerate}[label=(\alph*)]
+  \item Explain why the gas in configuration B has a greater number of microstates than in A.
+        \begin{itemize}
+          \item Configuration A has only one microstate
+          \item In configuration B, pairs of particles can be swapped between the halves
+          \item Every such change gives rise to a new microstate so there is a larger number of microstates in B
+        \end{itemize}
+  \item Deduce, with reference to entropy, that the expansion of the gas from the initial configuration A is irreversible.
+        \begin{itemize}
+          \item $S_A = k_B \ln \Omega_A$ and $S_B = k_B \ln \Omega_B$
+          \item Since $\Omega_B > \Omega_A$, the entropy in configuration B is greater
+          \item A process that results in an increase of entropy in an isolated system is irreversible.
+        \end{itemize}
+
+\end{enumerate}
+\pagebreak
+
+\subsection{Microstate Calculations (2)}
+
+An isolated system consists of six particles.The total energy of the system is 6E, where E is a constant.The
+particles can randomly exchange energy between one another, in integer multiples of E.
+
+\img{ex/3.png}{0.5}{Energy Diagram}{ex3}
+
+The energy diagram shows two possible configurations of the system. Each dot in the diagram represents one particle. In configuration A, one particle has energy 6E and the remaining particles have zero energy. In configuration B, three particles have energies 3E, 2E and E, and the remaining particles have zero energy.
+
+\begin{enumerate}[label=(\alph*)]
+  \item State and explain the number of microstates of the system in configuration A.
+        \begin{itemize}
+          \item 6 microstates
+          \item Any of the six particles can be the one of the highest energy
+        \end{itemize}
+  \item Configuration B has 120 microstates. Calculate the entropy difference between configurations B and A. State the answer in terms of $k_B$.
+        \begin{align*}
+          S_B - S_A = k_B(\ln 120 - \ln 6) = k_B\ln 20 \approx 3.0 k_B
+        \end{align*}
+  \item The system is initially in configuration A. Comment, with reference to the second law of thermodynamics and your answer in (c), on the likely evolution of the system.
+        \begin{itemize}
+          \item The second law predicts that isolated systems spontaneously evolve towards high-entropy states.
+          \item From (c), the entropy of B is greater than that of A.
+          \item The final state will likely be similar to B / contain relatively many low-energy particles of different
+                energies.
+        \end{itemize}
+
+\end{enumerate}
+
+\pagebreak
+
+\subsection{May 2019 Paper 3 TZ1 HL Question 9}
+
+\begin{enumerate}[label=(\alph*)]
+  \item Show that during an adiabatic expansion of an ideal monatomic gas the temperature $T$ and volume $V$ are given by.
+        $$TV^{\frac{2}{3}} = \text{constant}$$
+        Solution:
+        \begin{align*}
+          d
+        \end{align*}
+\end{enumerate}
+
 
 
 \end{document}

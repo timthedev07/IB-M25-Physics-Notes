@@ -22,5 +22,10 @@
 \contentsline {subsubsection}{\numberline {7.1.1}Entropy for Irreversible Changes}{20}{subsubsection.7.1.1}%
 \contentsline {subsection}{\numberline {7.2}A Microscopic Interpretation}{21}{subsection.7.2}%
 \contentsline {subsubsection}{\numberline {7.2.1}Alternative Definition}{22}{subsubsection.7.2.1}%
-\contentsline {section}{\numberline {8}Exam Questions}{23}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Identifying Processes}{23}{subsection.8.1}%
+\contentsline {subsection}{\numberline {7.3}Microstate vs. Macrostate}{23}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Exam Questions}{24}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Identifying Processes}{24}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Microstate Calculations}{24}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Entropy and Irreversible Processes}{25}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Microstate Calculations (2)}{26}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}May 2019 Paper 3 TZ1 HL Question 9}{28}{subsection.8.5}%
