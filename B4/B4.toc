@@ -30,3 +30,6 @@
 \contentsline {subsection}{\numberline {8.4}Microstate Calculations (2)}{26}{subsection.8.4}%
 \contentsline {subsection}{\numberline {8.5}May 2019 Paper 3 TZ2 HL Question 9}{28}{subsection.8.5}%
 \contentsline {subsection}{\numberline {8.6}May 2019 Paper 3 TZ2 HL Question 12}{30}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.7}A Nice Cycle}{32}{subsection.8.7}%
+\contentsline {subsection}{\numberline {8.8}M23 Paper 3 SL TZ1 Question 7}{34}{subsection.8.8}%
+\contentsline {subsection}{\numberline {8.9}M23 Paper 3 TZ2 HL Question 7}{36}{subsection.8.9}%

@@ -493,7 +493,14 @@ A heat pump follows the identical mechanism as a refrigerator, but with a differ
 
 \end{law}
 
-A consequence of this law is that the efficiency of a heat engine is always less than 100\%, or equivalently, the rejected (dumped) energy $Q_c$ is always greater than 0.
+A consequence of this law is that the efficiency of a heat engine is always less than 100\%, or equivalently, the rejected (dumped) energy $Q_c$ is always greater than 0.\lb
+Example question: A working refrigerator with the door open is placed in a sealed room. The entropy of the room
+\begin{enumerate}[label=(\Alph*)]
+  \item is zero
+  \item decreases
+  \item remains unchanged
+  \item \textcolor{ForestGreen}{increases}
+\end{enumerate}
 
 \section{Entropy}
 
@@ -724,7 +731,214 @@ The working substance is an ideal gas.
   \item Calculate the
         \begin{enumerate}[label=(\roman*)]
           \item change in internal energy of the gas for the process A→B.
+                \begin{align*}
+                  \Delta U & = \frac{3}{2}\Delta(PV)                                  \\
+                           & = \frac{3}{2} \times (-2.5 \times 10^5) \times (10^{-3}) \\
+                           & = -375\si{\joule}
+                \end{align*}
+          \item temperature at A if the temperature at B is -40°C.
+                \begin{align*}
+                  T_A & = V_A\left(\frac{T_B}{V_B}\right) \\
+                      & = 3.5\times233 = 816\si{\kelvin}
+                \end{align*}
         \end{enumerate}
+  \item Determine, using the first law of thermodynamics, the total thermal energy transferred to the building during the processes C→A and A→B.
+        \begin{itemize}
+          \item For the isothermal change CA, the work done has the same sign and magnitude as the heat transferred away from the system. Namely $Q = W$. From part (a), we know that $W = W = 440\si{\joule}$.
+          \item For the isovolumetric change from A to B, we have $\Delta U = Q$, this is exactly the negative equivalent of the value calculated in part (b)(i), namely $375\si{\joule}$.
+          \item Hence, the total is given by $440 + 375 = 815\si{\joule}$.
+        \end{itemize}
+  \item Suggest why this cycle is not a suitable model for a working heat pump.
+        \begin{itemize}
+          \item The temperature changes in the cycle are too large
+          \item Energy/power output would be too small
+          \item Note: No answer related to efficiency and the idea that a real heat pump has more loss is accepted.
+        \end{itemize}
 \end{enumerate}
+
+\pagebreak
+
+\subsection{A Nice Cycle}
+
+The cycle consists of an isobaric expansion AB, adiabatic expansion BC, isobaric compression CD and adiabatic compression DA. The cycle is drawn for a quantity of 1.0 mol of monatomic ideal gas.
+
+\img{ex/6.png}{0.8}{Cycle}{ex6}
+
+\begin{enumerate}[label=(\alph*)]
+  \item Calculate the maximum temperature of the gas during the cycle.
+        \begin{itemize}
+          \item We can identify that the point B is at the maximum temperature -- reading off the pressure and volume at that point gives
+                \begin{align*}
+                  P_BV_B = nRT_B \implies T_B & = \frac{P_BV_B}{nR}                                                                                            \\
+                  T_B                         & = \frac{8 \times 10^6 \times 1.6\times 10^{-3}}{1.0 \times 8.31} = 1540 \si{\kelvin} \approx 1500 \si{\kelvin}
+                \end{align*}
+        \end{itemize}
+        \pagebreak
+
+        The following data are given about the work W done by the gas and thermal energy Q transferred to the gas during each change:
+
+        \begin{table}[H]
+          \centering
+          \begin{tabular}{|ccc|}
+            \hline Change & $\boldsymbol{W} / \mathbf{k J}$ & $\boldsymbol{Q} / \mathbf{k J}$ \\
+            AB            & 8.23                            & 20.58                           \\
+            BC            & 9.11                            & 0                               \\
+            CD            & -4.32                           & -10.81                          \\
+            DA            & -3.25                           & 0                               \\
+            \hline
+          \end{tabular}
+        \end{table}
+
+  \item Outline why the entropy of the gas remains constant during changes BC and DA.
+        \begin{itemize}
+          \item From $\Delta S = \frac{\Delta Q}{T}$, if $Q = 0$, then $\Delta S = 0$.
+        \end{itemize}
+  \item Determine the efficiency of the cycle.
+        \begin{itemize}
+          \item The efficiency is given as $$\frac{\text{net work done}}{\text{heat input}}$$
+          \item We obtain that
+                \begin{align*}
+                  \text{Net work done} & = 8.23 + 9.11 - 4.32 - 3.25 = 9.77\si{\kilo\joule} \\
+                  \text{Heat input}    & = 20.58 \si{\kilo\joule}                           \\
+                  \text{Efficiency}    & = \frac{9.77}{20.58} = 0.47
+                \end{align*}
+        \end{itemize}
+\end{enumerate}
+
+
+\pagebreak
+
+\subsection{M23 Paper 3 SL TZ1 Question 7}
+
+The pV diagram shows a heat engine cycle consisting of adiabatic, isothermal and isovolumetric parts. The working substance of the engine is an ideal gas.
+
+\img{ex/7.png}{0.5}{Cycle}{ex7}
+
+The following data are available:
+\begin{itemize}[label={}]
+  \item $p_A = 5.00 \times 10^5 \si{\pascal}$
+  \item $V_A = 2.00 \times 10^{-3} \si{\metre\cubed}$
+  \item $T_A = 602 \si{\kelvin}$
+  \item $p_B = 3.00 \times 10^4 \si{\pascal}$
+  \item $p_C = 4.60 \times 10^3 \si{\pascal}$
+\end{itemize}
+
+\begin{enumerate}[label=(\alph*)]
+  \item Suggest why AC is the adiabatic part of the cycle.
+        \begin{itemize}
+          \item An adiabatic process changes temperature and so must be the steeper curve.
+          \item Better alternative:
+                \begin{itemize}
+                  \item BC results in a decrease in temperature, since AB is isothermal, to return to the original temperature at B, CA must increase the temperature back up to the original value and so must be adiabatic and cannot be isothermal.
+                \end{itemize}
+        \end{itemize}
+  \item Show that the volume at C is $\SI{3.33e-2}{\metre\cubed}$.
+        \begin{itemize}
+          \item We invoke the equation specifically for adiabatic changes
+                \begin{align*}
+                  P_AV_A^{\frac{5}{3}} & = P_CV_C^{\frac{5}{3}}                                                                    \\
+                  V_C                  & = V_A\left(\frac{P_A}{P_C}\right)^{\frac{3}{5}}                                           \\
+                  V_C                  & = 2.00 \times 10^{-3}\left(\frac{5.00 \times 10^5}{4.60 \times 10^3}\right)^{\frac{3}{5}} \\
+                                       & = 3.33 \times 10^{-2} \si{\metre\cubed}
+                \end{align*}
+
+        \end{itemize}
+  \item Suggest, for the change A $\to$ B, whether the entropy of the gas is increasing,
+        decreasing or constant.
+        \begin{itemize}
+          \item Increasing
+          \item Because thermal energy is being added to the gas; or equivalently, since $\Delta S = \frac{\Delta Q}{T} = \frac{W}{T}$
+                and the area under (W), is positive, the entropy must increase.
+        \end{itemize}
+  \item Calculate the thermal energy (heat) taken out of the gas from B to C.
+        \begin{itemize}
+          \item Recall that, for an isovolumetric change, $\Delta U = Q$ and we can use $\Delta U = \frac{3}{2}\Delta PV$
+                \begin{align*}
+                  \Delta U = \frac{3}{2} (25.4 \times 10^3) \times (3.33 \times 10^{-2}) = 1270 \si{\joule}
+                \end{align*}
+        \end{itemize}
+  \item The highest and lowest temperatures of the gas during the cycle are 602 K and 92 K.
+        The efficiency of this engine is about 0.6. Outline how these data are consistent with
+        the second law of thermodynamics.
+        \begin{itemize}
+          \item We calculate the theoretical efficiency
+                $$\eta = 1 - \frac{T_C}{T_H} = 1 - \frac{92}{602} = 0.847$$
+          \item The real engine has efficiency $0.6 < 0.847$.
+        \end{itemize}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{M23 Paper 3 TZ2 HL Question 7}
+
+A frictionless piston traps a fixed mass of an ideal gas. The gas undergoes three thermodynamic processes in a cycle.
+
+\img{ex/8.png}{0.5}{Fucking piston mate fuck the questionbank the IBO is a total muppet if you want to make a questionbank for people to use then make it complete and usable yeah have you wondered why this fucking piston is this big? go home and waste your life on that}{ex8}
+
+The initial conditions of the gas at A are:
+\begin{center}
+  \begin{enumerate}[label={}]
+    \item volume = $\SI{0.330}{\meter\cubed}$
+    \item pressure = $\SI{129}{\kilo\pascal}$
+    \item temperature = $\SI{27.0}{\degreeCelsius}$
+  \end{enumerate}
+\end{center}
+
+Process AB is an isothermal change, as shown on the pressure volume (pV) diagram, in which the gas expands to three times its initial volume.
+
+\img{ex/9.png}{0.6}{Ugliest-looking graph}{ex9}
+
+\begin{enumerate}[label=(\alph*)]
+  \item Calculate the pressure of the gas at B.
+        \begin{align*}
+          \frac{P_A}{P_B} & = \frac{V_A}{V_B}        \\
+          \frac{P_A}{P_B} & = 3                      \\
+          P_B             & = \frac{1}{3} \times 129 \\
+                          & = \qty{43}{\kilo\pascal}
+        \end{align*}
+
+
+\end{enumerate}
+
+The gas now undergoes adiabatic compression BC until it returns to the initial volume. To complete the cycle, the gas returns to A via the isovolumetric process CA.
+
+\begin{enumerate}[label=(\alph*)]
+  \setcounter{enumi}{1}
+  \item Sketch, on the pV diagram, the remaining two processes BC and CA that the gas undergoes.
+        \begin{itemize}
+          \item \textbf{concave} curved from B to locate C with a \textbf{higher pressure} than A
+          \item vertical line joining C to A
+                \img{ex/10.png}{0.5}{Answer}{ex10}
+        \end{itemize}
+
+  \item Show that the temperature of the gas at C is approximately 350 °C.
+        \begin{itemize}
+          \item We consider the adiabatic change BC
+        \end{itemize}
+        \begin{align*}
+          T_BV_B^{\frac{2}{3}} & = T_CV_C^{\frac{2}{3}}   \\
+          T_B                  & = T_A                    \\
+          V_C                  & = V_A                    \\
+          V_B                  & = 0.99 \si{\meter\cubed} \\
+          \implies T_C         & = 624 \si{\kelvin}
+        \end{align*}
+  \item Explain why the change of entropy for the gas during the process BC is zero.
+        \begin{itemize}
+          \item An adiabatic change is carried out while the system is thermally isolated and so there is no energy transfer between the system and the surroundings.
+          \item Since $\Delta S = \frac{\Delta Q}{T}$ and $\Delta Q = 0$, $\Delta S = 0$.
+        \end{itemize}
+  \item Explain why the work done by the gas during the isothermal expansion AB is less than the work done on the gas during the adiabatic compression BC.
+        \begin{itemize}
+          \item Because the work done is the area under the curve and the area under the curve AB is less than the area of the curve BC.
+        \end{itemize}
+  \item The quantity of trapped gas is 53.2 mol. Calculate the thermal energy removed from the
+        gas during process CA.
+        \begin{align*}
+          \Delta U & = \frac{3}{2}nR\Delta T        \\
+                   & = \frac{3}{2}(53.2)(8.31)(324) \\
+                   & = 2.15 \times 10^5 \si{\J}
+        \end{align*}
+\end{enumerate}
+
 
 \end{document}
