@@ -223,7 +223,7 @@ An important property of this is that $\gamma \geq 1$ for all $v$.
 \pagebreak
 
 \subsection{Transformation Equations}
-Before we proceed, it must be noted that $x$, $x'$, $t$, $t'$ are the \textbf{position and time of the event} in the stationary and moving frames respectively, and that $v$ is the \hl{relative velocity between the two frames}, not between two moving objects.
+Before we proceed, it must be noted that $x$, $x'$, $t$, $t'$ are the \textbf{position and time of the event} in the stationary and moving frames respectively, and that $v$ is the \hl{relative velocity between the two frames}, not between any two moving objects -- it has to be for the two frames we are studying.
 
 \begin{equation}
   t' = \gamma \paren{t - \frac{vx}{c^2}} \quad \quad t = \gamma \paren{t' + \frac{vx'}{c^2}}
@@ -235,7 +235,7 @@ These are used to determine the \textbf{time of an event or the time elapsed} in
   x' = \gamma \paren{x - vt} \quad \quad x = \gamma \paren{x' + vt'}
 \end{equation}
 
-These are used to determine the \textbf{position of an event or the displaced distance} in the moving frame, given the position in the stationary frame, and vice versa.
+These are used to determine the \textbf{position of an event or the displaced distance} in the moving frame, given the position in the stationary frame, and vice versa.\lb
 
 \pagebreak
 
@@ -467,5 +467,157 @@ Consider the above diagram as an example:
   \item At this point, $(\Delta x')^2 = 0$, which in turn means that $\Delta t' = 3$.
   \item Putting these observations together, we conclude that the invariant hyperbola can be used to calibrate the S' axes. In other words, each hyperbola can be used to identify the point on the slanted axis that corresponds to the same numerical value on the stationary axis. In this case, the shown hyperbola identifies the positions of the value 3 on both axes.
 \end{itemize}
+
+\pagebreak
+
+\section{Exam Questions}
+
+\subsection{Velocity Addition -- Deduction over Algebra}
+
+Two spaceships, X and Y move in opposite directions away from a space station. The speeds of the spaceships relative to the space station are $u$ and $v$. What is the speed of Y in the reference frame of X?
+
+\begin{enumerate}[label=(\Alph*)]
+  \item $\dfrac{u - v}{1 - \dfrac{uv}{c^2}}$
+  \item $\dfrac{u - v}{1 + \dfrac{uv}{c^2}}$
+  \item $\dfrac{u + v}{1 - \dfrac{uv}{c^2}}$
+  \item $\dfrac{u + v}{1 + \dfrac{uv}{c^2}}$
+\end{enumerate}
+
+\begin{itemize}
+  \item The two frames are moving in opposite directions and so the transformed velocity should be really be instead of really small. This allows us to immediately \textcolor{red}{eliminate A and B}, because u - v already gives a really small value.
+  \item We must now consider the denominator. The denominator should be greater than one because the speed of light is the maximum speed, and adding two relativistic speeds $u$ and $v$ would likely exceed the speed of light and so a denominator greater than 1 is needed to scale down the result. This allows us to \textcolor{red}{eliminate C}.
+  \item The \textcolor{ForestGreen}{only option left is D}, which is the correct answer.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Miscellaneous \#1}
+The spacetime diagram gives the ct-$x$ axesfor observer A. The worldline and $x'$ axis for observer B are also shown. When observer A and observer B were at the
+origin of the spacetime diagram their clocks were synchronized.
+
+\img{ex/1.png}{0.95}{Spacetime diagram}{misc1}
+
+
+\begin{enumerate}[label=(\alph*)]
+  \item Calculate the speed of observer B with respect to observer A.
+        \begin{itemize}
+          \item The speed of the primed frame is given by the gradient of the $x'$ axis.
+                \begin{align*}
+                  v = \frac{4}{5}c = 0.8c
+                \end{align*}
+        \end{itemize}
+  \item For observer A, an event has spacetime coordinate $x = 3$ and $ct = 1$.
+        \begin{enumerate}[label=(\roman*)]
+          \item Plot the point corresponding to the event on the diagram. Label the point E.
+                \img{ex/2.png}{0.95}{Spacetime diagram with E}{misc2}
+        \end{enumerate}
+  \item According to observer B, event E occurs before observer A and observer B meet. Justify this statement using the spacetime diagram.
+        \img{ex/3.png}{0.95}{Spacetime annotated}{misc3}
+        \begin{itemize}
+          \item The first mark point is given for a line parallel to the $x'$ axis through E.
+          \item Then, an explanation of the idea that, according to B, E occurred at $t' = -3 < 0$ so it occurred before they met (which is at the origin).
+          \item Assuming the question did not explicitly state using the diagram, we can also justify this with Lorentz transformations.
+                \begin{itemize}
+                  \item We use $c\Delta t' = \gamma\paren{c\Delta t - \dfrac{v\Delta x}{c}}$ with $\Delta t = 1$, $\Delta x = 3$, and $v = 0.8c$, $\gamma = \dfrac{1}{\sqrt{1 - 0.8^2}} = \dfrac{5}{3}$.
+                  \item This gives $c\Delta t' = -2.3 < 0$. This means that the event occurred before the two observers met.
+                \end{itemize}
+        \end{itemize}
+  \item Show that the spacetime interval between the clock synchronization and the event is invariant.
+        \begin{itemize}
+          \item MP1: $(ct)^2 - x^2 = 1^2 - 3^2 = -8$
+          \item MP2: $(ct')^2 - (x')^2 = 2.3^2 - 3.7^2 = -8 = (ct)^2 - x^2$
+        \end{itemize}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Muon Decay}
+
+Two muons are moving parallel to each other with the same velocity relative to the ground.
+\img{ex/4.png}{0.55}{Diagram}{muon}
+
+In the frame of reference in which the muons are at rest, the force between them is a repulsive electric force.\lb
+In muon decay experiments, muons produced high in the Earth's atmosphere move towards the ground at speeds close to the speed of light.
+
+\begin{enumerate}[label=(\alph*)]
+  \item Detectors on the ground record the arrival of muons. Outline how these experiments provide support for time dilation.
+        \begin{itemize}
+          \item Muons decay into electrons with a short half-life.
+          \item Without relativity few muons would reach the ground.
+          \item However, in reality, more muons reach the ground than expected.
+          \item Hence, the half-life of muons is increased because of time dilation.
+        \end{itemize}
+  \item Explain, for the frame of reference of the ground,
+        \begin{enumerate}[label=(\roman*)]
+          \item why there is an additional magnetic force between the muons.\begin{itemize}
+                  \item A moving muon creates a magnetic field
+                \end{itemize}
+          \item whether the electric or the magnetic force has the greater magnitude.
+                \begin{itemize}
+                  \item By special relativity, force is a quantity that must be consistent across all inertial reference frames. Hence, the net force must be repulsive in all frames
+                  \item hence the electric force (repulsive) is greater than the magnetic force (attractive)
+                \end{itemize}
+        \end{enumerate}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Synchronizing Clocks}
+
+
+The diagram shows two clocks, A and B, that have been synchronized. Clock A is at the origin and clock B is a distance d away in the same inertial reference frame.\lb
+Suggest a way by which the clocks were synchronized.
+\begin{itemize}
+  \item Method 1:
+        \begin{enumerate}
+          \item both clocks are set to read zero together
+          \item one is moved to $d$
+          \item at a very slowly
+        \end{enumerate}
+  \item Method 2:
+        \begin{enumerate}
+          \item Set clock A to 0 and set clock B ahead by $\frac{d}{c}$.
+          \item When clock A reads exactly 0, send a signal that travels at the speed of light to clock B.
+          \item By the time the signal gets to B, A will have read $d/c$ and B will have just started from $d/c$ -- so the two are now synchronized.
+        \end{enumerate}
+  \item Method 3:
+        \begin{enumerate}
+          \item both clocks are set to read zero
+          \item a light signal is emitted from the midpoint of the two clocks (this ensures that the signal reaches the both at the same time)
+          \item when signals arrive at the clocks, they are started
+        \end{enumerate}
+\end{itemize}
+
+\pagebreak
+
+\subsection{Miscellaneous \#2}
+
+A spacecraft is flying past a space station at a relative speed of 0.80c. Beacons, R and F, at each end of the space station emit light pulses at the same time according to observers on the space station. The pulses are emitted 1200 m apart as measured by space station observers.
+
+\img{ex/5.png}{0.7}{Diagram}{misc2}
+
+\begin{enumerate}[label=(\alph*)]
+  \item Calculate $\gamma$ for a speed of 0.80$c$.
+        \begin{align*}
+          \gamma = \frac{1}{\sqrt{1 - 0.8^2}} = 5/3
+        \end{align*}
+  \item Calculate, for the reference frame of the spacecraft,
+        \begin{enumerate}[label=(\roman*)]
+          \item the distance between the light pulses.
+                \begin{align*}
+                  \Delta x' = \gamma(\Delta x - v\Delta t) = \frac{5}{3}(1200 - 0.8c\times 0) = 2000  \text{ m}
+                \end{align*}
+          \item the time between the light pulses.
+                \begin{align*}
+                  \Delta t' = \gamma(\Delta t - \frac{v\Delta x}{c^2}) = \frac{5}{3}(0 - \frac{0.8c\times 1200}{c^2}) = \qty{-5.3}{\micro\s}
+                \end{align*}
+        \end{enumerate}
+  \item Determine which light pulse happened first.
+        \begin{itemize}
+          \item {[Not needed in the actual answer]}: It's important to note that, we have taken $\Delta x = +1200$ to reflect that F is $+1200$ meters further away from the spacecraft than R. This means that we are working under the assumption that $\Delta x = x_F - x_R = 1200$.
+          \item The transformed time interval must also be consistent with this assumption, so $\Delta t' = t_F' - t_R' = -5.3 < 0 \iff t_F' < t_R'$.
+          \item Therefore, the light pulse at F happened first.
+        \end{itemize}
+\end{enumerate}
 
 \end{document}
