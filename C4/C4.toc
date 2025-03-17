@@ -1,6 +1,7 @@
 \thispagestyle {empty}
 \contentsline {section}{\numberline {1}Formation of Standing Waves}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Harmonics}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.1}Definition of a Traveling Wave (MS)}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Harmonics}{2}{subsection.1.2}%
 \contentsline {section}{\numberline {2}Pulse Reflection --- Boundary Conditions}{3}{section.2}%
 \contentsline {section}{\numberline {3}Standing Waves on a String}{4}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Fixed-Fixed}{4}{subsection.3.1}%
@@ -14,3 +15,12 @@
 \contentsline {section}{\numberline {6}Resonance}{11}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Resonance with Damping}{12}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Pros and Cons of Resonance}{14}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Exam Questions}{15}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Tips}{15}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Chocolate in Oven}{16}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Generic -- Describing the Formation of Standing Waves}{18}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Particle Movement -- Graphically}{19}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Quick-Fire MCQ \# 1}{21}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Quick-Fire MCQ \# 2}{22}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Miscellaneous \# 1}{23}{subsection.7.7}%
+\contentsline {subsection}{\numberline {7.8}Quick-Fire MCQ \# 3}{25}{subsection.7.8}%

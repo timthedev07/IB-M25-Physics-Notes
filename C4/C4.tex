@@ -138,6 +138,14 @@ Let a \textit{nodal region} be the region of points between any two adjacent nod
   \item Points in nodal region $R_1$ are out of phase with points in one of the two neighboring nodal regions $R_2$ by $\pi$ radians.
 \end{itemize}
 
+\subsection{Definition of a Traveling Wave (MS)}
+
+\begin{itemize}
+  \item The transfer/propagation of energy/momentum/information
+  \item Through oscillations/vibrations of medium/fields
+  \item Positions of maximum and minimum amplitude OR crests and troughs travel through a medium
+\end{itemize}
+
 \subsection{Harmonics}
 
 A harmonic is a standing wave pattern of a particular frequency. The first harmonic occurs at the fundamental frequency.
@@ -290,5 +298,159 @@ Let's now investigate this refined graph with damping considered.
   \end{tabular}
 \end{table}
 
+\pagebreak
+
+\section{Exam Questions}
+
+\subsection{Tips}
+
+For this topic, I would give the following general tips, taking into account all the past paper questions available.
+\begin{enumerate}
+  \item As basic as it sounds, get comfortable with $v = \lambda f$ and $f = \dfrac{1}{T}$.
+  \item Make sure you know your formulae for the pipes and strings really well, this involves also being able to easily manipulate them to get ratios. E.g. it's important to note that $f_n = nf_1$ and it will surely help in some ratio questions.
+  \item Make sure that, given a scenario without information about the configuration of the pipe or string (e.g. open-open, closed-closed, or open-closed), you can reason it out.
+  \item You should be able to link this to s.h.m. in certain cases.
+  \item You should be able to describe the formation of standing waves in a pipe or string fully.
+  \item You should know that in a pipe the particle displacement is horizontal, while on a string it is vertical.
+  \item Reason out quantities using given information without relying on formulae. E.g., given the distance between two maxima (not a quantity directly involved in a formula), you should be able to find the wavelength, frequency, speed, etc.
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Chocolate in Oven}
+
+In a microwave oven electromagnetic waves are emitted so that a standing wave
+pattern is established inside the oven.
+A flat piece of chocolate is placed inside the oven and the microwaves are
+switched on. The chocolate is stationary.
+Melted spots form on the surface of the chocolate. The diagram shows the
+pattern of melting on the chocolate. Each square has a length of 1 cm.
+
+\img{ex/1.png}{0.8}{Chocolate in oven}{chocolate}
+
+\begin{enumerate}[label=(\alph*)]
+  \item Outline how this standing wave pattern of melted spots is formed.
+        \begin{itemize}
+          \item Standing waves form in the oven by \hl{superposition / constructive interference}
+          \item \hl{Energy transfer} is \hl{greatest} at the \hl{antinodes} of the standing wave pattern
+        \end{itemize}
+  \item Determine, taking appropriate measurements from the diagram, the frequency of the electromagnetic waves in the oven.
+        \begin{itemize}
+          \item The key here is to treat the two melted spots on either side as the two free ends of a vibrating string scenario with three antinodes shown. This leads to the equation $\lambda = L = \qty{12.2}{\cm}$. Hence
+                $$f = \dfrac{v}{\lambda} = \dfrac{v}{L}$$
+                where $v$ is the speed of the wave. The speed of a microwave is $c = \SI{3.00e8}{\m\per\s}$. Hence $$f = \dfrac{\SI{3.00e8}{}}{0.122} = \SI{2.46e9}{\Hz} = \SI{2.46}{\GHz}$$
+        \end{itemize}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Generic -- Describing the Formation of Standing Waves}
+
+Adapt the following framework to your question; note that this can also be used to describe intensity variations and some others alike.
+
+\begin{enumerate}
+  \item The incoming wave is reflected at the fixed/free end of the string/pipe.
+  \item The reflected wave superposes with the incoming wave.
+  \item At the points of constructive interference, the amplitude of the wave is doubled, creating antinodes;
+  \item At the points of destructive interference, the amplitude is zero, creating nodes.
+  \item The superposition of the reflections is reinforced only for certain wavelengths.
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Particle Movement -- Graphically}
+
+The solid line represents the standing wave at time $t$ and the dotted line represents the standing wave at an instant later. The dot is the equilibrium position of a particle P in the pipe. The up arrow indicates displacements to the right and the down arrow displacements to the left.
+
+\img{ex/2.png}{0.8}{Graph}{particle}
+
+On the diagram, draw
+\begin{enumerate}[label=(\alph*)]
+  \item a dot to indicate the approximate position of P at time $t$,
+        \begin{itemize}
+          \item One must recognize that the standing wave an instant later being sightly below the current curve means that the particle will now move with a negative displacement. We know that in this case, horizontally, the convention is that negative displacement is to the right and the positive displacement is to the left. Hence, the particle must be slightly to the left of the shown position.
+                \img{ex/3.png}{0.6}{Graph}{particle}
+        \end{itemize}
+  \item an arrow to indicate the velocity of P at time $t$.
+        \begin{itemize}
+          \item Because the particle will move slightly to the left from its original position, its velocity must be to the left as well.
+                \img{ex/4.png}{0.6}{Graph}{particle}
+        \end{itemize}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Quick-Fire MCQ \# 1}
+
+The author almost fell sleep so decided to put up an easy question just to get his hands back into banging the keyboard. The first harmonic of a standing sound wave is established in a tube with one end open and one end closed. When the length of the tube is increased by 0.10 m the next harmonic is formed. What is the wavelength of the sound?
+
+\begin{enumerate}[label=\Alph*]
+  \item 0.10m
+  \item 0.13m
+  \item 0.20m
+  \item 0.40m
+\end{enumerate}
+
+\begin{itemize}
+  \item If we consider the first two harmonics of this open-free situation, we find that the first harmonic follows $L = \dfrac{\lambda}{4}$ and the second harmonic follows $L = \dfrac{3\lambda}{4}$. The difference between the two lengths is $\dfrac{\lambda}{2} = 0.10 \implies \lambda = 0.20$.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Quick-Fire MCQ \# 2}
+A standing wave is formed between two loud speakers that emit sound waves of frequency $f$. A student walking between the two loudspeakers finds that the distance between two consecutive sound maxima is 1.5 m. The speed of sound is $\qty{300}{\m\per\s}$.
+
+What if $f$?
+\begin{itemize}
+  \item If we consider the shape of a single cycle of a sin/cos wave, we can see that the distance between the positive and negative maxima is exactly half the wavelength. Hence, the wavelength is $2 \times 1.5 = 3$.
+        \begin{align*}
+          f = \dfrac{v}{\lambda} = \dfrac{300}{3} = \qty{100}{\Hz}
+        \end{align*}
+\end{itemize}
+
+\pagebreak
+
+\subsection{Miscellaneous \# 1}
+
+A string of length 0.80 m is fixed at both ends. The diagram shows a standing wave formed on the string. P and Q are two particles on the string.
+
+\img{ex/5.png}{0.8}{String}{string}
+
+It is suggested that the speed $v$ of waves in the string is related to the tension force $T$ in the string according to the equation $T = av^2$, where $a$ is a constant.
+
+\begin{enumerate}[label=(\alph*)]
+  \item \begin{enumerate}[label=(\roman*)]
+          \item Draw, on the axes, a graph to show the variation with $t$ of the displacement of particle Q.
+                \img{ex/6.png}{0.6}{Answer}{string}
+                \begin{itemize}
+                  \item Firstly, we must recognize that P is at an antinode and so has the maximum possible displacement. Q is at a position with a smaller amplitude, so the graph must also be compressed vertically to show this.
+                  \item Also, because two points in adjacent nodal regions are $\pi$ out of phase, the graph must be shifted by $\pi$ radians, which means that our Q graph should start at its negative peak at $t = 0$.
+                \end{itemize}
+        \end{enumerate}
+  \item The tension force on the string is doubled. Describe the effect, if any, of this change on the frequency of the standing wave.
+        \begin{itemize}
+          \item We have
+                $$f \propto v \implies f^2 \propto \frac{T}{a} $$
+          \item Hence, if the tension is doubled, the frequency of the standing wave will be amplified by a factor of $\sqrt{2}$.
+        \end{itemize}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Quick-Fire MCQ \# 3}
+
+A pipe of length $L$ is closed at one end. Another pipe is open at both ends and has length $2L$. What is the lowest common frequency for the standing waves in the pipes?
+
+\begin{enumerate}[label=\Alph*. ]
+  \item $\dfrac{v_\text{air}}{8L}$
+  \item $\dfrac{v_\text{air}}{4L}$
+  \item $\dfrac{v_\text{air}}{2L}$
+  \item $\dfrac{v_\text{air}}{L}$
+\end{enumerate}
+
+\begin{itemize}
+  \item The first pipe has a fundamental frequency of $\dfrac{v}{4L}$ and the second pipe has a fundamental frequency of $\dfrac{v}{2(2L)} = \dfrac{v}{4L}$. Hence, the lowest common frequency is in fact their fundamental frequency $\dfrac{v}{4L}$.
+  \item Mate I thought this question was harder... I regret including it.
+\end{itemize}
 
 \end{document}
