@@ -178,7 +178,7 @@ Extended bodies are the real-world objects; they can be treated as point masses 
   \item Its size is small compared to the distances under study.
 \end{itemize}
 
-\section{Kepler's Laws of Planetary Motion}
+\section{Kepler's Laws}
 
 \img{orbit.png}{0.9}{An elliptical orbit}{orbit}
 
@@ -192,6 +192,13 @@ Extended bodies are the real-world objects; they can be treated as point masses 
           \item $A_1 = A_2$, if the time intervals between $PP'$ and $QQ'$ are equal.
           \item A consequence is that the average velocity of the planet between $PP'$ is greater than that between $QQ'$. This is because at Q, the area is much sensitive to a change in the position of the planet, and so to keep the area swept out equal, the planet must move a lot slower at Q than at P.
         \end{itemize}
+        The mark scheme style answer is given as
+        \begin{enumerate}
+          \item The areas swept out in unit time by the Sun-comet line are the same at P and Q
+          \item At Q, the distance is greater hence the orbital speed/distance moved in unit
+                time is lower so that the area remains the same
+          \item  A decrease in speed means that the kinetic energy also decreases
+        \end{enumerate}
   \item \textbf{Kepler's Third Law:} The square of the orbital period of a planet is directly proportional to the cube of the semi-major axis of its orbit. $$T^2 \propto r^3 \quad\text{or}\quad \left(\frac{T_1}{T_2}\right)^2 = \left(\frac{r_1}{r_2}\right)^3$$
         \begin{itemize}
           \item Directly use this relation in ratio questions; forget about the constant of proportionality.
@@ -217,7 +224,7 @@ In exams, you are likely asked to derive this yourself.
 The IGCSE equation $E = mgh$ does not work if the distance over which the change in potential energy occurs is large such that the gravitational field strength changes significantly.\lb
 The formal definition of GPE is \hl{the work done in moving a mass from infinity to a point in a gravitational field}. Strictly speaking, GPE is a \textbf{property of the system} and not of the object itself, although it is the same for both objects and so is often treated as a property of an object in a field.\lb
 It is given by
-$$U = -\frac{GMm}{r}$$
+$$U = -\frac{GMm}{r} = -mgr$$
 where $U$ is the gravitational potential energy, $M$ is the mass of the object creating the field, and $r$ is the distance of separation. The interpretation of the negative sign is as follows
 \begin{itemize}
   \item To separate the objects (thus increase $r$), work must be done on the system to overcome the attractive force. This means that the change in GPE is positive, and the resulting GPE is \say{less negative}. In the case of a satellite, if the orbital radius is increased, the work done by the engine must be positive.
@@ -288,7 +295,7 @@ The time period $T$ can be found using the previously derived Kepler's Third Law
 
 To escape from the gravitational field of a planet, work must be done to take the object from the surface to infinity. This work is in fact the initial kinetic energy upon launch and equal to the GPE at the surface. Thus $$KE + GPE = 0$$
 Substitution and rearrangement gives \begin{equation}\label{eq:escape_velocity}
-  v_{\text{escape}} = \sqrt{\frac{2GM}{r}} = \sqrt{2gr} = \sqrt{-2V}
+  v_{\text{escape}} = \sqrt{\frac{2GM}{r}} = \sqrt{2gr} = \sqrt{-2V_\text{surface}}
 \end{equation}
 Observations:
 \begin{itemize}
@@ -320,7 +327,16 @@ Hence, when the system loses (becoming more negative) $\Delta E$ joules of energ
 \subsection{Impact of Viscous Drag}
 
 The syllabus also requires us to consider the impact of viscous drag on the satellite.\lb
-At low heights, the satellite collides with air molecules in the atmosphere, thus experiencing a drag force opposing the circular motion. The total energy of the satellite is decreased as a portion is lost to friction, and the satellite will undergo \hl{orbital decay}, whereby the altitude and analogously the orbital radius of the satellite decreases. This will cause its speed to increase, and the satellite will eventually burn up in the atmosphere. This is why it requires a boost in altitude every few years to maintain its orbit.
+At low heights, the satellite collides with air molecules in the atmosphere, thus experiencing a drag force opposing the circular motion.
+\begin{enumerate}
+  \item The total energy of the satellite is decreased as a portion is lost to friction
+  \item The satellite will undergo \hl{orbital decay}, where the altitude and analogously the orbital radius of the satellite decreases, leading to an \hl{increase in the kinetic energy and hence the speed}.
+  \item The decrease in potential energy must be larger than increase in kinetic energy for total energy to decrease.
+\end{enumerate}
+
+
+
+The satellite will eventually burn up in the atmosphere. This is why it requires a boost in altitude every few years to maintain its orbit.
 
 \pagebreak
 
@@ -341,5 +357,92 @@ One may easily fall into the pitfall of thinking that, since $V = -\dfrac{GM}{r}
 Consider the axis line through the two poles of the Earth. This is the axis of rotation of the Earth. The equator is a circle of latitude that divides the Earth.
 
 \img{equator.png}{0.4}{Geography}{equator}
+
+\pagebreak
+
+\section{Exam Questions}
+
+\subsection{Finding the Esc. Velocity with V}
+
+A spherical planet has a radius $R_0$.
+The graph shows the variation of the gravitational potential due to the planet with distance $r$ from the center of the planet.
+\img{ex/1.png}{0.8}{Graph of gravitational potential}{ex1}
+What is the escape speed from the surface of the planet?
+
+\begin{align*}
+  V_{\text{escape}} & = \sqrt{-2V_{\text{surface}}}   \\
+                    & = \sqrt{2 \times 5 \times 10^6} \\
+                    & = \SI{3.2e3}{\meter\per\second}
+\end{align*}
+
+\pagebreak
+
+\subsection{Quick-Fire MCQ \# 1}
+
+A space probe moves in a circular orbit around Earth. The kinetic energy of the probe is $E$. The probe will reach the escape speed when its \textbf{kinetic} energy is increased at least to?
+\begin{itemize}
+  \item We know the escape speed is $\sqrt{2}\times\text{orbital speed}$
+  \item $E \propto v^2$
+  \item $v\to \sqrt{2}v$ $\implies$ $E\to 2E$
+\end{itemize}
+
+\pagebreak
+
+\subsection{Field Strength -- Two Mass System}
+
+Two spheres M and N are far from any other mass. The mass of sphere M is greater than the mass of sphere N.
+A distance is measured from the surface of M along the line between the centres of M and N. The variation with of the gravitational field strength $g$ is determined.
+
+\img{ex/2.png}{0.6}{Field strength graph}{ex2}
+
+\begin{itemize}
+  \item The key is to recognize that the question is talking about the resultant field strength, e.g. the field strength at N in M's field plus the field strength at M in N's field.
+  \item Although not worded clearly, it is asking us to consider a point moving between the surfaces of M and N respectively.
+  \item At $x = 0$, the point is at the surface of M.
+  \item Hence, there is a point somewhere in the middle at which the two field strengths are equal (hence a root on the graph). We can already \textcolor{red}{eliminate B and D}.
+  \item The idea is that, at this point of equilibrium, the point should be further away from M than N to balance out the greater mass of M. Hence, \textcolor{ForestGreen}{A is the answer}.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Miscellaneous \# 1}
+
+At a distance $r$ from the centre of a planet, the gravitational potential due to the planet is $V$ and the gravitational field strength is $g$.
+\img{ex/3.png}{0.9}{Graph of potential}{ex3}
+
+\begin{enumerate}[label=(\alph*)]
+  \item Show that $V_g = -gr$
+        \begin{align*}
+          V   & = -\frac{GM}{r}            \\
+          g   & = \frac{GM}{r^2}           \\
+          V_g & = -(\frac{GM}{r^2})r = -gr
+        \end{align*}
+  \item A satellite of mass 750 kg orbits the Earth in a circular orbit of radius $\SI{1.0e7}{\meter}$. Calculate the magnitude of
+        \begin{enumerate}[label=(\roman*)]
+          \item the gravitational field strength at the orbital radius of the satellite.
+                \begin{itemize}
+                  \item We should be looking at the coordinate $r = \SI{1.0e7}{\meter}$ on the graph. This represents the position that is at the orbital radius of the planet.
+                  \item The corresponding field strength is $$g = \frac{V_g}{r} = \frac{4.0\times 10^7}{1.0\times 10^7} = \SI{4}{\meter\per\second\squared}$$
+                \end{itemize}
+          \item the gravitational force acting on the satellite.
+                \begin{align*}
+                  F & = ma = mg                           \\
+                    & = 750 \times 4 = \SI{3000}{\newton}
+                \end{align*}
+                The satellite is moved to a new circular orbit.The orbital radius of the satellite
+        \end{enumerate}
+        The satellite is moved to a new circular orbit.The orbital radius of the satellite increases by 2.0 km.
+  \item \begin{enumerate}[label=(\roman*)]
+          \item Outline why the magnitude of the gravitational field strength at the new orbit is approximately the same as at the old orbit.
+                \begin{itemize}
+                  \item The change in the orbital radius is negligible compared to the original radius.
+                  \item The gravitational strength is defined as $g = \dfrac{GM}{r^2}$, and since the change in $r$ is small, the change in $g$ is negligible.
+                \end{itemize}
+          \item Determine the change in the total orbital energy of the satellite.
+                \begin{itemize}
+                  \item Recall that the total orbital energy is given as $$\Delta \Sigma E = \dfrac{1}{2}mg\Delta r = \frac{1}{2}(750)(4)(2.0\times 10^3) = \SI{3.0e6}{\joule}$$
+                \end{itemize}
+        \end{enumerate}
+\end{enumerate}
 
 \end{document}

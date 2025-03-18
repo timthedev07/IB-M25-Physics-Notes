@@ -3,7 +3,7 @@
 \contentsline {section}{\numberline {2}Gravitational Field Strength}{2}{section.2}%
 \contentsline {section}{\numberline {3}Field Lines Around the Earth}{3}{section.3}%
 \contentsline {section}{\numberline {4}Extended Bodies and Point Masses}{4}{section.4}%
-\contentsline {section}{\numberline {5}Kepler's Laws of Planetary Motion}{5}{section.5}%
+\contentsline {section}{\numberline {5}Kepler's Laws}{5}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Quantifying Kepler's Third Law}{6}{subsection.5.1}%
 \contentsline {section}{\numberline {6}Gravitational Potential Energy}{7}{section.6}%
 \contentsline {section}{\numberline {7}Gravitational Potential}{8}{section.7}%
@@ -17,3 +17,8 @@
 \contentsline {section}{\numberline {11}Exam Tips and Notes}{14}{section.11}%
 \contentsline {subsection}{\numberline {11.1}The Radius}{14}{subsection.11.1}%
 \contentsline {subsection}{\numberline {11.2}Some Geography}{14}{subsection.11.2}%
+\contentsline {section}{\numberline {12}Exam Questions}{15}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Finding the Esc. Velocity with V}{15}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Quick-Fire MCQ \# 1}{16}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}Field Strength -- Two Mass System}{17}{subsection.12.3}%
+\contentsline {subsection}{\numberline {12.4}Miscellaneous \# 1}{18}{subsection.12.4}%

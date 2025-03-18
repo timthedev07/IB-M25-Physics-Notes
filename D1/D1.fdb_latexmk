@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1734906064.97603 "/Users/timthedev07/Documents/物理笔记/D1/D1.tex" "D1.pdf" "D1" 1734906066.47581 0
-  "/Users/timthedev07/Documents/物理笔记/D1/D1.tex" 1734906064.65457 17946 7bec97eb826f6d1d638e328cbd4c1df0 ""
+["pdflatex"] 1742309649.26886 "/Users/timthedev07/Documents/物理笔记/D1/D1.tex" "D1.pdf" "D1" 1742309650.96405 0
+  "/Users/timthedev07/Documents/物理笔记/D1/D1.tex" 1742309649.02044 23185 ed2b0e1d5c341221e064adc0e35ddf30 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -268,14 +268,17 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731313331.24492 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731313254 8221454 067b6d98d3b5175b15c9caab9e14d269 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "D1.aux" 1734906066.3736 5001 0b795a3ac10b5aceaa2dd9b149963742 "pdflatex"
-  "D1.out" 1734906066.37553 3345 8e12db3dbcb24ad9818762d7a088200e "pdflatex"
-  "D1.tex" 1734906064.65457 17946 7bec97eb826f6d1d638e328cbd4c1df0 ""
-  "D1.toc" 1734906066.37597 1581 2f93eb9c1375032128ed35536008256e "pdflatex"
+  "D1.aux" 1742309650.86195 6452 91c4108fb003be7e11f56111b61a2a4c "pdflatex"
+  "D1.out" 1742309650.86289 4143 9ac6a5bd84714c74fa53ab3e66838685 "pdflatex"
+  "D1.tex" 1742309649.02044 23185 ed2b0e1d5c341221e064adc0e35ddf30 ""
+  "D1.toc" 1742309650.86314 2012 57ef3a6c60760e0b58e8aa47f5d2a0c7 "pdflatex"
   "earthradial.png" 1730669907.36212 33749 32ad56697156c525be88dd5b4e68f3a7 ""
   "earthuniform.png" 1730669971.22891 19667 9bf19119f8a71e20f87f1b6a4efd41f5 ""
   "equator.png" 1734904628.06967 185810 3753d698f478b3faaec781478b9b2d8e ""
   "equipotential-surfaces.png" 1730674876.60578 37113 fb494f374e932b6e8660b0854981b845 ""
+  "ex/1.png" 1742286559.83664 303493 f660cab0376e999da472480fb29d33b2 ""
+  "ex/2.png" 1742302342.96586 171734 627c1b081616dd40b7d767c2d5fa879d ""
+  "ex/3.png" 1742308664.01983 104651 9bc716509499a45dafc19b76bcabd02d ""
   "orbit.png" 1730671854.19173 76219 7975f65cfc60f6488f37e3bda07c9aaf ""
   (generated)
   "D1.aux"
