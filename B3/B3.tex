@@ -198,7 +198,7 @@ $$V \propto n \eqor \frac{V_1}{n_1} = \frac{V_2}{n_2}$$
 \pagebreak
 
 \subsection{The Ideal Gas Law}
-Derived from the previous laws; they combine to give
+Derived from the previous laws; they combine to give the following \hl{empirical} relation
 $$PV = nRT \quad \text{ or } \quad R = \frac{PV}{nT}$$
 where $R$ is the ideal gas constant, $8.31 \text{ J mol}^{-1} \text{ K}^{-1}$.\lb
 The relation can also be defined in terms of the \textbf{number of molecules} $N$ and the Boltzmann constant $k$ as
@@ -232,9 +232,9 @@ $$U = \frac{3}{2}nRT = \frac{3}{2}PV$$
   \item All gas molecules are identical.
   \item Brownian motion constantly occurs
   \item The total volume of the gas is negligible compared to the volume of the container.
-  \item The molecules collide elastically with each other and the walls of the container.
-  \item The internal energy of the gas is entirely kinetic and does not include potential energy; intramolecular forces between the particles and the walls are negligible except during collisions.
-  \item The time of collision is negligible compared to the time between collisions.
+  \item The molecules collide \hl{elastically} with each other and the walls of the container.
+  \item The internal energy of the gas is entirely kinetic and does not include potential energy; intramolecular forces between the particles and the walls are negligible \hl{except during collisions}.
+  \item The \hl{time of collision is negligible} compared to the time between collisions.
   \item External forces such as gravity are ignored.
 \end{enumerate}
 
@@ -277,12 +277,14 @@ We can combine \cref{eq:ideal_gas} and \cref{eq:pressure_speed_density} (the alg
 \end{equation}
 
 Notice that the LHS of this equation measures the kinetic energy of the gas molecules. By previous argument, the internal energy of gas is almost entirely made of kinetic energy, as the intermolecular force is negligible. Thus, we can claim that
-$$\textbf{total internal energy of an idea gas} = \frac{3}{2}Nk_BT$$
+$$\textbf{total internal energy of an idea gas} = \frac{3}{2}Nk_BT = \frac{3}{2}{PV}$$
 This gives us the following properties of an ideal gas
 \begin{itemize}
   \item It's total energy is directly proportional to the temperature in Kelvin.
   \item At constant temperature, the internal energy of the gas is proportional to the number of molecules.
 \end{itemize}
+A useful form for calculating the speed is
+$$\overline{v^2} = \frac{3k_BT}{m} = \frac{3PV}{M}$$
 
 \pagebreak
 
@@ -306,6 +308,7 @@ However, for a real gas,
 \begin{itemize}
   \item Real gas particles \textbf{have volume}.
   \item \textbf{There are intermolecular forces} between gas particles, especially at lower temperatures and higher pressures.
+  \item \textbf{Collisions are not perfectly elastic} because of the intermolecular forces.
 \end{itemize}
 Under these conditions, the behavior of real gases deviate from the ideal gas law
 \begin{itemize}
@@ -317,5 +320,177 @@ This means that, for real gases, \cref{eq:ideal_gas} no longer holds, this means
 \img{realgasgraph.png}{0.5}{A graph showing the deviation of real gases from the ideal gas law, for a \textbf{single mole of gas}}{real_gas}
 
 It must be noted that the liquefaction of a gas it only possible under a certain temperature threshold.
+
+\pagebreak
+
+\subsubsection{Conditions for Approximating Ideal Gas}
+
+\begin{itemize}
+  \item Low pressure: At low pressures, the intermolecular forces between gas particles become negligible, and the volume occupied by the gas molecules themselves is insignificant compared to the total volume of the gas.
+  \item Low density: Minimal influence of intermolecular forces.
+\end{itemize}
+
+\pagebreak
+
+\section{Exam Questions}
+
+\subsection{Quick-Fire MCQ \#1}
+
+Two samples of a gas are kept in separate containers. The molecules of each sample have the same average translational speed, but the samples have a different density.
+What is correct about the pressure and the temperature of the samples, as compared to each other?
+
+\img{ex/1.png}{0.5}{}{quickfire1}
+
+\begin{itemize}
+  \item We know that the pressure is given by $$P = \frac{1}{3}\rho\overline{v^2}$$
+        the average speed is the same while the density is different, so the pressure must be different. This helps us to \textcolor{red}{eliminate A and B}.
+  \item We also know that the temperature is given by $$T = \frac{1}{2}m\overline{v^2}$$
+        $\overline{v^2}$ is the same, and so is the mass of the molecules. Hence, the temperature must be the same. This leads us to \textcolor{ForestGreen}{the answer, C}.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Air Mixture and Different Molecular Speeds}
+
+A sample of air is a mixture of nitrogen, oxygen and other gases. Explain why the component gases of air in the container have different average translational speeds.
+\begin{enumerate}
+  \item Average kinetic energy of the molecules is determined by the temperature only
+  \item The mass of a molecule is different for each type of gas
+  \item From $E_K = \frac{1}{2}mv^2$, the same $E_K$ and different $m$ leads to different $v$
+\end{enumerate}
+
+The important takeaway is that, no matter what kind of gas mixture we have, \hl{as long as they are in the same sealed container}, the average kinetic energy and hence the temperature of the molecules is the same for all substances.
+
+\pagebreak
+
+\subsection{Absolute Zero}
+
+Outline how the concept of absolute zero of temperature is interpreted in terms of:
+\begin{enumerate}[label=(\alph*)]
+  \item the ideal gas law ($PV = nRT$),
+        \begin{itemize}
+          \item it is the temperature at which the volume or pressure extrapolates to zero.
+        \end{itemize}
+  \item the kinetic energy of particles in an ideal gas
+        \begin{itemize}
+          \item it is the temperature at which all the Brownian motion of particles stops
+        \end{itemize}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Explaining Pressure Increase due to Temperature}
+
+The temperature of the gas in the container is increased.
+Explain, using the kinetic theory, how this change leads to a change in pressure in the container.
+
+\begin{enumerate}
+  \item Increased temperature means increased average KE and hence increased average \textbf{translational} speed.
+  \item This increases the momentum transfer ($m\Delta v$) at the walls during each collision.
+  \item It also increases the frequency of collisions with the walls.
+  \item Since $F_{\text{wall}} = \dfrac{\Delta p}{\Delta t}$ and $P = \dfrac{F}{A}$ the average force on the walls increases, therefore the pressure increases.
+\end{enumerate}
+\pagebreak
+
+\subsection{Miscellaneous \#1}
+
+A fixed quantity of $\SI{4.5e-3}{\mole}$ of  air is compressed at a constant temperature. The graph shows the variation of pressure $P$ with volume $V$ of the air.
+
+\img{ex/2.png}{0.7}{Graph}{misc1}
+
+\begin{enumerate}[label=(\alph*)]
+  \item Suggest whether the air behaves as an ideal gas during this change.
+        \begin{itemize}
+          \item The approach to this question is to find any two pairs of coordinates to show that $pV = 12$
+          \item Because $pV$ remains constant, the air behaves as an ideal gas.
+        \end{itemize}
+  \item Outline how the kinetic theory of gases relates observable properties of a gas to the motion of the molecules.
+        \begin{itemize}
+          \item Absolute temperature is proportional to the KE of the molecules.
+          \item Pressure is the result of molecular force on the container walls during collisions.
+          \item Higher pressure is the result of higher KE of molecules in constant random motion or vice versa.
+        \end{itemize}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Isotope and Mass}
+
+What is the ratio $\dfrac{\text{number of atoms in 20g of Neon-20}}{\text{number of atoms in 40g of Krypton-80}}$?
+
+Simple trick: $$\frac{20 \div 20}{40\div 80} = 2$$
+
+Explanation:
+\begin{itemize}
+  \item Each atom of Neon-20 has a mass of 20 u, and each atom of Krypton-80 has a mass of 80 u.
+  \item Units are not important here, because we are working with ratios.
+  \item Then, by dividing the total mass by the mass of each atom (regardless of discrepancies in units), we can find a \say{scaled version} of the number of atoms.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Ideal Gas Law Ratios}
+
+A balloon of volume $V$ contains 10 mg of an ideal gas at a pressure $P$. An additional mass of the gas is added without changing the temperature of the balloon. This change causes the volume to increase to $2V$ and the pressure to increase to $3P$.
+
+What is the mass of gas \textbf{added} to the balloon?
+
+\begin{align*}
+           & PV \propto N \propto M \text{(mass)} \\
+           & PV \to (3P)(2V) = 6PV                \\
+  \implies & M \to 6M                             \\
+           & 6M- M = 5M = \SI{50}{\mg}
+\end{align*}
+
+\pagebreak
+
+\subsection{Common Pitfall -- Increase in Pressure}
+
+An ideal gas of constant mass is heated in a container of constant volume. What is the reason for the increase in pressure of the gas?
+
+\begin{enumerate}[label=\Alph*.]
+  \item The average number of molecules per unit volume increases.
+  \item The average force per impact at the container wall increases.
+  \item Molecules collide with each other more frequently.
+  \item Molecules occupy a greater fractional volume of the container.
+\end{enumerate}
+
+If you think C is the answer, shame on you, wee fella! It's never about the intermolecular collisions but rather the \hl{collisions with the walls of the container}. The \textcolor{ForestGreen}{answer is B.}
+
+\pagebreak
+
+\subsection{Common Sense (no offense)}
+
+A substance in the gas state has a density about times less than
+when it is in the liquid state. The diameter of a molecule is $d$. What is the best estimate of the average distance between molecules in the gas state?
+
+\begin{itemize}
+  \item If the density $\rho = \dfrac{M}{V}$ is 1000 times less as a gas, then the volume must be 1000 times larger.
+  \item An estimate is found by taking the cube root of the volume, giving $\sqrt[3]{1000} = 10$.
+  \item Cmon mate, think about a cube whose volume is 1000 times larger than another, the side length must be $10$ times larger. Baby maths.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Simultaneous Changes}
+
+An ideal gas is in a closed container. Which changes to its volume and temperature when taken together must cause a decrease in the gas
+pressure?
+
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|c|c|c|}\hline
+       & Volume   & Temperature \\ \hline
+    A. & Decrease & Increase    \\ \hline
+    B. & Decrease & Decrease    \\ \hline
+    C. & Increase & Increase    \\ \hline
+    D. & Increase & Decrease    \\ \hline
+  \end{tabular}
+\end{table}
+
+$$P = \frac{nRT}{V}$$
+
+To guarantee a decrease in pressure, we need to decrease something from the numerator AND increase something from the denominator; otherwise, there is no guarantee because the opposite undesired effect may override the desired effect.\lb
+Quite clearly, the only option is \textcolor{ForestGreen}{D}.
 
 \end{document}

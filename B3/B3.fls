@@ -458,9 +458,9 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 OUTPUT B3.toc
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsl12.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsl12.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT ./boyle.png
 INPUT ./boyle.png
@@ -475,6 +475,16 @@ INPUT ./realgasgraph.png
 INPUT ./realgasgraph.png
 INPUT ./realgasgraph.png
 INPUT ./realgasgraph.png
+INPUT ./ex/1.png
+INPUT ./ex/1.png
+INPUT ./ex/1.png
+INPUT ./ex/1.png
+INPUT ./ex/1.png
+INPUT ./ex/2.png
+INPUT ./ex/2.png
+INPUT ./ex/2.png
+INPUT ./ex/2.png
+INPUT ./ex/2.png
 INPUT B3.aux
 INPUT ./B3.out
 INPUT ./B3.out

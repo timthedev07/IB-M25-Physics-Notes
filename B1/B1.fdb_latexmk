@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1740046995.23044 "/Users/timthedev07/Documents/物理笔记/B1/B1.tex" "B1.pdf" "B1" 1740046996.9547 0
-  "/Users/timthedev07/Documents/物理笔记/B1/B1.tex" 1740046995.03312 20767 a6c849f6db780d18ef2719d6d13381f4 ""
+["pdflatex"] 1742497759.79326 "/Users/timthedev07/Documents/物理笔记/B1/B1.tex" "B1.pdf" "B1" 1742497761.45918 0
+  "/Users/timthedev07/Documents/物理笔记/B1/B1.tex" 1742497759.5191 20842 e520bdfc64870b9fea426fed8874760a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -286,10 +286,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731313331.24492 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731313254 8221454 067b6d98d3b5175b15c9caab9e14d269 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "B1.aux" 1740046996.84726 5162 792d2b964ca32097c2f024b4832df0f6 "pdflatex"
-  "B1.out" 1740046996.84809 3242 cc3c2059dca78d378277900388c5375b "pdflatex"
-  "B1.tex" 1740046995.03312 20767 a6c849f6db780d18ef2719d6d13381f4 ""
-  "B1.toc" 1740046996.84827 1812 0217364d028f028e871431f747ded054 "pdflatex"
+  "B1.aux" 1742497761.35129 5162 792d2b964ca32097c2f024b4832df0f6 "pdflatex"
+  "B1.out" 1742497761.35204 3242 cc3c2059dca78d378277900388c5375b "pdflatex"
+  "B1.tex" 1742497759.5191 20842 e520bdfc64870b9fea426fed8874760a ""
+  "B1.toc" 1742497761.35223 1812 0217364d028f028e871431f747ded054 "pdflatex"
   "Inverse_square_law.svg" 1728483771.8752 5175 efe0630d88a86117d007faf936776b0d ""
   "day.png" 1728476220.54694 170120 8a5da3c68d1d1ee19318754069038868 ""
   "night.png" 1728476232.48076 126686 42a4fce6e1771a2d60b3ed771918731a ""
