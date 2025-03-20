@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  18 MAR 2025 15:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  20 MAR 2025 12:03
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -785,7 +785,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count369
 \enitdp@description=\count370
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 54.
+Package hyperref Info: Option `colorlinks' set `true' on input line 55.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip65
@@ -820,7 +820,7 @@ Package cleveref Info: include cross-reference names in hyperlinks on input line
 )
 \c@tcb@cnt@defin=\count371
 \c@tcb@cnt@obs=\count372
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 96.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 97.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count373
@@ -828,28 +828,28 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 ) (./D1.aux)
 \openout1 = `D1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 96.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 97.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count374
@@ -909,7 +909,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 96.
+Package hyperref Info: Link coloring ON on input line 97.
 (./D1.out) (./D1.out)
 \@outlinefile=\write5
 \openout5 = `D1.out'.
@@ -920,7 +920,7 @@ Package caption Info: End \AtBeginDocument code.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 96.
+ on input line 97.
 
 \c@lstlisting=\count380
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
@@ -930,7 +930,7 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 )
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <149.37697> not available
-(Font)              size <24.88> substituted on input line 113.
+(Font)              size <24.88> substituted on input line 114.
 
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -950,7 +950,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.24 ...4}Miscellaneous \# 1}{18}{subsection.12.4}
+l.24 ....4}Miscellaneous \#1}{18}{subsection.12.4}
                                                   % [1
 
 ])
@@ -977,12 +977,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.140 \section
+l.141 \section
               {Gravitational Field Strength} [1
 
 
 {/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
@@ -997,24 +997,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.156 \section
+l.157 \section
               {Field Lines Around the Earth} [2
 
 ]
-<earthradial.png, id=189, 281.05pt x 281.05pt>
+<earthradial.png, id=230, 281.05pt x 281.05pt>
 File: earthradial.png Graphic file (type png)
 <use earthradial.png>
-Package pdftex.def Info: earthradial.png  used on input line 161.
+Package pdftex.def Info: earthradial.png  used on input line 162.
 (pdftex.def)             Requested size: 159.3382pt x 159.33817pt.
 
-Underfull \hbox (badness 1163) in paragraph at lines 161--161
+Underfull \hbox (badness 1163) in paragraph at lines 162--162
 []\OT1/cmr/m/n/12 Figure 1: |Ra-dial field lines
  []
 
-<earthuniform.png, id=191, 1027.84pt x 560.0925pt>
+<earthuniform.png, id=232, 1027.84pt x 560.0925pt>
 File: earthuniform.png Graphic file (type png)
 <use earthuniform.png>
-Package pdftex.def Info: earthuniform.png  used on input line 164.
+Package pdftex.def Info: earthuniform.png  used on input line 165.
 (pdftex.def)             Requested size: 250.38562pt x 136.43332pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1036,10 +1036,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [4
 
 ]
-<orbit.png, id=206, 833.1125pt x 530.98375pt>
+<orbit.png, id=246, 833.1125pt x 530.98375pt>
 File: orbit.png Graphic file (type png)
 <use orbit.png>
-Package pdftex.def Info: orbit.png  used on input line 183.
+Package pdftex.def Info: orbit.png  used on input line 184.
 (pdftex.def)             Requested size: 409.71689pt x 261.13225pt.
 
 
@@ -1087,10 +1087,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [8
 
 ]
-<equipotential-surfaces.png, id=234, 552.0625pt x 334.24875pt>
+<equipotential-surfaces.png, id=274, 552.0625pt x 334.24875pt>
 File: equipotential-surfaces.png Graphic file (type png)
 <use equipotential-surfaces.png>
-Package pdftex.def Info: equipotential-surfaces.png  used on input line 265.
+Package pdftex.def Info: equipotential-surfaces.png  used on input line 266.
 (pdftex.def)             Requested size: 227.62204pt x 137.8181pt.
 
 
@@ -1139,10 +1139,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13]
-<equator.png, id=267, 602.25pt x 338.76563pt>
+<equator.png, id=307, 602.25pt x 338.76563pt>
 File: equator.png Graphic file (type png)
 <use equator.png>
-Package pdftex.def Info: equator.png  used on input line 359.
+Package pdftex.def Info: equator.png  used on input line 360.
 (pdftex.def)             Requested size: 182.09485pt x 102.42651pt.
 
 
@@ -1155,10 +1155,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [14
 
  <./equator.png>]
-<ex/1.png, id=274, 460.72125pt x 387.4475pt>
+<ex/1.png, id=314, 460.72125pt x 387.4475pt>
 File: ex/1.png Graphic file (type png)
 <use ex/1.png>
-Package pdftex.def Info: ex/1.png  used on input line 369.
+Package pdftex.def Info: ex/1.png  used on input line 370.
 (pdftex.def)             Requested size: 364.19664pt x 306.26935pt.
 
 
@@ -1179,10 +1179,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16]
-<ex/2.png, id=286, 726.715pt x 591.20876pt>
+<ex/2.png, id=327, 726.715pt x 591.20876pt>
 File: ex/2.png Graphic file (type png)
 <use ex/2.png>
-Package pdftex.def Info: ex/2.png  used on input line 396.
+Package pdftex.def Info: ex/2.png  used on input line 397.
 (pdftex.def)             Requested size: 273.14922pt x 222.21693pt.
 
 
@@ -1193,10 +1193,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17 <./ex/2.png>]
-<ex/3.png, id=293, 457.71pt x 326.21875pt>
+<ex/3.png, id=334, 457.71pt x 326.21875pt>
 File: ex/3.png Graphic file (type png)
 <use ex/3.png>
-Package pdftex.def Info: ex/3.png  used on input line 411.
+Package pdftex.def Info: ex/3.png  used on input line 412.
 (pdftex.def)             Requested size: 409.71689pt x 292.02617pt.
 
 
@@ -1214,7 +1214,130 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[19] (./D1.aux)
+[19]
+<ex/4.png, id=352, 423.5825pt x 153.57375pt>
+File: ex/4.png Graphic file (type png)
+<use ex/4.png>
+Package pdftex.def Info: ex/4.png  used on input line 457.
+(pdftex.def)             Requested size: 364.19664pt x 132.04741pt.
+<ex/5.png, id=353, 399.4925pt x 404.51125pt>
+File: ex/5.png Graphic file (type png)
+<use ex/5.png>
+Package pdftex.def Info: ex/5.png  used on input line 466.
+(pdftex.def)             Requested size: 273.14922pt x 276.59474pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20 <./ex/4.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21 <./ex/5.png>]
+<ex/6.png, id=370, 185.69376pt x 187.70125pt>
+File: ex/6.png Graphic file (type png)
+<use ex/6.png>
+Package pdftex.def Info: ex/6.png  used on input line 484.
+(pdftex.def)             Requested size: 182.09485pt x 184.06912pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22 <./ex/6.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23]
+<ex/7.png, id=386, 397.485pt x 272.01625pt>
+File: ex/7.png Graphic file (type png)
+<use ex/7.png>
+Package pdftex.def Info: ex/7.png  used on input line 522.
+(pdftex.def)             Requested size: 364.19664pt x 249.24107pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24 <./ex/7.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27]
+<ex/8.png, id=414, 329.23pt x 322.20375pt>
+File: ex/8.png Graphic file (type png)
+<use ex/8.png>
+Package pdftex.def Info: ex/8.png  used on input line 595.
+(pdftex.def)             Requested size: 136.5746pt x 133.66289pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28 <./ex/8.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[29]
+<ex/9.png, id=431, 615.29875pt x 543.02875pt>
+File: ex/9.png Graphic file (type png)
+<use ex/9.png>
+Package pdftex.def Info: ex/9.png  used on input line 647.
+(pdftex.def)             Requested size: 254.93556pt x 224.98814pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30 <./ex/9.png>] (./D1.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1225,21 +1348,21 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 124.49696pt have occurred.
 
 Package rerunfilecheck Info: File `D1.out' has not changed.
-(rerunfilecheck)             Checksum: 9AC6A5BD84714C74FA53AB3E66838685;4143.
+(rerunfilecheck)             Checksum: C257A9F196B8CEA986A5CD56FDFB12D1;5615.
  ) 
 Here is how much of TeX's memory you used:
- 46839 strings out of 474116
- 1121843 string characters out of 5743681
+ 46954 strings out of 474116
+ 1123356 string characters out of 5743681
  1938187 words of memory out of 5000000
- 68435 multiletter control sequences out of 15000+600000
+ 68503 multiletter control sequences out of 15000+600000
  565788 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,13n,96p,771b,1277s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,13n,96p,771b,1294s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on D1.pdf (22 pages, 850387 bytes).
+Output written on D1.pdf (33 pages, 1344478 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
- 290 compressed objects within 3 object streams
- 75 named destinations out of 1000 (max. 500000)
- 381 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 516 PDF objects out of 1000 (max. 8388607)
+ 402 compressed objects within 5 object streams
+ 122 named destinations out of 1000 (max. 500000)
+ 475 words of extra memory for PDF output out of 10000 (max. 10000000)
 

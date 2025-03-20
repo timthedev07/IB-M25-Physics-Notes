@@ -17,6 +17,7 @@
 \usepackage{draftwatermark}
 \usepackage{caption}
 \usepackage{fancyvrb}
+\usepackage{dirtytalk}
 \usepackage{subcaption}
 \usepackage{esdiff}
 \usepackage{setspace}
@@ -405,7 +406,7 @@ A distance is measured from the surface of M along the line between the centres 
 
 \pagebreak
 
-\subsection{Miscellaneous \# 1}
+\subsection{Miscellaneous \#1}
 
 At a distance $r$ from the centre of a planet, the gravitational potential due to the planet is $V$ and the gravitational field strength is $g$.
 \img{ex/3.png}{0.9}{Graph of potential}{ex3}
@@ -444,5 +445,218 @@ At a distance $r$ from the centre of a planet, the gravitational potential due t
                 \end{itemize}
         \end{enumerate}
 \end{enumerate}
+
+\pagebreak
+
+\subsection{Miscellaneous \#2}
+
+A uniform, spherical planet P has mass $M$ and radius $R$.
+
+\begin{enumerate}[label=(\alph*)]
+  \item A projectile of mass $m$ is launched with kinetic energy $\dfrac{2GMm}{3R}$
+        \img{ex/4.png}{0.8}{Diagram}{ex4}
+        Determine whether the projectile will escape the gravitational field of P.
+        \begin{align*}
+          \Sigma E = E_K - E_P & = \dfrac{2GMm}{3R} - \dfrac{GMm}{R}                      \\
+                               & = \dfrac{2GMm}{3R} - \dfrac{3GMm}{3R} = -\dfrac{GMm}{3R} \\
+          \Sigma E             & < 0
+        \end{align*}
+        Hence, the projectile will not escape the gravitational field of P.
+  \item The surface of P is an equipotential surface $E_0$. The dotted circle labeled $E_1$ is an equipotential line at a distance $\dfrac{3R}{2}$ from the center of P. The potential difference between $E_1$ and $E_0$ is $\SI{2.2e6}{\joule\per\kilo\g}$.
+        \img{ex/5.png}{0.6}{Diagram}{ex5}
+        \begin{enumerate}[label=(\roman*)]
+          \item The radius $R$ of P is $\SI{8.5e6}{\meter}$. Estimate the magnitude of the gravitational field strength between $E_1$ and $E_0$.
+                \begin{itemize}
+                  \item The command word estimate is a hint that we have to read off the diagram.
+                  \item We are told that the radius of P, the equivalent of one square, is $\SI{8.5e6}{\meter}$.
+                  \item To find the field strength difference between two points, we require the formula $$\Delta g = \frac{\Delta V}{\Delta r} = \frac{2.2\times 10^6}{\frac{1}{2}(8.5\times 10^6)} = \SI{0.52}{\meter\per\second\squared}$$
+                  \item We used $\Delta r = \frac{1}{2}(8.5\times 10^6)$ because the distance between the two equipotential surfaces is half a square.
+                \end{itemize}
+          \item $E_2$ is an equipotential line such that the potential difference between $E_2$ and $E_1$ is also $\SI{2.2e6}{\joule\per\kilo\g}$. Draw the equipotential line $E_2$ on the diagram.
+                \begin{itemize}
+                  \item To plot the equipotential ring, we need to know its radius. Let this quantity be $x$
+                  \item From the given information, we know that \begin{align*}
+                          V_2 - V_1                       & = V_1 - V_0                       \\
+                          -\frac{GM}{x} + \frac{GM}{1.5R} & = -\frac{GM}{1.5R} + \frac{GM}{R} \\
+                          x                               & = 3R
+                        \end{align*}
+                  \item Hence
+                        \img{ex/6.png}{0.4}{Solution}{ex6}
+                \end{itemize}
+        \end{enumerate}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Quick-Fire MCQ \#2}
+
+The escape speed from the surface of earth is $v_\text{esc}$. The radius of earth is $R$. A satellite of mass $m$ is in orbit at a height $\dfrac{R}{4}$ above the surface of the Earth. What is the energy required to move the satellite to infinity?
+\begin{enumerate}[label=\Alph*.]
+  \item $\dfrac{mv^2v_\text{esc}}{5}$
+  \item $\dfrac{20ptmv^2v_\text{esc}}{5}$
+  \item $mv_\text{esc}^2$
+  \item $2mv_\text{esc}^2$
+\end{enumerate}
+
+\begin{itemize}
+  \item The key is to recognize that this energy is the \textbf{total energy} of the satellite, namely KE + GPE, which is given by $\Sigma E = \dfrac{1}{2}GMm\left(\dfrac{4}{5R}\right)$.
+  \item We know $v_\text{esc}^2 = {\dfrac{2GM}{R}}$.
+  \item Hence $\Sigma E = \dfrac{1}{5}mv_\text{esc}^2$ by substitution.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Miscellaneous \#3}
+
+A moon M orbits a planet P. The gravitational field strength at the surface of P due to P is $g_P$. The gravitational field strength at the surface of M due to M is $g_M$.
+
+For M and P: $\dfrac{r_M}{r_P} = 0.27$ and $\dfrac{m_M}{m_P} = 0.055$.
+
+\begin{enumerate}[label=(\alph*)]
+  \item Determine $\dfrac{g_M}{g_P}$
+        \begin{align*}
+          g                                                                & \propto \frac{m}{r^2}                       \\
+          \frac{g_M}{g_P}  = \frac{m_M}{m_P}\left(\frac{r_P}{r_M}\right)^2 & = 0.055\left(\frac{1}{0.27}\right)^2 = 0.75
+        \end{align*}
+  \item Point O lies on the line joining the centre of M to the centre of P.
+        \img{ex/7.png}{0.8}{Graph}{ex7}
+        The graph shows the variation of gravitational potential $V$ with distance $x$ from the surface of P to O. The gradient of the graph is zero at point O.
+        \begin{enumerate}[label=(\roman*)]
+          \item State and explain the magnitude of the resultant gravitational field strength at O.
+                \begin{align*}
+                  g = -\diff{V_g}{r} = -\diff{V}{x} = \text{gradient of graph at O} = 0
+                \end{align*}
+          \item Outline why the graph between P and O is negative.
+                \begin{itemize}
+                  \item The gravitational field is attractive so that energy is required to move away from P
+                  \item the gravitational potential is defined as 0 at $\infty$, (the potential must be negative)
+                \end{itemize}
+          \item The gravitational potential due to the mass of M at the surface of P can be assumed to be negligible.
+
+                Estimate, using the graph, the gravitational potential at the surface of M due to the mass of M.
+                \begin{align*}
+                  \frac{V_M}{V_P} & = \left(\frac{g_M}{g_P}\right)\left(\frac{r_M}{r_P}\right)  \\
+                  V_M             & = V_P(0.75)(0.27) = -6.4\times 10^7 \times 0.75 \times 0.27 \\
+                                  & =-\SI{1.3e7}{\joule\per\kilo\g}
+                \end{align*}
+          \item Draw on the axes, the variation of gravitational potential between O and M.
+                \begin{itemize}
+                  \item This question is worth one mark, it is awarded for the curve segment being
+                        \begin{itemize}
+                          \item always negative
+                          \item curving downwards
+                          \item ending at $y$-coordinate between -8 and -20
+                        \end{itemize}
+                \end{itemize}
+        \end{enumerate}
+
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Quick-Fire MCQ -- Comparing Total Energies}
+
+Two satellites are in circular orbits around the Earth. Both satellites have the same mass and satellite X is closer to Earth than satellite Y. What is correct for the orbital periods of X and Y and the total energies of X and Y?
+
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|c|c|c|}
+    \hline    & \textbf{Orbital periods} & \textbf{Total energies} \\
+    \hline A. & $X$ greater than $Y$     & $X$ greater than $Y$    \\
+    \hline B. & $X$ greater than $Y$     & $Y$ greater than $X$    \\
+    \hline C. & $Y$ greater than $X$     & $X$ greater than $Y$    \\
+    \hline D. & $Y$ greater than $X$     & $Y$ greater than $X$    \\
+    \hline
+  \end{tabular}
+\end{table}
+
+\begin{enumerate}
+  \item The orbital period is easy to compare, the closer to the Earth, the shorter the period. This helps to \textcolor{red}{eliminate A and B}.
+  \item The total energy is given by $$\Sigma E = -\frac{1}{2} \frac{GMm}{r}$$
+        \begin{itemize}
+          \item Since $r_X < r_Y$, the total energy of $X$ is more negative than that of $Y$ and so is less than $Y$.
+          \item This takes us to the answer \textcolor{ForestGreen}{D}.
+        \end{itemize}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Weightlessness}
+
+An astronaut is orbiting Earth in a spaceship. Why does the astronaut experience weightlessness?\lb
+\textcolor{ForestGreen}{The acceleration of the astronaut is the same as the acceleration of the spaceship.}
+
+\pagebreak
+
+\subsection{Work Done by Gravity}
+
+P and S are two points on a gravitational equipotential surface around a planet. Q and R are two points on a different gravitational equipotential surface at a greater distance from the planet.
+
+\img{ex/8.png}{0.3}{Diagram}{ex8}
+
+The greatest work done by the gravitational force is when moving a mass from
+\begin{enumerate}[label=\Alph*.]
+  \item P to S
+  \item Q to R
+  \item R to P
+  \item S to R
+\end{enumerate}
+
+\begin{itemize}
+  \item Before anything one must realize the keyword \say{by the gravitational force} means that the work done is
+        \begin{itemize}
+          \item Negative when moving away from the planet
+          \item Positive when moving towards the planet
+        \end{itemize}
+  \item Firstly, we can \textcolor{red}{eliminate A and B}, as the work done is 0 as we move along the equipotential surfaces.
+  \item The \textcolor{ForestGreen}{answer is C}, as we are moving towards the planet.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Work Done by Engine}
+
+A satellite in a circular orbit around the Earth needs to reduce its orbital radius.
+What is the work done by the satellite rocket engine and the change in kinetic energy resulting from this shift in orbital height?
+
+\begin{table}[H]
+  \centering\begin{tabular}{|c|c|c|}
+    \hline    & Work done by the satellite rocket engine & Kinetic energy \\
+    \hline A. & positive                                 & increase       \\
+    \hline B. & positive                                 & decrease       \\
+    \hline C. & negative                                 & increase       \\
+    \hline D. & negative                                 & decrease       \\
+    \hline
+  \end{tabular}
+\end{table}
+
+\begin{itemize}
+  \item Here, we are moving towards the planet and so the as opposed to moving away, it is \say{easier} for the engine because we go \say{with} the gravitational force instead of \say{against} it. This \textcolor{red}{eliminates A and B}.
+  \item Recall that $$\text{KE} = -\frac{1}{2}\text{GPE} = \frac{GMm}{2r}$$
+        With a smaller orbital radius, the KE will increase, and so the \textcolor{ForestGreen}{answer is D}.
+
+
+\end{itemize}
+
+\pagebreak
+
+\subsection{Separation-Potential Graph -- Turning Point}
+
+The graph shows the variation of the gravitational potential between the Earth and Moon with distance from the centre of the Earth. The distance from the Earth is expressed as a fraction of the total distance between the centre of the Earth and the centre of the Moon.
+
+\img{ex/9.png}{0.56}{Graph}{ex9}
+
+Given that the mass of the Earth is $\SI{5.97e24}{\kg}$, determine, using the graph, the mass of the Moon.
+
+\begin{itemize}
+  \item The method is to use the fact that the gravitational field strength at the turning point (which is located at $x = 0.9$) is 0, hence the gravitational field strength due to the Earth and the Moon respectively are equal and opposite at this point.
+        \begin{align*}
+          g_E               & = g_M                               \\
+          \frac{M_E}{0.9^2} & = \frac{M_M}{(1 - 0.9)^2}           \\
+          M_M               & = \frac{M_E}{0.9^2} \times  0.1^2   \\
+                            & = \frac{M_E}{81} = \SI{7.4e22}{\kg}
+        \end{align*}
+\end{itemize}
+
 
 \end{document}

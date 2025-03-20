@@ -21,4 +21,12 @@
 \contentsline {subsection}{\numberline {12.1}Finding the Esc. Velocity with V}{15}{subsection.12.1}%
 \contentsline {subsection}{\numberline {12.2}Quick-Fire MCQ \# 1}{16}{subsection.12.2}%
 \contentsline {subsection}{\numberline {12.3}Field Strength -- Two Mass System}{17}{subsection.12.3}%
-\contentsline {subsection}{\numberline {12.4}Miscellaneous \# 1}{18}{subsection.12.4}%
+\contentsline {subsection}{\numberline {12.4}Miscellaneous \#1}{18}{subsection.12.4}%
+\contentsline {subsection}{\numberline {12.5}Miscellaneous \#2}{20}{subsection.12.5}%
+\contentsline {subsection}{\numberline {12.6}Quick-Fire MCQ \#2}{23}{subsection.12.6}%
+\contentsline {subsection}{\numberline {12.7}Miscellaneous \#3}{24}{subsection.12.7}%
+\contentsline {subsection}{\numberline {12.8}Quick-Fire MCQ -- Comparing Total Energies}{26}{subsection.12.8}%
+\contentsline {subsection}{\numberline {12.9}Weightlessness}{27}{subsection.12.9}%
+\contentsline {subsection}{\numberline {12.10}Work Done by Gravity}{28}{subsection.12.10}%
+\contentsline {subsection}{\numberline {12.11}Work Done by Engine}{29}{subsection.12.11}%
+\contentsline {subsection}{\numberline {12.12}Separation-Potential Graph -- Turning Point}{30}{subsection.12.12}%
