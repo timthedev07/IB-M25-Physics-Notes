@@ -9,3 +9,6 @@
 \contentsline {section}{\numberline {3}Mechanical Waves}{7}{section.3}%
 \contentsline {section}{\numberline {4}E.M. Waves}{8}{section.4}%
 \contentsline {subsection}{\numberline {4.1}The E.M. Spectrum}{9}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Exam Questions}{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Displacement-Distance Graphs}{10}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Wavelength from Compression-Rarefraction Graphs}{11}{subsection.5.2}%

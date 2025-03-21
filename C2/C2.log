@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  27 DEC 2024 22:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  21 MAR 2025 23:00
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -962,12 +962,12 @@ l.118
        [1
 
 ]
-<transverse1.png, id=105, 349.305pt x 159.59625pt>
+<transverse1.png, id=120, 349.305pt x 159.59625pt>
 File: transverse1.png Graphic file (type png)
 <use transverse1.png>
 Package pdftex.def Info: transverse1.png  used on input line 126.
 (pdftex.def)             Requested size: 204.85844pt x 93.60085pt.
-<longitudinal1.png, id=107, 349.305pt x 159.59625pt>
+<longitudinal1.png, id=122, 349.305pt x 159.59625pt>
 File: longitudinal1.png Graphic file (type png)
 <use longitudinal1.png>
 Package pdftex.def Info: longitudinal1.png  used on input line 129.
@@ -989,12 +989,12 @@ l.155 \section
 
 
 {/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./transverse1.png> <./longitudinal1.png>]
-<distancetime.png, id=119, 580.1675pt x 159.59625pt>
+<distancetime.png, id=134, 580.1675pt x 159.59625pt>
 File: distancetime.png Graphic file (type png)
 <use distancetime.png>
 Package pdftex.def Info: distancetime.png  used on input line 165.
 (pdftex.def)             Requested size: 409.71689pt x 112.70773pt.
-<dd_transverse.png, id=120, 412.54124pt x 203.76125pt>
+<dd_transverse.png, id=135, 412.54124pt x 203.76125pt>
 File: dd_transverse.png Graphic file (type png)
 <use dd_transverse.png>
 Package pdftex.def Info: dd_transverse.png  used on input line 174.
@@ -1018,7 +1018,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3 <./dd_transverse.png>]
-<dd_long.png, id=133, 471.7625pt x 256.96pt>
+<dd_long.png, id=148, 471.7625pt x 256.96pt>
 File: dd_long.png Graphic file (type png)
 <use dd_long.png>
 Package pdftex.def Info: dd_long.png  used on input line 187.
@@ -1032,12 +1032,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4 <./dd_long.png>]
-<rarefraction.png, id=141, 328.22626pt x 252.945pt>
+<rarefraction.png, id=156, 328.22626pt x 252.945pt>
 File: rarefraction.png Graphic file (type png)
 <use rarefraction.png>
 Package pdftex.def Info: rarefraction.png  used on input line 207.
 (pdftex.def)             Requested size: 182.09485pt x 140.33209pt.
-<compression.png, id=142, 328.22626pt x 252.945pt>
+<compression.png, id=157, 328.22626pt x 252.945pt>
 File: compression.png Graphic file (type png)
 <use compression.png>
 Package pdftex.def Info: compression.png  used on input line 209.
@@ -1051,7 +1051,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5 <./rarefraction.png> <./compression.png>]
-<4.png, id=152, 417.56pt x 741.77126pt>
+<4.png, id=167, 417.56pt x 741.77126pt>
 File: 4.png Graphic file (type png)
 <use 4.png>
 Package pdftex.def Info: 4.png  used on input line 218.
@@ -1065,7 +1065,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6 <./4.png>]
-<sound.png, id=159, 371.3875pt x 239.89626pt>
+<sound.png, id=174, 371.3875pt x 239.89626pt>
 File: sound.png Graphic file (type png)
 <use sound.png>
 Package pdftex.def Info: sound.png  used on input line 226.
@@ -1087,7 +1087,7 @@ Package siunitx Info: Option "per-mode = reciprocal-positive-first" has been
 (siunitx)             
 (siunitx)             Use "per-mode = power-positive-first" as a replacement.
 
-<em.png, id=167, 328.22626pt x 181.67876pt>
+<em.png, id=182, 328.22626pt x 181.67876pt>
 File: em.png Graphic file (type png)
 <use em.png>
 Package pdftex.def Info: em.png  used on input line 238.
@@ -1103,11 +1103,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [8
 
  <./em.png>]
-<emspectrum.jpg, id=175, 182.6022pt x 118.041pt>
-File: emspectrum.jpg Graphic file (type jpg)
-<use emspectrum.jpg>
-Package pdftex.def Info: emspectrum.jpg  used on input line 247.
-(pdftex.def)             Requested size: 409.71689pt x 264.8675pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+<ex/1.png, id=196, 470.75874pt x 301.125pt>
+File: ex/1.png Graphic file (type png)
+<use ex/1.png>
+Package pdftex.def Info: ex/1.png  used on input line 282.
+(pdftex.def)             Requested size: 318.66946pt x 203.83873pt.
+<ex/2.png, id=197, 470.75874pt x 257.96375pt>
+File: ex/2.png Graphic file (type png)
+<use ex/2.png>
+Package pdftex.def Info: ex/2.png  used on input line 284.
+(pdftex.def)             Requested size: 318.66946pt x 174.62184pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1116,7 +1129,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9 <./emspectrum.jpg>] (./C2.aux)
+[10
+
+ <./ex/1.png> <./ex/2.png>]
+<ex/3.png, id=206, 477.785pt x 690.58pt>
+File: ex/3.png Graphic file (type png)
+<use ex/3.png>
+Package pdftex.def Info: ex/3.png  used on input line 295.
+(pdftex.def)             Requested size: 318.66946pt x 460.5998pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11 <./ex/3.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12] (./C2.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1127,21 +1164,21 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 124.49696pt have occurred.
 
 Package rerunfilecheck Info: File `C2.out' has not changed.
-(rerunfilecheck)             Checksum: F9D8E8F8DD957B18D79282A13FB9FDE1;1586.
+(rerunfilecheck)             Checksum: FD31C8C2D928817227AF054FC45287C1;2206.
  ) 
 Here is how much of TeX's memory you used:
- 46874 strings out of 474116
- 1122659 string characters out of 5743681
+ 46912 strings out of 474116
+ 1123194 string characters out of 5743681
  1938187 words of memory out of 5000000
- 68509 multiletter control sequences out of 15000+600000
+ 68538 multiletter control sequences out of 15000+600000
  565788 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,13n,96p,765b,976s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,14n,96p,765b,1012s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on C2.pdf (11 pages, 3038522 bytes).
+Output written on C2.pdf (14 pages, 3123496 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
- 292 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 274 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 326 words of extra memory for PDF output out of 10000 (max. 10000000)
 
