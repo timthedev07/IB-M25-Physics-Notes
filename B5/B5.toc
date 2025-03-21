@@ -22,3 +22,19 @@
 \contentsline {subsection}{\numberline {10.1}Types of Cells}{17}{subsection.10.1}%
 \contentsline {section}{\numberline {11}Internal Resistance}{19}{section.11}%
 \contentsline {section}{\numberline {12}Non-Ideal Cells --- Power}{20}{section.12}%
+\contentsline {section}{\numberline {13}Exam Questions}{22}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Effective Resistance \#1}{22}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}Varying Current in a Lamp}{23}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}Range of p.d.}{24}{subsection.13.3}%
+\contentsline {subsection}{\numberline {13.4}Multiple Power Supplies}{25}{subsection.13.4}%
+\contentsline {subsection}{\numberline {13.5}Current -- Adding a Branch}{27}{subsection.13.5}%
+\contentsline {subsection}{\numberline {13.6}Conduction and Thermal Energy -- Understanding}{28}{subsection.13.6}%
+\contentsline {subsection}{\numberline {13.7}Tough MCQ (relatively)}{29}{subsection.13.7}%
+\contentsline {subsection}{\numberline {13.8}Opposing Power Supplies}{32}{subsection.13.8}%
+\contentsline {subsection}{\numberline {13.9}Miscellaneous \#1}{34}{subsection.13.9}%
+\contentsline {subsection}{\numberline {13.10}Double Power Supply}{36}{subsection.13.10}%
+\contentsline {subsection}{\numberline {13.11}Adding a Bulb in Series}{38}{subsection.13.11}%
+\contentsline {subsection}{\numberline {13.12}Seemingly Confusing Circuit}{39}{subsection.13.12}%
+\contentsline {subsection}{\numberline {13.13}Miscellaneous}{40}{subsection.13.13}%
+\contentsline {subsection}{\numberline {13.14}Redrawing Circuits}{41}{subsection.13.14}%
+\contentsline {subsection}{\numberline {13.15}Potential Divider \# 1}{42}{subsection.13.15}%

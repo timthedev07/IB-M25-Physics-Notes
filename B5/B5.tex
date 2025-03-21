@@ -23,6 +23,10 @@
 \usepackage{dirtytalk}
 \usepackage{draftwatermark}
 \usepackage[most]{tcolorbox}
+\usepackage{circuitikz}
+\usepackage{tocloft}
+
+\addtolength{\cftsubsecnumwidth}{12pt}
 \SetWatermarkText{timthedev07}
 \SetWatermarkScale{4}
 \SetWatermarkColor[gray]{0.97}
@@ -181,8 +185,8 @@ These equations can be used to calculate the \hl{power dissipated in a circuit c
 \section{Measurement Devices}
 
 \begin{itemize}
-  \item The voltmeter is for measuring potential difference, and is connected in parallel to the component/part of the circuit across which the p.d. is to be measured.
-  \item The ammeter is for measuring current, and is connected in series to the component/part of the circuit through which the current is to be measured.
+  \item The voltmeter is for measuring potential difference, and is connected in parallel to the component/part of the circuit across which the p.d. is to be measured. \hl{An ideal voltmeter has infinite resistance}.
+  \item The ammeter is for measuring current, and is connected in series to the component/part of the circuit through which the current is to be measured. \hl{An ideal ammeter has zero resistance}.
 \end{itemize}
 
 \section{Electrical Resistance}
@@ -368,5 +372,357 @@ Indeed, $P_R + P_r = P_{\varepsilon}$.
 
 This graph shows that, when the external resistance (load resistance) equals the internal resistance, the power delivered to the external part of the circuit is maximized.
 
+\pagebreak
+
+\section{Exam Questions}
+
+\subsection{Effective Resistance \#1}
+Four identical resistors, each of resistance $R$, are connected as shown.
+\img{ex/1.png}{0.4}{Effective Resistance \#1}{ex1}
+What is the effective resistance between P and Q?
+
+\begin{itemize}
+  \item First things first, we identify the two branches. If this configuration looks intimidating to you, then successfully identifying the two branches is a good start.
+        \begin{enumerate}
+          \item The first branch is the path straight from P to Q downwards.
+          \item The second branch is the remaining bits containing the three other resistors.
+        \end{enumerate}
+  \item The longer branch is a series connection of total resistance $3R$, and the shorter branch is a single resistor of resistance $R$; the two branches are then joined in parallel.
+  \item The effective resistance of the two branches in parallel is given by \begin{align*}
+          \frac{1}{\Sigma R} & = \frac{1}{3R} + \frac{1}{R} \\
+          \Sigma R = \frac{3R}{4}                           \\
+        \end{align*}
+\end{itemize}
+
+\pagebreak
+
+\subsection{Varying Current in a Lamp}
+
+Four circuits are available for an electrical experiment.The internal resistance of the cell in each circuit is negligible.
+
+In which circuit can the current in the lamp be varied by adjusting the variable resistor?
+
+\img{ex/2.png}{0.8}{Circuits}{ex2}
+
+Let's consider the circuits one by one
+
+\begin{enumerate}[label=\Alph*.]
+  \item The fixed and variable resistors are in paralle and they can be considered as a single variable resistor. Varying this whole block's resistance will vary the total resistance of the circuit, and hence the current in the lamp. Hence, \textcolor{ForestGreen}{A is the correct answer}.
+  \item As for the others, the voltage across every branch is constant. There is no way to alter the total resistance in the lamp's branch, so the current in the lamp cannot be varied. \textcolor{Red}{B, C, and D are incorrect}.
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Range of p.d.}
+
+A variable resistor with a resistance range of 0 to $\SI{6.0}{\kilo\ohm}$ is connected in series with two resistors of fixed value $\SI{6.0}{\kilo\ohm}$. The cell in the circuit has an emf of 18 V and a negligible internal resistance.
+
+\img{ex/3.png}{0.7}{Circuit}{ex3}
+
+What is the maximum range of potential difference that can be observed between X and Y?
+
+\begin{itemize}
+  \item From $V = IR$, the minimum p.d. across XY is hit when the resistance is minimal, and vice versa.
+  \item The maximum resistance across XY is 12, in which case the voltage across XY is 12V.
+  \item The minimum resistance is 6, giving the lower boundary of 9V.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Multiple Power Supplies}
+
+Two $\SI{1.0}{\ohm}$ resistors are placed in a circuit with two $\SI{6}{\V}$ cells of negligible internal resistance as shown.
+
+\img{ex/4.png}{0.4}{Multiple Power Supplies}{ex4}
+
+What is the reading on the ideal ammeter?
+
+\img{ex/5.png}{0.6}{Redrawn diagram}{ex5}
+
+\begin{itemize}
+  \item The key to solving this question is to identify the two closed loops and consider both of them. If the diagonal branch doesn't appeal to you, consider \cref{fig:ex5}.
+  \item First, let us establish that, at the top resistor, the current flowing through it is $I_1 + I_2$, namely the sum of the two currents in the two loops.
+  \item In the orange loop, using $V = IR$, with $I = I_1 + I_2$, $R = 1$ and $V = 6$, we have $$I_1 + I_2 = 6$$
+  \item In the green loop, the top resistor still has a current of $I_1 + I_2$ and thus a voltage of 6 as before. The bottom resistor has a current of $I_2$ and thus a voltage of $I_2$. Using $V = IR$, we have $$6 + I_2 = 6$$
+        Hence, $I_2 = 0$ and $I_1 = 6$.
+  \item The ammeter reads $I_1$, which is 6A.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Current -- Adding a Branch}
+\img{ex/6.png}{0.6}{Original circuit}{ex6}
+\img{ex/7.png}{0.6}{New circuit}{ex7}
+
+\begin{itemize}
+  \item Adding a branch in parallel to the circuit will decrease the total resistance of the circuit, and hence increase the current flowing through the circuit.
+  \item Increasing current increases the power dissipated to the internal resistance of the cell, thus reducing the p.d. across the entire circuit. This means that the voltmeter reading will drop.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Conduction and Thermal Energy -- Understanding}
+
+Scientists observe that materials that are good conductors of electricity are also good conductors of thermal energy. What is the most reasonable conclusion that scientists can reach about the nature of the conduction mechanism in both cases and the nature of electricity and thermal energy?
+
+\img{ex/8.png}{0.8}{Options}{ex8}
+
+\begin{itemize}
+  \item In metals, free electrons (also known as conduction electrons) move easily. These electrons are responsible for both electrical conduction and thermal conduction. Hence, the conduction mechanism is the same in both cases. This \textcolor{red}{eliminates C and D}.
+  \item However, their nature is different. Electrical conduction is the movement of charge carriers (electrons), while thermal energy is the transfer of kinetic energy. This \textcolor{ForestGreen}{gives B as the correct answer}.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Tough MCQ (relatively)}
+
+Three lamps(X, Y and Z) are connected as shown in the circuit. The emf of the cell is 20 V. The internal resistance of the cell is negligible. The power dissipated by X, Y and Z is 10 W, 20 W and 20 W respectively.
+
+\img{ex/9.png}{0.4}{Circuit}{ex9}
+
+What is the voltage across Lamp X and Lamp Y?
+
+\img{ex/10.png}{0.5}{Options}{ex10}
+
+\begin{itemize}
+  \item First things first, if this diagram doesn't appeal to you then redraw it.
+        \img{ex/11.png}{0.5}{Redrawn circuit}{ex11}
+  \item From this, it may be easier to see that $V_1$ and $V_2$, the voltages across X and Y respectively, must sum up to 20V, the emf of the cell. This allows us to immediately \textcolor{red}{eliminate C and D}.
+  \item Let's now consider the parallel lamps Y and Z
+        \begin{itemize}
+          \item They have the same voltage because they are parallel and we are also told that they have the same power.
+          \item Using $$P = \frac{V^2}{R}$$, we can see that the resistance of Y and Z must be the same. Hence, we can deduce that the current splits equally between them. This means that, if the current at X is $I$, then the current at both Y and Z is $\frac{I}{2}$.
+        \end{itemize}
+  \item Let's now use $P = IV$ to find out more about the problem.
+        \begin{itemize}
+          \item $P_X = IV_1 = \SI{10}{\W}$
+          \item $P_Y = \frac{I}{2}V_2 = \SI{20}{\W}$
+        \end{itemize}
+        Hence $$\frac{V_2}{V_1} = 4$$
+  \item From here, we have essentially a system of equations
+        \begin{align*}
+          V_1 + V_2 & = 20 \\
+          V_2 = 4V_1
+        \end{align*}
+        This gives us $V_1 = 4$ and $V_2 = 16$. Hence, the answer is \textcolor{ForestGreen}{B}.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Opposing Power Supplies}
+
+Two resistors of equal resistance R are connected with two cells of emf $\varepsilon$ and 2$\varepsilon$. Both cells have negligible internal resistance.
+
+\img{ex/12.png}{0.5}{Circuit}{ex12}
+
+What is the current in the resistor labelled X?
+
+\begin{itemize}
+  \item We must first distribute the current in the circuit. Suppose the current in the right branch is $I_1$ and the current in the left branch is $I_2$.
+        \img{ex/13.png}{0.5}{Annotated circuit}{ex13}
+  \item The arrows in the above image show the direction of the current. In short, at the junction, the two currents meet without intruding on each other's path of origin into the power supply; instead they pass through the middle resistor together and then split again to return to their respective power supplies.
+  \item This means that we can now treat this system as two loops joined on a single resistor.
+  \item The left loop gives
+        $$\varepsilon = I_2R + (I_1 + I_2)R$$
+  \item The right loop gives
+        $$2\varepsilon = (I_1 + I_2)R$$
+  \item Let's now solve this system of equations by eliminating $I_1$ which we do not need.
+        \begin{align*}
+          I_1R                & = \varepsilon - 2I_2R    \\
+          I_1R                & = 2\varepsilon - I_2R    \\
+          \varepsilon - 2I_2R & = 2\varepsilon - I_2R    \\
+          I_2                 & = -\frac{\varepsilon}{R} \\
+        \end{align*}
+\end{itemize}
+
+\pagebreak
+
+\subsection{Miscellaneous \#1}
+
+A cell of negligible internal resistance and electromotive force (emf) 6.0 V is connected to three resistors R, P and Q.
+
+\img{ex/14.png}{0.5}{Circuit}{ex14}
+
+R is an ohmic resistor. The I-V characteristics of P and Q are shown in the graph.
+
+\img{ex/15.png}{0.5}{I-V characteristics}{ex15}
+
+The current in P is 0.40 A.
+
+\begin{enumerate}[label=(\alph*)]
+  \item Show that the current in Q is 0.45 A.
+        \begin{itemize}
+          \item We read off the graph at the point where the current in P is 0.4A -- this corresponds to a voltage of 1.4V across P.
+          \item Hence, the voltage across Q is $6 - 1.4 = 4.6V$.
+        \end{itemize}
+  \item Calculate the resistance of R.
+        \begin{itemize}
+          \item The current at Q is 0.45A, this is to be split at the junction of PR. We are told that P is at 0.4A, hence the current at R is $I_R = 0.45 - 0.4 = 0.05A$.
+          \item The voltage across R is the same as the voltage across P since they are parallel, hence $V_R = 1.4V$.
+                $$R = \frac{V_R}{I_R} = \frac{1.4}{0.05} = 28\Omega$$
+        \end{itemize}
+  \item Calculate the total power dissipated in the circuit.
+        $$ P = IV = (0.45)(6) = 2.7W$$
+  \item Resistor P is removed. State and explain, without any calculations, the effect of this on the resistance of Q.
+
+        \begin{itemize}
+          \item Removing a resistor in parallel will increase the total resistance of the circuit; hence the current through Q will decrease.
+          \item Since R is not an ohmic conductor, the resistance of Q will also decrease with decreasing current.
+        \end{itemize}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Double Power Supply}
+
+Two cells are connected in parallel asshown below. Each cell has an emf of 5.0 V and an internal resistance of 2.0 $\Omega$. The lamp has a resistance of 4.0 $\Omega$. The ammeter is ideal. What is the reading on the ammeter?
+
+\img{ex/16.png}{0.5}{Circuit}{ex16}
+
+See the annotated circuit below.
+
+\img{ex/17.jpg}{0.5}{Annotated circuit}{ex17}
+
+\begin{itemize}
+  \item Consider the circuit with the top power supply. $$\varepsilon = 5 = 4(I_1 + I_2) + 2I_1$$
+  \item Consider the circuit with the bottom power supply. $$\varepsilon = 5 = 4(I_1 + I_2) + 2I_2$$
+  \item We should obtain $I_1 = I_2$; let $I = I_1 = I_2$, backward substitution gives $I = 0.5A$.
+  \item The ammeter reads $I_1 + I_2 = 2I = 1A$.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Adding a Bulb in Series}
+
+A battery of negligible internal resistance is connected to a lamp. A second identical lamp is added in series. What is the change in potential difference across the first lamp, and what is the change in the output power of the battery?
+
+\img{ex/18.png}{0.8}{Options}{ex18}
+
+\begin{itemize}
+  \item The potential difference across the first lamp is halved, as the two lamps are in series and share the same voltage. This \textcolor{red}{eliminates C and D}.
+  \item The output power of the battery is given by $P = \frac{V^2}{R}$, where $R$ is the total resistance of the circuit. Since the total resistance has doubled, the output power of the battery is halved. This \textcolor{ForestGreen}{gives A as the correct answer}.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Seemingly Confusing Circuit}
+
+A circuit consists of a cell of emf E = 3.0 V and four resistors connected as shown.
+
+\img{ex/19.png}{0.5}{Circuit}{ex19}
+
+\begin{itemize}
+  \item This question is really only asking for the p.d. between $R_1$ and $R_4$. The two branches have the same total resistance and so the current in each branch is the same. The voltage supplied by the cell is the same as the voltage across each branch. This means that each branch will have a current of $\dfrac{\SI{3}{\V}}{\SI{3}{\ohm}} = \SI{1}{\A}$.
+  \item At the voltmeter connection on the left branch, 1 volt has been given off to $R_1$, and 2 volts have been given off to $R_2$. Hence, the p.d. across $R_1$ and $R_2$ is 1V.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Miscellaneous}
+
+Let's gooooo Elena is the most charming girl in the world!!!!\lb
+
+A photovoltaic cell is supplying energy to an external circuit. The photovoltaic cell can be modelled as a practical electrical cell with internal resistance.
+The intensity of solar radiation incident on the photovoltaic cell at a particular time is at a maximum for the place where the cell is positioned.
+The following data are available for this particular time:
+\begin{table}[H]
+  \centering
+
+  \begin{tabular}{|c|c|}
+    \hline
+    \textbf{Quantity}                               & \textbf{Value}         \\ \hline
+    Operating current                               & 0.90 A                 \\ \hline
+    Output potential difference to external circuit & 14.5 V                 \\ \hline
+    Output emf of photovoltaic cell                 & 21.0 V                 \\ \hline
+    Area of panel                                   & 350 mm $\times$ 450 mm \\ \hline
+  \end{tabular}
+\end{table}
+
+\begin{enumerate}[label=(\alph*)]
+  \item Explain why the output potential difference to the external circuit and the output emf of the photovoltaic cell are different.
+        \begin{itemize}
+          \item There is a potential difference across the internal resistance and energy is lost to the internal resistance of the cell...
+          \item when there is a current flowing through the cell.
+        \end{itemize}
+  \item State two reasons why future energy demands will be increasingly reliant on sources such as photovoltaic cells.
+        \begin{itemize}
+          \item Solar energy is renewable
+          \item It does not emit greenhouse gases and so does not contribute to climate change/global warming.
+        \end{itemize}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Redrawing Circuits}
+
+Four resistors of 4$\Omega$ each are connected as shown.
+
+\img{ex/20a.png}{0.4}{Circuit}{ex20a}
+
+This may not look anything like one of those usual circuits you see at first glance; however, it should not surprise you that it can be redrawn as follows:
+
+\img{ex/20.jpg}{0.7}{Circuit redrawn}{ex20}
+
+It should be clear; do the work yourself son, I'm out of this business, there is a shitload of work on me right now and I have no inclination to proceed with completing this question. In fact, with the time I have spent on writing this paragraph, I could have finished this off beautifully. But I am not going to do that. I am going to leave this question here and move on to the next one.
+
+\pagebreak
+
+\subsection{Potential Divider \# 1}
+
+The graph shows how current varies with potential difference across a component X.
+
+\img{ex/21.png}{0.8}{Graph}{ex21}
+
+\begin{enumerate}[label=(\alph*)]
+  \item Outline why component X is considered non-ohmic.
+        \begin{itemize}
+          \item From the graph, one can see that the current is not directly proportional to the potential difference across component X.
+        \end{itemize}
+\end{enumerate}
+
+
+Component X and a cell of negligible internal resistance are placed in a circuit. A variable resistor R is connected in series with component X. The ammeter reads $\SI{20}{\m\A}$.
+
+\img{ex/22.png}{0.4}{Circuit}{ex22}
+
+\begin{enumerate}[label=(\alph*)]
+  \setcounter{enumi}{1}
+  \item Determine the resistance of the variable resistor.
+        \begin{itemize}
+          \item From the first circuit, we now that the resistance of R can be found by finding the total resistance of the circuit and subtracting the resistance of X.
+          \item The resistance of component X can be found from the graph, where we see that at 20mA, the p.d. is about 2.3 V.
+                \begin{align*}
+                  R & = \frac{4 - 2.3}{20 \times 10^{-3}} \\
+                    & = \SI{85}{\ohm}
+                \end{align*}
+        \end{itemize}
+\end{enumerate}
+
+Component X and the cell are now placed in a potential divider circuit.
+
+\img{ex/23.png}{0.4}{Potential divider circuit}{ex23}
+
+\begin{enumerate}[label=(\alph*)]
+  \setcounter{enumi}{2}
+  \item State the range of current that the ammeter can measure as the slider S of the potential divider is moved from Q to P.
+        \begin{itemize}
+          \item The lower limit is 0, this is hit when the slider's branch is at Q and so has no voltage across it.
+          \item The upper limit occurs when the slider reaches P, where it has the maximum voltage across it. This is the same as the voltage across the cell, which is 4V. In this case, from the graph, we see that the current in X and hence the ammeter is $\SI{60}{\m\A}$
+          \item \hl{It's important to note that the fraction of the way up PQ determines the fraction of voltage that the sliding branch receives.}
+        \end{itemize}
+  \item Describe, by reference to your answer for (c) the advantage of the potential divider arrangement over the arrangement in (b).
+        \begin{itemize}
+          \item allows zero current through component X
+          \item provides greater range of current through component X
+        \end{itemize}
+  \item Slider S of the potential divider is positioned so that the ammeter reads $\SI{20}{\m\A}$. Explain, without further calculation, any difference in the power transferred by the potential divider arrangement over the arrangement in (b).
+        \begin{itemize}
+          \item total/overall resistance decreases
+          \item because SQ and X are in parallel
+          \item overall power greater than in part (b)
+        \end{itemize}
+\end{enumerate}
+
+I just wanted to say, I love you Elena, you really gave me a lot of motivation to work on this.
 
 \end{document}
