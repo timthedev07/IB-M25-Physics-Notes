@@ -21,3 +21,15 @@
 \contentsline {subsection}{\numberline {7.3}Stefan-Boltzmann Law}{15}{subsection.7.3}%
 \contentsline {subsection}{\numberline {7.4}Observational Astronomy}{16}{subsection.7.4}%
 \contentsline {subsection}{\numberline {7.5}Apparent Brightness}{16}{subsection.7.5}%
+\contentsline {section}{\numberline {8}Exam Questions}{17}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Intensity Wavelength Curve}{17}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Misc \#1}{19}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Equilibrium Temperature \#1}{21}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Thermal Conductivity -- Ratios}{23}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Air, Ice, and Water}{24}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Thermal Conduction \#1}{25}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.7}Conduction or Convection?}{26}{subsection.8.7}%
+\contentsline {subsection}{\numberline {8.8}Ideally Lagged vs. Unlagged Rod}{27}{subsection.8.8}%
+\contentsline {subsection}{\numberline {8.9}Heat Propagation through Cubes -- Ratios}{28}{subsection.8.9}%
+\contentsline {subsection}{\numberline {8.10}Two Blocks in Contact}{29}{subsection.8.10}%
+\contentsline {subsection}{\numberline {8.11}Hard MCQ -- Equilibrium of Mixtures}{30}{subsection.8.11}%

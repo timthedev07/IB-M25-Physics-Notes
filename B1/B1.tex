@@ -27,6 +27,7 @@
 \usepackage{mathtools}
 \usepackage{tikz,pgfplots}
 \usepackage[most]{tcolorbox}
+\usepackage{tikz-network}
 \SetWatermarkText{timthedev07}
 \SetWatermarkScale{4}
 \SetWatermarkColor[gray]{0.97}
@@ -181,6 +182,7 @@ When energy is supplied to a substance, both components of the internal energy i
 This can then help explain the phase changes of matter.
 \begin{itemize}
   \item During \textbf{melting}, the potential energy increases while the KE of the particles remains constant. This means that the temperature during this period of change remains constant, and all the supplied energy is being used to break the bonds between the particles.
+  \item Similarly, during \textbf{freezing} or similar phase changes, bonds are formed between the particles, and energy is released, which keeps the average KE of the particles and thus the temperature constant.
   \item Post-melting, the KE of the particles now increases, which then will increase temperature.
   \item Molecules gain enough kinetic energy to overcome all intermolecular forces. Molecules break free, becoming a gas. This is \textbf{evaporation}.
   \item Energy transfer goes primarily to potential energy until all bonds are broken.
@@ -224,7 +226,13 @@ The above graph outlines how the temperature changes during a phase change.
           \item \textbf{Specific latent heat of fusion} is used for melting and freezing, i.e. phase changes between a solid and a liquid.
           \item \textbf{Specific latent heat of vaporization} is used for boiling and condensation, i.e. phase changes between a liquid and a gas.
         \end{enumerate}
-  \item The longer horizontal statements indicate a larger specific latent heat, assuming the mass is fixed.
+  \item \hl{The longer horizontal statements indicate a larger specific latent heat}, assuming the mass is fixed.
+  \item \hl{The steeper the slope, the smaller the specific heat capacity.}
+  \item Across the two ends of a horizontal segment (a phase change), the internal energy increases because
+        \begin{itemize}
+          \item Although the temperature and hence the average KE of the particles remains constant
+          \item the potential energy increases.
+        \end{itemize}
 \end{itemize}
 
 \section{Conduction}
@@ -422,5 +430,302 @@ The apparent brightness $b$ of a star is just the intensity of radiation receive
   b = \frac{L}{4\pi d^2}
 \end{equation}
 where $L \equiv P$ is the luminosity of the star, and $d$ is the star-Earth distance.
+
+\pagebreak
+
+\section{Exam Questions}
+
+\subsection{Intensity Wavelength Curve}
+
+\img{ex/1.png}{0.9}{Graph}{ex1}
+
+\img{ex/2.png}{0.9}{Options}{ex2}
+
+\begin{itemize}
+  \item There are two things to find out about
+        \begin{enumerate}
+          \item Whether the peak wavelength is shifted: We invoke Wien's displacement law $$\lambda_{\max}T = b$$
+                and see that with a lower temperature, the peak wavelength is greater and so the peak will shift to the right.
+
+          \item Whether the intensity is greater or less: We invoke the intensity equation $$I = \sigma T^4$$ and deduce that a lower temperature means a lower intensity. This means that the peak will be lower.
+        \end{enumerate}
+  \item Combining the two findings, we obtain that \textcolor{ForestGreen}{the answer is A}.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Misc \#1}
+
+The star $\delta$ Vel A is a main sequence star that has a black-body spectrum as shown.
+
+\img{ex/3.png}{0.9}{Graph}{ex3}
+
+\begin{enumerate}[label=(\alph*)]
+  \item Show that the surface temperature of $\delta$ Vel A is about 9000 K.
+        \begin{itemize}
+          \item We read off the graph that the peak wavelength is roughly $\lambda_{\max} = 3.0 \times 10^{-7} \si{\m}$.
+                \begin{align*}
+                  T = \frac{b}{\lambda_{\max}} = \frac{2.9 \times 10^{-3} \si{\m\kelvin}}{3.0 \times 10^{-7} \si{\m}} = 9350 \si{\kelvin}
+                \end{align*}
+        \end{itemize}
+  \item The apparent brightness of $\delta$ Vel A is $\SI{2.2e-9}{\W\per\m\squared}$ and it is $\SI{6.2e14}{\km}$ from Earth. Estimate the radius of $\delta$ Vel A.
+
+        \begin{itemize}
+          \item Here we relate the two equations involving luminosity \begin{align*}
+                  L = \sigma A T^4 \quad & \text{ and } \quad b = \frac{L}{4\pi d^2} \\
+                  \sigma(4\pi R^2)T^4    & = 4\pi b d^2                              \\
+                  \sigma R^2 T^4         & = bd^2                                    \\
+                  R                      & = \sqrt{\frac{bd^2}{\sigma T^4}}          \\
+                                         & = \SI{1.4}{\giga\m}
+                \end{align*}
+        \end{itemize}
+  \item The radius of the Sun, $R_\odot$, is $\SI{7e5}{\km}$. Sketch, on the Hertzsprung-Russell diagram, the position of $\delta$ Vel A.
+        \img{ex/4.png}{0.7}{Hertzsprung-Russell diagram}{ex4}
+        \begin{itemize}
+          \item $R_\delta \approx 2R_\odot$.
+          \item Any point within the specified area is acceptable.
+        \end{itemize}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Equilibrium Temperature \#1}
+
+Small pieces of solid paraffin with a total mass of 30 g at a temperature of 42 °C are mixed with 150 g of liquid paraffin at a temperature of 240 °C. The mixture is stirred until an equilibrium temperature is reached.
+
+The following data for paraffin are available:
+
+\begin{itemize}
+  \item Specific heat capacity of solid paraffin $c_\text{solid} = \SI{0.7}{\kilo\joule\per\kilogram\per\kelvin}$
+  \item Specific heat capacity of liquid paraffin = $c_\text{liquid} = \SI{2.13}{\kilo\joule\per\kilogram\per\kelvin}$
+  \item Specific latent heat of fusion of paraffin = $L = \SI{220}{\kilo\joule\per\kilogram}$
+  \item Melting point of paraffin = 47 °C
+\end{itemize}
+
+\begin{enumerate}[label=(\alph*)]
+  \item Calculate the theoretical equilibrium temperature of the mixture.
+        \begin{itemize}
+          \item First things first, we must be clear that the solid paraffin will melt and so in its calculation we have to take into account both the latent heat and the specific heat capacity. This however not the case for the liquid paraffin, as there is no clue in the question that it will freeze or boil.
+          \item We form the following equation -- the LHS is original solid, which will heat up, melt, and then heat up again (three stages). The RHS is the liquid paraffin, which will cool down (one stage only). Let us denote $T$ as the equilibrium temperature and we shall proceed to solve for it.
+                \begin{align*}
+                  Q_{\text{heating up to melting point}} + Q_{\text{melting}} + Q_{\text{heating liquid}}                               & = Q_{\text{cooling liquid}}                           \\
+                  m_\text{solid}c_\text{solid}(T_\text{melt} - 42) + m_\text{solid}L + m_\text{solid}c_\text{liquid}(T - T_\text{melt}) & = m_\text{liquid}c_\text{liquid}(T_\text{liquid} - T) \\
+                \end{align*}
+                Solving this gives $T = \SI{190}{\degreeCelsius}$.
+        \end{itemize}
+  \item When the experiment was carried out, the equilibrium temperature of the mixture was found to be different from the theoretical value. Suggest the reason for this difference.
+        \begin{itemize}
+          \item The heat loss to the surroundings is not taken into account in the theoretical calculation.
+          \item This means that the theoretical equilibrium is higher than the actual value.
+        \end{itemize}
+  \item The mixture was held in a large metal container during the mixing. Explain \textbf{one} change to the procedure that will reduce the difference in (b).
+        \begin{itemize}
+          \item Insulate the container OR
+          \item Carry out experiment quicker OR
+          \item Use larger volumes of substances
+        \end{itemize}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Thermal Conductivity -- Ratios}
+
+Window 1 is made of a single glass pane of thickness $d$. Window 2 is made of two glass panes of thickness $d$ each, separated by a thin airspace. Both windows have the same surface area and separate air masses of the same temperature difference.
+
+Thermal energy transferred in unit time through window 1 is $Q$. The thermal energy transferred in unit time through window 2 is
+
+\begin{enumerate}[label=\Alph*.]
+  \item Less than $\dfrac{Q}{2}$.
+  \item Equal to $\dfrac{Q}{2}$.
+  \item Between $\dfrac{Q}{2}$ and $Q$.
+  \item Equal to $2Q$.
+\end{enumerate}
+
+\begin{itemize}
+  \item We invoke the equation for thermal conductivity
+        $$\frac{\Delta Q}{\Delta t} = \kappa A\times \frac{\Delta T}{\Delta x}$$
+        and see that the rate of energy transfer is inversely proportional to the thickness of the material. In this case, the thickness is at least doubled for window 2, and so the rate of energy transfer is halved at least.
+  \item We then need to consider the function of the air space: Air is a good insulator and that further reduces the heat transfer. Hence, \textcolor{ForestGreen}{A is the correct answer}.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Air, Ice, and Water}
+
+A layer of ice on the surface of a lake separates cold air from relatively warmer unfrozen water.
+
+The temperature of the air and the temperature of the water can both be assumed constant. The thickness of the ice gradually increases. What effect does the change in ice thickness have on the temperature gradient across the ice and the rate of thermal energy transfer by conduction through the ice?
+
+\begin{itemize}
+  \item The temperature gradient $\dfrac{\Delta T}{\Delta x}$ is decreased: The temperature difference across the two ends is the difference between the temperatures of the water and the air, which is constant. The thickness $\Delta x$ of the ice increases, and so the temperature gradient decreases.
+  \item As a result, the rate of thermal energy transfer by conduction through the ice decreases, since $\dfrac{\Delta Q}{\Delta t} = \kappa A\times \dfrac{\Delta T}{\Delta x}$.
+
+\end{itemize}
+
+\pagebreak
+
+\subsection{Thermal Conduction \#1}
+
+A sealed bottle contains 0.50 kg of water at an initial temperature of 60 °C. The bottle is made of glass of thickness 3.0 mm and thermal conductivity $\SI{0.90}{\W\per\m\per\kelvin}$.
+
+\begin{enumerate}[label=(\alph*)]
+  \item The temperature of the air outside of the bottle is 20 °C. The surface area of the bottle is $\SI{4.0e-2}{\m\squared}$. Calculate the initial rate of thermal energy transfer by conduction through the bottle.
+        \begin{align*}
+          \frac{\Delta Q}{\Delta t} & = \kappa A\times \frac{\Delta T}{\Delta x}                            \\
+                                    & = 0.9 \times (\SI{4.0e-2}{})\times \frac{60 - 20}{3.0 \times 10^{-3}} \\
+                                    & = \SI{480}{\W}
+        \end{align*}
+  \item Explain why the rate calculated in part (a) is decreasing.
+        \begin{itemize}
+          \item The rate of energy transfer is directly proportional to the temperature difference across the two ends of the material.
+          \item As the water cools down, the temperature difference decreases, and so does the rate of energy transfer.
+        \end{itemize}
+  \item Estimate the initial rate of the change of the temperature of the water in the bottle. State your answer in $\si{\K\per\s}$. The specific heat capacity of water is $\SI{4200}{\joule\per\kilogram\per\kelvin}$.
+        \begin{align*}
+          Q = mc\Delta T     & \implies P = \diff{Q}{t} = mc\diff{\Delta T}{t}     \\
+          480                & = 0.5 \times 4200 \times \diff{\Delta T}{t}         \\
+          \diff{\Delta T}{t} & = \frac{480}{0.5 \times 4200} = \SI{0.23}{\K\per\s}
+        \end{align*}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Conduction or Convection?}
+
+The ends of a vertical column of water are maintained at different temperatures $T_t$ and $T_b$ both above the freezing point.
+
+\img{ex/5.png}{0.2}{Column of water}{ex5}
+
+Energy transfer by radiation in this arrangement is negligible.
+
+\begin{enumerate}[label=(\alph*)]
+  \item Discuss the mechanism that accounts for the greatest rate of energy transfer when:
+        \begin{enumerate}[label=(\roman*)]
+          \item $T_t > T_b$.
+                \begin{itemize}
+                  \item Conduction
+                  \item Energy transfers through interaction of particles in liquid at atomic scale
+                \end{itemize}
+          \item $T_t < T_b$.
+                \begin{itemize}
+                  \item Convection
+                  \item Energy transfers through movement of bodies of liquid at different densities, namely the hotter and less dense regions rise, while the cooler and denser regions sink.
+                \end{itemize}
+        \end{enumerate}
+  \item The liquid now freezes so that the vertical column is entirely of ice. Suggest how your answer to (a)(ii) will change.\begin{itemize}
+          \item Now, the solid cannot move relative to material above it
+          \item So conduction only
+        \end{itemize}
+\end{enumerate}
+
+
+\subsection{Ideally Lagged vs. Unlagged Rod}
+
+A rod is formed from two metal rods XY and YZ of identical dimensions. End X and end Z are at different temperatures.
+
+\img{ex/6.png}{0.5}{Rod}{ex6}
+
+
+The side of the rod can be unlagged or ideally lagged. Explain the difference in energy transfer for these two cases.
+
+\begin{itemize}
+  \item When ideally lagged, no energy transfer can occur through the sides of the bar.
+  \item All the power input/ energy input persecond at one end will emerge at the other end.
+  \item When unlagged, energy transfer occurs from the sides of the bar and the power at input $>$ power output at the other end.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Heat Propagation through Cubes -- Ratios}
+
+A metal cube X of length $L$ is heated gaining thermal energy $Q$. Its temperature rises by $\Delta T$. A second cube Y, of length $2L$, made of the same material, gains thermal energy of $2Q$. What is the temperature rise of Y?
+
+\begin{itemize}
+  \item We know that the temperature rise is such that
+        $$\Delta T \propto \frac{Q}{m}$$
+  \item For the second cube, the doubled length means that the mass is $8m$.
+  \item The energy gained is $2Q$.
+  \item Altogether, this gives a down-scaling factor of $\frac{1}{4}$, thus $$\frac{\Delta T}{4}$$
+\end{itemize}
+
+\pagebreak
+
+\subsection{Two Blocks in Contact}
+
+Two blocks X and Y at different temperatures are placed in thermal contact with each other until they reach thermal equilibrium. Block X and block Y are
+of the same material. The mass of block Y is half that of block X. The change in temperature of block X has a magnitude $\Delta T$ and the change in internal energy
+of block X has a magnitude $\Delta U$. What is the change in magnitude of temperature of block Y and the change in magnitude of internal energy of block Y?
+
+\img{ex/7.png}{0.5}{Options}{ex7}
+
+\begin{itemize}
+  \item First, we must establish that the energy transferred \textbf{away from} the block that is hotter is equal to the energy transferred \textbf{to} the cooler block. Already, this \textcolor{red}{eliminates options A and B}.
+  \item Now, let's invoke the equation $\Delta Q = mc\Delta T$ and equate $\Delta Q_X = \Delta Q_Y$; knowing that they are of the same material, we can cancel out s.h.c.
+        \begin{align*}
+          m_X\Delta T_X & = m_Y\Delta T_Y            \\
+          m_X\Delta T   & = \frac{1}{2}m_X\Delta T_Y \\
+          T_Y           & = 2\Delta T_X
+        \end{align*}
+        This leads us to the \textcolor{ForestGreen}{answer D}. The important step is to invoke precisely $\Delta Q = mc\Delta T$ and not the conductivity equation, the key reason being that we have no knowledge of the area of contact.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Hard MCQ -- Equilibrium of Mixtures}
+
+Three samples of the same liquid are mixed in an insulated container.The masses and initial temperatures of the samples are:
+
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|c|c|c|}
+    \hline
+    \textbf{Sample} & \textbf{Mass} & \textbf{Initial temperature (°C)} \\ \hline
+    A               & $2M$          & 60                                \\ \hline
+    B               & $2M$          & 30                                \\ \hline
+    C               & $M$           & 0                                 \\ \hline
+  \end{tabular}
+  \caption{Samples of liquid}
+  \label{tab:liquid_samples}
+\end{table}
+
+What is the equilibrium temperature of the mixture?
+
+\begin{itemize}
+  \item Although this may not be immediately obvious, but the concerned formula in this question is
+        $$Q = mc\Delta T$$
+  \item Now, if it were only for a two sample mixture, it would be much easier since the energy transfer from one equals the energy transfer to the other. However, in this case, we have three samples and so we need to be careful.
+  \item We must first sort out the directions of energy transfer. Consider the following diagram, where the bigger nodes represent higher initial temperatures:
+        \begin{figure}[H]
+          \centering
+
+          \begin{tikzpicture}
+            \Vertex[color=none,label=A,size=1.4]{A}
+            \Vertex[color=none,x=1.5,y=-2.2,label=B,size=1]{B}
+            \Vertex[color=none,x=3,label=C,size=.6]{C}
+            \Edge[label=$a$,fontsize=\small,position={left=5pt},Direct](A)(B)
+            \Edge[label=$b$,fontsize=\small,position={above=5pt},Direct](A)(C)
+            \Edge[label=$c$,fontsize=\small,position={right=5pt,below},Direct](B)(C)
+
+          \end{tikzpicture}
+        \end{figure}
+  \item It is constructed on the principle that heat flows from the hotter to the cooler without external work done.
+  \item Let the equilibrium temperature be $T_0$, then, we can obtain the following equations, each relating the change in temperature and the energy transfer of a single sample:
+        \begin{align*}
+          -a-b & \equiv 2M(T_0 - 60) \\
+          a-c  & \equiv 2M(T_0 - 30) \\
+          b+c  & \equiv M(T_0)
+        \end{align*}
+        We have cancelled out the specific heat capacity, since they are all the same.
+
+        The important bit of these equations is consistency in the signs
+        \begin{itemize}
+          \item On the right-hand side, all temperature changes are in the form of $T_0 - T_i$.
+          \item On the left-hand side, transfers of a negative sign indicate a loss of energy, and vice versa.
+        \end{itemize}
+
+  \item Solving for $T_0$ gives $T_0 = 36$.
+  \item Phew, lovely question.
+
+\end{itemize}
 
 \end{document}
