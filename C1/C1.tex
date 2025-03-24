@@ -11,6 +11,7 @@
 \usepackage{amsthm}
 \usepackage{hyperref}
 \usepackage{float}
+\usepackage{svg}
 \usepackage{amssymb}
 \usepackage{outlines}
 \usepackage{caption}
@@ -177,6 +178,33 @@ My advice is forget about these two, as they look similar to each other and to $
 
 \pagebreak
 
+\subsubsection{Effective Spring Constant}
+
+
+\begin{figure}[H]
+  \centering
+  \includesvg[width=0.3\textwidth]{SpringsInSeries}
+  \caption{Springs in series}
+\end{figure}
+
+In this case, the effective spring constant is given by
+$$\frac{1}{k_\text{eff}} = \frac{1}{k_1} + \frac{1}{k_2} + \ldots$$
+
+\begin{figure}[H]
+  \centering
+  \includesvg[width=0.3\textwidth]{SpringsInParallel}
+  \caption{Springs in parallel}
+\end{figure}
+
+The effective spring constant is given by
+$$k_\text{eff} = k_1 + k_2 + \ldots$$
+
+However, these configurations don't always look exactly like the above illustrations. For example, the following is also a parallel configuration -- the two springs exert their forces in the same direction (so doubled stiffness) and have the same magnitude of displacement.
+
+\img{ex/1.png}{0.3}{Parallel configuration}{ex/1}
+
+\pagebreak
+
 \subsection{Pendulum}
 
 Consider a pendulum of length $l$ and mass $m$ swinging in a gravitational field of strength $g$. In this case, the displacement will be the arc length that the mass makes with the origin at any point during oscillation.
@@ -250,4 +278,38 @@ Mathematically speaking, this is permitted because it is in fact the general sol
 Consider the following graph:
 \img{shmphase.png}{0.6}{Phase difference in s.h.m.}{shmphase}
 The red curve is actually ahead of the blue one, although it appears to be behind. Consider the first red peak: At the time it reaches that peak, the blue curve is still rising and just about to reach that peak. This argument holds for any position on the graph.
+
+\section{Exam Questions}
+
+Mate I do not have a single clue why I am writing up this section. I guess... to show off some tricks... if any?
+
+\subsection{Trig Phase Difference}
+
+An object is undergoing simple harmonic motion. For this object, what is the phase angle between the variation of displacement with time and the variation of acceleration with time?
+
+\begin{enumerate}[label=(\alph*)]
+  \item 0
+  \item $\dfrac{\pi}{4}$
+  \item $\dfrac{\pi}{2}$
+  \item $\pi$
+\end{enumerate}
+
+Mate it's crystal clear that \textcolor{ForestGreen}{the answer is D}. Wonder why? For Christ's sake just think about how, going from displacement to velocity, you are differentiating the displacement trig. function, which means from $\sin$ to $\cos$ or $\cos$ to $\sin$, which is a phase difference of $\frac{\pi}{2}$. Then, stepping from velocity to acceleration, you are differentiating again and adding another phase difference of $\frac{\pi}{2}$. So the total phase difference is $\frac{\pi}{2} + \frac{\pi}{2} = \pi$.
+
+\pagebreak
+
+\subsection{Pendulum and Center of Mass}
+
+The four pendulums shown have been cut from the same uniform sheet of board. They are attached to the ceiling with strings of equal length.
+
+\img{ex/2.png}{0.5}{Pendulum and center of mass}{ex/2}
+
+Which pendulum has the shortest period?
+
+\begin{itemize}
+  \item The answer is clearly D, because the center of mass is the furthest up and so gives the minimum length of the pendulum. The period of a pendulum is given by
+        $$T = 2\pi\sqrt{\frac{l}{g}}$$
+        where $l$ is the length of the pendulum. So the shorter the length, the shorter the period.
+\end{itemize}
+
 \end{document}
