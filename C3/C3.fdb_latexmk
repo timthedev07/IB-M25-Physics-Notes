@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1735606240.89151 "/Users/timthedev07/Documents/物理笔记/C3/C3.tex" "C3.pdf" "C3" 1735606243.87361 0
-  "/Users/timthedev07/Documents/物理笔记/C3/C3.tex" 1735606240.63192 32362 d09ce6d6abeb2d4a9ac4a0c3c9690813 ""
+["pdflatex"] 1742933292.1296 "/Users/timthedev07/Documents/物理笔记/C3/C3.tex" "C3.pdf" "C3" 1742933295.09839 0
+  "/Users/timthedev07/Documents/物理笔记/C3/C3.tex" 1742933291.84087 35378 75797e8ea1390c0dd79f6e0e6f444f5b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -273,10 +273,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731313331.24492 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731313254 8221454 067b6d98d3b5175b15c9caab9e14d269 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "C3.aux" 1735606243.75715 10424 759f20dcc09555819b23965d92f0a8b4 "pdflatex"
-  "C3.out" 1735606243.75817 3648 2c6c0cae9877c60b795b834abdfa8bb0 "pdflatex"
-  "C3.tex" 1735606240.63192 32362 d09ce6d6abeb2d4a9ac4a0c3c9690813 ""
-  "C3.toc" 1735606243.75837 1874 e9abae2ee68dfaf89daac6a3c60398e6 "pdflatex"
+  "C3.aux" 1742933294.97543 11199 603ea50070f7ca1db7c1af1e91df175c "pdflatex"
+  "C3.out" 1742933294.9765 3965 effd96d6de5ade5550c10e42d194d696 "pdflatex"
+  "C3.tex" 1742933291.84087 35378 75797e8ea1390c0dd79f6e0e6f444f5b ""
+  "C3.toc" 1742933294.9767 2049 18b1c825cea17809e257e038040a7bf3 "pdflatex"
   "combine1.png" 1732056530.24556 174497 0c811c8ebba630ea50aa92e1ea8da632 ""
   "combine2.png" 1732056542.99673 122380 83ef43146917e96718e81f84add7c536 ""
   "diffractionaperture.png" 1732050439.32531 66862 e6a5bee8a7130fd0910f2828e923fd84 ""
@@ -286,6 +286,8 @@
   "doublesource.png" 1732050789.79838 224767 c8a504417230d936e2cde75afb50563e ""
   "ex/1.png" 1735478893.58107 38958 b34a8767d5a171db30b98df9e894c530 ""
   "ex/10.png" 1735605672.55374 155334 f8414d553fd1e6a2468a11ab21306ac2 ""
+  "ex/11.png" 1742893606.57601 32404 bdcb2c4d1bb5fd905cf1238193a55f1f ""
+  "ex/12.png" 1742900835.378 31287 b513ab236aba78820fce56520c2c4c67 ""
   "ex/2.png" 1735479207.25208 285340 2d7bca165b4ae5e9a0b65213f28edaa9 ""
   "ex/3.png" 1735482840.67692 58899 af2fe72886cdaba84652c056d96780f8 ""
   "ex/4.png" 1735580697.60786 334556 15e84d99f366ed479acf9a037d1fdd9c ""

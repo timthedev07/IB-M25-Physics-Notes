@@ -144,11 +144,11 @@ The image below shows how refraction is drawn.
 
 \subsection{Snell's Law}
 
-In refraction, the frequency stays the same as the wave passes from one medium to another. However, the speed and wavelength of the wave will change. The full relationship is given as follows
+In refraction, the \hl{frequency stays} the same as the wave passes from one medium to another. However, the speed and wavelength of the wave will change. The full relationship is given as follows
 
 $$\frac{\sin \theta_1}{\sin \theta_2} = \frac{v_1}{v_2} = \frac{\lambda_1}{\lambda_2} = \frac{n_2}{n_1}$$
 where the quantities with subscript 1 are the quantities in the first medium and the quantities with subscript 2 are the quantities in the second medium. $n$ is the refractive index of a medium.\lb
-The way to remember this is, a chained equality of ratios, all except the refractive index is in the same order (medium 1 over medium 2, or vice versa).
+The way to remember this is, a chained equality of ratios, all except the refractive index are in the same order (medium 1 over medium 2, or vice versa).
 
 
 \subsection{Critical Angle}
@@ -184,7 +184,8 @@ However, reflection can be partial or total.
   \item A total internal reflection is when all of the waves are reflected and none are transmitted. This is often used in optical fibres, periscopes, binoculars, and endoscopy (medicine).
 \end{itemize}
 
-Total internal reflection occurs when the angle of incidence is greater than the critical angle.
+Total internal reflection occurs when the angle of incidence is greater than the critical angle.\lb
+An important thing to note since it has come up in an exam question was that at the point of reflection from the surface of a medium with higher refractive index, there is a \hl{phase change of $\pi$ (or 180 degrees)} in the reflected wave.
 
 \section{Double Source Interference}
 
@@ -220,6 +221,7 @@ Diffraction is the spreading of waves as they pass through an aperture or around
 Consider the following scenario: a wave is incident on a surface that has two slits separated by a distance $d$. The wavefronts from the two slits will interfere with each other, constructively at some points and destructively at others. A requirement of this is that the waves coming out of the two slits must be \textbf{coherent}, i.e. they sustain a constant phase difference over time.
 
 \img{doubleslit.png}{0.46}{Double Slit Diffraction}{doubleslit}
+
 \begin{enumerate}
   \item The slit separation $d$ is almost negligible, thus we can consider the two rays to be parallel.
   \item Consider $P$ to be a point on the screen, we now analyze the interference at this point.
@@ -342,14 +344,17 @@ With increasing $N$:
 
 A diffraction grating is a configuration that consists of a large number of slits of negligible width.
 
-\img{gratingintensity.png}{0.5}{Diffraction Grating}{gratingintensity}
+\img{gratingintensity.png}{0.3}{Diffraction Grating}{gratingintensity}
 
 The equations for destructive and constructive interference are the same as the ones developed previously, namely \cref{eq:double} and \cref{eq:double2}.
 
+One thing to note about colors is that, in a non-monochromatic light, the different wavelengths will diffract at different angles. In particular, the longer the wave length (e.g. red), the further away the maxima will be from the central maximum.
+
+\img{ex/12.png}{0.3}{Diffraction Grating}{ex12}
+
 \subsection{Grating Spacing}
 
-Since the slit width is negligible, we can treat each slit as a single line. The grating spacing is the distance between two adjacent lines. If we are told that the grating is $N$ lines per unit length, then the grating spacing is given as
-$$d = \frac{1}{N}$$
+Since the slit width is negligible, we can treat each slit as a single line. The grating spacing is the distance between two adjacent lines. If we are told that the grating is $N$ lines per unit length, then the grating spacing is given as $d = \frac{1}{N}$
 in that unit.
 
 \section{Exam Questions}
@@ -613,5 +618,58 @@ In two different experiments, white light is passed through a single slit and th
           \item Clearly, P is at a larger angular position and so it must possess a longer wavelength, thus it should also be red.
         \end{itemize}
 \end{itemize}
+
+\pagebreak
+
+\subsection{Observable Maxima}
+
+Light of wavelength 400 nm is incident normally on a diffraction
+grating. The slit separation of the diffraction grating is $\SI{1.0}{\micro\m}$
+What is the greatest number of maxima that can be observed?
+
+\begin{itemize}
+  \item We invoke the equation for diffraction grating
+        $$d\sin\theta = n\lambda \iff n = \frac{d\sin\theta}{\lambda}$$
+  \item The $n$th maximum is observed at the angle $\theta$.
+  \item For a maximum to be observed, we require $\theta < 90\degsym$.
+        \begin{align*}
+          \sin \theta < 1 \implies n < \frac{d}{\lambda} \implies n < \frac{1.0 \times 10^{-6}}{4.0 \times 10^{-7}} = 2.5
+        \end{align*}
+  \item This indicates that on one side of the central maximum, there are two other maxima.
+  \item In total, this gives $2 + 1 + 2 = 5$ maxima.
+
+\end{itemize}
+
+\pagebreak
+
+\subsection{Path and Phase Diff.}
+
+
+Light of wavelength $\lambda$ diffracts at a single rectangular slit of opening $b$. The diagram shows two rays of light leaving the top and middle of the slit. The rays come from the same wavefront. The angle of diffraction is $\theta$. For small angles the
+approximation $\sin\theta \approx \theta$ may be used.
+
+\img{ex/11.png}{0.9}{Diagram}{ex11}
+
+
+\begin{enumerate}[label=(\alph*)]
+  \item Show that the phase difference between the two rays at P is $\frac{\pi b \theta}{\lambda}$
+        \begin{itemize}
+          \item The path difference is given by $$\frac{b}{2}\sin\theta \approx \frac{b\theta}{2}$$
+          \item We invoke the ratios link \begin{align*}
+                  \frac{\Delta r}{\lambda} & = \frac{\Delta \phi}{2\pi}                     \\
+                  \Delta \phi              & = \frac{2\pi}{\lambda}\Delta r                 \\
+                                           & = \frac{2\pi}{\lambda}\times \frac{b\theta}{2} \\
+                                           & = \frac{\pi b \theta}{\lambda}
+                \end{align*}
+        \end{itemize}
+  \item The two rays interfere destructively at P to form the first
+        minimum of the single slit diffraction pattern. Explain why $\theta =\frac{\lambda}{b}$
+        \begin{itemize}
+          \item For the first minimum, the phase difference is $\Delta \phi = \pi$. We substitute this back to obtain
+                \begin{align*}
+                  1 = \frac{b \theta}{\lambda} \implies \theta = \frac{\lambda}{b} \\
+                \end{align*}
+        \end{itemize}
+\end{enumerate}
 
 \end{document}

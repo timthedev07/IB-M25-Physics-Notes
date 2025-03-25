@@ -21,3 +21,5 @@
 \contentsline {subsection}{\numberline {10.5}May 2021 Paper 2 HL TZ2 Question 8}{26}{subsection.10.5}%
 \contentsline {subsection}{\numberline {10.6}Applying the Snell Equality Chain}{29}{subsection.10.6}%
 \contentsline {subsection}{\numberline {10.7}Colors}{30}{subsection.10.7}%
+\contentsline {subsection}{\numberline {10.8}Observable Maxima}{32}{subsection.10.8}%
+\contentsline {subsection}{\numberline {10.9}Path and Phase Diff.}{33}{subsection.10.9}%
