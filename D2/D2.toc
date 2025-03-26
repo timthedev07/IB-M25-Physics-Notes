@@ -29,3 +29,10 @@
 \contentsline {section}{\numberline {6}Exam Questions}{22}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Force and Field Strength Directions}{22}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Parallel Plates --- Work Done in Moving a Charge}{24}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Combining Potentials}{25}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Tilted Equipotentials}{27}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Released Test Charge in Plates}{28}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Accelerating a Charge Between Plates}{29}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}$F = Eq$ Directions}{30}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Quick-Fire MCQ \#1}{31}{subsection.6.8}%
+\contentsline {subsection}{\numberline {6.9}Quick-Fire MCQ \#2}{32}{subsection.6.9}%
