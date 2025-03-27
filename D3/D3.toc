@@ -7,10 +7,15 @@
 \contentsline {section}{\numberline {4}Motion --- Two Current-Carrying Wire}{5}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Direction}{5}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Magnitude}{5}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Moving Charge}{8}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Uniform Electric Field}{8}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Uniform Magnetic Field}{9}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Perpendicular Magnetic and Electric Fields}{11}{subsection.5.3}%
-\contentsline {section}{\numberline {6}The Charge-Mass Ratio Derivation}{13}{section.6}%
-\contentsline {section}{\numberline {7}Exam Questions}{14}{section.7}%
-\contentsline {subsection}{\numberline {7.1}A Wire and The Motor Effect}{14}{subsection.7.1}%
+\contentsline {subsection}{\numberline {4.3}Net Force on a Loop}{8}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Moving Charge}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Uniform Electric Field}{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Uniform Magnetic Field}{10}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Perpendicular Magnetic and Electric Fields}{12}{subsection.5.3}%
+\contentsline {section}{\numberline {6}The Charge-Mass Ratio Derivation}{14}{section.6}%
+\contentsline {section}{\numberline {7}Exam Questions}{15}{section.7}%
+\contentsline {subsection}{\numberline {7.1}A Wire and The Motor Effect}{15}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Framework -- Explaining the Force on a Wire}{16}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Path Curvature in Magnetic Field}{17}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Combining Two Rules}{18}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Trick MCQ}{20}{subsection.7.5}%

@@ -226,6 +226,24 @@ It is important to always remember that this force is mutual to both wires. For 
 \img{ex/forceismutual.png}{0.8}{Options}{forceismutual}
 Using this knowledge, we can immediately eliminate B and C where the two magnitudes are different. Then, the formula gives option A.
 
+\subsection{Net Force on a Loop}
+
+Consider the following scenario: A  long straight wire carries a current of 2.0 A. A square conducting loop ABCD of side length 0.20 m is placed near the straight wire, with side AB at a distance of 0.30 m from
+the wire. There is a current of 1.0 A in the loop. The directions of the currents are shown.
+
+\img{ex/1.png}{0.4}{Diagram}{ex1}
+
+In this case, the current through DC is in the same direction as the 2.0A current, but the current through BA is in the opposite direction. The net force acting on this loop will be the force between CD and 2.0A + the force between BA and 2.0A
+\begin{align*}
+  F_\text{DC} & = -(0.2)(\frac{\mu_0(1)(2)}{2\pi(0.5)}) \\
+  F_\text{BA} & = (0.2)(\frac{\mu_0(1)(2)}{2\pi(0.3)})  \\
+  \Sigma F    & = F_\text{DC} + F_\text{BA}             \\
+              & = \SI{1.1e-7}{\N}
+\end{align*}
+
+This is telling us that the overall force is repulsive (since positive), and this is intuitive even without calculation. The repelled segment is closer to the straight wire than the attracted segment, and so the repulsive force is stronger.
+
+
 \section{Moving Charge}
 
 \subsection{Uniform Electric Field}
@@ -254,7 +272,7 @@ In short, the charge will move in a circle. Let's see why.\lb
   \img{move2.png}{1}{Charge moving in a uniform magnetic field}{move2}
 \end{minipage}
 
-
+\hl{The equations about the trajectory outlined below are VERY IMPORTANT and worth memorising and understanding. There are loads of questions on them.}
 
 \pagebreak
 The centripetal force is provided by $F = evB$, we equate the two quantities to obtain
@@ -329,6 +347,61 @@ What is the direction of the magnetic force on the electron?
   \item It should then follow that the force on the electron is downwards.
 \end{enumerate}
 
+\pagebreak
+
+\subsection{Framework -- Explaining the Force on a Wire}
+Two parallel wires A and B both carry an electrical current into the page. State and explain, using a diagram, why a force acts on B due to A in the plane of the paper.
+
+\begin{enumerate}
+  \item B lies in the magnetic field of A
+  \item Using the right-hand grip rule (with a sketch)
+  \item It can be shown that the force on B is to the left and in the plane of the paper.
+  \item The sketch should also show a null point in the middle; refer to \cref{fig:samedir}
+  \item The wires will move to reduce stored energy and this is achieved by moving together so the force on B is to the left.
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Path Curvature in Magnetic Field}
+
+A particle with charge $Q$ is accelerated from rest through a potential difference $V$ over a distance $s$. The particle then enters a magnetic field of strength $P$ at right angles to the magnetic field direction. What single change will make the radius of curvature of the path of the particle smaller.
+
+\begin{itemize}
+  \item We simply invoke $$r = \frac{mv}{PQ}$$
+  \item Quite simply, we see that increasing the strength $P$ will decrease the radius of curvature.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Combining Two Rules}
+
+Electrons in a conductor are moving down the page. A proton outside the wire is moving to the right.
+
+\img{ex/2.png}{0.4}{Diagram}{ex2}
+
+What is the direction of the magnetic force acting on the proton?
+
+\begin{itemize}
+  \item This is about using the left-hand motor effect rule. Let's identify the elements involved in this rule:
+        \begin{itemize}
+          \item The current is in fact the moving proton rather than the electrons in the wire! This is because we are predicting the motion of the proton. The direction of the proton is the equivalent of the conventional current, hence $I$ is to the right.
+          \item The field is what is created by the electrons in the wire. Again, the flow of electrons is opposite to the direction of the conventional current, so the field at P is into the page.
+        \end{itemize}
+  \item Finally, using the left-hand rule, we can see that the proton will be deflected upwards.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Trick MCQ}
+
+A conductor is placed in a uniform magnetic field perpendicular to the plane of the paper. A force $F$ acts on the conductor when there is a current in the conductor as shown.
+
+\img{ex/3.png}{0.8}{Diagram}{ex3}
+
+\begin{itemize}
+  \item Many would be tempted to say that the force is halved because of the factor of $\sin 30\degsym$. However, that would be true if the field was in the same plane as the paper! Hence, this rotation does not affect the force acting on the conductor. This allows us to \textcolor{red}{eliminate B and D}.
+  \item In the initial configuration, we can use the left-hand rule to predict that the field is out of the page. This remains unchanged in the new configuration. Hence, \textcolor{ForestGreen}{the answer is C}.
+\end{itemize}
 
 
 \end{document}

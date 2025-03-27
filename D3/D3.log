@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  25 DEC 2024 21:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  27 MAR 2025 13:00
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -964,7 +964,7 @@ l.118
        [1
 
 ]
-<intooutof.jpg, id=130, 602.25pt x 568.1225pt>
+<intooutof.jpg, id=155, 602.25pt x 568.1225pt>
 File: intooutof.jpg Graphic file (type jpg)
 <use intooutof.jpg>
 Package pdftex.def Info: intooutof.jpg  used on input line 125.
@@ -1003,17 +1003,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [2
 
 ]
-<wireinmagneticfield.jpg, id=145, 549.05125pt x 318.18875pt>
+<wireinmagneticfield.jpg, id=170, 549.05125pt x 318.18875pt>
 File: wireinmagneticfield.jpg Graphic file (type jpg)
 <use wireinmagneticfield.jpg>
 Package pdftex.def Info: wireinmagneticfield.jpg  used on input line 148.
 (pdftex.def)             Requested size: 273.14922pt x 158.29773pt.
-<wireinmagneticfield_1.png, id=146, 472.01344pt x 279.29344pt>
+<wireinmagneticfield_1.png, id=171, 472.01344pt x 279.29344pt>
 File: wireinmagneticfield_1.png Graphic file (type png)
 <use wireinmagneticfield_1.png>
 Package pdftex.def Info: wireinmagneticfield_1.png  used on input line 152.
 (pdftex.def)             Requested size: 273.14922pt x 161.62807pt.
-<wireinmagneticfield_angle.png, id=148, 204.765pt x 182.6825pt>
+<wireinmagneticfield_angle.png, id=173, 204.765pt x 182.6825pt>
 File: wireinmagneticfield_angle.png Graphic file (type png)
 <use wireinmagneticfield_angle.png>
 Package pdftex.def Info: wireinmagneticfield_angle.png  used on input line 156.
@@ -1037,12 +1037,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./wireinmagneticfield_angle.png>]
-<twowirecases/samedir.png, id=165, 333.245pt x 172.645pt>
+<twowirecases/samedir.png, id=191, 333.245pt x 172.645pt>
 File: twowirecases/samedir.png Graphic file (type png)
 <use twowirecases/samedir.png>
 Package pdftex.def Info: twowirecases/samedir.png  used on input line 188.
 (pdftex.def)             Requested size: 204.85844pt x 106.13257pt.
-<twowirecases/diffdir.png, id=166, 333.245pt x 171.64125pt>
+<twowirecases/diffdir.png, id=192, 333.245pt x 171.64125pt>
 File: twowirecases/diffdir.png Graphic file (type png)
 <use twowirecases/diffdir.png>
 Package pdftex.def Info: twowirecases/diffdir.png  used on input line 193.
@@ -1057,7 +1057,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 187--197
 $[]$|  $[]$ 
  []
 
-<twowireforce.png, id=167, 183.68625pt x 233.87375pt>
+<twowireforce.png, id=193, 183.68625pt x 233.87375pt>
 File: twowireforce.png Graphic file (type png)
 <use twowireforce.png>
 Package pdftex.def Info: twowireforce.png  used on input line 201.
@@ -1080,7 +1080,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6 <./twowireforce.png>]
-<ex/forceismutual.png, id=189, 546.04pt x 165.61874pt>
+<ex/forceismutual.png, id=214, 546.04pt x 165.61874pt>
 File: ex/forceismutual.png Graphic file (type png)
 <use ex/forceismutual.png>
 Package pdftex.def Info: ex/forceismutual.png  used on input line 226.
@@ -1094,13 +1094,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7 <./ex/forceismutual.png>]
-<move1.png, id=198, 521.95pt x 257.96375pt>
+<ex/1.png, id=223, 198.7425pt x 152.57pt>
+File: ex/1.png Graphic file (type png)
+<use ex/1.png>
+Package pdftex.def Info: ex/1.png  used on input line 234.
+(pdftex.def)             Requested size: 182.09485pt x 139.7934pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8 <./ex/1.png>]
+<move1.png, id=230, 521.95pt x 257.96375pt>
 File: move1.png Graphic file (type png)
 <use move1.png>
-Package pdftex.def Info: move1.png  used on input line 234.
+Package pdftex.def Info: move1.png  used on input line 252.
 (pdftex.def)             Requested size: 318.66946pt x 157.49934pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--247
+Underfull \hbox (badness 10000) in paragraph at lines 263--265
 
  []
 
@@ -1111,13 +1125,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8
+[9
 
  <./move1.png>]
-<move2.png, id=205, 239.89626pt x 432.61626pt>
+<move2.png, id=237, 239.89626pt x 432.61626pt>
 File: move2.png Graphic file (type png)
 <use move2.png>
-Package pdftex.def Info: move2.png  used on input line 254.
+Package pdftex.def Info: move2.png  used on input line 272.
 (pdftex.def)             Requested size: 159.3382pt x 287.34294pt.
 
 
@@ -1127,11 +1141,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9 <./move2.png>]
-<helicalpath.png, id=212, 388.45125pt x 268.00125pt>
+[10 <./move2.png>]
+<helicalpath.png, id=244, 388.45125pt x 268.00125pt>
 File: helicalpath.png Graphic file (type png)
 <use helicalpath.png>
-Package pdftex.def Info: helicalpath.png  used on input line 272.
+Package pdftex.def Info: helicalpath.png  used on input line 290.
 (pdftex.def)             Requested size: 182.09485pt x 125.63344pt.
 
 
@@ -1141,11 +1155,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10 <./helicalpath.png>]
-<move3.png, id=219, 337.26pt x 232.87pt>
+[11 <./helicalpath.png>]
+<move3.png, id=252, 337.26pt x 232.87pt>
 File: move3.png Graphic file (type png)
 <use move3.png>
-Package pdftex.def Info: move3.png  used on input line 278.
+Package pdftex.def Info: move3.png  used on input line 296.
 (pdftex.def)             Requested size: 273.14922pt x 188.60588pt.
 
 
@@ -1155,7 +1169,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11 <./move3.png>]
+[12 <./move3.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1163,23 +1177,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[13
-
-]
-<ex/wiremotor.png, id=239, 326.21875pt x 335.2525pt>
-File: ex/wiremotor.png Graphic file (type png)
-<use ex/wiremotor.png>
-Package pdftex.def Info: ex/wiremotor.png  used on input line 320.
-(pdftex.def)             Requested size: 113.81102pt x 116.96158pt.
-
+[13]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1189,7 +1187,83 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [14
 
- <./ex/wiremotor.png>] (./D3.aux)
+]
+<ex/wiremotor.png, id=271, 326.21875pt x 335.2525pt>
+File: ex/wiremotor.png Graphic file (type png)
+<use ex/wiremotor.png>
+Package pdftex.def Info: ex/wiremotor.png  used on input line 338.
+(pdftex.def)             Requested size: 113.81102pt x 116.96158pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15
+
+ <./ex/wiremotor.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+<ex/2.png, id=295, 114.4275pt x 271.0125pt>
+File: ex/2.png Graphic file (type png)
+<use ex/2.png>
+Package pdftex.def Info: ex/2.png  used on input line 380.
+(pdftex.def)             Requested size: 182.09485pt x 431.29652pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18 <./ex/2.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19]
+<ex/3.png, id=306, 411.5375pt x 526.96875pt>
+File: ex/3.png Graphic file (type png)
+<use ex/3.png>
+Package pdftex.def Info: ex/3.png  used on input line 399.
+(pdftex.def)             Requested size: 364.19664pt x 466.35526pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20 <./ex/3.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21] (./D3.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1203,21 +1277,21 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `D3.out' has not changed.
-(rerunfilecheck)             Checksum: 64AE1B4B26D026BD23EF54B4981F3408;2632.
+(rerunfilecheck)             Checksum: 1C850688D9640885CB6AB18B406F529B;3584.
  ) 
 Here is how much of TeX's memory you used:
- 46851 strings out of 474116
- 1122867 string characters out of 5743681
- 1938187 words of memory out of 5000000
- 68466 multiletter control sequences out of 15000+600000
+ 46903 strings out of 474116
+ 1123529 string characters out of 5743681
+ 1941187 words of memory out of 5000000
+ 68498 multiletter control sequences out of 15000+600000
  566135 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,13n,96p,765b,976s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,13n,96p,765b,1100s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on D3.pdf (16 pages, 1289467 bytes).
+Output written on D3.pdf (23 pages, 1464480 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
- 223 compressed objects within 3 object streams
- 55 named destinations out of 1000 (max. 500000)
- 342 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 389 PDF objects out of 1000 (max. 8388607)
+ 283 compressed objects within 3 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 397 words of extra memory for PDF output out of 10000 (max. 10000000)
 
