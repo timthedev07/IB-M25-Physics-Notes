@@ -25,3 +25,12 @@
 \contentsline {subsection}{\numberline {7.1}Terminal Velocity}{16}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Induction and Current}{18}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}Mutual Induction}{19}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Misc \#1}{21}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Quick-Fire MCQ \#1}{23}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}In, Through, and Out}{25}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Falling and Lenz's Law}{27}{subsection.7.7}%
+\contentsline {subsection}{\numberline {7.8}emf and Velocity}{28}{subsection.7.8}%
+\contentsline {subsection}{\numberline {7.9}emf and Flux Linkage Graphically}{29}{subsection.7.9}%
+\contentsline {subsection}{\numberline {7.10}Flemming's LHR in Disguise}{30}{subsection.7.10}%
+\contentsline {subsection}{\numberline {7.11}Quick-Fire MCQ \#2}{32}{subsection.7.11}%
+\contentsline {subsection}{\numberline {7.12}Misc \#2}{34}{subsection.7.12}%

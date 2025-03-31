@@ -448,4 +448,212 @@ Discuss the variation with time of the induced current in ring B.
   \item Work must be done to move B in the opposite direction to this force such that the net force becomes 0 to achieve a constant speed.
 \end{itemize}
 
+\pagebreak
+
+\subsection{Misc \#1}
+
+A geophone is an instrument designed to measure the movement of ground rocks. When the ground moves, the magnet-spring system oscillates relative to the coil.
+An emf is generated in the coil. The magnitude of this emf is proportional to the speed of the magnet relative to the coil.
+
+\img{ex/1.png}{0.45}{Diagram}{geophone}
+
+\begin{enumerate}[label=(\alph*)]
+  \item \begin{enumerate}[label=(\roman*)]
+          \item State the movement direction for which the geophone has its greatest sensitivity.
+                \begin{itemize}
+                  \item Vertical direction / parallel to springs
+                \end{itemize}
+          \item Outline how an emf is generated in the coil.
+                \begin{enumerate}
+                  \item The field of the magnet \hl{moves relative} to the coil
+                  \item As field lines \hl{cut} the coil, \hl{forces} act on the initially stationary \hl{electrons} in the wire, and these move to produce an emf.
+
+                \end{enumerate}
+          \item Explain why the magnitude of the emf is related to the amplitude of the ground movement.
+                \begin{itemize}
+                  \item The springs have a natural time period for the oscillation
+                  \item A greater amplitude of movement leads to higher magnet speed (with constant time period)
+                  \item So field lines cut coil more quickly leading to greater emf
+                \end{itemize}
+          \item In one particular event, a maximum emf of 65 mV is generated in the geophone. The geophone coil has 150 turns. Calculate the rate of flux change that leads to this emf.
+                \begin{align*}
+                  \varepsilon                  & = -\frac{N\Delta \Phi}{\Delta t}     \\
+                  \frac{\Delta \Phi}{\Delta t} & = -\frac{\varepsilon}{N}             \\
+                                               & = -\frac{65\times 10^{-3}}{150}      \\
+                                               & = \SI{0.43}{\milli\weber\per\second}
+                \end{align*}
+          \item Suggest two changes to the system that will make the
+                geophone more sensitive.
+                \begin{itemize}
+                  \item Increase number of turns in coil; because more flux cutting per cycle
+                  \item Increase field strength of magnet; so that there are more field lines
+                  \item Change mass-spring system so that time period decreases; so magnet will be moving faster for given amplitude of movement
+                \end{itemize}
+        \end{enumerate}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Quick-Fire MCQ \#1}
+
+A coil X is connected to a cell and a switch that is initially open. Coil Y has its plane parallel to X. X and Y have a common axis.
+
+\img{ex/2.png}{0.45}{Diagram}{coilxy}
+
+When the switch is closed a force $F$ acts on Y due to X.
+What is the variation with time of $F$ and what is the direction of F?
+
+\img{ex/3.png}{0.7}{Options}{Options}
+
+\begin{itemize}
+  \item The direction is quite straightforward; X will initially induce a current in Y and by Lenz's law, the induced current in Y will be in the opposite direction to the current in X. Loops with opposite current will repel each other, and thus the force will be away from X. This \textcolor{red}{eliminates options A and C}.
+  \item As with the variation of $F$:
+        \begin{enumerate}
+          \item Initially, the current in X increases rapidly, causing a large rate of change of flux, which induces a strong current in Y.
+          \item Since only a changing magnetic field induces an emf, the induced emf in Y decreases as the rate of change of flux approaches zero.
+          \item Eventually, when the current in X becomes constant, the induced current in Y becomes zero, meaning no force remains.
+        \end{enumerate}
+  \item This \textcolor{ForestGreen}{gives us option D}.
+
+\end{itemize}
+
+\pagebreak
+
+\subsection{In, Through, and Out}
+
+
+A square loop of wire of width $w$ is pulled at a constant velocity $v$ through a magnetic field of width $2w$.
+
+\img{ex/4.png}{0.6}{Diagram}{loop}
+
+Which of the following shows the variation of current $I$ in the loop with time $t$?
+
+\img{ex/5.png}{0.7}{Options}{Options}
+
+Child's play.
+\begin{enumerate}
+  \item The current is analogous to the induced emf.
+  \item When the coil moves through the field with no parts of it out of the field, there is no change in flux linkage, and thus no induced emf. This is because the cutting at the front is compensated and cancelled out by the cutting at the back (at which the current is in the opposite direction). Hence, the current is 0. Already, \textcolor{red}{eliminating options A and D}.
+  \item Finally, the emf before entering and after exiting the field are in opposite directions, therefore giving us \textcolor{ForestGreen}{option C}.
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Falling and Lenz's Law}
+
+A conducting ring is dropped from rest from above the ground. As it falls the ring passes through a region of uniform horizontal magnetic field. Air resistance is negligible.
+
+\img{ex/6.png}{0.25}{Diagram}{ring}
+
+Which is correct about the acceleration $a$ of the ring as it enters and as it leaves the region of magnetic field?
+
+\img{ex/7.png}{0.5}{Options}{Options}
+
+\begin{itemize}
+  \item As the ring enters the field, the field is pushing the ring to the top to oppose its downward motion, hence the acceleration is less than $g$.
+  \item As the ring exits the field, the field is pulling the ring upwards to oppose its upward motion below the field, hence the acceleration is still less than $g$.
+  \item Hence, \textcolor{ForestGreen}{option D} is the correct answer.
+\end{itemize}
+
+\pagebreak
+
+\subsection{emf and Velocity}
+
+Wire XY moves perpendicular to and through a magnetic field. The graph shows the variation with time of the displacement of XY.
+
+\img{ex/8.png}{0.25}{Graph}{displacement}
+
+What is the graph of the electromotive force (emf) induced across XY?
+
+\img{ex/9.png}{0.55}{Options}{Options}
+
+\begin{itemize}
+  \item Simply invoke $\varepsilon = Blv$.
+  \item At no stage is the velocity 0 (i.e. horizontal line on the graph), and thus the induced emf is always positive. This \textcolor{red}{eliminates options A and B}.
+  \item The curved bits have lower gradients, hence lower velocities, and thus smaller emfs. This gives \textcolor{ForestGreen}{option C} as the correct answer.
+\end{itemize}
+
+\pagebreak
+
+\subsection{emf and Flux Linkage Graphically}
+
+The graph shows the variation of magnetic flux $\Phi$ in a coil with time $t$.
+
+\img{ex/10.png}{0.55}{Graph}{flux}
+
+What represents the variation with time of the induced emf $\varepsilon$ across the coil?
+
+\img{ex/11.png}{0.55}{Options}{emf}
+
+\begin{enumerate}
+  \item Recognise this is a cosine graph.
+  \item We know that the emf is the negative derivative function of the flux linkage. This means $$\varepsilon = -\diff{\Phi}{t} = -\diff{\cos t}{t} = \sin t$$
+  \item Hence, \textcolor{ForestGreen}{option A} is the correct answer.
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Flemming's LHR in Disguise}
+
+The coil of a direct current electric motor is turning with a period $T$. At $t = 0$, the coil is in the position shown in the diagram. Assume the magnetic field is uniform across the coil.
+
+\img{ex/12.png}{0.75}{}{motor}
+
+\begin{itemize}
+  \item At the position shown, using the left hand rule gives that the force is upwards. Then, doing the same when XY is near the north pole of the magnet, namely at a half turn, we find that the force is downwards (the current is now in the opposite direction as it was in the previous position, since it is d.c. and was flipped). This helps us to eliminate \textcolor{red}{options B and C}, where the force at $t=\frac{T}{2}$ is in the same direction as at $t = 0$.
+  \item We know that $F = BIL$. Since we are told that the field is uniform, $B$ remains constant while XY passed through the range that it covers. None of $I$ or $L$ change, and thus the force is constant. This eliminates \textcolor{red}{option D}, where the force is curving.
+  \item Ultimately, this leads us to the answer \textcolor{ForestGreen}{option A}.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Quick-Fire MCQ \#2}
+
+\img{ex/13.png}{0.75}{}{quickfire}
+\begin{itemize}
+  \item We immediately \textcolor{red}{eliminate B} because when the magnet is far away from the coil, the flux linkage is 0, and thus the induced emf is 0.
+  \item Long story short, at the two ends, the current and hence the emf must be in opposite directions, and thus the induced emf must be 0 at the two ends. This \textcolor{ForestGreen}{gives C}.
+\end{itemize}
+
+Here is a more detailed explanation:
+\begin{enumerate}
+  \item Initially, the flux in the loop is increasing because the magnetic field at the loop is getting larger as the magnet approaches.
+  \item The induced current must then \hl{oppose the increase in the flux}.
+  \item At the front of the magnet, because field lines go from N to S, the field is actually downwards.
+  \item To establish an opposing field (e.g. upwards), we use the right-hand grip rule to find the direction of the induced current, which is anticlockwise seen from above.
+  \item In the middle, the flux is constant, so the induced emf is 0.
+  \item Moving below the loop, the flux starts to decrease as the magnet moves away.
+  \item Our induced current will now want to maintain the flux / \hl{oppose the decrease} by reinforcing the field.
+  \item At the tail S, the field lines are going into S and so the field is downwards. To reinforce this field, the current must be reversed, since previously it was creating an upward field.
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Misc \#2}
+
+The diagram shows an alternating current generator with a rectangular coil rotating at a constant frequency in a uniform magnetic field.
+
+\img{ex/14.png}{0.75}{Question}{acgen}
+
+\begin{enumerate}[label=(\alph*)]
+  \item Explain, by reference to Faraday's law of induction, how an electromotive force (emf) is induced in the coil. \hl{This is a standard framework}
+        \begin{itemize}
+          \item There is a magnetic flux linkage in the coil as the coil cuts magnetic field
+          \item This flux linkage changes as the angle varies/coil rotates
+          \item Faraday's law states that
+                $$\varepsilon = -\frac{N\Delta \Phi}{\Delta t}$$
+                and hence a change in flux linkage induces an emf.
+        \end{itemize}
+  \item \begin{enumerate}[label=(\roman*)]
+          \item The average power output of the generator is $\SI{8.5e5}{\W}$. Calculate the root mean square (rms) value of the generator output current.
+                \begin{align*}
+                  V_\text{rms} & = \frac{V_\text{peak}}{\sqrt{2}} = \frac{25\times 10^3}{\sqrt{2}} = \SI{1.77e4}{\V} \\
+                  I_\text{rms} & = \frac{P}{V_\text{rms}} = \frac{8.5\times 10^5}{1.77\times 10^4} = \SI{48}{\A}
+                \end{align*}
+        \end{enumerate}
+  \item
+
+\end{enumerate}
+
+
 \end{document}
