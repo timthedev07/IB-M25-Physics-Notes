@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  26 MAR 2025 10:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  31 MAR 2025 10:34
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1259,7 +1259,7 @@ Package siunitx Info: Option "per-mode = reciprocal-positive-first" has been
 <ex/3.png, id=353, 868.24374pt x 341.275pt>
 File: ex/3.png Graphic file (type png)
 <use ex/3.png>
-Package pdftex.def Info: ex/3.png  used on input line 424.
+Package pdftex.def Info: ex/3.png  used on input line 425.
 (pdftex.def)             Requested size: 318.66946pt x 125.25952pt.
 
 
@@ -1281,7 +1281,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <ex/4.png, id=367, 1049.9225pt x 473.77pt>
 File: ex/4.png Graphic file (type png)
 <use ex/4.png>
-Package pdftex.def Info: ex/4.png  used on input line 464.
+Package pdftex.def Info: ex/4.png  used on input line 465.
 (pdftex.def)             Requested size: 318.66946pt x 143.7948pt.
 
 
@@ -1303,12 +1303,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <ex/5.png, id=382, 889.3225pt x 556.0775pt>
 File: ex/5.png Graphic file (type png)
 <use ex/5.png>
-Package pdftex.def Info: ex/5.png  used on input line 497.
+Package pdftex.def Info: ex/5.png  used on input line 498.
 (pdftex.def)             Requested size: 227.62204pt x 142.3282pt.
 <ex/6.png, id=383, 1146.2825pt x 829.0975pt>
 File: ex/6.png Graphic file (type png)
 <use ex/6.png>
-Package pdftex.def Info: ex/6.png  used on input line 503.
+Package pdftex.def Info: ex/6.png  used on input line 504.
 (pdftex.def)             Requested size: 450.69414pt x 325.99078pt.
 
 
@@ -1330,7 +1330,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <ex/7.png, id=397, 898.35625pt x 714.67pt>
 File: ex/7.png Graphic file (type png)
 <use ex/7.png>
-Package pdftex.def Info: ex/7.png  used on input line 527.
+Package pdftex.def Info: ex/7.png  used on input line 528.
 (pdftex.def)             Requested size: 318.66946pt x 253.50787pt.
 
 
@@ -1344,7 +1344,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <ex/8.png, id=407, 1112.155pt x 822.07124pt>
 File: ex/8.png Graphic file (type png)
 <use ex/8.png>
-Package pdftex.def Info: ex/8.png  used on input line 546.
+Package pdftex.def Info: ex/8.png  used on input line 547.
 (pdftex.def)             Requested size: 318.66946pt x 235.5471pt.
 
 
@@ -1366,7 +1366,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <ex/9.png, id=424, 557.08125pt x 403.5075pt>
 File: ex/9.png Graphic file (type png)
 <use ex/9.png>
-Package pdftex.def Info: ex/9.png  used on input line 580.
+Package pdftex.def Info: ex/9.png  used on input line 581.
 (pdftex.def)             Requested size: 227.62204pt x 164.86653pt.
 
 
@@ -1380,7 +1380,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <ex/10.png, id=431, 937.5025pt x 285.065pt>
 File: ex/10.png Graphic file (type png)
 <use ex/10.png>
-Package pdftex.def Info: ex/10.png  used on input line 597.
+Package pdftex.def Info: ex/10.png  used on input line 598.
 (pdftex.def)             Requested size: 409.71689pt x 124.58078pt.
 
 
@@ -1410,7 +1410,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <ex/11.png, id=447, 494.84875pt x 191.71625pt>
 File: ex/11.png Graphic file (type png)
 <use ex/11.png>
-Package pdftex.def Info: ex/11.png  used on input line 654.
+Package pdftex.def Info: ex/11.png  used on input line 655.
 (pdftex.def)             Requested size: 409.71689pt x 158.73244pt.
 
 
