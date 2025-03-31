@@ -177,6 +177,23 @@ where
 \end{itemize}
 
 The ones discussed before are just special cases of this general relation.
+\subsection{Doppler with Acceleration}
+
+\begin{itemize}
+  \item If the movement is under a \textbf{constant speed}, then, the frequency will remain constant but at a different value.
+  \item If the movement is under an \textbf{acceleration}, then, the frequency will change.
+\end{itemize}
+
+Example question: A microphone M on a moving train detects the sound from a stationary loudspeaker L placed on the track. The track is straight. L emits a sound of constant frequency. The frequency detected by M is continuously decreasing. The train is moving
+
+\begin{enumerate}[label=\Alph*.]
+  \item away from L at an increasing speed.
+  \item away from L at a constant speed.
+  \item towards L at a constant speed.
+  \item towards L at an increasing speed.
+\end{enumerate}
+
+Firstly, if the frequency is decreasing, the train must be moving away from the source. \textcolor{red}{This eliminates options C and D.} Then, if the frequency is changing instead of remaining at a constant lower value, the train must be accelerating. Thus, the answer is \textcolor{red}{A}.
 
 \section{The Doppler Effect for E.M. Waves}
 
@@ -291,5 +308,54 @@ A plate performs simple harmonic oscillations with a frequency of 39 Hz and an a
   \item Now, we must consider the reflected sound. In this half of the journey, the plate acts as the \say{source} and it is moving towards the actual source. Thus, the frequency of the reflected sound is
         $$f'' = f'\paren{\frac{v}{v - |u_s|}} = 2538\paren{\frac{340}{340 - 19.6}} = 2694 \approx 2700 \mathrm{~Hz}$$
 \end{enumerate}
+
+\pagebreak
+
+\subsection{Misc \#1}
+
+The diagram shows a point source of sound S on the edge of a horizontal turntable that rotates about a vertical axis. The sound is detected using a small stationary frequency meter placed 0.78 m from the axis of the turntable. The turntable has a radius of 0.28 m. The linear speed of S is much less than the speed of sound.
+
+\img{ex/1.png}{0.9}{Turntable}{1}
+
+The graph shows the variation of the detected frequency with rotation angle $\theta$ for one revolution of the turntable.
+
+\img{ex/2.png}{0.9}{Graph}{2}
+
+\begin{enumerate}[label=(\alph*)]
+  \item State, on the diagram, the position of S for which the detected frequency is at a maximum. Label this position A.
+        \img{ex/3.png}{0.9}{Position A}{3}
+  \item Outline why this maximum frequency shift does not occur when $\theta= 90\degsym$ or when $\theta= 270\degsym$.
+        \begin{itemize}
+          \item At the angle of 90 degrees, the tangential velocity is pointing directly to the left, but to obtain the maximum frequency shift, the tangential velocity must be pointing directly towards the observer.
+        \end{itemize}
+  \item Determine the angular speed of the turntable. The speed of sound is $\SI{330}{\m\per\s}$. State an appropriate unit for your answer.
+        \begin{itemize}
+          \item We pick the maximum point of the graph for calculation, which is at the frequency $450.5 \mathrm{~Hz}$.
+        \end{itemize}
+        \begin{align*}
+          \frac{\Delta f}{f} = \frac{\Delta u}{v} \\
+          \frac{10.5}{440} = \frac{\Delta u}{330} \\
+          \Delta u = 7.9 \mathrm{~m} \mathrm{~s}^{-1}
+        \end{align*}
+        \begin{itemize}
+          \item The quantity we are getting here is the tangential velocity, which is related to the angular speed by
+                $$\Delta u = r\omega \iff \omega = \frac{\Delta u}{r}$$
+                Hence
+                $$\omega = \frac{7.9}{0.28} = 28.2 \mathrm{~rad} \mathrm{~s}^{-1}$$
+        \end{itemize}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Acceleration in Doppler Effect}
+
+On approaching a stationary observer, a train sounds its horn and decelerates at a constant rate. At time t the train passes by the observer and continues to decelerate at the same rate. Which diagram shows the variation with time of the frequency of the sound measured by the observer?
+
+\img{ex/4.png}{0.9}{Train}{4}
+
+\begin{itemize}
+  \item When the train decelerates towards the station, the observed frequency is still higher than the original frequency but decreasing. \textcolor{red}{This eliminates options A and C.}
+  \item When the train passes the observer and continues to decelerate, the observed frequency will be lower than the original frequency but will be increasing instead (decelerating when moving away is like accelerating towards the observer). \textcolor{ForestGreen}{This gives option D.}
+\end{itemize}
 
 \end{document}
