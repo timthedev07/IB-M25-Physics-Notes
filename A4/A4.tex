@@ -30,6 +30,7 @@
 \SetWatermarkScale{4}
 \SetWatermarkColor[gray]{0.97}
 \usetikzlibrary{positioning,decorations.markings,arrows.meta,angles,quotes}
+\DeclareSIUnit{\rad}{rad}
 \DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
 \newtheorem{lemma}{Lemma}
 \newtheorem{proposition}{Proposition}
@@ -169,7 +170,7 @@ the force and the axis. Mathematically, $$\tau = Fr\sin\theta$$where $r$ is the 
   \item Rotational equilibrium: The net torque acting on the object is zero.
 \end{itemize}
 
-The moment of inertia of a rigid body is a measure of the body's resistance to rotational motion about a given axis. It is the rotational equivalent of mass. The moment of inertia is given as $$I = \sum m_ir_i^2$$where $m_i$ is the mass of the $i$th particle and $r_i$ is the distance of the $i$th particle from the axis of rotation. The unit of moment of inertia is the kilogram-meter squared (kg$\cdot$m$^2$).\lb
+The moment of inertia of a rigid body is a measure of the body's \hl{resistance to rotational motion about a given axis}. It is the rotational equivalent of mass. The moment of inertia is given as $$I = \sum m_ir_i^2$$where $m_i$ is the mass of the $i$th particle and $r_i$ is the distance of the $i$th particle from the axis of rotation. The unit of moment of inertia is the kilogram-meter squared (kg$\cdot$m$^2$).\lb
 These so-called particles refer to the small individual masses that make up a rigid body. These particles are conceptualized as point masses, each having a specific mass ($m_i$) and a defined position relative to the axis of rotation.\lb
 To calculate the moment of inertia $I$, the rigid body is thought of as being composed of these discrete particles. Each particle's contribution to the moment of inertia is determined by its mass $m_i$ and the square of its perpendicular distance $r_i$ from the axis of rotation.\lb
 In exam questions, you will often be given the formula of moment of inertia for the object under study, and it is in the form of $I = kmr^2$, where $k$ is some given constant.\lb
@@ -243,5 +244,253 @@ Assuming that the moment of inertia is given as $I = kmr^2$, then we can derive 
   g\Delta h & = \dfrac{1}{2}v^2 + \dfrac{1}{2}kr^2\omega^2 \\
             & = \frac{1}{2}v^2(k + 1)
 \end{align*}
+
+\pagebreak
+
+\section{Exam Questions}
+
+\subsection{Comparing Rotational KE}
+
+A ring of mass $M$ and radius $R$ is accelerated from rest by a constant torque of $\tau$. The moment of inertia of the ring is $MR^2$. A solid disc of the same mass and radius as the ring is accelerated by
+the same torque. Compare, without calculation:
+
+\begin{enumerate}[label=(\alph*)]
+  \item The angular impulse delivered to the disc and to the ring during the first 5.0s.
+        \begin{itemize}
+          \item We know that $$\Delta L = \tau\Delta t$$
+          \item Since both are accelerated by the same torque in the same time, the angular impulse delivered to both the disc and the ring are the same.
+        \end{itemize}
+  \item the final kinetic energy of the disc and the ring.
+        \begin{itemize}
+          \item We recall that the kinetic energy gained through an angular impulse is given by $$\Delta E_K = \frac{L^2}{2I}$$
+          \item From the previous part, we deduced that the angular impulse is the same, so all that is left is to compare the moment of inertia.
+          \item The moment of inertia of the disk is lower because the mass is distributed closer to the axis of rotation. This means that the \textcolor{ForestGreen}{disk will gain a higher level of KE} than the ring.
+        \end{itemize}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Planetary Rotation}
+
+A planet orbits around a star in an elliptical orbit as shown below.
+\img{ex/2.png}{0.6}{Diagram}{planetary}
+
+At point A the planet is closest to the star and at point B it is furthest from the star. As the planet orbits the star it has a moment of inertia $I = mr^2$ where $m$ is the mass of the planet.
+
+\begin{enumerate}[label=(\alph*)]
+  \item State what represents in this situation.
+        \begin{itemize}
+          \item The distance between the centre of planet and the centre of the star.
+
+        \end{itemize}
+  \item Show, using conservation of angular momentum, that the linear speed of the planet is greater at A than at B.
+        \begin{align*}
+          L_x             & = L_y             \\
+          mv_Ar_A         & = mv_Br_B         \\
+          \frac{v_A}{v_B} & = \frac{r_B}{r_A}
+        \end{align*}
+        Since $r_B > r_A$, we can conclude that $v_A > v_B$.
+  \item Suggest why, in this situation, the magnitude of the linear momentum of the planet is not conserved whereas the magnitude of its angular momentum is conserved.
+        \begin{itemize}
+          \item For the momentum of a system to be conserved, it is required that no external forces act on the system. In this case, the planet is under the influence of the star's gravitational force, which is an external force. Hence, the linear momentum is not conserved.
+          \item In contrast, gravity acts inwards and so does not exert a torque about the center of the planet. This means that the angular momentum is conserved.
+        \end{itemize}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Misc \#1}
+
+N.b. this question covers basically everything on the calculation side, in my opinion.\lb
+A uniform cylinder, of mass $M$ and length $L$, has a moment of inertia of $\dfrac{1}{12}ML^2$ when rotated about an axis through its centre.
+\img{ex/3.png}{0.5}{Diagram}{cylinder}
+
+\begin{enumerate}[label=(\alph*)]
+  \item \begin{enumerate}[label=(\roman*)]
+          \item State the condition for rotational equilibrium.
+                \begin{itemize}
+                  \item The net torque acting on the object is zero.
+                \end{itemize}
+                \img{ex/4.png}{0.5}{Diagram}{cylinder2}
+          \item Two identical cylinders, each of mass $M$ and length $L$, are connected end to end. Show that the moment of inertia when these cylinders are rotated about their combined centre is $\dfrac{2}{3}ML^2$.
+                \begin{align*}
+                  \Sigma M = 2M \quad \text{ and } \quad \Sigma L = 2L \\
+                  I = \frac{1}{12}(2M)(2L)^2 = \frac{2}{3}ML^2
+                \end{align*}
+        \end{enumerate}
+  \item A two-blade propeller can be modelled using the two-cylinder arrangement in (a)(iii).
+
+        The following data for the two-blade propeller are available:
+        \begin{itemize}
+          \item Length of each blade: 0.60 m
+          \item Mass of each blade: 2.2 kg
+        \end{itemize}
+
+        Show that the moment of inertia of the two-blade propeller is about $\SI{0.5}{\kg\m\squared}$.
+
+        \begin{align*}
+          I & = \frac{2}{3}ML^2               \\
+            & = \frac{2}{3}(2.2)(0.6)^2       \\
+            & = 0.528                         \\
+            & \approx \SI{0.5}{\kg\m\squared}
+        \end{align*}
+  \item The two-blade propeller is initially at rest. When a constant torque of 140 N m acts on the two-blade propeller it reaches an angular speed of $\SI{750}{\rad\per\s}$. Ignore any frictional torque.
+
+        \begin{enumerate}[label=(\roman*)]
+          \item Calculate the time taken for the two-blade propeller to reach the angular speed of $\SI{750}{\rad\per\s}$.
+                \begin{align*}
+                  \tau & = \frac{I(\omega - \omega_0)}{t}    \\
+                  t    & = \frac{I(\omega - \omega_0)}{\tau} \\
+                       & = \frac{0.528(750 - 0)}{140}        \\
+                       & \approx 2.8 \text{ s}
+                \end{align*}
+          \item Calculate the number of revolutions of the two-blade propeller to reach the angular speed of $\SI{750}{\rad\per\s}$.
+
+                \begin{align*}
+                  \theta & = \frac{1}{2}(\omega + \omega_0)t \\
+                         & = \frac{1}{2}(750 + 0)(2.8)       \\
+                         & = 1065 \text{ rad}                \\
+                         & = \frac{1065}{2\pi}               \\
+                         & \approx 167 \text{ rev}
+                \end{align*}
+          \item The propeller is brought to rest in 5.0 s. Determine the average value of the external torque applied.
+                \begin{align*}
+                  \tau & = \frac{I(\omega - \omega_0)}{t} \\
+                       & = \frac{0.528(0 - 750)}{5.0}     \\
+                       & = -79.2 \text{ N m}              \\
+                       & \approx 80 \text{ N m}
+                \end{align*}
+        \end{enumerate}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Momentum Conservation \#1}
+
+A net torque acts on a horizontal disk of mass 0.20 kg and radius 0.40 m that is initially at rest. The disk begins to rotate. The graph shows the variation with time $t$ of the angular speed $\omega$ of the disk.
+
+\img{ex/5.png}{0.8}{Graph}{graph}
+
+The moment of inertia of a disk of mass $M$ and radius $R$ about a vertical axis through its centre is $\dfrac{1}{2}MR^2$.
+
+
+\begin{enumerate}[label=(\alph*)]
+  \item Show that the angular acceleration of the disk is about $\SI{6}{\rad\per\s}$.
+        \begin{align*}
+          \Delta \omega                           & = 12.5                 \\
+          \alpha = \frac{\Delta \omega}{\Delta t} & = \frac{12.5}{2}       \\
+                                                  & = 6.25 \text{ rad/s}^2
+        \end{align*}
+  \item While the disk is rotating at its final constant angular speed, a small object of mass 0.10 kg falls on the disk and sticks to the edge of the disk.
+        \img{ex/6.png}{0.4}{Diagram}{disk}
+
+        \begin{enumerate}[label=(\roman*)]
+          \item Calculate the new angular speed of the disk.
+                \begin{align*}
+                  \Sigma p_\text{before}   & = \Sigma p_\text{after}                               \\
+                  \omega I                 & = (I + I_\text{object})\omega'                        \\
+                  \omega'                  & = \frac{\omega I}{I + I_\text{object}}                \\
+                  I_\text{disk}            & = \frac{1}{2}(0.2)R^2       = 0.1R^2                  \\
+                  I_\text{object}          & = mR^2                           = 0.1R^2             \\
+                  \implies I_\text{object} & = I_\text{disk}                                       \\
+                  \omega'                  & = \frac{12.5I}{2I}                                    \\
+                                           & = \frac{12.5}{2}         \approx \SI{6.3}{\rad\per\s}
+                \end{align*}
+          \item Determine the fraction of the total energy of the disk that was lost.
+                \begin{align*}
+                  E_0 = \frac{1}{2}I\omega^2                     & = \frac{1}{2}\left(\frac{1}{2}MR^2\right)(12.5)^2 \approx 1.25 \text{ J}                          \\
+                  E' = \frac{1}{2}(I + I_\text{object})\omega'^2 & = \frac{1}{2}\left(MR^2\right)(6.25)^2 \approx 0.625                                    \text{ J} \\
+                  \Delta E = E_0 - E'                            & = 1.25 - 0.625 \approx 0.625 \text{ J}                                                            \\
+                  \text{fractional loss} = \frac{\Delta E}{E_0}  & = \frac{0.625}{1.25} \approx 0.5 \text{ or } 50\%                                                 \\
+                \end{align*}
+        \end{enumerate}
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Rolling -- Energy Conservation}
+
+A solid sphere of radius $r$ and mass $m$ is released from rest and rolls down a slope, without slipping. The vertical height of the slope is $h$. The moment of inertia $I$ of this sphere about an axis through its centre is $\dfrac{2}{5}mr^2$.\lb
+Find an expression for the linear velocity of the sphere as it leaves the slope.
+\begin{align*}
+  \Delta E_P & = \Delta E_\text{K, linear} + \Delta E_\text{K, rotational}                           \\
+  mgh        & = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2                                              \\
+             & = \frac{1}{2}mv^2 + \frac{1}{2}\left(\frac{2}{5}mr^2\right)\left(\frac{v}{r}\right)^2 \\
+  2gh        & = v^2 + \frac{2}{5}v^2                                                                \\
+  v^2        & = \frac{2gh}{\frac{2}{5} + 1}                                                         \\
+  v          & = \sqrt{\frac{10gh}{7}}                                                               \\
+\end{align*}
+
+
+\pagebreak
+
+\subsection{Misc -- M19 P3 TZ1 Q8}
+
+A solid cylinder of mass $M$ and radius $R$ is free to rotate about a fixed horizontal axle. A rope is tied around the cylinder and a block of mass $\dfrac{M}{4}$ is attached to the end of the rope.
+
+\img{ex/7.png}{0.65}{Diagram}{cylinder3}
+
+The system is initially at rest and the block is released. The moment of inertia of the cylinder about the axle is $\dfrac{1}{2}MR^2$.
+
+\begin{enumerate}[label=(\alph*)]
+  \item Show that
+        \begin{enumerate}[label=(\roman*)]
+          \item the angular acceleration $\alpha$ of the cylinder is $\dfrac{g}{3R}$
+                \begin{itemize}
+                  \item The key is to \hl{consider the forces acting on the block}.
+                        \begin{itemize}
+                          \item The downward force is the gravitational force and is given by $F_g = \dfrac{M}{4}g$
+                          \item The upward force is the tension in the string arising from the cylinder's moment of inertia. This is given by $T = I\alpha/r = \dfrac{1}{2}MR\alpha$
+                          \item We form the following equation about the block's resultant force
+                                $$\frac{M}{4}a_\text{block} = \frac{M}{4}g - \frac{1}{2}MR\alpha$$
+                          \item We also know that, by the nature of the movement, the linear acceleration of the block is equal to the tangential acceleration of the cylinder, which is given by $a_\text{block} = R\alpha$.
+                          \item We combine these two equations to form the following:
+                                \begin{align*}
+                                  \frac{M}{4}R\alpha & = \frac{M}{4}g - \frac{1}{2}MR\alpha \\
+                                  R\alpha            & = g - 2R\alpha                       \\
+                                  \alpha             & = \frac{g}{3R}
+                                \end{align*}
+
+                        \end{itemize}
+                \end{itemize}
+          \item the tension $T$ in the string is $\dfrac{Mg}{6}$
+                \begin{align*}
+                  T & = \frac{1}{2}MR\alpha                    \\
+                    & = \frac{1}{2}MR\left(\frac{g}{3R}\right) \\
+                    & = \frac{Mg}{6}
+                \end{align*}
+        \end{enumerate}
+  \item The following data are available:
+        \begin{itemize}
+          \item $R =0.20 \text{ m}$
+          \item $M = 12 \text{ kg}$
+        \end{itemize}
+        Calculate, for the cylinder, at the instant just before the block hits the ground
+        \begin{enumerate}[label=(\roman*)]
+          \item the angular momentum
+                \begin{itemize}
+                  \item Let us first find the change in angular speed
+                        \begin{align*}
+                          \Delta \omega = \alpha t & = \frac{g}{3R}t
+                        \end{align*}
+                        This is a good start because we are now given both $R$ and $t$ so we can compute $\Delta \omega$.
+                  \item Then, we have
+                        \begin{align*}
+                          L & = I(\Delta \omega) = \frac{1}{2}MR^2(\frac{g}{3R}t) \\
+                            & = \frac{MRgt}{6}                                    \\
+                            & = \frac{12\times 0.2\times9.8\times0.55}{6}         \\
+                            & = \SI{2.156}{\kg\m\squared\per\s}
+                        \end{align*}
+
+                \end{itemize}
+          \item the kinetic energy
+                \begin{align*}
+                  E_K & = \frac{L^2}{2I}                                  \\
+                      & = \frac{(2.156)^2}{2\times\frac{1}{2}(12)(0.2)^2} \\
+                      & \approx 9.7 \text{ J}
+                \end{align*}
+        \end{enumerate}
+\end{enumerate}
+
 
 \end{document}

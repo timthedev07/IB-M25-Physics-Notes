@@ -9,3 +9,10 @@
 \contentsline {section}{\numberline {6}Rolling and Sliding}{7}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Rolling without Slipping}{7}{subsection.6.1}%
 \contentsline {subsubsection}{\numberline {6.1.1}Energy}{8}{subsubsection.6.1.1}%
+\contentsline {section}{\numberline {7}Exam Questions}{9}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Comparing Rotational KE}{9}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Planetary Rotation}{10}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Misc \#1}{12}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Momentum Conservation \#1}{16}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Rolling -- Energy Conservation}{19}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Misc -- M19 P3 TZ1 Q8}{20}{subsection.7.6}%
