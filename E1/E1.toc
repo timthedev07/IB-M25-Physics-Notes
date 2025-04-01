@@ -18,4 +18,7 @@
 \contentsline {subsection}{\numberline {7.3}Energy Levels}{11}{subsection.7.3}%
 \contentsline {subsection}{\numberline {7.4}Quantized Angular Momentum}{13}{subsection.7.4}%
 \contentsline {section}{\numberline {8}Exam Questions}{14}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Wavelengths and Energy Levels}{14}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.1}MCQ -- Energy Levels \#1}{14}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}MCQ -- Energy Levels \#2}{16}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Angular Momentum -- MCQ}{17}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Energy Levels -- MCQ \#3}{18}{subsection.8.4}%
