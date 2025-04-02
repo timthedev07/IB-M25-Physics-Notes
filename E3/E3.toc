@@ -36,3 +36,4 @@
 \contentsline {section}{\numberline {11}Exam Questions}{24}{section.11}%
 \contentsline {subsection}{\numberline {11.1}M23 Paper 2 TZ2 Question 9}{24}{subsection.11.1}%
 \contentsline {subsection}{\numberline {11.2}Half-Life and Activity}{27}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Binding Energy per Nucleon}{28}{subsection.11.3}%

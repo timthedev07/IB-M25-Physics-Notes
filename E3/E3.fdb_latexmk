@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1742498896.61502 "/Users/timthedev07/Documents/物理笔记/E3/E3.tex" "E3.pdf" "E3" 1742498898.45917 0
-  "/Users/timthedev07/Documents/物理笔记/E3/E3.tex" 1742498896.4114 39081 da34886cfd62ae80e055a514d702d619 ""
+["pdflatex"] 1743583430.92638 "/Users/timthedev07/Documents/物理笔记/E3/E3.tex" "E3.pdf" "E3" 1743583432.68769 0
+  "/Users/timthedev07/Documents/物理笔记/E3/E3.tex" 1743583430.68457 39989 3d2ab36bc54cdd2a5ad06cacad38280e ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -276,10 +276,10 @@
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731313254 8221454 067b6d98d3b5175b15c9caab9e14d269 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "BE_A plot.png" 1728162327.55774 109014 f1f534d16c2a937fe41d0bfbb0b7aefa ""
-  "E3.aux" 1742498898.34391 7024 7713580add231e024f174db8f32dcc2e "pdflatex"
-  "E3.out" 1742498898.34477 6122 49006076b6c2b6e9dd02fea565dee089 "pdflatex"
-  "E3.tex" 1742498896.4114 39081 da34886cfd62ae80e055a514d702d619 ""
-  "E3.toc" 1742498898.34527 3242 8b015c52d9d2542e717ece7f427b49c7 "pdflatex"
+  "E3.aux" 1743583432.5784 7160 64289515d33cc8750776cee4a5760a3d "pdflatex"
+  "E3.out" 1743583432.5793 6321 4815eefff52a9d9248ab46ebfeb6442c "pdflatex"
+  "E3.tex" 1743583430.68457 39989 3d2ab36bc54cdd2a5ad06cacad38280e ""
+  "E3.toc" 1743583432.57949 3337 9815788edb7ed0e87547f781e0d08002 "pdflatex"
   "muller.png" 1728221014.99874 150489 e425636cc5c3e1ccb03b339dd7b63824 ""
   "stability graph.png" 1728164168.7952 842407 0625dfc780b48023e088a3d7f8b7811f ""
   (generated)
