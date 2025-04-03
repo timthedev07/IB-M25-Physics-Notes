@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  2 APR 2025 10:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  2 APR 2025 15:30
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1094,7 +1094,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-<BE_A plot.png, id=291, 284.39583pt x 193.38916pt>
+<BE_A plot.png, id=316, 284.39583pt x 193.38916pt>
 File: BE_A plot.png Graphic file (type png)
 <use BE_A plot.png>
 Package pdftex.def Info: BE_A plot.png  used on input line 316.
@@ -1134,7 +1134,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12]
-<stability graph.png, id=323, 736.7525pt x 686.565pt>
+<stability graph.png, id=348, 736.7525pt x 686.565pt>
 File: stability graph.png Graphic file (type png)
 <use stability graph.png>
 Package pdftex.def Info: stability graph.png  used on input line 373.
@@ -1184,7 +1184,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17]
-<muller.png, id=371, 683.55376pt x 283.0575pt>
+<muller.png, id=396, 683.55376pt x 283.0575pt>
 File: muller.png Graphic file (type png)
 <use muller.png>
 Package pdftex.def Info: muller.png  used on input line 488.
@@ -1245,6 +1245,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24
+
+]
+
 Package siunitx Warning: Unit macro \atomicmassunit has been deprecated in
 (siunitx)                this release.
 (siunitx)                
@@ -1261,17 +1271,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24
+[25
 
 ]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[25]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1295,7 +1297,59 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28] (./E3.aux)
+[28]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[29]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[31]
+<ex/1.png, id=499, 463.7325pt x 293.095pt>
+File: ex/1.png Graphic file (type png)
+<use ex/1.png>
+Package pdftex.def Info: ex/1.png  used on input line 778.
+(pdftex.def)             Requested size: 364.19664pt x 230.18741pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32 <./ex/1.png>]
+<ex/2.png, id=506, 461.725pt x 588.1975pt>
+File: ex/2.png Graphic file (type png)
+<use ex/2.png>
+Package pdftex.def Info: ex/2.png  used on input line 791.
+(pdftex.def)             Requested size: 318.66946pt x 405.95543pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33 <./ex/2.png>] (./E3.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1306,21 +1360,21 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 124.49696pt have occurred.
 
 Package rerunfilecheck Info: File `E3.out' has not changed.
-(rerunfilecheck)             Checksum: 4815EEFFF52A9D9248AB46EBFEB6442C;6321.
+(rerunfilecheck)             Checksum: 035873F91A81800CCE6CA84381CB6ECA;7249.
  ) 
 Here is how much of TeX's memory you used:
- 47402 strings out of 474116
- 1134347 string characters out of 5743681
+ 47446 strings out of 474116
+ 1134892 string characters out of 5743681
  1939187 words of memory out of 5000000
- 68933 multiletter control sequences out of 15000+600000
+ 68956 multiletter control sequences out of 15000+600000
  567742 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,15n,96p,771b,1270s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on E3.pdf (31 pages, 1140009 bytes).
+Output written on E3.pdf (36 pages, 1387665 bytes).
 PDF statistics:
- 539 PDF objects out of 1000 (max. 8388607)
- 445 compressed objects within 5 object streams
- 131 named destinations out of 1000 (max. 500000)
- 476 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 605 PDF objects out of 1000 (max. 8388607)
+ 501 compressed objects within 6 object streams
+ 152 named destinations out of 1000 (max. 500000)
+ 526 words of extra memory for PDF output out of 10000 (max. 10000000)
 

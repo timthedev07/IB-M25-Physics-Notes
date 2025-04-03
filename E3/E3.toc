@@ -33,7 +33,12 @@
 \contentsline {subsection}{\numberline {9.2}In Medicine}{21}{subsection.9.2}%
 \contentsline {subsection}{\numberline {9.3}Materials Testing}{22}{subsection.9.3}%
 \contentsline {section}{\numberline {10}Decay Chains}{23}{section.10}%
-\contentsline {section}{\numberline {11}Exam Questions}{24}{section.11}%
-\contentsline {subsection}{\numberline {11.1}M23 Paper 2 TZ2 Question 9}{24}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}Half-Life and Activity}{27}{subsection.11.2}%
-\contentsline {subsection}{\numberline {11.3}Binding Energy per Nucleon}{28}{subsection.11.3}%
+\contentsline {section}{\numberline {11}Particle-Antiparticle Pairs}{24}{section.11}%
+\contentsline {section}{\numberline {12}Exam Questions}{25}{section.12}%
+\contentsline {subsection}{\numberline {12.1}M23 Paper 2 TZ2 Question 9}{25}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Half-Life and Activity}{28}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}Binding Energy per Nucleon}{29}{subsection.12.3}%
+\contentsline {subsection}{\numberline {12.4}Antiparticles}{30}{subsection.12.4}%
+\contentsline {subsection}{\numberline {12.5}Deducing Possible Chains}{31}{subsection.12.5}%
+\contentsline {subsection}{\numberline {12.6}Finding the Background Radiation}{32}{subsection.12.6}%
+\contentsline {subsection}{\numberline {12.7}Energy Levels -- Beta Decay}{33}{subsection.12.7}%
