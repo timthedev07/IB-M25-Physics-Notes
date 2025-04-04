@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  26 DEC 2024 22:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  4 APR 2025 15:52
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -967,14 +967,12 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 105.
-(./E5.out) (./E5.out)
 \@outlinefile=\write5
 \openout5 = `E5.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
  on input line 105.
@@ -991,21 +989,17 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <149.37697> not available
 
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-] (./E5.toc
-LaTeX Font Info:    Trying to load font information for U+esvect on input line 4.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/esvect/uesvect.fd
-File: uesvect.fd 
-)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+]
+No file E5.toc.
 \tf@toc=\write6
 \openout6 = `E5.toc'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
@@ -1015,6 +1009,18 @@ l.126
        [1
 
 ]
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 142.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/esvect/uesvect.fd
+File: uesvect.fd 
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 142.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 142.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1039,17 +1045,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-<hr1.png, id=143, 466.74374pt x 367.3725pt>
+
+LaTeX Warning: Reference `fig:HR' on page 1 undefined on input line 191.
+
+<hr1.png, id=73, 466.74374pt x 367.3725pt>
 File: hr1.png Graphic file (type png)
 <use hr1.png>
 Package pdftex.def Info: hr1.png  used on input line 195.
 (pdftex.def)             Requested size: 227.62204pt x 179.16203pt.
-<hr2.png, id=145, 386.44376pt x 399.4925pt>
+<hr2.png, id=75, 386.44376pt x 399.4925pt>
 File: hr2.png Graphic file (type png)
 <use hr2.png>
 Package pdftex.def Info: hr2.png  used on input line 198.
 (pdftex.def)             Requested size: 227.62204pt x 235.3084pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1060,6 +1068,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [3
 
  <./hr1.png> <./hr2.png>]
+
+LaTeX Warning: Reference `fig:HR' on page 1 undefined on input line 211.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1078,7 +1089,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [5
 
 ]
-<lowmass1.png, id=172, 893.3375pt x 533.995pt>
+<lowmass1.png, id=106, 893.3375pt x 533.995pt>
 File: lowmass1.png Graphic file (type png)
 <use lowmass1.png>
 Package pdftex.def Info: lowmass1.png  used on input line 255.
@@ -1092,7 +1103,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6 <./lowmass1.png>]
-<lowmass.png, id=180, 498.86375pt x 146.5475pt>
+<lowmass.png, id=114, 498.86375pt x 146.5475pt>
 File: lowmass.png Graphic file (type png)
 <use lowmass.png>
 Package pdftex.def Info: lowmass.png  used on input line 263.
@@ -1106,7 +1117,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7 <./lowmass.png>]
-<highmass.png, id=191, 498.86375pt x 146.5475pt>
+<highmass.png, id=125, 498.86375pt x 146.5475pt>
 File: highmass.png Graphic file (type png)
 <use highmass.png>
 Package pdftex.def Info: highmass.png  used on input line 284.
@@ -1138,10 +1149,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [10
 
 ]
-<stellarparallax.png, id=218, 576.1525pt x 427.5975pt>
+<stellarparallax.png, id=155, 576.1525pt x 427.5975pt>
 File: stellarparallax.png Graphic file (type png)
 <use stellarparallax.png>
-Package pdftex.def Info: stellarparallax.png  used on input line 311.
+Package pdftex.def Info: stellarparallax.png  used on input line 312.
 (pdftex.def)             Requested size: 455.24408pt x 337.87662pt.
 
 
@@ -1172,20 +1183,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [13
 
 ]
-<exam/1.png, id=249, 881.2925pt x 414.54875pt>
+<exam/1.png, id=190, 881.2925pt x 414.54875pt>
 File: exam/1.png Graphic file (type png)
 <use exam/1.png>
-Package pdftex.def Info: exam/1.png  used on input line 363.
+Package pdftex.def Info: exam/1.png  used on input line 366.
 (pdftex.def)             Requested size: 455.24408pt x 214.13702pt.
-<exam/2.png, id=250, 881.2925pt x 445.665pt>
+<exam/2.png, id=191, 881.2925pt x 445.665pt>
 File: exam/2.png Graphic file (type png)
 <use exam/2.png>
-Package pdftex.def Info: exam/2.png  used on input line 365.
+Package pdftex.def Info: exam/2.png  used on input line 368.
 (pdftex.def)             Requested size: 455.24408pt x 230.21027pt.
-<exam/3.png, id=251, 881.2925pt x 438.63875pt>
+<exam/3.png, id=192, 881.2925pt x 438.63875pt>
 File: exam/3.png Graphic file (type png)
 <use exam/3.png>
-Package pdftex.def Info: exam/3.png  used on input line 366.
+Package pdftex.def Info: exam/3.png  used on input line 369.
 (pdftex.def)             Requested size: 455.24408pt x 226.58081pt.
 
 
@@ -1198,15 +1209,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [14
 
  <./exam/1.png> <./exam/2.png>]
-<exam/4.png, id=260, 881.2925pt x 372.39125pt>
+<exam/4.png, id=202, 881.2925pt x 372.39125pt>
 File: exam/4.png Graphic file (type png)
 <use exam/4.png>
-Package pdftex.def Info: exam/4.png  used on input line 367.
+Package pdftex.def Info: exam/4.png  used on input line 370.
 (pdftex.def)             Requested size: 455.24408pt x 192.36038pt.
-<exam/5.png, id=261, 881.2925pt x 769.87625pt>
+<exam/5.png, id=203, 881.2925pt x 769.87625pt>
 File: exam/5.png Graphic file (type png)
 <use exam/5.png>
-Package pdftex.def Info: exam/5.png  used on input line 368.
+Package pdftex.def Info: exam/5.png  used on input line 371.
 (pdftex.def)             Requested size: 455.24408pt x 397.68306pt.
 
 
@@ -1217,10 +1228,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15 <./exam/3.png> <./exam/4.png>]
-<exam/6.png, id=270, 881.2925pt x 371.3875pt>
+<exam/6.png, id=212, 881.2925pt x 371.3875pt>
 File: exam/6.png Graphic file (type png)
 <use exam/6.png>
-Package pdftex.def Info: exam/6.png  used on input line 369.
+Package pdftex.def Info: exam/6.png  used on input line 372.
 (pdftex.def)             Requested size: 455.24408pt x 191.84187pt.
 
 
@@ -1231,20 +1242,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16 <./exam/5.png> <./exam/6.png>]
-<exam/7.png, id=279, 881.2925pt x 281.05pt>
+<exam/7.png, id=221, 881.2925pt x 281.05pt>
 File: exam/7.png Graphic file (type png)
 <use exam/7.png>
-Package pdftex.def Info: exam/7.png  used on input line 370.
+Package pdftex.def Info: exam/7.png  used on input line 373.
 (pdftex.def)             Requested size: 455.24408pt x 145.17763pt.
-<exam/8.png, id=280, 881.2925pt x 281.05pt>
+<exam/8.png, id=222, 881.2925pt x 281.05pt>
 File: exam/8.png Graphic file (type png)
 <use exam/8.png>
-Package pdftex.def Info: exam/8.png  used on input line 371.
+Package pdftex.def Info: exam/8.png  used on input line 374.
 (pdftex.def)             Requested size: 455.24408pt x 145.17763pt.
-<exam/9.png, id=281, 881.2925pt x 757.83125pt>
+<exam/9.png, id=223, 881.2925pt x 757.83125pt>
 File: exam/9.png Graphic file (type png)
 <use exam/9.png>
-Package pdftex.def Info: exam/9.png  used on input line 372.
+Package pdftex.def Info: exam/9.png  used on input line 375.
 (pdftex.def)             Requested size: 455.24408pt x 391.46115pt.
 
 
@@ -1255,10 +1266,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17 <./exam/7.png> <./exam/8.png>]
-<exam/10.png, id=291, 881.2925pt x 696.6025pt>
+<exam/10.png, id=233, 881.2925pt x 696.6025pt>
 File: exam/10.png Graphic file (type png)
 <use exam/10.png>
-Package pdftex.def Info: exam/10.png  used on input line 373.
+Package pdftex.def Info: exam/10.png  used on input line 376.
 (pdftex.def)             Requested size: 455.24408pt x 359.83316pt.
 
 
@@ -1269,15 +1280,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [18 <./exam/9.png>]
-<exam/11.png, id=298, 881.2925pt x 380.42125pt>
+<exam/11.png, id=240, 881.2925pt x 380.42125pt>
 File: exam/11.png Graphic file (type png)
 <use exam/11.png>
-Package pdftex.def Info: exam/11.png  used on input line 374.
+Package pdftex.def Info: exam/11.png  used on input line 377.
 (pdftex.def)             Requested size: 455.24408pt x 196.5083pt.
-<exam/12.png, id=299, 881.2925pt x 809.0225pt>
+<exam/12.png, id=241, 881.2925pt x 809.0225pt>
 File: exam/12.png Graphic file (type png)
 <use exam/12.png>
-Package pdftex.def Info: exam/12.png  used on input line 375.
+Package pdftex.def Info: exam/12.png  used on input line 378.
 (pdftex.def)             Requested size: 455.24408pt x 417.90424pt.
 
 
@@ -1288,10 +1299,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [19 <./exam/10.png> <./exam/11.png>]
-<exam/13.png, id=308, 881.2925pt x 479.7925pt>
+<exam/13.png, id=250, 881.2925pt x 479.7925pt>
 File: exam/13.png Graphic file (type png)
 <use exam/13.png>
-Package pdftex.def Info: exam/13.png  used on input line 376.
+Package pdftex.def Info: exam/13.png  used on input line 379.
 (pdftex.def)             Requested size: 455.24408pt x 247.83897pt.
 
 
@@ -1302,15 +1313,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [20 <./exam/12.png>]
-<exam/14.png, id=315, 881.2925pt x 323.2075pt>
+<exam/14.png, id=257, 881.2925pt x 323.2075pt>
 File: exam/14.png Graphic file (type png)
 <use exam/14.png>
-Package pdftex.def Info: exam/14.png  used on input line 377.
+Package pdftex.def Info: exam/14.png  used on input line 380.
 (pdftex.def)             Requested size: 455.24408pt x 166.95428pt.
-<exam/15.png, id=316, 881.2925pt x 323.2075pt>
+<exam/15.png, id=258, 881.2925pt x 323.2075pt>
 File: exam/15.png Graphic file (type png)
 <use exam/15.png>
-Package pdftex.def Info: exam/15.png  used on input line 378.
+Package pdftex.def Info: exam/15.png  used on input line 381.
 (pdftex.def)             Requested size: 455.24408pt x 166.95428pt.
 
 
@@ -1321,15 +1332,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [21 <./exam/13.png> <./exam/14.png>]
-<exam/16.png, id=326, 881.2925pt x 345.29pt>
+<exam/16.png, id=267, 881.2925pt x 345.29pt>
 File: exam/16.png Graphic file (type png)
 <use exam/16.png>
-Package pdftex.def Info: exam/16.png  used on input line 379.
+Package pdftex.def Info: exam/16.png  used on input line 382.
 (pdftex.def)             Requested size: 455.24408pt x 178.3611pt.
-<exam/17.png, id=327, 881.2925pt x 598.235pt>
+<exam/17.png, id=268, 881.2925pt x 598.235pt>
 File: exam/17.png Graphic file (type png)
 <use exam/17.png>
-Package pdftex.def Info: exam/17.png  used on input line 380.
+Package pdftex.def Info: exam/17.png  used on input line 383.
 (pdftex.def)             Requested size: 455.24408pt x 309.02098pt.
 
 
@@ -1340,15 +1351,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [22 <./exam/15.png> <./exam/16.png>]
-<exam/18.png, id=336, 881.2925pt x 188.705pt>
+<exam/18.png, id=277, 881.2925pt x 188.705pt>
 File: exam/18.png Graphic file (type png)
 <use exam/18.png>
-Package pdftex.def Info: exam/18.png  used on input line 381.
+Package pdftex.def Info: exam/18.png  used on input line 384.
 (pdftex.def)             Requested size: 455.24408pt x 97.47641pt.
-<exam/19.png, id=337, 881.2925pt x 387.4475pt>
+<exam/19.png, id=278, 881.2925pt x 387.4475pt>
 File: exam/19.png Graphic file (type png)
 <use exam/19.png>
-Package pdftex.def Info: exam/19.png  used on input line 382.
+Package pdftex.def Info: exam/19.png  used on input line 385.
 (pdftex.def)             Requested size: 455.24408pt x 200.13776pt.
 
 
@@ -1359,10 +1370,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [23 <./exam/17.png> <./exam/18.png>]
-<exam/20.png, id=347, 881.2925pt x 305.14pt>
+<exam/20.png, id=288, 881.2925pt x 305.14pt>
 File: exam/20.png Graphic file (type png)
 <use exam/20.png>
-Package pdftex.def Info: exam/20.png  used on input line 383.
+Package pdftex.def Info: exam/20.png  used on input line 386.
 (pdftex.def)             Requested size: 455.24408pt x 157.62143pt.
 
 
@@ -1372,7 +1383,175 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24 <./exam/19.png> <./exam/20.png>] (./E5.aux)
+[24 <./exam/19.png> <./exam/20.png>]
+<ex/1.png, id=297, 810.02625pt x 299.1175pt>
+File: ex/1.png Graphic file (type png)
+<use ex/1.png>
+Package pdftex.def Info: ex/1.png  used on input line 397.
+(pdftex.def)             Requested size: 364.19664pt x 134.48752pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25
+
+ <./ex/1.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26]
+<ex/2.png, id=314, 422.57875pt x 90.3375pt>
+File: ex/2.png Graphic file (type png)
+<use ex/2.png>
+Package pdftex.def Info: ex/2.png  used on input line 450.
+(pdftex.def)             Requested size: 273.14922pt x 58.39473pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27 <./ex/2.png>]
+Runaway argument?
+ 
+/Users/timthedev07/Documents/物理笔记/E5/E5.tex:472: Paragraph ended before \align* was complete.
+<to be read again> 
+                   \par 
+l.472 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/Users/timthedev07/Documents/物理笔记/E5/E5.tex:472: Missing $ inserted.
+<inserted text> 
+                $
+l.472 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/timthedev07/Documents/物理笔记/E5/E5.tex:472: Missing } inserted.
+<inserted text> 
+                }
+l.472 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/timthedev07/Documents/物理笔记/E5/E5.tex:472: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.472 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/timthedev07/Documents/物理笔记/E5/E5.tex:472: Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.472 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+/Users/timthedev07/Documents/物理笔记/E5/E5.tex:472: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.472 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/timthedev07/Documents/物理笔记/E5/E5.tex:473: Misplaced \cr.
+\math@cr@@@ ->\cr 
+                  
+l.473                 \end{align*}
+                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/timthedev07/Documents/物理笔记/E5/E5.tex:473: Misplaced \noalign.
+\math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
+                                                  {\vskip #1\relax }
+l.473                 \end{align*}
+                                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/timthedev07/Documents/物理笔记/E5/E5.tex:473: Misplaced \noalign.
+\black@ #1->\noalign 
+                     {\ifdim #1>\displaywidth \dimen@ \prevdepth \nointerlin...
+l.473                 \end{align*}
+                                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (243.78973pt too wide) detected at line 473
+[]
+ []
+
+/Users/timthedev07/Documents/物理笔记/E5/E5.tex:473: Extra }, or forgotten \endgroup.
+\endalign ->\math@cr \black@ \totwidth@ \egroup 
+                                                \ifingather@ \restorealignst...
+l.473                 \end{align*}
+                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/timthedev07/Documents/物理笔记/E5/E5.tex:473: Missing $ inserted.
+<inserted text> 
+                $
+l.473                 \end{align*}
+                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/timthedev07/Documents/物理笔记/E5/E5.tex:473: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.473                 \end{align*}
+                                  
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28] (./E5.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1382,22 +1561,34 @@ L3 programming layer <2024-02-20>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 124.49696pt have occurred.
 
-Package rerunfilecheck Info: File `E5.out' has not changed.
-(rerunfilecheck)             Checksum: 0A852FF012AAA5A3C4522EF8889F9ABF;2178.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `E5.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `E5.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  4014225DFCEB927CAE60206D5948C0A3;2551.
  ) 
 Here is how much of TeX's memory you used:
- 47830 strings out of 474116
- 1142425 string characters out of 5743681
- 1938187 words of memory out of 5000000
- 69370 multiletter control sequences out of 15000+600000
+ 47847 strings out of 474116
+ 1142656 string characters out of 5743681
+ 1940187 words of memory out of 5000000
+ 69374 multiletter control sequences out of 15000+600000
  566865 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,96p,771b,1274s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on E5.pdf (26 pages, 3793320 bytes).
+Output written on E5.pdf (30 pages, 3958462 bytes).
 PDF statistics:
- 433 PDF objects out of 1000 (max. 8388607)
- 301 compressed objects within 4 object streams
- 106 named destinations out of 1000 (max. 500000)
- 399 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 412 PDF objects out of 1000 (max. 8388607)
+ 273 compressed objects within 3 object streams
+ 125 named destinations out of 1000 (max. 500000)
+ 297 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -296,7 +296,7 @@ This includes those with mass $M > 4M_{\odot}$.
 \begin{itemize}
   \item \textit{Light years}: The distance light travels in a year, approximately $9.47\times 10^{15}$ m.
   \item \textit{Astronomical units}: The \textbf{average distance} between the Earth and the Sun, approximately $1.5\times 10^{11}$ m or equivalently 8 light minutes.
-  \item \textit{Parsecs}: 3.26 light years, or approximately $3.1\times 10^{16}$ m. The typical order of nearby stars (to the Earth) is parsec, that of distant stars in the same galaxy is kiloparsec, and that of distant galaxies is megaparsec/gigaparsec.
+  \item \textit{Parsecs}: 3.26 light years, or approximately $3.1\times 10^{16}$ m. The typical order of nearby stars (to the Earth) is parsec, that of distant stars in the same galaxy is kiloparsec, and that of distant galaxies is megaparsec/gigaparsec. It is the equivalent of $206265$ AU.
 \end{itemize}
 
 \section{Stellar Parallax}
@@ -304,6 +304,7 @@ This includes those with mass $M > 4M_{\odot}$.
 \begin{itemize}
   \item \textit{Parallax} is the visual effect where the position of an object relative to a background appears to change as the viewer's position changes.
   \item \textit{Stellar parallax} is the use of the geometry of parallax to find the distance of nearby stars.
+  \item The \textit{parallax angle} is \hl{half the angle between star and Earth measured six months apart}
 \end{itemize}
 
 We use this method when the stars we are observing are \say{fixed} in the background.
@@ -358,7 +359,9 @@ Determining the stellar radius:
         \end{enumerate}
 \end{enumerate}
 
-\section{Exam Questions}
+\section{Question Bank Screenshots}
+
+Im too lazy mate.
 
 \img{exam/1.png}{1}{Question 1}{exam1}
 
@@ -381,5 +384,97 @@ Determining the stellar radius:
 \img{exam/18.png}{1}{Question 18}{exam18}
 \img{exam/19.png}{1}{Question 19}{exam19}
 \img{exam/20.png}{1}{Question 20}{exam20}
+
+\pagebreak
+
+\section{Exam Questions}
+
+\subsection{Misc \#1}
+
+The diagram shows the extreme positions of star A six months apart as seen from Earth. The black dots are the fixed positions of distant stars. The horizontal scale is
+in arc-seconds.
+
+\img{ex/1.png}{0.8}{Diagram}{ex1}
+
+\begin{enumerate}[label=(\alph*)]
+  \item Show that the distance to star A is about 10 pc.
+        \begin{itemize}
+          \item The key is to understand that the horizontal axis of the diagram is twice the parallax angle $p$.
+                \begin{align*}
+                  p & = \dfrac{1}{2}\Delta \theta      \\
+                    & = \dfrac{1}{2}\times 0.18 = 0.09 \\
+                  d & = \dfrac{1}{p}                   \\
+                    & = \dfrac{1}{0.09}                \\
+                    & = 11.1 \text{ pc}
+                \end{align*}
+        \end{itemize}
+  \item Calculate the ratio $\dfrac{\text{distance to star A}}{\text{distance from Earth to Sun}}$
+        \begin{itemize}
+          \item Essentially we are trying to compute
+                $$\frac{11 \text{ pc}}{1 \text{ AU}}$$
+          \item We know that $1 \text{ pc} = 206265 \text{ AU}$, so
+                $$\frac{11 \text{ pc}}{1 \text{ AU}} = \frac{11 \times 206265 \text{ AU}}{1 \text{ AU}} = 2.27\times 10^6$$
+        \end{itemize}
+  \item The analysis of the stellar spectrum of star B shows that it has a surface temperature of 9900 K. Star B is a main sequence star with a luminosity of 25$L_\odot$, where $L_\odot$ is the luminosity of the Sun.
+        \begin{enumerate}[label=(\roman*)]
+          \item Outline how the temperature of a star can be determined from its stellar spectrum.
+                \begin{itemize}
+                  \item Identify the peak wavelength $\lambda_{\max}$
+                  \item The temperature can be found with Wien's law, $\lambda_{\max}T = b$, where $b =  2.9\times 10^{-3}$.
+                \end{itemize}
+        \end{enumerate}
+
+\end{enumerate}
+
+\pagebreak
+
+\subsection{Misc \#2}
+
+The parallax angle of the starVega is 0.131 arc seconds.
+
+\begin{enumerate}[label=(\alph*)]
+  \item Show that the distance to Vega is 25 light years.
+        \begin{itemize}
+          \item The distance in parsecs is given by $d = \dfrac{1}{p}$, where $p$ is the parallax angle in arc seconds.
+                \begin{align*}
+                  d & = \dfrac{1}{0.131} \\
+                    & = 7.63 \text{ pc}
+                \end{align*}
+          \item To convert to light years, we use the conversion factor $1 \text{ pc} = 3.26 \text{ light years}$.
+                \begin{align*}
+                  d & = 7.63 \times 3.26         \\
+                    & = 24.9 \text{ light years}
+                \end{align*}
+        \end{itemize}
+  \item The following information is available for the stars Vega and Ori.
+        \img{ex/2.png}{0.6}{Table of stars}{ex2}
+        \begin{enumerate}[label=(\roman*)]
+          \item Determine whether Vega or $\beta$ Ori appears brighter from Earth.
+                \begin{itemize}
+                  \item We calculate the ratios of the apparent brightness of the two stars.
+                        \begin{align*}
+                          \frac{b_{\text{Vega}}}{b_{\beta \text{Ori}}} & = \frac{L_{\text{Vega}}}{L_{\beta \text{Ori}}}\frac{d_{\beta \text{Ori}}^2}{d_{\text{Vega}}^2} \\
+                                                                       & = \frac{54L_\odot}{40000L_\odot}\frac{(780)^2}{(25)^2} = 1.3                                   \\
+                          \implies b_{\text{Vega}}                     & > b_{\beta \text{Ori}}
+                        \end{align*}
+
+                \end{itemize}
+          \item Calculate the ratio $\dfrac{\text{radius of } \beta}{\text{radius of Vega}}$
+                \begin{align*}
+                  \frac{L_\beta}{L_V} = \frac{R_\beta^2T_\beta^4}{R_V^2T_V^4} & \implies \frac{40000}{54} =  \left(\frac{R_\beta}{R_V}\right)^2\left(\frac{11000}{9600}\right)^4 \\\frac{ R_\beta}{R_V} &=21
+                \end{align*}
+        \end{enumerate}
+
+  \item Vega is a main-sequence star with a mass of about three solar masses.
+        \begin{enumerate}[label=(\roman*)]
+          \item Vega is a main sequence star. Show that the mass of Vega is about three solar masses.
+                \begin{align*}
+
+                \end{align*}
+        \end{enumerate}
+
+\end{enumerate}
+
+
 
 \end{document}
