@@ -26,8 +26,10 @@
 \usepackage{tikz,pgfplots}
 \usepackage[most]{tcolorbox}
 \usepackage{draftwatermark}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
 \SetWatermarkText{timthedev07}
-\SetWatermarkScale{4}
+\SetWatermarkScale{0.7}
 \SetWatermarkColor[gray]{0.97}
 \usetikzlibrary{positioning,decorations.markings,arrows.meta,angles,quotes}
 \DeclareSIUnit{\rad}{rad}
@@ -71,6 +73,9 @@
 \fancyfoot{}
 \fancypagestyle{fancy}{\fancyfoot[R]{\vspace*{1.5\baselineskip}\thepage}}
 \renewcommand{\contentsname}{Table of Contents}
+\newcommand{\ans}[1]{\textcolor{ForestGreen}{The answer is #1.}}
+\newcommand{\out}[1]{\textcolor{BrickRed}{We rule out option #1}}
+\newcommand{\outs}[2]{\textcolor{BrickRed}{We rule out options #1 and #2}}
 \newcommand{\angled}[1]{\langle{#1}\rangle}
 \newcommand{\paren}[1]{\left(#1\right)}
 \newcommand{\sqb}[1]{\left[#1\right]}
@@ -155,9 +160,63 @@ where
   \item $t$ is the time
 \end{itemize}
 
-\hl{N.b. these equations can only be used when the acceleration is constant!}\lb
+\hl{N.b. these equations can only be used when the acceleration is constant!}
+
+\section{Projectile}
+
+Consider an object launched at an angle $\theta$ to the horizontal with an initial velocity $u$.
+
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}[scale=1.2]
+    % Axes
+    \draw[->] (0,0) -- (7,0) node[right] {$x$};
+    \draw[->] (0,0) -- (0,4.5) node[above] {$y$};
+
+    % Parabolic trajectory
+    \draw[thick,domain=0:6.2,smooth,variable=\x,blue] plot ({\x},{0.5*\x - 0.08*\x*\x});
+
+    % Initial velocity vector
+    \draw[->,red,thick] (0,0) -- (2,1.5) node[above right] {$\vec{u}$};
+
+    % Components of initial velocity
+    \draw[dashed,red] (2,0) -- (2,1.5);
+    \draw[dashed,red] (0,1.5) -- (2,1.5);
+    \node[below,red] at (1,0) {$u \cos \theta$};
+    \node[left,red] at (0,0.75) {$u \sin \theta$};
+
+    % Angle theta
+    \draw (0.7,0) arc[start angle=0,end angle=36, radius=0.7];
+    \node at (1.1,0.2) {$\theta$};
+
+    % Labels
+    \node[below left] at (0,0) {};
+
+    % Apex (highest point)
+    \draw[dashed] (3.1,0.8) -- (3.1,0);
+    \node[below] at (3.1,0) {Range $R/2$};
+
+    % Total range
+    \draw[dashed] (6.25,0) -- (6.25,0.01);
+    \node[below] at (6.25,0) {Range $R$};
+
+  \end{tikzpicture}
+\end{figure}
+
+\begin{itemize}
+  \item The initial velocity $u$ has horizontal component $u_x = u \cos \theta$ and vertical component $u_y = u \sin \theta$.
+  \item The horizontal component of the velocity is given by $u_x = u \cos \theta$ and is constant throughout the motion.
+  \item At the maximum height (the stationary point), the vertical velocity switches direction and becomes downwards from there on.
+  \item There is only vertical acceleration on the object -- $g$ downward.
+  \item The maximum height is given by
+        $$h = \frac{u^2 \sin^2 \theta}{2g}$$
+  \item The duration of the entire journey is the following, which is also twice the time to reach the maximum height:
+        $$T = \frac{2u \sin \theta}{g}$$
+\end{itemize}
 
 \section{Special Forces}
+
+I don't mean the police unit...
 
 \subsection{Drag Force}
 
@@ -173,7 +232,7 @@ where:
 
 It is in the opposite direction of the velocity vector.\lb
 An explanation on the forces acting on a skydiver can be asked in exams; let us consider the scenario with respect to a velocity/time graph
-\img{material/terminalvgraph.png}{0.8}{Velocity/time graph of a skydiver}{skydiver}
+\img{material/terminalvgraph.png}{0.75}{Velocity/time graph of a skydiver}{skydiver}
 
 \begin{enumerate}
   \item When the skydiver jumps out of the plane, immediately there is a \hl{constant gravitational force} acting on them, initially giving a downward acceleration of $g$.
@@ -386,6 +445,55 @@ In a lot of questions, you'd be ask to determine whether the collision is elasti
 
 \section{Exam Questions}
 
+\subsection{MCQ \#1 -- Projectile}
+
+A projectile is launched with an initial kinetic energy $E$. The initial horizontal and vertical components of velocity are equal. Air resistance is negligible.
+What is the kinetic energy of the projectile at the highest point of the motion?
+
+\begin{enumerate}[label=\Alph*.]
+  \item zero
+  \item $\dfrac{E}{4}$
+  \item $\dfrac{E}{2}$
+  \item $E$
+\end{enumerate}
+
+\begin{itemize}
+  \item Both components have the same initial speed and this means that the KE is equally divided between the two components.
+  \item Recall that the horizontal component of the velocity is constant, and so the horizontal component of the KE, namely $\dfrac{E}{2}$, remains constant.
+  \item At the highest point, the vertical velocity and hence the vertical component of the KE is zero.
+  \item So the total KE is equal to the horizontal component of the KE, which is $\dfrac{E}{2}$.
+  \item \ans{C}
+\end{itemize}
+
+\pagebreak
+
+\subsection{MCQ \#2 -- Projectile}
+A ball is thrown upwards at time $t = 0$. The graph shows the variation with time of the height of the ball. The ball returns to the initial height at time $T$.
+\img{ex/1.png}{0.7}{Graph of height vs time}{heightvtime}
+What is the height $h$ at time $t$?
+
+\begin{enumerate}[label=\Alph*.]
+  \item $\dfrac{1}{2}gt^2$
+  \item $\dfrac{1}{2}gT^2$
+  \item $\dfrac{1}{2}gT(T - t)$
+  \item $\dfrac{1}{2}gt(T - t)$
+\end{enumerate}
+
+Walkthrough:
+\begin{itemize}
+  \item You could do this the hard way and use SUVAT. If you are satisfied with that, skip to the next question.
+  \item Let us use a bit more of reasoning.
+        \begin{enumerate}
+          \item By the nature of the projectile motion, the graph of s/t has to be parabolic and thus a quadratic in $t$ (\outs{B}{C}, quadratics in $T$). In this case, it has roots $t = 0$ and $t = T$ (\ans{D}).
+
+        \end{enumerate}
+\end{itemize}
+
+\pagebreak
+
+\subsection{Misc \#1 -- Pulley}
+
+A student uses a load to pull a box up a ramp inclined at 30°. A string of constant length and negligible mass connects the box to the load that falls vertically. The string passes over a pulley that runs on a frictionless axle. Friction acts between the base of the box and the ramp. Air resistance is negligible.
 
 
 \end{document}
