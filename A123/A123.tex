@@ -28,6 +28,7 @@
 \usepackage{draftwatermark}
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
+
 \SetWatermarkText{timthedev07}
 \SetWatermarkScale{0.7}
 \SetWatermarkColor[gray]{0.97}
@@ -214,9 +215,41 @@ Consider an object launched at an angle $\theta$ to the horizontal with an initi
         $$T = \frac{2u \sin \theta}{g}$$
 \end{itemize}
 
-\section{Special Forces}
+\section{Types of Forces}
 
-I don't mean the police unit...
+\subsection{Tension}
+
+Tension is the force that arises in any body when it is stretched or
+compressed.\lb
+A tension force in a string is created when two forces are applied in opposite directions at the ends of the string. It acts along the length of the string, and always pulls away from the object tied to the string at either end -- never pushes.\lb
+We normally assume that the string is massless and inextensible, and so the \hl{tension is the same throughout (at any point of) the string}.\lb
+Consider the following situation where a mass $m$ is tied onto a string and is hanging from the ceiling.
+
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}
+    % Ceiling
+    \draw[thick] (-1, 0) -- (1, 0);
+
+    % Rope
+    \draw[thick] (0, 0) -- (0, -3);
+
+    % Mass
+    \draw[fill=gray!30, thick] (-0.4, -3) rectangle (0.4, -3.8);
+    \node at (0, -3.4) {\( m \)};
+
+    % Tension force arrow
+    \draw[->, thick, red] (0, -3) -- (0, -1.5) node[midway, right] {\( \vec{T} \)};
+
+    % Weight force arrow
+    \draw[->, thick, blue] (0, -3.8) -- (0, -5.2) node[midway, right] {\( \vec{W} = mg \)};
+  \end{tikzpicture}
+  \caption{A mass \( m \) hanging from a rope with tension \( \vec{T} \) and weight \( \vec{W} = mg \).}
+\end{figure}
+\bigskip
+It is said that there is a tension $T = W = mg$ in the string. This tension is upward so as to balance the weight of the mass.
+
+\pagebreak
 
 \subsection{Drag Force}
 
@@ -285,7 +318,8 @@ where:
 It then follows that the maximum force along the surface before the object starts moving is given by:
 $$F_{f, \text{max}} = \mu_s F_n$$
 
-Exerting a force greater than this limit will cause the object to start moving, in which case, the frictional force now must use the kinetic coefficient.
+Exerting a force greater than this limit will cause the object to start moving, in which case, the frictional force now must use the kinetic coefficient.\lb
+It must be noted that $\mu_s > \mu_d$, and so the static frictional force is always greater than the kinetic frictional force.\lb
 
 \pagebreak
 
@@ -504,8 +538,99 @@ The load is released and accelerates downwards.
   \item Outline \textbf{two} differences between the momentum of the box and the momentum of the load at the same instant.
         \begin{itemize}
           \item The momentum of the box is less than the momentum of the load because they have the same velocity, but the load has a greater mass.
-          \item The directions are different.
+          \item The directions of motion are different.
         \end{itemize}
+  \item The vertical acceleration of the load downwards is $\SI{2.4}{\m\per\s\squared}$.
+
+        Calculate the tension in the string.
+        \begin{itemize}
+          \item We start by looking at the forces acting on the load. Let us draw the following free body diagram
+
+                \begin{figure}[H]
+                  \centering
+                  \begin{tikzpicture}
+                    % Draw the object (a box)
+                    \draw[thick] (-0.5,0) rectangle (0.5,0.5);
+
+                    % Tension force (upwards)
+                    \draw[->, thick, blue] (0,0.5) -- (0,1.3) node[above] {\( T \)};
+
+                    % Force = ma (downwards)
+                    \draw[->, thick, red] (0,-0.1) -- (0,-2) node[below] {\( F = mg \)};
+
+
+                  \end{tikzpicture}
+                \end{figure}
+          \item We are given the actual downward acceleration of the load, which corresponds to its resultant force. Hence
+                \begin{align*}
+                  ma & = mg - T                  \\
+                  T  & = m(g-a)                  \\
+                     & = 3.5 \times (9.81 - 2.4) \\
+                     & = \SI{26}{\newton}
+                \end{align*}
+        \end{itemize}
+  \item \begin{enumerate}[label=(\roman*)]
+          \item Show that the speed of the load when it hits the floor is about $\SI{2.1}{\m\per\s}$
+                \begin{align*}
+                  v & = \sqrt{u^2 + 2as}                    \\
+                    & = \sqrt{0 + 2 \times 2.4 \times 0.95} \\
+                    & = \SI{2.14}{\m\per\s}
+                \end{align*}
+          \item The radius of the pulley is 2.5 cm. Calculate the angular speed of rotation of the pulley as the load hits the floor. State your answer to an appropriate number of significant figures.
+                \begin{align*}
+                  \omega & = \frac{v}{r} = \frac{2.1}{0.025} = 84
+                \end{align*}
+        \end{enumerate}
+  \item After the load has hit the floor, the box travels a further 0.35 m along the ramp before coming to rest. Determine the average frictional force between the box and the surface of the ramp.
+        \begin{itemize}
+          \item We must recognize that the only thing that can bring the box to rest is the frictional force $F_f$ opposing its motion. But there is an issue of components here so let us first visualise the situation with a free body diagram (our favourite)
+                \begin{figure}[H]
+                  \centering
+                  \begin{tikzpicture}
+                    \draw[thick] (0,0) circle (0.5);
+
+                    \draw[->,thick,dashed,blue] (0.433013, -0.25) -- (1.29904, -0.75) node[below right=5pt] {\( mg\sin 30\degsym \)};
+
+                    \draw[->,thick,dashed] (1.29904, -0.75) -- (0, -3) node[below] {};
+
+
+                    \draw[->, thick] (0,-0.5) -- (0,-3) node[below] {\( F = mg \)};
+
+                    \draw[->,thick,red] (0.46614, 0.18088) -- (1.08569,-0.17683) node[above] {$F_f$};
+
+
+                  \end{tikzpicture}
+                \end{figure}
+          \item Wee see that the resultant force acting on the box to bring it to rest is the following sum
+                $$ma = F_f + mg\sin 30\degsym \iff F_f  = m(a - g\sin 30\degsym)$$
+          \item We are given $m$ but $a$ is still unknown at this point. We need another equation.
+          \item We know that the force as a result of this net acceleration $a$ brings the object to rest in 0.35 m. We can use SUVAT, since the acceleration is constant.
+                \begin{align*}
+                  a & = \frac{v^2 - u^2}{2s}            \\
+                    & = \frac{0 - 2.1^2}{2 \times 0.35} \\
+                    & = 6.3
+                \end{align*}
+          \item Now we are ready to substitute this value of $a$ into the equation for $F_f$.
+                \begin{align*}
+                  F_f & = m(a - g\sin 30\degsym)   \\
+                      & = 1.5 \times (6.3 - 4.905) \\
+                      & = \SI{2.1}{\newton}
+                \end{align*}
+
+
+
+        \end{itemize}
+  \item The student then makes the ramp horizontal and applies a constant horizontal force to the box. The force is just large enough to start the box moving. The force continues to be applied after the box begins to move.
+
+        \img{ex/3.png}{0.35}{Box on a horizontal ramp}{boxhorizontal}
+
+        Explain, with reference to the frictional force acting, why the box accelerates once
+        it has started to move.
+        \begin{enumerate}[label=\arabic*.]
+          \item $\mu_s > \mu_d$
+          \item for the object to start moving, the applied force must be greater than the maximum static frictional force.
+          \item Once the object starts moving, the applied force remains the same but the frictional force is now the kinetic frictional force, which is less than the static frictional force. Thus, the forces are now unbalanced. $F = ma$, so there is an acceleration.
+        \end{enumerate}
 \end{enumerate}
 
 
