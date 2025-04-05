@@ -137,6 +137,26 @@
   \item N$^{3\text{rd}}$: For every action, there is an equal and opposite reaction.
 \end{enumerate}
 
+\section{The SUVAT Equations}
+
+\begin{align*}
+  v   & = u + at               \\
+  s   & = ut + \frac{1}{2}at^2 \\
+  v^2 & = u^2 + 2as            \\
+  s   & = \frac{(u + v)}{2}t   \\
+  s   & = vt - \frac{1}{2}at^2
+\end{align*}
+where
+\begin{itemize}
+  \item $u$ is the initial velocity
+  \item $v$ is the final velocity
+  \item $a$ is the acceleration
+  \item $s$ is the displacement
+  \item $t$ is the time
+\end{itemize}
+
+\hl{N.b. these equations can only be used when the acceleration is constant!}\lb
+
 \section{Special Forces}
 
 \subsection{Drag Force}
@@ -151,7 +171,17 @@ where:
   \item $v$ is the velocity of the object
 \end{itemize}
 
-It is in the opposite direction of the velocity vector.
+It is in the opposite direction of the velocity vector.\lb
+An explanation on the forces acting on a skydiver can be asked in exams; let us consider the scenario with respect to a velocity/time graph
+\img{material/terminalvgraph.png}{0.8}{Velocity/time graph of a skydiver}{skydiver}
+
+\begin{enumerate}
+  \item When the skydiver jumps out of the plane, immediately there is a \hl{constant gravitational force} acting on them, initially giving a downward acceleration of $g$.
+  \item As the skydiver accelerates downwards, the \hl{drag force opposing their motion increases} because the velocity is increasing and the \hl{skydiver hits the air particles with more force} (so greater resistance upwards, by N$^{3\text{rd}}$).
+  \item The \hl{drag force continues to increase} until it is equal to the gravitational force, at which point the \hl{net force acting on the skydiver is zero}, and a terminal velocity is reached.
+  \item The instant the skydiver opens their parachute, the \hl{drag force increases significantly}, and the drag force now is much greater than the gravitational force, causing the skydiver to \hl{decelerate} rapidly.
+  \item With decreasing velocity, the \hl{drag force also decreases} until it is equal to the gravitational force again, at which point the skydiver reaches a \hl{new, lower terminal velocity.}
+\end{enumerate}
 
 \pagebreak
 
@@ -219,10 +249,143 @@ The negative sign indicates that the force is always directed opposite to the di
 
 The equations are
 \begin{itemize}
-  \item Linear acceleration: $a = v\omega = \dfrac{v^2}{r}$
+  \item Linear acceleration: $a = v\omega = \dfrac{v^2}{r} = \omega^2r$ is the centripetal acceleration, directed inwards towards the center of the circle.
   \item Linear speed: $v = \dfrac{2\pi r}{T} = r\omega = 2\pi r f$
   \item Angular speed: $\omega = \dfrac{2\pi}{T}$
   \item Frequency: $f = \dfrac{1}{T}$
 \end{itemize}
+
+It must be noted that, when drawing free body diagrams, the centripetal force is \hl{not a type of force in itself}, but rather a net force acting on the object, and so should not be drawn. We will practice with this in the Exam Questions section later on.\lb
+There are a few scenarios that we investigate in IB questions; below is the list identifying the force providing the centripetal force.
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|c|c|}
+    \hline
+    \rowcolor{BlueGreen!35!white}
+    \textbf{Scenario}                                  & \textbf{Centripetal Force}      \\ \hline
+    Car at a roundabout                                & Frictional force                \\
+    Object on a string rotating in a horizontal circle & Horizontal component of tension \\
+    Bicycle on a banked curve                          & Normal force                    \\
+    Satellites in orbit                                & Gravitational force             \\
+    Rotor ride                                         & Normal reaction force           \\\hline
+  \end{tabular}
+\end{table}
+
+\pagebreak
+
+
+\subsection{Turning without Slipping}
+
+Consider a car turning around a corner, whose path is modelled by a circle of radius $r$.
+
+\begin{minipage}{0.35\textwidth}
+  \centering
+  \img{material/turn1.png}{1}{Car turning around a corner}{carturn}
+\end{minipage}\hspace{0.1\textwidth}%
+\begin{minipage}{0.55\textwidth}
+  \centering
+  \img{material/turn2.png}{1}{Forces acting on a car turning around a corner}{carturnforces}
+\end{minipage}
+
+
+Suppose road has a static friction coefficient $\mu_s$ and the car has a mass $m$. The car is moving with a speed $v$ and the radius of the turn is $r$. The forces acting on the car are:
+\begin{itemize}
+  \item Vertically: The weight of the car $mg$ acting downwards and the normal force $F_n = mg$ acting upwards.
+  \item Horizontally: The frictional force $F_f$ acting towards the center of the circle.
+\end{itemize}
+
+The common problem in IB questions is to find the maximum speed at which the car can turn without slipping. This is where the frictional force does not surpass the maximum static frictional force. This means
+\begin{align*}
+  F_c \le F_\text{f, static}  \\
+  \frac{mv^2}{r} \le \mu_s mg \\
+  v^2 \le \mu_s g r           \\
+  v \le \sqrt{\mu_s g r}
+\end{align*}
+
+\pagebreak
+
+\subsection{Banking}
+
+Suppose an object travelling on a curved path with radius $r$ banked at an angle $\theta$ to the horizontal. The free body diagram is as follows
+\img{material/banking.png}{0.4}{Free body diagram of a banked curve}{banking}
+\begin{itemize}
+  \item The vertical component of the normal force $F_n$ is equal to the weight of the object $mg$, since the object is not accelerating vertically.
+  \item The centripetal force is provided by the horizontal component of the normal force $F_n$, namely $N \sin \theta$.
+\end{itemize}
+
+\pagebreak
+
+\subsection{Car over a Bridge/Hill}
+
+What is the maximum speed at which a car can go over a bridge/hill of radius $r$ without losing contact with the road? The diagram is as follows.
+
+\img{material/bridge.png}{0.4}{Car over a bridge}{bridge}
+\begin{enumerate}
+  \item The forces acting on the car are
+        \begin{itemize}
+          \item The weight of the car $mg$ acting downwards, so its negative equivalent acts upwards on it.
+          \item The centripetal force $F_c = \dfrac{mv^2}{r}$ acting towards the centre of the circle (downwards).
+          \item The normal reaction force should be upwards and so is $$F_n - F_c = m\left(g - \frac{v^2}{r}\right)$$
+        \end{itemize}
+  \item If, at any point, this normal force is zero, then the car will lose contact with the road. For this to happen, the normal reaction force must be $0$, giving
+        \begin{align*}
+          g & = \frac{v^2}{r} \\
+          v & = \sqrt{gr}
+        \end{align*}
+\end{enumerate}
+
+\section{Energy}
+
+\begin{itemize}
+  \item Kinetic energy: $E_K = \dfrac{1}{2}mv^2 = \dfrac{p^2}{2m}$
+  \item Gravitational potential energy: $E_P = mgh$
+  \item Elastic potential energy: $E_E = \dfrac{1}{2}kx^2$
+  \item Work done: $W = Fd\cos \theta$
+  \item Power: $P = \dfrac{W}{t} = Fv\cos \theta$
+\end{itemize}
+
+\subsection{Sankey Diagrams}
+
+They are used for both energy and power. The rules of a Sankey diagram are as follows:
+\begin{itemize}
+  \item The diagram is drawn to scale with the width of the arrow being proportional to the amount of energy transfer it represents.
+  \item Left to right: The energy input is on the left, and the energy output is on the right.
+  \item Lost/wasted energy is directed downwards.
+\end{itemize}
+
+\img{material/sankey.png}{0.5}{Sankey diagram of a car}{sankey}
+
+\section{Momentum}
+
+Momentum, as an attribute of a body, is given as
+$$p = mv$$
+where:
+\begin{itemize}
+  \item $p$ is the momentum
+  \item $m$ is the mass
+  \item $v$ is the velocity
+\end{itemize}
+
+The momentum of a system is given by the sum of the momenta of all objects.\lb
+The \textbf{impulse}, change in momentum, is given by:
+$$\Delta p = F \Delta t = m(\Delta v)$$
+The differential form (through the product rule) can be used when one or both of mass and velocity are changing:
+$$\Delta p = \diff{(mv)}{t} = m \diff{v}{t} + v \diff{m}{t}$$
+This is useful in situations such as rockets, where the mass is changing due to fuel consumption. When a rocket is travelling while expelling fuel, the total momentum of the fuel-rocket system is conserved. We will practice this later.
+
+\pagebreak
+
+\subsection{Collisions and Explosions}
+
+In these cases, the total momentum of the system is conserved \hl{only if the net force acting on the system is 0}. Hence
+$$\sum p_\text{before} = \sum p_{\text{after}}$$
+Often times, these questions may involve looking at both components. It is important to know that the momentum is conserved in all directions, and so the momentum in the x-direction and y-direction are conserved separately, which can give us a system of equations to solve. We will practice later.\lb
+For it to be an elastic collision, the kinetic energy must also be conserved. This means that
+$$\sum E_{K, \text{before}} = \sum E_{K, \text{after}}$$
+In a lot of questions, you'd be ask to determine whether the collision is elastic or inelastic. This can be done by checking if the kinetic energy before and after the collision is equal. If it is, then it is elastic, otherwise it is inelastic.\lb
+
+\section{Exam Questions}
+
+
 
 \end{document}
