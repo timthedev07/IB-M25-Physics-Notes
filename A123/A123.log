@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  6 APR 2025 00:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  6 APR 2025 00:42
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1222,6 +1222,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17 <./ex/1.png>]
+<ex/2.png, id=275, 456.70625pt x 241.90375pt>
+File: ex/2.png Graphic file (type png)
+<use ex/2.png>
+Package pdftex.def Info: ex/2.png  used on input line 498.
+(pdftex.def)             Requested size: 318.66946pt x 168.79625pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1229,7 +1235,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18] (./A123.aux)
+[18 <./ex/2.png>] (./A123.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1238,18 +1244,18 @@ Package rerunfilecheck Info: File `A123.out' has not changed.
 (rerunfilecheck)             Checksum: 833FC0DB723332FDFEAABE9592D14331;2684.
  ) 
 Here is how much of TeX's memory you used:
- 47845 strings out of 474116
- 1143920 string characters out of 5743681
+ 47856 strings out of 474116
+ 1144077 string characters out of 5743681
  1944187 words of memory out of 5000000
- 69409 multiletter control sequences out of 15000+600000
+ 69418 multiletter control sequences out of 15000+600000
  578632 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,96p,775b,976s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on A123.pdf (20 pages, 696773 bytes).
+Output written on A123.pdf (20 pages, 734590 bytes).
 PDF statistics:
- 337 PDF objects out of 1000 (max. 8388607)
- 256 compressed objects within 3 object streams
- 68 named destinations out of 1000 (max. 500000)
- 352 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 341 PDF objects out of 1000 (max. 8388607)
+ 258 compressed objects within 3 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 357 words of extra memory for PDF output out of 10000 (max. 10000000)
 

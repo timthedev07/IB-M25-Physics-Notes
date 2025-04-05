@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1743891758.03975 "/Users/timthedev07/Documents/物理笔记/A123/A123.tex" "A123.pdf" "A123" 1743891763.23921 0
-  "/Users/timthedev07/Documents/物理笔记/A123/A123.tex" 1743891757.72366 20016 3f909c4b64683e7ca548c429eff35a8a ""
+["pdflatex"] 1743892926.87635 "/Users/timthedev07/Documents/物理笔记/A123/A123.tex" "A123.pdf" "A123" 1743892929.13236 0
+  "/Users/timthedev07/Documents/物理笔记/A123/A123.tex" 1743892924.52183 20628 08bd666de3f792e058dd6070e0a180cf ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -282,11 +282,12 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731313331.24492 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731313254 8221454 067b6d98d3b5175b15c9caab9e14d269 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "A123.aux" 1743891762.95538 4708 3e735e833ff7f562ccd6714f4e7745bf "pdflatex"
-  "A123.out" 1743891762.95705 2684 833fc0db723332fdfeaabe9592d14331 "pdflatex"
-  "A123.tex" 1743891757.72366 20016 3f909c4b64683e7ca548c429eff35a8a ""
-  "A123.toc" 1743891762.95747 1588 2a41c6f89d64dfbc2cf26d6ed244027f "pdflatex"
+  "A123.aux" 1743892928.99263 4967 64ae054c7b2fdd9bca17756bfcb72b55 "pdflatex"
+  "A123.out" 1743892928.99451 2684 833fc0db723332fdfeaabe9592d14331 "pdflatex"
+  "A123.tex" 1743892924.52183 20628 08bd666de3f792e058dd6070e0a180cf ""
+  "A123.toc" 1743892928.99539 1588 2a41c6f89d64dfbc2cf26d6ed244027f "pdflatex"
   "ex/1.png" 1743890321.95577 65440 5c9c0239123660509d7646bd410b4ef9 ""
+  "ex/2.png" 1743892666.58769 67098 0395dfe9e5f6f0664c5ec52d42eb98c2 ""
   "material/banking.png" 1743878686.87121 77130 4ebba6bacbbad0f1121039192adfaf0b ""
   "material/bridge.png" 1743879358.55521 68228 0d4f5ebcdea225c4e51045ff0e4091ad ""
   "material/sankey.png" 1743880194.43824 285260 a5152aa363407bea0f26d2316dfa09f4 ""

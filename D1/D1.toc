@@ -10,23 +10,23 @@
 \contentsline {subsection}{\numberline {7.1}Change in Gravitational Potential Energy}{8}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Equipotential Surfaces}{9}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}Linking to Gravitational Field Strength}{9}{subsection.7.3}%
-\contentsline {section}{\numberline {8}Orbital Motion Equations}{10}{section.8}%
-\contentsline {section}{\numberline {9}Escape Velocity}{11}{section.9}%
-\contentsline {section}{\numberline {10}Total Energy of a Satellite}{12}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Impact of Viscous Drag}{13}{subsection.10.1}%
-\contentsline {section}{\numberline {11}Exam Tips and Notes}{14}{section.11}%
-\contentsline {subsection}{\numberline {11.1}The Radius}{14}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}Some Geography}{14}{subsection.11.2}%
-\contentsline {section}{\numberline {12}Exam Questions}{15}{section.12}%
-\contentsline {subsection}{\numberline {12.1}Finding the Esc. Velocity with V}{15}{subsection.12.1}%
-\contentsline {subsection}{\numberline {12.2}Quick-Fire MCQ \# 1}{16}{subsection.12.2}%
-\contentsline {subsection}{\numberline {12.3}Field Strength -- Two Mass System}{17}{subsection.12.3}%
-\contentsline {subsection}{\numberline {12.4}Miscellaneous \#1}{18}{subsection.12.4}%
-\contentsline {subsection}{\numberline {12.5}Miscellaneous \#2}{20}{subsection.12.5}%
-\contentsline {subsection}{\numberline {12.6}Quick-Fire MCQ \#2}{23}{subsection.12.6}%
-\contentsline {subsection}{\numberline {12.7}Miscellaneous \#3}{24}{subsection.12.7}%
-\contentsline {subsection}{\numberline {12.8}Quick-Fire MCQ -- Comparing Total Energies}{26}{subsection.12.8}%
-\contentsline {subsection}{\numberline {12.9}Weightlessness}{27}{subsection.12.9}%
-\contentsline {subsection}{\numberline {12.10}Work Done by Gravity}{28}{subsection.12.10}%
-\contentsline {subsection}{\numberline {12.11}Work Done by Engine}{29}{subsection.12.11}%
-\contentsline {subsection}{\numberline {12.12}Separation-Potential Graph -- Turning Point}{30}{subsection.12.12}%
+\contentsline {section}{\numberline {8}Orbital Motion Equations}{11}{section.8}%
+\contentsline {section}{\numberline {9}Escape Velocity}{12}{section.9}%
+\contentsline {section}{\numberline {10}Total Energy of a Satellite}{13}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Impact of Viscous Drag}{14}{subsection.10.1}%
+\contentsline {section}{\numberline {11}Exam Tips and Notes}{15}{section.11}%
+\contentsline {subsection}{\numberline {11.1}The Radius}{15}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Some Geography}{15}{subsection.11.2}%
+\contentsline {section}{\numberline {12}Exam Questions}{16}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Finding the Esc. Velocity with V}{16}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Quick-Fire MCQ \# 1}{17}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}Field Strength -- Two Mass System}{18}{subsection.12.3}%
+\contentsline {subsection}{\numberline {12.4}Miscellaneous \#1}{19}{subsection.12.4}%
+\contentsline {subsection}{\numberline {12.5}Miscellaneous \#2}{21}{subsection.12.5}%
+\contentsline {subsection}{\numberline {12.6}Quick-Fire MCQ \#2}{24}{subsection.12.6}%
+\contentsline {subsection}{\numberline {12.7}Miscellaneous \#3}{25}{subsection.12.7}%
+\contentsline {subsection}{\numberline {12.8}Quick-Fire MCQ -- Comparing Total Energies}{27}{subsection.12.8}%
+\contentsline {subsection}{\numberline {12.9}Weightlessness}{28}{subsection.12.9}%
+\contentsline {subsection}{\numberline {12.10}Work Done by Gravity}{29}{subsection.12.10}%
+\contentsline {subsection}{\numberline {12.11}Work Done by Engine}{30}{subsection.12.11}%
+\contentsline {subsection}{\numberline {12.12}Separation-Potential Graph -- Turning Point}{31}{subsection.12.12}%

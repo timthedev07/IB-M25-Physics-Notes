@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  17 MAR 2025 21:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  6 APR 2025 00:34
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -660,6 +660,8 @@ Package: dirtytalk 2010/11/21 A package making "quoting" easier
 \c@dirtytalk@qdepth=\count348
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
 Package: draftwatermark 2024/03/04 3.3 Put a gray textual watermark on document pages
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
  (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty
@@ -789,7 +791,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count370
 \enitdp@description=\count371
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 54.
+Package hyperref Info: Option `colorlinks' set `true' on input line 56.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip66
@@ -824,8 +826,11 @@ Package cleveref Info: include cross-reference names in hyperlinks on input line
 )
 \c@tcb@cnt@defin=\count372
 \c@tcb@cnt@obs=\count373
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 96.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 98.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 98.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count374
 \l__pdf_internal_box=\box95
@@ -851,28 +856,28 @@ LaTeX Warning: Label `fig:string@cref' multiply defined.
 )
 \openout1 = `C4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 96.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 98.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count375
@@ -932,7 +937,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 96.
+Package hyperref Info: Link coloring ON on input line 98.
 (./C4.out) (./C4.out)
 \@outlinefile=\write5
 \openout5 = `C4.out'.
@@ -943,19 +948,14 @@ Package caption Info: End \AtBeginDocument code.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 96.
+ on input line 98.
 
 \c@lstlisting=\count381
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks65
 \inpenc@posthook=\toks66
-)
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <149.37697> not available
-(Font)              size <24.88> substituted on input line 113.
-
-[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+) [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 ] (./C4.toc
 LaTeX Font Info:    Trying to load font information for U+esvect on input line 3.
@@ -969,18 +969,18 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.26 ...8}Quick-Fire MCQ \# 3}{25}{subsection.7.8}
+                                                  % [1
+
+])
 \tf@toc=\write6
 \openout6 = `C4.toc'.
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.118 
-       [1
-
-]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -989,11 +989,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-<standingwaveparts.png, id=185, 405.76593pt x 176.15813pt>
+<standingwaveparts.png, id=184, 405.76593pt x 176.15813pt>
 File: standingwaveparts.png Graphic file (type png)
 <use standingwaveparts.png>
-Package pdftex.def Info: standingwaveparts.png  used on input line 126.
+Package pdftex.def Info: standingwaveparts.png  used on input line 128.
 (pdftex.def)             Requested size: 364.19664pt x 158.11613pt.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 137.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1006,15 +1008,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.137   \item
+l.139   \item
               All points in a nodal region are in phase (0 phase difference). [1
 
 
  <./standingwaveparts.png>]
-Overfull \hbox (2.34294pt too wide) in paragraph at lines 146--147
-[]\OT1/cmr/m/n/12 Positions of max-i-mum and min-i-mum am-pli-tude OR crests and troughs travel through
- []
-
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 139.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1026,12 +1028,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.154 \section
-              {Pulse Reflection --- Boundary Conditions} [2{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<pulse.png, id=202, 730.73pt x 422.57875pt>
+l.156 \section
+              {Pulse Reflection --- Boundary Conditions} [2]
+<pulse.png, id=199, 730.73pt x 422.57875pt>
 File: pulse.png Graphic file (type png)
 <use pulse.png>
-Package pdftex.def Info: pulse.png  used on input line 155.
+Package pdftex.def Info: pulse.png  used on input line 157.
 (pdftex.def)             Requested size: 364.19664pt x 210.6118pt.
 
 
@@ -1044,10 +1046,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [3
 
  <./pulse.png>]
-<string1.png, id=211, 342.27875pt x 192.72pt>
+<string1.png, id=208, 342.27875pt x 192.72pt>
 File: string1.png Graphic file (type png)
 <use string1.png>
-Package pdftex.def Info: string1.png  used on input line 166.
+Package pdftex.def Info: string1.png  used on input line 168.
 (pdftex.def)             Requested size: 295.90587pt x 166.6211pt.
 
 
@@ -1060,10 +1062,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [4
 
  <./string1.png>]
-<string2.png, id=220, 329.23pt x 181.67876pt>
+<string2.png, id=218, 329.23pt x 181.67876pt>
 File: string2.png Graphic file (type png)
 <use string2.png>
-Package pdftex.def Info: string2.png  used on input line 179.
+Package pdftex.def Info: string2.png  used on input line 181.
 (pdftex.def)             Requested size: 295.90587pt x 163.29312pt.
 
 
@@ -1074,10 +1076,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5 <./string2.png>]
-<string3.png, id=227, 325.215pt x 437.635pt>
+<string3.png, id=225, 325.215pt x 437.635pt>
 File: string3.png Graphic file (type png)
 <use string3.png>
-Package pdftex.def Info: string3.png  used on input line 195.
+Package pdftex.def Info: string3.png  used on input line 197.
 (pdftex.def)             Requested size: 204.85844pt x 275.67812pt.
 
 
@@ -1088,10 +1090,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6 <./string3.png>]
-<pipe.png, id=234, 450.68375pt x 217.81375pt>
+<pipe.png, id=232, 450.68375pt x 217.81375pt>
 File: pipe.png Graphic file (type png)
 <use pipe.png>
-Package pdftex.def Info: pipe.png  used on input line 203.
+Package pdftex.def Info: pipe.png  used on input line 205.
 (pdftex.def)             Requested size: 364.19664pt x 176.02267pt.
 
 
@@ -1104,10 +1106,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [7
 
  <./pipe.png>]
-<pipe_summary.png, id=241, 560.0925pt x 371.3875pt>
+<pipe_summary.png, id=239, 560.0925pt x 371.3875pt>
 File: pipe_summary.png Graphic file (type png)
 <use pipe_summary.png>
-Package pdftex.def Info: pipe_summary.png  used on input line 212.
+Package pdftex.def Info: pipe_summary.png  used on input line 214.
 (pdftex.def)             Requested size: 432.48048pt x 286.77962pt.
 
 
@@ -1136,10 +1138,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [10
 
 ]
-<resonance.png, id=260, 226.8475pt x 201.75375pt>
+<resonance.png, id=258, 226.8475pt x 201.75375pt>
 File: resonance.png Graphic file (type png)
 <use resonance.png>
-Package pdftex.def Info: resonance.png  used on input line 256.
+Package pdftex.def Info: resonance.png  used on input line 258.
 (pdftex.def)             Requested size: 182.09485pt x 161.95119pt.
 
 
@@ -1152,10 +1154,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [11
 
  <./resonance.png>]
-<resonancewithdamping.png, id=267, 336.25626pt x 252.945pt>
+<resonancewithdamping.png, id=265, 336.25626pt x 252.945pt>
 File: resonancewithdamping.png Graphic file (type png)
 <use resonancewithdamping.png>
-Package pdftex.def Info: resonancewithdamping.png  used on input line 266.
+Package pdftex.def Info: resonancewithdamping.png  used on input line 268.
 (pdftex.def)             Requested size: 182.09485pt x 136.97809pt.
 
 
@@ -1166,10 +1168,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12 <./resonancewithdamping.png>]
-<damping.png, id=274, 374.39874pt x 309.155pt>
+<damping.png, id=272, 374.39874pt x 309.155pt>
 File: damping.png Graphic file (type png)
 <use damping.png>
-Package pdftex.def Info: damping.png  used on input line 276.
+Package pdftex.def Info: damping.png  used on input line 278.
 (pdftex.def)             Requested size: 273.14922pt x 225.55861pt.
 
 
@@ -1180,13 +1182,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13 <./damping.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 294--294
-[]|\OT1/cmr/m/n/12 Structural Dam-age: Bridges like
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
+[]|\OT1/phv/m/n/12 Structural Dam-age: Bridges like
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--294
-\OT1/cmr/m/n/12 Tacoma Nar-rows and Mil-len-nium
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
+\OT1/phv/m/n/12 Tacoma Nar-rows and Mil-len-nium
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 297--297
+[]|\OT1/phv/m/n/12 Ozone Layer: Res-o-nance ab-sorbs
  []
 
 
@@ -1207,10 +1214,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [15
 
 ]
-<ex/1.png, id=297, 532.99126pt x 372.39125pt>
+<ex/1.png, id=295, 532.99126pt x 372.39125pt>
 File: ex/1.png Graphic file (type png)
 <use ex/1.png>
-Package pdftex.def Info: ex/1.png  used on input line 329.
+Package pdftex.def Info: ex/1.png  used on input line 331.
 (pdftex.def)             Requested size: 364.19664pt x 254.4671pt.
 
 
@@ -1237,15 +1244,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [18]
-<ex/2.png, id=322, 532.99126pt x 200.75pt>
+<ex/2.png, id=320, 532.99126pt x 200.75pt>
 File: ex/2.png Graphic file (type png)
 <use ex/2.png>
-Package pdftex.def Info: ex/2.png  used on input line 365.
+Package pdftex.def Info: ex/2.png  used on input line 367.
 (pdftex.def)             Requested size: 364.19664pt x 137.17902pt.
-<ex/3.png, id=323, 676.5275pt x 229.85875pt>
+<ex/3.png, id=321, 676.5275pt x 229.85875pt>
 File: ex/3.png Graphic file (type png)
 <use ex/3.png>
-Package pdftex.def Info: ex/3.png  used on input line 372.
+Package pdftex.def Info: ex/3.png  used on input line 374.
 (pdftex.def)             Requested size: 273.14922pt x 92.80818pt.
 
 
@@ -1256,10 +1263,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [19 <./ex/2.png> <./ex/3.png>]
-<ex/4.png, id=333, 254.9525pt x 119.44624pt>
+<ex/4.png, id=331, 254.9525pt x 119.44624pt>
 File: ex/4.png Graphic file (type png)
 <use ex/4.png>
-Package pdftex.def Info: ex/4.png  used on input line 377.
+Package pdftex.def Info: ex/4.png  used on input line 379.
 (pdftex.def)             Requested size: 273.14922pt x 127.97752pt.
 
 
@@ -1286,15 +1293,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [22]
-<ex/5.png, id=354, 539.01375pt x 446.66875pt>
+<ex/5.png, id=352, 539.01375pt x 446.66875pt>
 File: ex/5.png Graphic file (type png)
 <use ex/5.png>
-Package pdftex.def Info: ex/5.png  used on input line 417.
+Package pdftex.def Info: ex/5.png  used on input line 419.
 (pdftex.def)             Requested size: 364.19664pt x 301.80191pt.
-<ex/6.png, id=355, 492.84125pt x 268.00125pt>
+<ex/6.png, id=353, 492.84125pt x 268.00125pt>
 File: ex/6.png Graphic file (type png)
 <use ex/6.png>
-Package pdftex.def Info: ex/6.png  used on input line 424.
+Package pdftex.def Info: ex/6.png  used on input line 426.
 (pdftex.def)             Requested size: 273.14922pt x 148.54207pt.
 
 
@@ -1327,28 +1334,24 @@ L3 programming layer <2024-02-20>
  ***********
 
 
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 124.49696pt have occurred.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `C4.out' has not changed.
 (rerunfilecheck)             Checksum: F73B1FFA322599BDA4BF50A48D673FA4;4032.
  ) 
 Here is how much of TeX's memory you used:
- 47010 strings out of 474116
- 1124369 string characters out of 5743681
+ 47126 strings out of 474116
+ 1126234 string characters out of 5743681
  1937187 words of memory out of 5000000
- 68575 multiletter control sequences out of 15000+600000
- 566135 words of font info for 67 fonts, out of 8000000 for 9000
+ 68674 multiletter control sequences out of 15000+600000
+ 578632 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,96p,765b,1266s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on C4.pdf (28 pages, 2065496 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on C4.pdf (28 pages, 2020084 bytes).
 PDF statistics:
- 455 PDF objects out of 1000 (max. 8388607)
- 341 compressed objects within 4 object streams
+ 445 PDF objects out of 1000 (max. 8388607)
+ 335 compressed objects within 4 object streams
  101 named destinations out of 1000 (max. 500000)
  437 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  27 MAR 2025 13:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  6 APR 2025 00:35
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -655,6 +655,8 @@ Package: dirtytalk 2010/11/21 A package making "quoting" easier
 \c@dirtytalk@qdepth=\count347
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
 Package: draftwatermark 2024/03/04 3.3 Put a gray textual watermark on document pages
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
  (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty
@@ -784,7 +786,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count369
 \enitdp@description=\count370
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 54.
+Package hyperref Info: Option `colorlinks' set `true' on input line 56.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip65
@@ -819,8 +821,11 @@ Package cleveref Info: include cross-reference names in hyperlinks on input line
 )
 \c@tcb@cnt@defin=\count371
 \c@tcb@cnt@obs=\count372
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 96.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 98.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 98.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count373
 \l__pdf_internal_box=\box95
@@ -834,28 +839,28 @@ LaTeX Warning: Label `fig:force@cref' multiply defined.
 )
 \openout1 = `D3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 96.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 98.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count374
@@ -915,7 +920,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 96.
+Package hyperref Info: Link coloring ON on input line 98.
 (./D3.out) (./D3.out)
 \@outlinefile=\write5
 \openout5 = `D3.out'.
@@ -926,19 +931,14 @@ Package caption Info: End \AtBeginDocument code.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 96.
+ on input line 98.
 
 \c@lstlisting=\count380
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks64
 \inpenc@posthook=\toks65
-)
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <149.37697> not available
-(Font)              size <24.88> substituted on input line 113.
-
-[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+) [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 ] (./D3.toc
 LaTeX Font Info:    Trying to load font information for U+esvect on input line 5.
@@ -960,14 +960,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.118 
+l.120 
        [1
 
 ]
-<intooutof.jpg, id=155, 602.25pt x 568.1225pt>
+<intooutof.jpg, id=154, 602.25pt x 568.1225pt>
 File: intooutof.jpg Graphic file (type jpg)
 <use intooutof.jpg>
-Package pdftex.def Info: intooutof.jpg  used on input line 125.
+Package pdftex.def Info: intooutof.jpg  used on input line 127.
 (pdftex.def)             Requested size: 273.14922pt x 257.68126pt.
 
 
@@ -981,7 +981,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.131 \section
+l.133 \section
               {Field Strength around a Current-Carrying Wire} [1
 
 
@@ -1006,17 +1006,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <wireinmagneticfield.jpg, id=170, 549.05125pt x 318.18875pt>
 File: wireinmagneticfield.jpg Graphic file (type jpg)
 <use wireinmagneticfield.jpg>
-Package pdftex.def Info: wireinmagneticfield.jpg  used on input line 148.
+Package pdftex.def Info: wireinmagneticfield.jpg  used on input line 150.
 (pdftex.def)             Requested size: 273.14922pt x 158.29773pt.
 <wireinmagneticfield_1.png, id=171, 472.01344pt x 279.29344pt>
 File: wireinmagneticfield_1.png Graphic file (type png)
 <use wireinmagneticfield_1.png>
-Package pdftex.def Info: wireinmagneticfield_1.png  used on input line 152.
+Package pdftex.def Info: wireinmagneticfield_1.png  used on input line 154.
 (pdftex.def)             Requested size: 273.14922pt x 161.62807pt.
 <wireinmagneticfield_angle.png, id=173, 204.765pt x 182.6825pt>
 File: wireinmagneticfield_angle.png Graphic file (type png)
 <use wireinmagneticfield_angle.png>
-Package pdftex.def Info: wireinmagneticfield_angle.png  used on input line 156.
+Package pdftex.def Info: wireinmagneticfield_angle.png  used on input line 158.
 (pdftex.def)             Requested size: 159.3382pt x 142.16283pt.
 
 
@@ -1029,6 +1029,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [3
 
  <./wireinmagneticfield.jpg> <./wireinmagneticfield_1.png>]
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 166.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1036,31 +1040,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./wireinmagneticfield_angle.png>]
-<twowirecases/samedir.png, id=191, 333.245pt x 172.645pt>
+[4 <./wireinmagneticfield_angle.png>]
+<twowirecases/samedir.png, id=190, 333.245pt x 172.645pt>
 File: twowirecases/samedir.png Graphic file (type png)
 <use twowirecases/samedir.png>
-Package pdftex.def Info: twowirecases/samedir.png  used on input line 188.
+Package pdftex.def Info: twowirecases/samedir.png  used on input line 190.
 (pdftex.def)             Requested size: 204.85844pt x 106.13257pt.
-<twowirecases/diffdir.png, id=192, 333.245pt x 171.64125pt>
+<twowirecases/diffdir.png, id=191, 333.245pt x 171.64125pt>
 File: twowirecases/diffdir.png Graphic file (type png)
 <use twowirecases/diffdir.png>
-Package pdftex.def Info: twowirecases/diffdir.png  used on input line 193.
+Package pdftex.def Info: twowirecases/diffdir.png  used on input line 195.
 (pdftex.def)             Requested size: 204.85844pt x 105.5155pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 187--197
+Overfull \hbox (2.54398pt too wide) in paragraph at lines 189--199
 $[]$|  $[]$ 
  []
 
-<twowireforce.png, id=193, 183.68625pt x 233.87375pt>
+<twowireforce.png, id=192, 183.68625pt x 233.87375pt>
 File: twowireforce.png Graphic file (type png)
 <use twowireforce.png>
-Package pdftex.def Info: twowireforce.png  used on input line 201.
+Package pdftex.def Info: twowireforce.png  used on input line 203.
 (pdftex.def)             Requested size: 204.85844pt x 260.84836pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1080,10 +1084,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6 <./twowireforce.png>]
-<ex/forceismutual.png, id=214, 546.04pt x 165.61874pt>
+<ex/forceismutual.png, id=213, 546.04pt x 165.61874pt>
 File: ex/forceismutual.png Graphic file (type png)
 <use ex/forceismutual.png>
-Package pdftex.def Info: ex/forceismutual.png  used on input line 226.
+Package pdftex.def Info: ex/forceismutual.png  used on input line 228.
 (pdftex.def)             Requested size: 364.19664pt x 110.4636pt.
 
 
@@ -1094,10 +1098,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7 <./ex/forceismutual.png>]
-<ex/1.png, id=223, 198.7425pt x 152.57pt>
+<ex/1.png, id=222, 198.7425pt x 152.57pt>
 File: ex/1.png Graphic file (type png)
 <use ex/1.png>
-Package pdftex.def Info: ex/1.png  used on input line 234.
+Package pdftex.def Info: ex/1.png  used on input line 236.
 (pdftex.def)             Requested size: 182.09485pt x 139.7934pt.
 
 
@@ -1108,13 +1112,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8 <./ex/1.png>]
-<move1.png, id=230, 521.95pt x 257.96375pt>
+<move1.png, id=229, 521.95pt x 257.96375pt>
 File: move1.png Graphic file (type png)
 <use move1.png>
-Package pdftex.def Info: move1.png  used on input line 252.
+Package pdftex.def Info: move1.png  used on input line 254.
 (pdftex.def)             Requested size: 318.66946pt x 157.49934pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--265
+Underfull \hbox (badness 10000) in paragraph at lines 265--267
 
  []
 
@@ -1128,10 +1132,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [9
 
  <./move1.png>]
-<move2.png, id=237, 239.89626pt x 432.61626pt>
+<move2.png, id=236, 239.89626pt x 432.61626pt>
 File: move2.png Graphic file (type png)
 <use move2.png>
-Package pdftex.def Info: move2.png  used on input line 272.
+Package pdftex.def Info: move2.png  used on input line 274.
 (pdftex.def)             Requested size: 159.3382pt x 287.34294pt.
 
 
@@ -1142,10 +1146,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10 <./move2.png>]
-<helicalpath.png, id=244, 388.45125pt x 268.00125pt>
+<helicalpath.png, id=243, 388.45125pt x 268.00125pt>
 File: helicalpath.png Graphic file (type png)
 <use helicalpath.png>
-Package pdftex.def Info: helicalpath.png  used on input line 290.
+Package pdftex.def Info: helicalpath.png  used on input line 292.
 (pdftex.def)             Requested size: 182.09485pt x 125.63344pt.
 
 
@@ -1156,11 +1160,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11 <./helicalpath.png>]
-<move3.png, id=252, 337.26pt x 232.87pt>
+<move3.png, id=251, 337.26pt x 232.87pt>
 File: move3.png Graphic file (type png)
 <use move3.png>
-Package pdftex.def Info: move3.png  used on input line 296.
+Package pdftex.def Info: move3.png  used on input line 298.
 (pdftex.def)             Requested size: 273.14922pt x 188.60588pt.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 312.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1188,10 +1194,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [14
 
 ]
-<ex/wiremotor.png, id=271, 326.21875pt x 335.2525pt>
+<ex/wiremotor.png, id=269, 326.21875pt x 335.2525pt>
 File: ex/wiremotor.png Graphic file (type png)
 <use ex/wiremotor.png>
-Package pdftex.def Info: ex/wiremotor.png  used on input line 338.
+Package pdftex.def Info: ex/wiremotor.png  used on input line 340.
 (pdftex.def)             Requested size: 113.81102pt x 116.96158pt.
 
 
@@ -1220,10 +1226,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17]
-<ex/2.png, id=295, 114.4275pt x 271.0125pt>
+<ex/2.png, id=293, 114.4275pt x 271.0125pt>
 File: ex/2.png Graphic file (type png)
 <use ex/2.png>
-Package pdftex.def Info: ex/2.png  used on input line 380.
+Package pdftex.def Info: ex/2.png  used on input line 382.
 (pdftex.def)             Requested size: 182.09485pt x 431.29652pt.
 
 
@@ -1242,10 +1248,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [19]
-<ex/3.png, id=306, 411.5375pt x 526.96875pt>
+<ex/3.png, id=304, 411.5375pt x 526.96875pt>
 File: ex/3.png Graphic file (type png)
 <use ex/3.png>
-Package pdftex.def Info: ex/3.png  used on input line 399.
+Package pdftex.def Info: ex/3.png  used on input line 401.
 (pdftex.def)             Requested size: 364.19664pt x 466.35526pt.
 
 
@@ -1270,28 +1276,24 @@ L3 programming layer <2024-02-20>
  ***********
 
 
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 124.49696pt have occurred.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `D3.out' has not changed.
 (rerunfilecheck)             Checksum: 1C850688D9640885CB6AB18B406F529B;3584.
  ) 
 Here is how much of TeX's memory you used:
- 46903 strings out of 474116
- 1123529 string characters out of 5743681
+ 47019 strings out of 474116
+ 1125394 string characters out of 5743681
  1941187 words of memory out of 5000000
- 68498 multiletter control sequences out of 15000+600000
- 566135 words of font info for 67 fonts, out of 8000000 for 9000
+ 68597 multiletter control sequences out of 15000+600000
+ 578632 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,96p,765b,1100s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on D3.pdf (23 pages, 1464480 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on D3.pdf (23 pages, 1422451 bytes).
 PDF statistics:
- 389 PDF objects out of 1000 (max. 8388607)
- 283 compressed objects within 3 object streams
+ 379 PDF objects out of 1000 (max. 8388607)
+ 277 compressed objects within 3 object streams
  75 named destinations out of 1000 (max. 500000)
  397 words of extra memory for PDF output out of 10000 (max. 10000000)
 

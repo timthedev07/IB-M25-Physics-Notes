@@ -525,6 +525,11 @@ INPUT ./ex/1.png
 INPUT ./ex/1.png
 INPUT ./ex/1.png
 INPUT ./ex/1.png
+INPUT ./ex/2.png
+INPUT ./ex/2.png
+INPUT ./ex/2.png
+INPUT ./ex/2.png
+INPUT ./ex/2.png
 INPUT A123.aux
 INPUT ./A123.out
 INPUT ./A123.out
