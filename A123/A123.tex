@@ -1,0 +1,228 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{setspace}
+\usepackage{sectsty}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage[a4paper, total={3in, 9in}, textwidth=16cm,bottom=1in,top=1.4in]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{amsmath}
+\usepackage{esvect}
+\usepackage{soul}
+\usepackage{amsthm}
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{amssymb}
+\usepackage{outlines}
+\usepackage{caption}
+\usepackage{fancyvrb}
+\usepackage{subcaption}
+\usepackage{esdiff}
+\usepackage{dirtytalk}
+\usepackage{colortbl}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{mathtools}
+\usepackage{tikz,pgfplots}
+\usepackage[most]{tcolorbox}
+\usepackage{draftwatermark}
+\SetWatermarkText{timthedev07}
+\SetWatermarkScale{4}
+\SetWatermarkColor[gray]{0.97}
+\usetikzlibrary{positioning,decorations.markings,arrows.meta,angles,quotes}
+\DeclareSIUnit{\rad}{rad}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{observation}{Observation}
+\doublespacing
+\let\oldsection\section
+\renewcommand\section{\clearpage\oldsection}
+\newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+\let\oldsi\si
+\renewcommand{\si}[1]{\oldsi[per-mode=reciprocal-positive-first]{#1}}
+\usepackage{enumitem}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+\newcommand{\degsym}{^{\circ}}
+\newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor = blue
+}
+\newcommand{\lb}{\\[8pt]}
+\newenvironment*{cell}[1][]{\begin{tabular}[c]{@{}c@{}}}{\end{tabular}}
+\newcommand{\img}[4]{\begin{center}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=#2\textwidth]{#1}
+    \caption{#3}
+    \label{fig:#4}
+  \end{figure}
+\end{center}}
+\parindent=0pt
+\usepackage{fancyhdr}
+\fancyfoot{}
+\fancypagestyle{fancy}{\fancyfoot[R]{\vspace*{1.5\baselineskip}\thepage}}
+\renewcommand{\contentsname}{Table of Contents}
+\newcommand{\angled}[1]{\langle{#1}\rangle}
+\newcommand{\paren}[1]{\left(#1\right)}
+\newcommand{\sqb}[1]{\left[#1\right]}
+\newcommand{\coord}[3]{\angled{#1,\, #2,\, #3}}
+\newcommand{\pair}[2]{\paren{#1,\, #2}}
+\newcommand{\atom}[3]{{}^{#1}_{#2}\text{#3}}
+\usepackage[
+  noabbrev,
+  capitalise,
+  nameinlink,
+]{cleveref}
+
+\crefname{lemma}{Lemma}{Lemmas}
+\crefname{proposition}{Proposition}{Propositions}
+\crefname{remark}{Remark}{Remarks}
+\crefname{observation}{Observation}{Observations}
+
+\newtcolorbox[auto counter]{prob}[2][]{fonttitle=\bfseries, title=\strut Problem~\thetcbcounter: #2,#1,colback=Orchid!5!white,colframe=Orchid!75!black,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{rem}[1][]{fonttitle=\bfseries, title=\strut Remark.~\thetcbcounter,colback=purple!5!white,colframe=purple!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{defin}[1][]{fonttitle=\bfseries, title=\strut Definition.~\thetcbcounter,colback=black!5!white,colframe=black!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{obs}[1][]{fonttitle=\bfseries, title=\strut Observation.~\thetcbcounter,colback=RedViolet!5!white,colframe=RedViolet!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{lem}[1][]{fonttitle=\bfseries, title=\strut Lemma.~\thetcbcounter,colback=Maroon!5!white,colframe=Maroon!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{prop}[1][]{fonttitle=\bfseries, title=\strut Proposition.~\thetcbcounter,colback=RedOrange!5!white,colframe=RedOrange!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{hint}[1][]{fonttitle=\bfseries, title=\strut Hint.~\thetcbcounter,colback=OliveGreen!5!white,colframe=OliveGreen!75!gray,top=5mm,bottom=5mm}
+
+\setlength{\belowcaptionskip}{-20pt}
+\begin{document}
+
+
+\pagenumbering{arabic}
+\pagestyle{fancy}
+
+
+\begin{titlepage}
+  \begin{center}
+
+    \vspace*{8cm}
+    \textbf{\Large {IB Physics Topics A1 A2 A3; SL \& HL}} \\
+    \vspace*{1cm}
+    \large{By timthedev07, M25 Cohort}
+
+  \end{center}
+\end{titlepage}
+
+\pagebreak
+\tableofcontents
+\pagebreak
+
+\clearpage
+\setcounter{page}{1}
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+
+\section{Newton's Laws of Motion}
+
+\begin{enumerate}
+  \item N$^{1\text{st}}$: An object will remain at rest or in uniform motion unless acted upon by a net external force.
+  \item N$^{2\text{nd}}$: The acceleration of an object is directly proportional to the net force acting on it
+  \item N$^{3\text{rd}}$: For every action, there is an equal and opposite reaction.
+\end{enumerate}
+
+\section{Special Forces}
+
+\subsection{Drag Force}
+
+The drag force in a fluid is given by:
+$$F_d = 6\pi \eta r v$$
+where:
+\begin{itemize}
+  \item $F_d$ is the drag force
+  \item $\eta$ is the viscosity of the fluid
+  \item $r$ is the radius of the object
+  \item $v$ is the velocity of the object
+\end{itemize}
+
+It is in the opposite direction of the velocity vector.
+
+\pagebreak
+
+\subsection{Buoyancy Force}
+
+The buoyancy force exerted by a fluid on an object is given by:
+$$F_b = \rho g V$$
+where:
+\begin{itemize}
+  \item $F_b$ is the buoyancy force
+  \item $\rho$ is the density of the fluid
+  \item $g$ is the acceleration due to gravity
+  \item $V$ is the volume of the fluid displaced
+\end{itemize}
+
+This force is always directed upwards, against the force of gravity. It is worth noting that, when the object is fully submerged, the volume of the fluid displaced is equal to the volume of the object.
+
+This allows us to find the terminal velocity $v_0$ of an object of volume $V$ and density $\rho_\text{obj}$ falling through a fluid of density $\rho_\text{fluid}$:
+\begin{align*}
+  F_b + F_d = F_g                                               \\
+  \rho_\text{fluid} g V + 6\pi \eta r v_0 = \rho_\text{obj} g V \\
+  v_0 = \frac{\left(\rho_\text{obj} - \rho_\text{fluid}\right) g V}{6\pi \eta r}
+\end{align*}
+
+
+\pagebreak
+
+\subsection{Frictional Force}
+
+The frictional force is given by:
+$$F_f = \mu F_n$$
+where:
+\begin{itemize}
+  \item $F_f$ is the frictional force
+  \item $\mu$ is the coefficient of friction
+        \begin{itemize}
+          \item The static coefficient $\mu = \mu_s$ is used when the object is at rest relative to the surface.
+          \item The kinetic coefficient $\mu = \mu_d$ is used when the object is in motion relative to the surface.
+        \end{itemize}
+\end{itemize}
+
+It then follows that the maximum force along the surface before the object starts moving is given by:
+$$F_{f, \text{max}} = \mu_s F_n$$
+
+Exerting a force greater than this limit will cause the object to start moving, in which case, the frictional force now must use the kinetic coefficient.
+
+\pagebreak
+
+\subsection{Spring Force}
+
+The spring force is given by:
+$$F_s = -kx$$
+where:
+\begin{itemize}
+  \item $F_s$ is the spring force
+  \item $k$ is the spring constant
+  \item $x$ is the displacement from the equilibrium position
+\end{itemize}
+The negative sign indicates that the force is always directed opposite to the displacement.
+
+
+\pagebreak
+
+\section{Circular Motion}
+
+The equations are
+\begin{itemize}
+  \item Linear acceleration: $a = v\omega = \dfrac{v^2}{r}$
+  \item Linear speed: $v = \dfrac{2\pi r}{T} = r\omega = 2\pi r f$
+  \item Angular speed: $\omega = \dfrac{2\pi}{T}$
+  \item Frequency: $f = \dfrac{1}{T}$
+\end{itemize}
+
+\end{document}
