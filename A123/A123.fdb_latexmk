@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1743897199.14521 "/Users/timthedev07/Documents/物理笔记/A123/A123.tex" "A123.pdf" "A123" 1743897201.78333 0
-  "/Users/timthedev07/Documents/物理笔记/A123/A123.tex" 1743897198.84222 27090 a6feb85eee7d263266cd032ecd75b36c ""
+["pdflatex"] 1743954958.64255 "/Users/timthedev07/Documents/物理笔记/A123/A123.tex" "A123.pdf" "A123" 1743954960.45531 0
+  "/Users/timthedev07/Documents/物理笔记/A123/A123.tex" 1743954958.36824 30328 f01732cf05f1250d3b673d4782783cb0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -283,13 +283,15 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731313331.24492 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731313254 8221454 067b6d98d3b5175b15c9caab9e14d269 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "A123.aux" 1743897201.63324 5599 96527cab9fae9f62098bb254ece71d30 "pdflatex"
-  "A123.out" 1743897201.63437 2785 692a6651a27c6be568c6d349f9a8c3c9 "pdflatex"
-  "A123.tex" 1743897198.84222 27090 a6feb85eee7d263266cd032ecd75b36c ""
-  "A123.toc" 1743897201.63465 1663 bcb78d4d64ccdf63ec172d8cb396c0ec "pdflatex"
+  "A123.aux" 1743954960.34723 6365 d012bc99d0e65617abc7fffb62dfabff "pdflatex"
+  "A123.out" 1743954960.348 3007 e42ef5cf34860f4c5b4871553a91918d "pdflatex"
+  "A123.tex" 1743954958.36824 30328 f01732cf05f1250d3b673d4782783cb0 ""
+  "A123.toc" 1743954960.34822 1760 e1be612d74193d9fca86c2d747032fa5 "pdflatex"
   "ex/1.png" 1743890321.95577 65440 5c9c0239123660509d7646bd410b4ef9 ""
   "ex/2.png" 1743892666.58769 67098 0395dfe9e5f6f0664c5ec52d42eb98c2 ""
   "ex/3.png" 1743896644.26633 17975 eabb22adddeb58138532374074498e01 ""
+  "ex/4.png" 1743951869.29527 41959 67f8a21ce79e20be5c7b27e12d76f52c ""
+  "ex/5.png" 1743954618.87397 83759 7f8b2d20e9d2fb1c417e57acdf2863b0 ""
   "material/banking.png" 1743878686.87121 77130 4ebba6bacbbad0f1121039192adfaf0b ""
   "material/bridge.png" 1743879358.55521 68228 0d4f5ebcdea225c4e51045ff0e4091ad ""
   "material/sankey.png" 1743880194.43824 285260 a5152aa363407bea0f26d2316dfa09f4 ""
