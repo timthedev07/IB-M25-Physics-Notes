@@ -28,6 +28,7 @@
 \usepackage{draftwatermark}
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
+\DeclareRobustCommand{\hlans}[1]{{\sethlcolor{ForestGreen!30!white}\hl{#1}}}
 
 \SetWatermarkText{timthedev07}
 \SetWatermarkScale{0.7}
@@ -566,7 +567,7 @@ What is the height of the ramp?
   \item
 \end{itemize}
 
-\subsection{MCQ \#4 -- Momentum Conservation in Disguise}
+\subsection{MCQ \#4 -- Momentum Conservation and Springs}
 A spring of negligible mass is compressed and placed between two stationary
 masses $m$ and $2m$. The spring is released so that
 the masses move in opposite directions.\lb
@@ -587,7 +588,36 @@ You may be tempted to use energy equations, but that wouldn't get you too far. W
 
 \ans{C}
 
-\subsection{MCQ \#5 -- Circular Motion}
+\subsection{MCQ \#5 -- Momentum Conservation and Springs (2)}
+
+Masses X and Y rest on a smooth horizontal surface and are connected by a massless spring. The mass of X is 3.0 kg and the mass of Y is 6.0 kg. The masses are pushed toward each other until the elastic potential energy stored in the spring is 1.0 J.
+
+\img{ex/12.png}{0.3}{Masses connected by a spring}{spring}
+
+The masses are released. What is the maximum speed reached by mass Y?
+
+\begin{enumerate}[label=\Alph*.]
+  \item 0.11
+  \item 0.33
+  \item 0.45
+  \item 0.66
+\end{enumerate}
+
+\begin{itemize}
+  \item First, we know momentum is conserved, so
+        $$3v_X = 6v_Y \iff v_X = 2v_Y$$
+  \item Then, the maximum speed is achieved when all the elastic potential energy is just transferred to the kinetic energy of both masses, so
+        \begin{align*}
+          \frac{1}{2}(3)(v_X^2) + \frac{1}{2}(6)(v_Y^2) & = 1 \\
+        \end{align*}
+  \item We substitute the relation between $v_X$ and $v_Y$ in to obtain
+        $$6v_Y^2 + 3v_Y^2 = 1$$
+  \item And finally
+        $$v_Y^2 = \frac{1}{9} \implies v_Y = \frac{1}{3}$$
+  \item \ans{B}
+\end{itemize}
+
+\subsection{MCQ \#6 -- Circular Motion}
 
 Two masses $M$ and $m$ are connected by a string that runs without friction through a stationary tube. Mass rotates at constant speed in a horizontal circle of radius 0.25 m. The weight of provides the centripetal force for the motion of. The time period for the rotation of m is 0.50 s.\lb
 What is $\dfrac{M}{m}$ approximately equal to?
@@ -613,7 +643,7 @@ What is $\dfrac{M}{m}$ approximately equal to?
   \item \ans{C}
 \end{itemize}
 
-\subsection{MCQ \#6 -- Force Pairs and Logic}
+\subsection{MCQ \#7 -- Force Pairs and Logic}
 
 The magnitude of the resultant of two forces acting on a body is 12 N. Which pair of forces acting on the body can combine to produce this resultant?
 \begin{enumerate}[label=\Alph*.]
@@ -887,7 +917,9 @@ The diagram shows two blocks of mass $m$ and $M$ in contact on a frictionless su
 What is the force that the block of mass $M$ is exerting on the block of mass $m$?
 
 \begin{itemize}
-  \item We begin by looking at the single $m$ mass and drawing its free body diagram.
+  \item We begin my looking at the entire system. The entire body is travelling with an acceleration $a$, and so the net force acting on it is given by (this is the $F$ force that we are exerting)
+        $$F = (m + M)a$$
+  \item We now zoom in on the single $m$ mass and drawing its free body diagram.
   \item The force $N$ indicates what the $M$ block exerts on the $m$ block, which is what we are looking for.
 \end{itemize}
 
@@ -910,17 +942,39 @@ What is the force that the block of mass $M$ is exerting on the block of mass $m
 
 \begin{itemize}
   \item The mass is travelling with an acceleration $a$, and so the net force acting on it is given by
-        $$F - N = ma$$
-  \item We now look at the entire system. The entire body is travelling with an acceleration $a$, and so the net force acting on it is given by (this is the $F$ force that we are exerting)
-        $$F = (m + M)a$$
-  \item We substitute it back to obtain
+        $$F - N = ma \iff N = F - ma$$
+  \item We substitute $F = (m+M)a$ back in the above to obtain
         \begin{align*}
-          N & = F - ma \\
+          N & = ma + Ma - ma \\
             & = Ma
         \end{align*}
 \end{itemize}
 
+\subsection{Bi-body Movement \#3}
 
+X and Y are two objects on a frictionless table connected by a string. The mass of X is 2 kg and the mass of Y is 4 kg. The mass of the string is negligible. A constant horizontal force of 12 N acts on Y.
+
+\img{ex/11.png}{0.5}{Two blocks connected by a string}{twoblocks2}
+
+What are the acceleration of Y and the magnitude of the tension in the string?
+
+\begin{itemize}
+  \item Again, we begin by looking at the entire system first: The net force acting on the $4 + 2 = 6$ kg system is 12, which means they both accelerate at \hlans{$a = 2$}.
+  \item We now zoom in on the $4$ kg mass because it has both the tension and $12$N force acting on it, which can provide more useful information.
+        \begin{align*}
+          F_\text{net} & = 12 - T \\
+          F_\text{net} & = ma = 8 \\
+          T            & = 4
+        \end{align*}
+  \item Hence, \hlans{$T = 4$}
+\end{itemize}
+
+At this point, you should be able to see a pattern:
+\begin{enumerate}
+  \item Look at the entire system as a whole, often, this is the mutual acceleration.
+  \item Then, focus on one of the masses, and draw the free body diagram.
+  \item You should get a set of equations that, upon substitution, will yield the answer.
+\end{enumerate}
 
 
 \subsection{2D Momentum Conservation}

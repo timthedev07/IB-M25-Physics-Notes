@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1744105203.75921 "/Users/timthedev07/Documents/物理笔记/A123/A123.tex" "A123.pdf" "A123" 1744105205.65798 0
-  "/Users/timthedev07/Documents/物理笔记/A123/A123.tex" 1744105203.50509 40663 aecf5c81a8bb6cc65e68e1f32dac45ac ""
+["pdflatex"] 1744113210.06656 "/Users/timthedev07/Documents/物理笔记/A123/A123.tex" "A123.pdf" "A123" 1744113212.00851 0
+  "/Users/timthedev07/Documents/物理笔记/A123/A123.tex" 1744113209.8002 43159 eaf4ca34faec5f05d96c479dd5d15aaf ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -287,12 +287,14 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731313331.24492 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731313254 8221454 067b6d98d3b5175b15c9caab9e14d269 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "A123.aux" 1744105205.54147 9331 58b4c93f94b55c95a0c1d8f5acf7618a "pdflatex"
-  "A123.out" 1744105205.54332 4816 3f384255a956093ac29ab79668b9962c "pdflatex"
-  "A123.tex" 1744105203.50509 40663 aecf5c81a8bb6cc65e68e1f32dac45ac ""
-  "A123.toc" 1744105205.5435 2611 4cedcff5b71514d75e423f25d8a92b00 "pdflatex"
+  "A123.aux" 1744113211.89342 10221 6b6fab23efeff90137f582355be051f6 "pdflatex"
+  "A123.out" 1744113211.89522 5301 ba659512d9d5af7e0e9825d537cb8dfd "pdflatex"
+  "A123.tex" 1744113209.8002 43159 eaf4ca34faec5f05d96c479dd5d15aaf ""
+  "A123.toc" 1744113211.89542 2817 5185989a2f52910d762f1a5cee576ab9 "pdflatex"
   "ex/1.png" 1743890321.95577 65440 5c9c0239123660509d7646bd410b4ef9 ""
   "ex/10.png" 1744055058.97956 26594 4237f0335bb59825e28c8e1346b47a0a ""
+  "ex/11.png" 1744110547.3267 26962 67d6f26f9694517751640e9d7afd2ccc ""
+  "ex/12.png" 1744112758.87665 27580 cc3228bd216b1bc3e1c6b5c6bfe91a58 ""
   "ex/2.png" 1743892666.58769 67098 0395dfe9e5f6f0664c5ec52d42eb98c2 ""
   "ex/3.png" 1743896644.26633 17975 eabb22adddeb58138532374074498e01 ""
   "ex/4.png" 1743951869.29527 41959 67f8a21ce79e20be5c7b27e12d76f52c ""

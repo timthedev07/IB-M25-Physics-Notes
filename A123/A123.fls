@@ -539,6 +539,11 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/esvect/vect5.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT ./ex/12.png
+INPUT ./ex/12.png
+INPUT ./ex/12.png
+INPUT ./ex/12.png
+INPUT ./ex/12.png
 INPUT ./ex/2.png
 INPUT ./ex/2.png
 INPUT ./ex/2.png
@@ -588,6 +593,11 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT ./ex/11.png
+INPUT ./ex/11.png
+INPUT ./ex/11.png
+INPUT ./ex/11.png
+INPUT ./ex/11.png
 INPUT ./ex/8.png
 INPUT ./ex/8.png
 INPUT ./ex/8.png

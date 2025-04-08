@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1744109998.11176 "/Users/timthedev07/Documents/物理笔记/D1/D1.tex" "D1.pdf" "D1" 1744110000.45043 0
-  "/Users/timthedev07/Documents/物理笔记/D1/D1.tex" 1744109997.85489 34231 9a7407272e54977f2b493c769b179ad4 ""
+["pdflatex"] 1744136979.87079 "/Users/timthedev07/Documents/物理笔记/D1/D1.tex" "D1.pdf" "D1" 1744136982.13746 0
+  "/Users/timthedev07/Documents/物理笔记/D1/D1.tex" 1744136979.53292 34231 6adbb8ce5f4204ad7015b52d996e8e37 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -277,10 +277,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731313331.24492 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731313254 8221454 067b6d98d3b5175b15c9caab9e14d269 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "D1.aux" 1744110000.33363 8987 80b5c0920dfad0180481bbffb407b994 "pdflatex"
-  "D1.out" 1744110000.33481 5615 c257a9f196b8cea986a5cd56fdfb12d1 "pdflatex"
-  "D1.tex" 1744109997.85489 34231 9a7407272e54977f2b493c769b179ad4 ""
-  "D1.toc" 1744110000.33518 2759 8f0acfeee0cdf1cbad6cb4da2c7aaafe "pdflatex"
+  "D1.aux" 1744136982.02501 8987 80b5c0920dfad0180481bbffb407b994 "pdflatex"
+  "D1.out" 1744136982.02598 5615 c257a9f196b8cea986a5cd56fdfb12d1 "pdflatex"
+  "D1.tex" 1744136979.53292 34231 6adbb8ce5f4204ad7015b52d996e8e37 ""
+  "D1.toc" 1744136982.02619 2759 8f0acfeee0cdf1cbad6cb4da2c7aaafe "pdflatex"
   "earthradial.png" 1730669907.36212 33749 32ad56697156c525be88dd5b4e68f3a7 ""
   "earthuniform.png" 1730669971.22891 19667 9bf19119f8a71e20f87f1b6a4efd41f5 ""
   "equator.png" 1734904628.06967 185810 3753d698f478b3faaec781478b9b2d8e ""
