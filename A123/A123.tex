@@ -289,7 +289,10 @@ where:
   \item $V$ is the volume of the fluid displaced
 \end{itemize}
 
-This force is always directed upwards, against the force of gravity. It is worth noting that, when the object is fully submerged, the volume of the fluid displaced is equal to the volume of the object.
+This force is always directed upwards, against the force of gravity. It is worth noting that, when the object is fully submerged, the volume of the fluid displaced is equal to the volume of the object.\lb
+A useful ratio is
+$$\frac{\rho_\text{obj}}{\rho_\text{fluid}} = \text{fraction of the object submerged}$$
+where:
 
 This allows us to find the terminal velocity $v_0$ of an object of volume $V$ and density $\rho_\text{obj}$ falling through a fluid of density $\rho_\text{fluid}$:
 \begin{align*}
@@ -366,6 +369,17 @@ There are a few scenarios that we investigate in IB questions; below is the list
 
 \pagebreak
 
+\subsection{Vertically Rotating Object on a String}
+
+Consider a mass attached to a string rotating in a vertical circle.
+
+\img{material/circular.png}{0.4}{Free body diagram of a mass attached to a string}{circular}
+
+The diagram shows the forces acting on an object at four different points.
+
+
+\pagebreak
+
 
 \subsection{Turning without Slipping}
 
@@ -416,9 +430,12 @@ What is the maximum speed at which a car can go over a bridge/hill of radius $r$
 \begin{enumerate}
   \item The forces acting on the car are
         \begin{itemize}
-          \item The weight of the car $mg$ acting downwards, so its negative equivalent acts upwards on it.
-          \item The centripetal force $F_c = \dfrac{mv^2}{r}$ acting towards the centre of the circle (downwards).
-          \item The normal reaction force should be upwards and so is $$F_n - F_c = m\left(g - \frac{v^2}{r}\right)$$
+          \item Downward weight $mg$
+          \item Normal reaction force $F_n$ acting upwards
+          \item The net force is the centripetal force
+                $$F_c = \frac{mv^2}{r} = mg - F_n$$
+          \item You might be tempted to think that $W = F_n$ -- this is not true. We are dealing with circular motion, so there must be a non-zero net force keeping the car in circular motion.
+
         \end{itemize}
   \item If, at any point, this normal force is zero, then the car will lose contact with the road. For this to happen, the normal reaction force must be $0$, giving
         \begin{align*}
@@ -499,6 +516,9 @@ What is the kinetic energy of the projectile at the highest point of the motion?
   \item \ans{C}
 \end{itemize}
 
+\let\oldsubsection\subsection
+\renewcommand\subsection{\clearpage\oldsubsection}
+
 \pagebreak
 
 \subsection{MCQ \#2 -- Projectile}
@@ -524,6 +544,93 @@ Walkthrough:
 \end{itemize}
 
 \pagebreak
+
+\subsection{MCQ \#3 -- Two-Stage Motion}
+
+An object is released from rest and slides down a frictionless ramp. The object then leaves the ramp and slides along a rough horizontal surface. The object stops in a distance along the ramp.
+
+\img{ex/9.png}{0.7}{Sliding down a ramp}{ramp}
+
+The coefficient of dynamic friction between the object and the rough horizontal surface is $\mu$.
+What is the height of the ramp?
+
+\begin{enumerate}[label=\Alph*.]
+  \item $\mu g s$
+  \item $\dfrac{s}{2g\mu}$
+  \item $\dfrac{s}{\mu}$
+  \item $s\mu$
+\end{enumerate}
+
+\begin{itemize}
+  \item If we are smart enough we can already tell that A and B cannot be the answer, because their units are not consistent with the units of height.
+  \item
+\end{itemize}
+
+\subsection{MCQ \#4 -- Momentum Conservation in Disguise}
+A spring of negligible mass is compressed and placed between two stationary
+masses $m$ and $2m$. The spring is released so that
+the masses move in opposite directions.\lb
+What is $\dfrac{\text{KE of $m$}}{\text{KE of $2m$}}$?
+\begin{enumerate}[label=\Alph*.]
+  \item $\dfrac{1}{2}$
+  \item $1$
+  \item $2$
+  \item $4$
+\end{enumerate}
+
+You may be tempted to use energy equations, but that wouldn't get you too far. We should use the conservation of momentum instead.
+\begin{align*}
+  0                        & = m v_1 - 2m v_2 \\
+  \frac{v_1}{v_2}          & = 2              \\
+  \frac{mv_1^2}{(2m)v_2^2} & = 2              \\
+\end{align*}
+
+\ans{C}
+
+\subsection{MCQ \#5 -- Circular Motion}
+
+Two masses $M$ and $m$ are connected by a string that runs without friction through a stationary tube. Mass rotates at constant speed in a horizontal circle of radius 0.25 m. The weight of provides the centripetal force for the motion of. The time period for the rotation of m is 0.50 s.\lb
+What is $\dfrac{M}{m}$ approximately equal to?
+
+\begin{enumerate}[label=\Alph*.]
+  \item 1
+  \item 2
+  \item 4
+  \item 8
+\end{enumerate}
+
+\begin{itemize}
+  \item Let's first work with the time period condition
+        $$Tv = 2\pi r \iff v = \frac{2\pi (0.25)}{\frac{T}{2}} = \pi$$
+  \item We know that the centripetal force is in fact the weight of the $M$ mass, so
+        \begin{align*}
+          \frac{mv^2}{r} & = Mg                          \\
+          \frac{M}{m}    & = \frac{v^2}{g r}             \\
+                         & = \frac{4\pi^2}{g}            \\
+                         & \approx \frac{4\times 3^2}{9} \\
+                         & \approx 4
+        \end{align*}
+  \item \ans{C}
+\end{itemize}
+
+\subsection{MCQ \#6 -- Force Pairs and Logic}
+
+The magnitude of the resultant of two forces acting on a body is 12 N. Which pair of forces acting on the body can combine to produce this resultant?
+\begin{enumerate}[label=\Alph*.]
+  \item 1 N and 2 N
+  \item 1 N and 14 N
+  \item 5 N and 6 N
+  \item 6 N and 7 N
+\end{enumerate}
+Solution
+\begin{itemize}
+  \item The key idea is that the forces do not have to be acting along the same axis, so there can be an angle between them, that is why no pair sum up or subtract to 12 N.
+  \item However, what we do know is that the absolute minimum resultant of a force pair is $|F_1 - F_2|$, and the maximum resultant is $F_1 + F_2$.
+  \item We want the pair to be such that
+        $$|F_1 - F_2| \le 12 \le F_1 + F_2$$
+  \item Only the fourth satisfies this condition. \ans{D}
+\end{itemize}
+
 
 \subsection{Misc \#1 -- Pulley}
 
@@ -634,8 +741,6 @@ The load is released and accelerates downwards.
         \end{enumerate}
 \end{enumerate}
 
-\pagebreak
-
 \subsection{Misc \#2 -- Passing over a Net}
 
 A student strikes a tennis ball that is initially at rest so that it leaves the racquet at a
@@ -696,6 +801,159 @@ The following data are available.
           \item Hence, the angle $\theta$ is greater for clay than for grass.
         \end{itemize}
 \end{enumerate}
+
+
+\subsection{Tension \#1}
+
+A bird of weight $W$ sits on a thin rope at its midpoint. The rope is almost horizontal and has negligible mass.
+
+\img{ex/6.png}{0.5}{Bird on a rope}{birdrope}
+
+The tension in the rope is
+\begin{enumerate}[label=\Alph*.]
+  \item less than $\dfrac{W}{2}$
+  \item equal to $\dfrac{W}{2}$
+  \item between $\dfrac{W}{2}$ and $W$
+  \item greater than $W$
+\end{enumerate}
+
+We can draw the free body diagram to visualise the problem, bearing in mind that \hl{we label the tensions at the ends of the string}.
+
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}
+    \filldraw[black] (0,0) circle (0.1);
+
+    \draw[->, thick] (0,0) -- (0,-2) node[below] {$W$};
+
+    \draw[->, thick] (0,0) -- (1.5,1.5) node[above right] {$T$};
+    \draw[->, thick] (0,0) -- (-1.5,1.5) node[above left] {$T$};
+
+    \draw[thick] (1,0) arc[start angle=0,end angle=45,radius=1];
+    \node at (1.2,0.3) {$\theta$};
+
+    \draw[thick] (-1,0) arc[start angle=180,end angle=135,radius=1];
+    \node at (-1.2,0.3) {$\theta$};
+
+    \draw[dashed, gray] (-2.5,0) -- (2.5,0);
+  \end{tikzpicture}
+\end{figure}
+Since the object in equilibrium, the vertical components of the forces must balance, and so
+$$2T\sin \theta = W\implies T = \frac{W}{2\sin\theta}$$
+We are told that the rope is almost horizontal, which means that $\theta$ is very small. Recall that $$\lim\limits_{\theta \to 0} \sin \theta = 0$$
+So $T$ is very large, and hence the tension in the rope is greater than $W$.
+
+
+\subsection{Bi-body Movement \#1}
+
+A block of mass 45 kg is placed on a horizontal table.
+There is no friction between the block and the table.\lb
+An object of mass 15 kg is placed on top of the block.\lb
+A force $F$ acts on the block so that it accelerates. The acceleration of the object and the acceleration of the block are the same so that they do not move relative to each other.
+
+\img{ex/7.png}{0.5}{Block on a table}{blocktable}
+
+The coefficient of static friction between the block and the object is 0.60.
+
+\begin{enumerate}[label=(\alph*)]
+  \item State the nature and direction of the force that accelerates the 15 kg object.
+        \begin{itemize}
+          \item Static friction
+          \item to the right.
+        \end{itemize}
+  \item Determine the largest magnitude of $F$ for which the block and the object do not move relative to each other.
+        \begin{itemize}
+          \item If we want the two objects to move together, they must have the same acceleration. Let's call this mutual resultant acceleration $a$. Then
+                $$F = 60a$$
+          \item The frictional force is the only force acting on the 15 kg object, and so
+                $$F_f = ma = 15a$$
+          \item We can now compute the acceleration of the 15 kg object, since we know the coefficient of static friction.
+                \begin{align*}
+                  \mu_s F_N & = 15a                                 \\
+                  a         & = \frac{\mu_s F_N}{15}                \\
+                            & = \frac{0.6 \times 15 \times 9.8}{15} \\
+                            & = 0.6\times 9.8
+                \end{align*}
+          \item We can now substitute this into $F = ma$ to obtain $$F = 60\times 0.6\times 9.8 = 352.8 \approx \SI{350}{\newton}$$
+        \end{itemize}
+\end{enumerate}
+
+\subsection{Bi-body Movement \#2}
+
+The diagram shows two blocks of mass $m$ and $M$ in contact on a frictionless surface. A force $F$ is applied on the block of mass and causes the blocks to move with an acceleration.
+
+\img{ex/10.png}{0.8}{Two blocks on a table}{twoblocks}
+
+What is the force that the block of mass $M$ is exerting on the block of mass $m$?
+
+\begin{itemize}
+  \item We begin by looking at the single $m$ mass and drawing its free body diagram.
+  \item The force $N$ indicates what the $M$ block exerts on the $m$ block, which is what we are looking for.
+\end{itemize}
+
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}
+
+    % Draw the body (circle)
+    \draw[thick] (0,0) circle (0.5);
+    \node at (0,0) {\large $m$};
+
+    % Draw the larger force to the right (F)
+    \draw[->, thick] (0.5,0) -- (4,0) node[midway, above] {\large $F$};
+
+    % Draw the smaller force to the left (F')
+    \draw[->, thick] (-0.5,0) -- (-2.2,0) node[midway, above] {\large $N$};
+
+  \end{tikzpicture}
+\end{figure}
+
+\begin{itemize}
+  \item The mass is travelling with an acceleration $a$, and so the net force acting on it is given by
+        $$F - N = ma$$
+  \item We now look at the entire system. The entire body is travelling with an acceleration $a$, and so the net force acting on it is given by (this is the $F$ force that we are exerting)
+        $$F = (m + M)a$$
+  \item We substitute it back to obtain
+        \begin{align*}
+          N & = F - ma \\
+            & = Ma
+        \end{align*}
+\end{itemize}
+
+
+
+
+\subsection{2D Momentum Conservation}
+
+Ball A, moving in a horizontal direction at an initial speed of $\SI{2.0}{\m\per\s}$ collides with a stationary ball B of the same mass. After the collision, ball A moves at a speed of $\SI{1.0}{\m\per\s}$ at an angle of 45° to the original direction of motion.
+
+\img{ex/8.png}{0.5}{Ball A colliding with ball B}{ballcollision}
+
+\begin{enumerate}[label=(\alph*)]
+  \item Calculate the vertical component of the velocity of ball B after the collision.
+        \begin{align*}
+          p_y \text{ before} = p_y \text{ after} = 0 \\
+          v_\text{B, y} = \frac{1}{\sqrt{2}} \approx 0.71
+        \end{align*}
+  \item Determine the angle $\theta$ that the velocity of ball B makes with the initial direction of motion of ball A.
+        \begin{align*}
+          p_x \text{ before} = p_x \text{ after}                                       \\
+          2 = v_\text{B, x} + 1\cos(45\degsym)                                         \\
+          v_\text{B, x} = 2 - \frac{1}{\sqrt{2}} \approx 1.29                          \\
+          \theta = \arctan\left(\frac{v_\text{B, y}}{v_\text{B, x}}\right) = 29\degsym \\
+        \end{align*}
+  \item Predict whether the collision is elastic
+        \begin{itemize}
+          \item Initial kinetic energy = $\frac{1}{2}mv^2 = \frac{1}{2}m(2^2) = 2m$
+          \item Final total KE is
+                \begin{align*}
+                          & \frac{1}{2}m(1^2) + \frac{1}{2}m\left(\frac{0.71}{\sin(29\degsym)}\right) \\
+                  \approx & 1.6m < 2m
+                \end{align*}
+          \item Hence, the collision is inelastic.
+        \end{itemize}
+\end{enumerate}
+
 
 
 \end{document}

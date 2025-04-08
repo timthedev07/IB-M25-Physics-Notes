@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  6 APR 2025 17:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  8 APR 2025 11:40
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1003,18 +1003,26 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.26 ...Force Pairs and Logic}{23}{subsection.8.6}
+                                                  % [1
+
+])
 \tf@toc=\write6
 \openout6 = `A123.toc'.
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.133 
-       [1
 
-]
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1042,7 +1050,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.166 \section
+              {Projectile} [2
 
 ]
 
@@ -1065,7 +1078,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [4
 
 ]
-<material/terminalvgraph.png, id=191, 385.44pt x 216.81pt>
+<material/terminalvgraph.png, id=240, 385.44pt x 216.81pt>
 File: material/terminalvgraph.png Graphic file (type png)
 <use material/terminalvgraph.png>
 Package pdftex.def Info: material/terminalvgraph.png  used on input line 268.
@@ -1095,7 +1108,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 321--323
+Underfull \hbox (badness 10000) in paragraph at lines 324--326
 
  []
 
@@ -1125,15 +1138,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [10
 
 ]
-<material/turn1.png, id=226, 155.58125pt x 142.5325pt>
+<material/circular.png, id=275, 229.85875pt x 240.9pt>
+File: material/circular.png Graphic file (type png)
+<use material/circular.png>
+Package pdftex.def Info: material/circular.png  used on input line 376.
+(pdftex.def)             Requested size: 182.09485pt x 190.85292pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11 <./material/circular.png>]
+<material/turn1.png, id=282, 155.58125pt x 142.5325pt>
 File: material/turn1.png Graphic file (type png)
 <use material/turn1.png>
-Package pdftex.def Info: material/turn1.png  used on input line 376.
+Package pdftex.def Info: material/turn1.png  used on input line 390.
 (pdftex.def)             Requested size: 159.3382pt x 145.97495pt.
-<material/turn2.png, id=227, 232.87pt x 106.3975pt>
+<material/turn2.png, id=283, 232.87pt x 106.3975pt>
 File: material/turn2.png Graphic file (type png)
 <use material/turn2.png>
-Package pdftex.def Info: material/turn2.png  used on input line 380.
+Package pdftex.def Info: material/turn2.png  used on input line 394.
 (pdftex.def)             Requested size: 250.38562pt x 114.4043pt.
 
 
@@ -1143,11 +1170,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11 <./material/turn1.png> <./material/turn2.png>]
-<material/banking.png, id=237, 250.9375pt x 232.87pt>
+[12 <./material/turn1.png> <./material/turn2.png>]
+<material/banking.png, id=292, 250.9375pt x 232.87pt>
 File: material/banking.png Graphic file (type png)
 <use material/banking.png>
-Package pdftex.def Info: material/banking.png  used on input line 403.
+Package pdftex.def Info: material/banking.png  used on input line 417.
 (pdftex.def)             Requested size: 182.09485pt x 168.99164pt.
 
 
@@ -1157,11 +1184,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12 <./material/banking.png>]
-<material/bridge.png, id=244, 229.85875pt x 122.4575pt>
+[13 <./material/banking.png>]
+<material/bridge.png, id=299, 229.85875pt x 122.4575pt>
 File: material/bridge.png Graphic file (type png)
 <use material/bridge.png>
-Package pdftex.def Info: material/bridge.png  used on input line 415.
+Package pdftex.def Info: material/bridge.png  used on input line 429.
 (pdftex.def)             Requested size: 182.09485pt x 97.01689pt.
 
 
@@ -1171,11 +1198,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13 <./material/bridge.png>]
-<material/sankey.png, id=254, 257.96375pt x 185.69376pt>
+[14 <./material/bridge.png>]
+<material/sankey.png, id=308, 257.96375pt x 185.69376pt>
 File: material/sankey.png Graphic file (type png)
 <use material/sankey.png>
-Package pdftex.def Info: material/sankey.png  used on input line 449.
+Package pdftex.def Info: material/sankey.png  used on input line 466.
 (pdftex.def)             Requested size: 227.62204pt x 163.85869pt.
 
 
@@ -1185,7 +1212,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14
+[15
 
  <./material/sankey.png>]
 
@@ -1195,10 +1222,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[15
+[16
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 477--479
+Underfull \hbox (badness 10000) in paragraph at lines 494--496
 
  []
 
@@ -1209,7 +1236,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16]
+[17]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1217,13 +1244,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[17
+[18
 
 ]
-<ex/1.png, id=278, 650.43pt x 215.80624pt>
+<ex/1.png, id=334, 650.43pt x 215.80624pt>
 File: ex/1.png Graphic file (type png)
 <use ex/1.png>
-Package pdftex.def Info: ex/1.png  used on input line 506.
+Package pdftex.def Info: ex/1.png  used on input line 526.
 (pdftex.def)             Requested size: 318.66946pt x 105.7328pt.
 
 
@@ -1233,11 +1260,59 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18 <./ex/1.png>]
-<ex/2.png, id=290, 456.70625pt x 241.90375pt>
+[19
+
+ <./ex/1.png>]
+<ex/9.png, id=346, 342.27875pt x 184.69pt>
+File: ex/9.png Graphic file (type png)
+<use ex/9.png>
+Package pdftex.def Info: ex/9.png  used on input line 552.
+(pdftex.def)             Requested size: 318.66946pt x 171.96281pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20
+
+ <./ex/9.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23
+
+]
+<ex/2.png, id=382, 456.70625pt x 241.90375pt>
 File: ex/2.png Graphic file (type png)
 <use ex/2.png>
-Package pdftex.def Info: ex/2.png  used on input line 532.
+Package pdftex.def Info: ex/2.png  used on input line 639.
 (pdftex.def)             Requested size: 318.66946pt x 168.79625pt.
 
 
@@ -1247,7 +1322,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[19 <./ex/2.png>]
+[24
+
+ <./ex/2.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1255,7 +1332,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20]
+[25]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1263,11 +1340,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21]
-<ex/3.png, id=315, 236.885pt x 156.585pt>
+[26]
+<ex/3.png, id=406, 236.885pt x 156.585pt>
 File: ex/3.png Graphic file (type png)
 <use ex/3.png>
-Package pdftex.def Info: ex/3.png  used on input line 626.
+Package pdftex.def Info: ex/3.png  used on input line 733.
 (pdftex.def)             Requested size: 159.3382pt x 105.32713pt.
 
 
@@ -1277,11 +1354,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22 <./ex/3.png>]
-<ex/4.png, id=326, 473.77pt x 151.56625pt>
+[27 <./ex/3.png>]
+<ex/4.png, id=417, 473.77pt x 151.56625pt>
 File: ex/4.png Graphic file (type png)
 <use ex/4.png>
-Package pdftex.def Info: ex/4.png  used on input line 646.
+Package pdftex.def Info: ex/4.png  used on input line 751.
 (pdftex.def)             Requested size: 364.19664pt x 116.5144pt.
 
 
@@ -1291,11 +1368,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23 <./ex/4.png>]
-<ex/5.png, id=336, 642.4pt x 291.0875pt>
+[28
+
+ <./ex/4.png>]
+<ex/5.png, id=427, 642.4pt x 291.0875pt>
 File: ex/5.png Graphic file (type png)
 <use ex/5.png>
-Package pdftex.def Info: ex/5.png  used on input line 684.
+Package pdftex.def Info: ex/5.png  used on input line 789.
 (pdftex.def)             Requested size: 409.71689pt x 185.65576pt.
 
 
@@ -1305,7 +1384,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24 <./ex/5.png>]
+[29 <./ex/5.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1313,27 +1392,123 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25] (./A123.aux)
+[30]
+<ex/6.png, id=440, 303.1325pt x 95.35625pt>
+File: ex/6.png Graphic file (type png)
+<use ex/6.png>
+Package pdftex.def Info: ex/6.png  used on input line 810.
+(pdftex.def)             Requested size: 227.62204pt x 71.6043pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[31
+
+ <./ex/6.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32]
+<ex/7.png, id=457, 348.30125pt x 152.57pt>
+File: ex/7.png Graphic file (type png)
+<use ex/7.png>
+Package pdftex.def Info: ex/7.png  used on input line 854.
+(pdftex.def)             Requested size: 227.62204pt x 99.70709pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33
+
+ <./ex/7.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34]
+<ex/10.png, id=471, 468.75125pt x 138.5175pt>
+File: ex/10.png Graphic file (type png)
+<use ex/10.png>
+Package pdftex.def Info: ex/10.png  used on input line 885.
+(pdftex.def)             Requested size: 364.19664pt x 107.62048pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[35
+
+ <./ex/10.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36]
+<ex/8.png, id=483, 295.1025pt x 176.66pt>
+File: ex/8.png Graphic file (type png)
+<use ex/8.png>
+Package pdftex.def Info: ex/8.png  used on input line 930.
+(pdftex.def)             Requested size: 227.62204pt x 136.26582pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[37
+
+ <./ex/8.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[38] (./A123.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `A123.out' has not changed.
-(rerunfilecheck)             Checksum: E42EF5CF34860F4C5B4871553A91918D;3007.
+(rerunfilecheck)             Checksum: 3F384255A956093AC29AB79668B9962C;4816.
  ) 
 Here is how much of TeX's memory you used:
- 47928 strings out of 474116
- 1145078 string characters out of 5743681
+ 48077 strings out of 474116
+ 1147127 string characters out of 5743681
  1942187 words of memory out of 5000000
- 69462 multiletter control sequences out of 15000+600000
- 578632 words of font info for 77 fonts, out of 8000000 for 9000
+ 69552 multiletter control sequences out of 15000+600000
+ 582216 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,96p,775b,1174s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on A123.pdf (27 pages, 842095 bytes).
+Output written on A123.pdf (41 pages, 1055606 bytes).
 PDF statistics:
- 417 PDF objects out of 1000 (max. 8388607)
- 318 compressed objects within 4 object streams
- 98 named destinations out of 1000 (max. 500000)
- 388 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 578 PDF objects out of 1000 (max. 8388607)
+ 452 compressed objects within 5 object streams
+ 153 named destinations out of 1000 (max. 500000)
+ 490 words of extra memory for PDF output out of 10000 (max. 10000000)
 
