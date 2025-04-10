@@ -661,6 +661,78 @@ Solution
   \item Only the fourth satisfies this condition. \ans{D}
 \end{itemize}
 
+\subsection{MCQ \#8 -- Pulley (1)}
+
+Three identical masses are connected as shown with a string that passes over an ideal pulley. The tension in the string connecting $m_1$ and $m_2$ is $T$. The tension of the string attached to $m_3$ is $T_2$.
+
+\img{ex/13.png}{0.3}{Pulley system}{pulley2}
+
+We will take the universal approach here by drawing the free body diagrams for all three masses.
+
+\begin{minipage}{0.3\textwidth}
+  \centering
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+      % Draw the object (a circle)
+      \draw[thick] (0,0) circle (0.5);
+      \node at (0,0) {\( m_1 \)};
+
+      % Upward force (T1)
+      \draw[->, thick] (0,0.5) -- (0,2) node[midway, right] {\( T_1 \)};
+
+      % Downward force (m1g)
+      \draw[->, thick] (0,-0.5) -- (0,-3) node[midway, right] {\( m g \)};
+    \end{tikzpicture}
+  \end{figure}
+\end{minipage}%
+\hspace{0.03\textwidth}%
+\begin{minipage}{0.3\textwidth}
+  \centering
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+      % Draw the object (a circle)
+      \draw[thick] (0,0) circle (0.5);
+      \node at (0,0) {\( m_2 \)};
+
+      % Upward force (T1)
+      \draw[->, thick] (0,0.5) -- (0,2) node[midway, right] {\( T_2 \)};
+
+      % Downward force (m2g)
+      \draw[->, thick] (0,-0.5) -- (0,-3) node[midway, right] {\( T_1 + mg \)};
+
+    \end{tikzpicture}
+  \end{figure}
+\end{minipage}%
+\hspace{0.03\textwidth}%
+\begin{minipage}{0.3\textwidth}
+  \centering
+  \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+      % Draw the object (a circle)
+      \draw[thick] (0,0) circle (0.5);
+      \node at (0,0) {\( m_3 \)};
+
+      % Upward force (T2)
+      \draw[->, thick] (0,0.5) -- (0,2.5) node[midway, right] {\( T_2 \)};
+
+      % Downward force (m3g)
+      \draw[->, thick] (0,-0.5) -- (0,-2) node[midway, right] {\( mg \)};
+
+    \end{tikzpicture}
+  \end{figure}
+\end{minipage}
+
+They are tied onto a single thread and so have the same acceleration and thus the same resultant force.
+
+\begin{align*}
+  mg - T_1 = T_1 + mg - T_2 = T_2 - mg \\
+\end{align*}
+
+Solving the first pair gives $T_2 = 2T_1$, substituting this into the second pair should yield $T_1 = \dfrac{2mg}{3}$. We can now find out the resultant force on any object and thus the mutual acceleration. Pick object 1, we get $$a = g - \frac{2g}{3} = \frac{g}{3}$$
+
 
 \subsection{Misc \#1 -- Pulley}
 
@@ -670,6 +742,7 @@ A student uses a load to pull a box up a ramp inclined at 30°. A string of cons
 
 The load has a mass of 3.5 kg and is initially 0.95 m above the floor. The mass of the box is 1.5 kg.\lb
 The load is released and accelerates downwards.
+
 
 \begin{enumerate}[label=(\alph*)]
   \item Outline \textbf{two} differences between the momentum of the box and the momentum of the load at the same instant.

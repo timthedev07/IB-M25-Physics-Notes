@@ -1,0 +1,324 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{setspace}
+\usepackage{sectsty}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage[a4paper, total={3in, 9in}, textwidth=16cm,bottom=1in,top=1.4in]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{amsmath}
+\usepackage{esvect}
+\usepackage{soul}
+\usepackage{amsthm}
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{amssymb}
+\usepackage{outlines}
+\usepackage{caption}
+\usepackage{fancyvrb}
+\usepackage{subcaption}
+\usepackage{esdiff}
+\usepackage{dirtytalk}
+\usepackage{colortbl}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{mathtools}
+\usepackage{tikz,pgfplots}
+\usepackage[most]{tcolorbox}
+\usepackage{draftwatermark}
+\usepackage{helvet}
+\usepackage{dirtytalk}
+\renewcommand{\familydefault}{\sfdefault}
+\DeclareRobustCommand{\hlans}[1]{{\sethlcolor{ForestGreen!30!white}\hl{#1}}}
+\sisetup{per-mode=reciprocal}
+
+\SetWatermarkText{timthedev07}
+\SetWatermarkScale{0.7}
+\SetWatermarkColor[gray]{0.97}
+\usetikzlibrary{positioning,decorations.markings,arrows.meta,angles,quotes}
+\DeclareSIUnit{\rad}{rad}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{observation}{Observation}
+\doublespacing
+% section page break
+\let\oldsection\section
+\renewcommand\section{\clearpage\oldsection}
+% subsection page break
+\let\oldsubsection\subsection
+\renewcommand\subsection{\clearpage\oldsubsection}
+
+\newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+\let\oldsi\si
+\renewcommand{\si}[1]{\oldsi[per-mode=reciprocal-positive-first]{#1}}
+\usepackage{enumitem}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+\newcommand{\degsym}{^{\circ}}
+\newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor = blue
+}
+\newcommand{\lb}{\\[8pt]}
+\newenvironment*{cell}[1][]{\begin{tabular}[c]{@{}c@{}}}{\end{tabular}}
+\newcommand{\img}[4]{\begin{center}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=#2\textwidth]{#1}
+    \caption{#3}
+    \label{fig:#4}
+  \end{figure}
+\end{center}}
+\parindent=0pt
+\usepackage{fancyhdr}
+\fancyfoot{}
+\fancypagestyle{fancy}{\fancyfoot[R]{\vspace*{1.5\baselineskip}\thepage}}
+\renewcommand{\contentsname}{Table of Contents}
+\newcommand{\ans}[1]{\textcolor{ForestGreen}{The answer is #1.}}
+\newcommand{\out}[1]{\textcolor{BrickRed}{We rule out option #1}}
+\newcommand{\outs}[2]{\textcolor{BrickRed}{We rule out options #1 and #2}}
+\newcommand{\angled}[1]{\langle{#1}\rangle}
+\newcommand{\paren}[1]{\left(#1\right)}
+\newcommand{\sqb}[1]{\left[#1\right]}
+\newcommand{\coord}[3]{\angled{#1,\, #2,\, #3}}
+\newcommand{\pair}[2]{\paren{#1,\, #2}}
+\newcommand{\atom}[3]{{}^{#1}_{#2}\text{#3}}
+\usepackage[
+  noabbrev,
+  capitalise,
+  nameinlink,
+]{cleveref}
+
+\crefname{lemma}{Lemma}{Lemmas}
+\crefname{proposition}{Proposition}{Propositions}
+\crefname{remark}{Remark}{Remarks}
+\crefname{observation}{Observation}{Observations}
+
+\newtcolorbox[auto counter]{prob}[2][]{fonttitle=\bfseries, title=\strut Problem~\thetcbcounter: #2,#1,colback=Orchid!5!white,colframe=Orchid!75!black,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{rem}[1][]{fonttitle=\bfseries, title=\strut Remark.~\thetcbcounter,colback=purple!5!white,colframe=purple!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{defin}[1][]{fonttitle=\bfseries, title=\strut Definition.~\thetcbcounter,colback=black!5!white,colframe=black!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{obs}[1][]{fonttitle=\bfseries, title=\strut Observation.~\thetcbcounter,colback=RedViolet!5!white,colframe=RedViolet!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{lem}[1][]{fonttitle=\bfseries, title=\strut Lemma.~\thetcbcounter,colback=Maroon!5!white,colframe=Maroon!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{prop}[1][]{fonttitle=\bfseries, title=\strut Proposition.~\thetcbcounter,colback=RedOrange!5!white,colframe=RedOrange!65!gray,top=5mm,bottom=5mm}
+
+\newtcolorbox[auto counter]{hint}[1][]{fonttitle=\bfseries, title=\strut Hint.~\thetcbcounter,colback=OliveGreen!5!white,colframe=OliveGreen!75!gray,top=5mm,bottom=5mm}
+
+\setlength{\belowcaptionskip}{-20pt}
+\begin{document}
+
+
+\pagenumbering{arabic}
+\pagestyle{fancy}
+
+
+\begin{titlepage}
+  \begin{center}
+
+    \vspace*{8cm}
+    \textbf{\Large {IB Physics Data Based Question Skills; SL \& HL}} \\
+    \vspace*{1cm}
+    \large{By timthedev07, M25 Cohort}
+
+  \end{center}
+\end{titlepage}
+
+\pagebreak
+\tableofcontents
+\pagebreak
+
+\clearpage
+\setcounter{page}{1}
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+
+\section{Introduction}
+
+This document is dedicated to walking through the set of past paper/RevisionVillage questions that cover the skills you will need for the data-based questions in the MCQ or Paper 1B.\lb
+There will be no knowledge notes, instead it's purely focused on the questions. If this is what you are looking for, go up one directory and you will find a pdf from the Oxford Study Guide that has everything.\lb
+When going through the specimen questions, it's a good idea to bear in mind that these are easier than what you should expect in your final exam.
+
+\section{Specimen Paper 1B}
+
+\oldsubsection{Question 1}
+
+[Maximum mark: 12]
+
+A group of students investigate the motion of a conducting ball suspended from a long string.
+The ball is between two vertical metal plates that have an electric potential difference V
+between them. The ball is touched to one plate so that it becomes electrically charged and
+is repelled from the plate. For a given potential difference, the ball bounces between the
+plates with a constant period.
+
+\img{ex/1.png}{0.3}{A diagram of the experiment.}{1}
+
+\begin{enumerate}[label=(\alph*)]
+  \item The students vary $V$ and measure the time $T$ for the ball to move \textbf{once} from one plate to the other. The table shows some of the data.
+        \begin{table}[H]
+          \centering
+          \begin{tabular}{|c|c|}
+            \hline
+            \textit{V} / kV & \textit{T} / s $\pm$ 0.1s \\ \hline
+            3.00            & 1.4                       \\ \hline
+            5.00            & 0.8                       \\ \hline
+            7.00            & 0.6                       \\ \hline
+          \end{tabular}
+        \end{table}
+
+        \begin{enumerate}[]
+          \item $V$ is provided by two identical power supplies connected in series. The potential difference of each of the power supplies is known with an uncertainty of 0.01 kV.
+                State the uncertainty in the potential difference V. \hfill [1]
+                \begin{itemize}
+                  \item Essentially, the p.d. we are talking about here is the total p.d. across the two power supplies. If each has a p.d. uncertainty of 0.01 kV, then the total p.d. uncertainty is \hlans{0.02 kV}.
+                \end{itemize}
+          \item $T$ is measured with an electronic stopwatch that measures to the nearest 0.1 s.
+                Describe how an uncertainty in $T$ of less than 0.1 s can be achieved using this stopwatch. \hfill [2]
+                \begin{itemize}
+                  \item The key idea here is that we can think of $$T = \frac{\text{total time for $n$ bounces}}{n}$$
+                  \item The uncertainty here is then $$\Delta T = \frac{\Delta (\Sigma t)}{n}$$
+                  \item So the more bounces we measure, the smaller the uncertainty in $T$.
+                  \item In conclusion: by measuring the time for many bounces and dividing the result by the number of bounces.
+                \end{itemize}
+
+                The graph shows the variation of T with V. The uncertainty in V is not plotted.
+
+                \img{ex/2.png}{0.7}{The graph of T against V.}{2}
+          \item Outline why it is unlikely that the relationship between $T$ and $V$ is linear. \hfill[1]
+                \begin{itemize}
+                  \item There is not a line of best fit that passes \hl{through all error bars}.
+
+                \end{itemize}
+          \item Calculate the largest fractional uncertainty in $T$ for these data. \hfill [2]
+                \begin{itemize}
+                  \item Recall that the fractional uncertainty is given by $$\frac{\Delta T}{T}$$
+                  \item So, to pick the point that has the largest fractional uncertainty given that they all have the same absolute uncertainty $\Delta T$, we must use the point that has the smallest value of $T$.
+                        $$\frac{\Delta T}{T} = \frac{0.1}{0.5} = 0.2$$
+                \end{itemize}
+        \end{enumerate}
+
+  \item The students suggest the following theoretical relationship between $T$ and $V$:
+        $$T = \frac{A}{V}$$
+        where A is a constant.
+
+        To verify the relationship, the variation of $T$ with $\dfrac{1}{V}$ is plotted.
+
+
+        \img{ex/3.png}{0.7}{The graph of T against $\dfrac{1}{V}$.}{3}
+
+        \begin{enumerate}[label=(\roman*)]
+          \item Determine $A$ by drawing the line of best fit.\hfill [3]
+                \begin{itemize}
+                  \item First, plot the error bars so that you can verify your line of best fit at least passes through all the data points and their error margins.
+                  \item The next mark is given for a taking a segment on the line at least half of it (e.g. from its start point to end point), and then calculating the gradient of that segment by drawing the triangle (to visualise the change in $y$ and $x$).
+                  \item The third mark point is given for the gradient, $A$ correctly calculated, e.g.
+                        $$A = \frac{1.6 - 0}{0.40 - 0} = 4$$
+                \end{itemize}
+
+          \item State the units of A. (Note that it doesn't say "base SI units", so we do not need a conversion to base SI units.) \hfill [1]
+                $$V\times T \equiv \text{(kV)} \times \text{s} = \text{kV s}$$
+
+          \item The theoretical relationship assumes that the ball is only affected by the electric force. Suggest why, in order to test the relationship, the length of the string should be much greater than the distance between the plates. \hfill [2]
+                \begin{itemize}
+                  \item The question is really asking for a change to the experiment that can ensure that the only force acting on the ball is the electric force, because it's a prerequisite of the theoretical relationship.
+                  \item Now let's ask ourselves the following question: What are potentially other forces acting on the ball that would violate the prerequisite?
+                  \item The ball is suspended by a string, so there is a tension force acting on the ball. Only the horizontal component of the tension force will affect the ball's motion, so let's think about ways to minmise that.
+                  \item If we think about the geometry of the situation, the higher up the point of suspension is -- the smaller the angle of the string to the vertical -- the smaller the horizontal component of the tension force.
+                  \item \hlans{Hence, we should make the string much longer than the distance between the plates, so that the angle of the string to the vertical is very small.}
+                \end{itemize}
+        \end{enumerate}
+\end{enumerate}
+
+\subsection{Question 2}
+
+[Maximum mark: 8]
+
+A group of students investigate the bending of a plastic ruler that is clamped horizontally at one end. A weight $W$ attached to the other end causes the ruler to bend. The weight is contained in a scale pan.\lb
+The students fix the length $L$ of the ruler and vary $W$. For each value of $W$, the group measures the deflection $d$ of the end of the ruler to which the weight is attached.
+\img{ex/4.png}{0.3}{A diagram of the experiment.}{4}
+\begin{enumerate}[label=(\alph*)]
+  \item The group obtains the following repeated readings for $d$ for \textbf{one} value of $W$.
+        \begin{table}[H]
+          \centering
+          \begin{tabular}{|*{7}{c|}}
+            \hline
+            \textbf{Reading} & 1   & 2   & 3   & 4   & 5   & 6   \\ \hline
+            \textbf{d} / cm  & 2.7 & 2.9 & 3.6 & 2.7 & 2.8 & 2.9 \\ \hline
+          \end{tabular}
+        \end{table}
+        The group divides into two subgroups, A and B, to analyse the data.\lb
+        Group A quotes the mean value of d as 2.93 cm.\lb
+        Group B quotes the mean value of d as 2.8 cm.\lb
+        Discuss the values that the groups have quoted. \hfill [2]
+        \begin{itemize}
+          \item Immediately, when reading the dataset, we can spot an outlier on the third reading, which is 3.6 cm. The fact that we are given two different mean values suggests that one of the groups has included the outlier in their calculation, and the other group has excluded it.
+          \item \hlans{Group B has excluded the outlier in their calculation, and so their mean value 2.8 is a better representation of the data.}
+          \item \hlans{Group A also has the problem that the number of significant figures is not suitable for the data. The data is given to 2 s.f., so the mean value should also be given to 2 s.f. (2.9 cm).}
+        \end{itemize}
+
+  \item The variation of $d$ with $W$ is shown.
+
+        \img{ex/5.png}{0.7}{The graph of d against W.}{5}
+
+        Outline one experimental reason why the graph does not go through the origin. [1]
+        \begin{itemize}
+          \item At the point where $W = 0$ we have a non-zero deflection because the scale pan itself has a weight, and so the ruler will bend downwards even when there is no additional weight on it.
+          \item The mark scheme also brings up the idea of a systematic error. This is a good point, but I think it is a bit too vague to be a good answer.
+        \end{itemize}
+  \item Theory predicts that
+        $$d \propto \frac{W^xL^y}{EI}$$
+        where $E$ and $I$ are constants. The fundamental units of $I$ are $m^4$ and those of $E$ are $\si{\kg\per\m\per\s\squared}$.
+
+        Calculate $x$ and $y$. \hfill [2]
+
+        \begin{itemize}
+          \item This is a question of dimensional analysis, i.e. equating the dimensions of both sides of the equation.
+                \begin{itemize}
+                  \item $W \equiv \si{\kg\m\per\s\squared}$
+                  \item $L \equiv \si{\m}$
+                \end{itemize}
+          \item Then, we have the following eqution
+                \begin{align*}
+                  dEI                                                              & \propto {W^xL^y}                     \\
+                  m\left(\si{\kg\per\m\per\s\squared}\right)\left(\si{\m}^4\right) & \equiv \si{\kg^x\m^{x}\s^{-2x}}(m^y) \\
+                \end{align*}
+          \item This looks messy, but let's do a \say{compare coefficients} here, and we should obtain a system of equations.
+          \item If we look at the m powers, we have
+                $$1 - 1 + 4 = x + y$$
+          \item If we look at the kg powers
+                $$1 = x$$
+          \item So we have $x =1$ and $y = 3$.
+
+        \end{itemize}
+
+        \pagebreak
+  \item The ruler has cross-sectional area $A = a\times b$, where $a = (28 \pm 1)$ mm and $b = (3.00 \pm 0.05)$ mm.
+
+        \begin{enumerate}
+          \item Suggest an appropriate measuring instrument for determining $b$. \hfill [1]
+                \begin{itemize}
+                  \item A micrometer screw gauge / Vernier caliper / travelling microscope is a good answer here, because it can measure to the nearest 0.05 mm.
+                \end{itemize}
+          \item Calculate the percentage uncertainty in the value of $A$.
+                \begin{align*}
+                  \frac{\Delta a}{a} & = \frac{1}{28}                            \\
+                  \frac{\Delta b}{b} & = \frac{0.05}{3.00}                       \\
+                  \frac{\Delta A}{A} & = \frac{\Delta a}{a} + \frac{\Delta b}{b} \\
+                                     & = \frac{1}{28} + \frac{0.05}{3.00}        \\
+                                     & = 0.05 = 5\%
+                \end{align*}
+        \end{enumerate}
+
+\end{enumerate}
+
+\end{document}
