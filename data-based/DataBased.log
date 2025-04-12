@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  11 APR 2025 01:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  12 APR 2025 13:11
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1038,7 +1038,7 @@ l.152 \section
 
 
 ]
-<ex/1.png, id=78, 395.4775pt x 479.7925pt>
+<ex/1.png, id=98, 395.4775pt x 479.7925pt>
 File: ex/1.png Graphic file (type png)
 <use ex/1.png>
 Package pdftex.def Info: ex/1.png  used on input line 164.
@@ -1060,7 +1060,7 @@ LaTeX Font Info:    Trying to load font information for TS1+phv on input line 18
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
-<ex/2.png, id=91, 517.935pt x 320.19624pt>
+<ex/2.png, id=111, 517.935pt x 320.19624pt>
 File: ex/2.png Graphic file (type png)
 <use ex/2.png>
 Package pdftex.def Info: ex/2.png  used on input line 196.
@@ -1074,7 +1074,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3 <./ex/2.png>]
-<ex/3.png, id=100, 517.935pt x 347.2975pt>
+<ex/3.png, id=120, 517.935pt x 347.2975pt>
 File: ex/3.png Graphic file (type png)
 <use ex/3.png>
 Package pdftex.def Info: ex/3.png  used on input line 217.
@@ -1104,7 +1104,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6]
-<ex/4.png, id=122, 721.69624pt x 365.365pt>
+<ex/4.png, id=142, 721.69624pt x 365.365pt>
 File: ex/4.png Graphic file (type png)
 <use ex/4.png>
 Package pdftex.def Info: ex/4.png  used on input line 248.
@@ -1120,7 +1120,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [7
 
  <./ex/4.png>]
-<ex/5.png, id=131, 931.48pt x 510.90875pt>
+<ex/5.png, id=151, 931.48pt x 510.90875pt>
 File: ex/5.png Graphic file (type png)
 <use ex/5.png>
 Package pdftex.def Info: ex/5.png  used on input line 271.
@@ -1155,27 +1155,75 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10] (./DataBased.aux)
+[10]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15] (./DataBased.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `DataBased.out' has not changed.
-(rerunfilecheck)             Checksum: 7474DDBF253298191D90C17F4F279327;457.
+(rerunfilecheck)             Checksum: 22291F7CA518BB5EC670CA877C4A0680;1200.
  ) 
 Here is how much of TeX's memory you used:
- 47542 strings out of 474116
- 1136961 string characters out of 5743681
+ 47571 strings out of 474116
+ 1137273 string characters out of 5743681
  1946187 words of memory out of 5000000
- 69134 multiletter control sequences out of 15000+600000
+ 69141 multiletter control sequences out of 15000+600000
  578208 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,96p,786b,1260s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on DataBased.pdf (12 pages, 352928 bytes).
+Output written on DataBased.pdf (17 pages, 364348 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
- 214 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 269 PDF objects out of 1000 (max. 8388607)
+ 194 compressed objects within 2 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 246 words of extra memory for PDF output out of 10000 (max. 10000000)
 

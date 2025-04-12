@@ -321,4 +321,117 @@ The students fix the length $L$ of the ruler and vary $W$. For each value of $W$
 
 \end{enumerate}
 
+\section{Old Syllabus Questions}
+
+These questions are taken from the old syllabus' past papers, but still have relevance.
+
+\subsection{Uncertainty in Repeated Readings}
+
+A student measures the time for 20 oscillations of a pendulum. The experiment is repeated four times. The measurements are:
+
+\begin{center}
+  10.45 s
+
+  10.30 s
+
+  10.70 s
+
+  10.55 s
+\end{center}
+
+What is the best estimate of the uncertainty in the average time for 20 oscillations?
+
+\begin{enumerate}[label=\Alph*.]
+  \item 0.01 s
+  \item 0.05 s
+  \item 0.2 s
+  \item 0.5 s
+\end{enumerate}
+
+\begin{itemize}
+  \item The ideas is to first find the average and then look for the smallest uncertainty that allows all values in the list to be covered.
+  \item The average turns out to be 10.5
+  \item the largest and smallest are 10.7 and 10.3 respectively
+  \item An uncertainty of 0.2 s would cover all values.
+  \item \ans{C}
+  \item The pitfall is that some students may mistakenly divide anything by 20 to find the time/uncertainty per oscillation. This wrong, because the question asks for the average time for 20 oscillations, not per oscillation.
+\end{itemize}
+
+\subsection{Uncertainty in Changes}
+
+The uncertainty in reading a laboratory thermometer is 0.5°C. The temperature of a liquid falls from 20°C to 10°C as measured by the thermometer. What is the percentage uncertainty in the change in temperature?
+
+\begin{enumerate}[label=\Alph*.]
+  \item 2.5\%
+  \item 5\%
+  \item 7.5\%
+  \item 10\%
+\end{enumerate}
+
+\begin{itemize}
+  \item The change in temperature is 10 degrees.
+  \item The absolute uncertainty in the change is twice the uncertainty in the thermometer reading, i.e. 1 degree...
+  \item which is 10\% of the change in temperature.
+  \item \ans{D}
+\end{itemize}
+
+The logic is that when you find the difference between values each with abs. uncertainty $0.5$, the maximum error in the difference is $0.5 + 0.5 = 1$, i.e. $(20 + 0.5) - (10 - 0.5) = 10 + 1$, and the maximum negative error occurs when $(20 - 0.5) - (20 + 0.5) = 10 - 1$.
+
+\subsection{Misc -- Experiments (1)}
+
+A student studies the relationship between the centripetal force applied to an object undergoing circular motion and its period \( T \).\lb
+The object (mass \( m \)) is attached by a light inextensible string, through a tube, to a weight $W$ which hangs vertically. The string is free to move through the tube. A student swings the mass in a horizontal, circular path, adjusting the period $T$ of the motion until the radius \( r \) is constant. The radius of the circle and the mass of the object are measured and remain constant for the entire experiment.
+
+The student collects the measurements of $T$ five times, for weight \( W \). The weight is then doubled (\( 2W \)) and the data collection repeated. Then it is repeated with \( 3W \) and \( 4W \). The results are expected to support the relationship
+\[ W = \frac{4\pi^2mr}{T^2}, \]
+
+\begin{enumerate}[label=(\alph*)]
+  \item State why the experiment is repeated with different values of $W$.
+        \begin{itemize}
+          \item to confirm the proportionality relationship between $W$ and $\dfrac{1}{T^2}$.
+
+                \textbf{OR}
+
+          \item because $W$ is the independent variable
+
+
+
+
+                \textbf{OR}
+
+          \item to draw a graph of $W$ against $\dfrac{1}{T^2}$ to find the gradient.
+
+
+
+        \end{itemize}
+\end{enumerate}
+
+In reality, there is friction in the system, so in this case \( W \) is less than the total centripetal force in
+the system. A suitable graph is plotted to determine the value of $mr$ experimentally. The value of
+$mr$ was also calculated directly from the measured values of $m$ and $r$.
+
+\begin{enumerate}[label=(\alph*)]
+  \setcounter{enumi}{1}
+  \item Predict from the equation whether the value of $mr$ found experimentally will be larger, the same, or smaller than the value of $mr$ calculated directly.
+        \begin{itemize}
+          \item Friction in this case is a systematic error and so if we consider the graph of $W$ against $\dfrac{1}{T^2}$, there will only be a vertical shift in the graph, but the gradient will remain the same.
+          \item This means that the value of $mr$ is the same.
+        \end{itemize}
+  \item
+        The measurements of $T$ were collected five times.
+        \begin{enumerate}[label=(\roman*)]
+          \item Explain how repeated measurements of $T$ reduced the random error in the final experimental value of.
+                \begin{itemize}
+                  \item Taking an average of the five measurements reduces the random error, as the random fluctuations are smoothed out.
+                  \item This reduces the uncertainty in the final value of $T$.
+                \end{itemize}
+          \item Outline why repeated measurements of $T$ would not reduce any systematic error in $T$.
+                \begin{itemize}
+                  \item Because systematic errors are constant and present in all measurements, and so they will not be reduced by taking an average.
+                \end{itemize}
+        \end{enumerate}
+\end{enumerate}
+
+
+
 \end{document}
