@@ -323,7 +323,8 @@ The students fix the length $L$ of the ruler and vary $W$. For each value of $W$
 
 \section{Old Syllabus Questions}
 
-These questions are taken from the old syllabus' past papers, but still have relevance.
+These questions are taken from the old syllabus' past papers, but still have relevance.\lb
+In the new syllabus, these questions appear in Paper 1B, and if you ever wonder where you can find them in the old papers, they are located in Paper 3 section A.
 
 \subsection{Uncertainty in Repeated Readings}
 
@@ -377,10 +378,13 @@ The uncertainty in reading a laboratory thermometer is 0.5°C. The temperature o
 
 The logic is that when you find the difference between values each with abs. uncertainty $0.5$, the maximum error in the difference is $0.5 + 0.5 = 1$, i.e. $(20 + 0.5) - (10 - 0.5) = 10 + 1$, and the maximum negative error occurs when $(20 - 0.5) - (20 + 0.5) = 10 - 1$.
 
-\subsection{Misc -- Experiments (1)}
+\subsection{Experiments (1)}
 
 A student studies the relationship between the centripetal force applied to an object undergoing circular motion and its period \( T \).\lb
 The object (mass \( m \)) is attached by a light inextensible string, through a tube, to a weight $W$ which hangs vertically. The string is free to move through the tube. A student swings the mass in a horizontal, circular path, adjusting the period $T$ of the motion until the radius \( r \) is constant. The radius of the circle and the mass of the object are measured and remain constant for the entire experiment.
+
+\img{ex/6.png}{0.7}{A diagram of the experiment.}{6}
+
 
 The student collects the measurements of $T$ five times, for weight \( W \). The weight is then doubled (\( 2W \)) and the data collection repeated. Then it is repeated with \( 3W \) and \( 4W \). The results are expected to support the relationship
 \[ W = \frac{4\pi^2mr}{T^2}, \]
@@ -432,6 +436,234 @@ $mr$ was also calculated directly from the measured values of $m$ and $r$.
         \end{enumerate}
 \end{enumerate}
 
+\subsection{Experiments (2)}
+
+A spherical soap bubble is made of a thin film of soapy water. The bubble has an internal air pressure \( P_i \) and is formed in air of constant pressure \( P_o \). The theoretical prediction for the variation of \( (P_i - P_o) \) is given by the equation
+
+\[
+  (P_i - P_o) = \frac{4\gamma}{R}
+\]
+
+where \( \gamma \) is a constant for the thin film and \( R \) is the radius of the bubble.
+
+Data for \( (P_i - P_o) \) and \( R \) were collected under controlled conditions and plotted as a graph showing the variation of \( (P_i - P_o) \) with \( \frac{1}{R} \).
+
+\img{ex/7.png}{0.7}{The graph of $P_i - P_o$ against $\dfrac{1}{R}$.}{7}
+
+\begin{enumerate}[label=(\alph*)]
+  \item Suggest whether the data are consistent with the theoretical prediction.
+        \begin{itemize}
+          \item Theory suggests $P_i - P_o$ is proportional to $\dfrac{1}{R}$
+          \item and the best fit graph is linear and passes through the origin and so the data is consistent with the theory.
+        \end{itemize}
+  \item \begin{enumerate}[label=(\roman*)]
+          \item Show that the value of is about 0.03.
+                \begin{itemize}
+                  \item To make our lives easier, we pick two points whose coordinates are most easily read off the graph, i.e. positioned on the grid lines and are ideally on nice values.
+                  \item We can pick $(20.00, 2.00)$ and $(25.00, 2.50)$
+                        \begin{align*}
+                          \text{Gradient} & = \frac{2.50 - 2.00}{25.00 - 20.00} \\
+                                          & = \frac{0.5}{5}                     \\
+                                          & = 0.1                               \\
+                          \text{Gradient} & = 4\gamma                           \\
+                          \gamma          & = \frac{0.1}{4}                     \\
+                                          & = 0.025
+                        \end{align*}
+                \end{itemize}
+          \item Identify the fundamental units of $\gamma$
+                \begin{itemize}
+                  \item A dimensional analysis question shows that $\gamma$ is essentially pressure times by length.
+                  \item This is the equivalent of force over area and then times by length $\equiv$ force over length, with units $$\frac{\si{\kg\m\per\s\squared}}{\si{\m}}\equiv \si{\kg\per\s\squared}$$
+                \end{itemize}
+          \item In order to find the uncertainty for $\gamma$, a maximum gradient line would be drawn. On the graph, sketch the maximum gradient line for the data.
+                \begin{itemize}
+                  \item This line has to have the steepest slope possible while passing through all error bars.
+                        \img{ex/8.png}{0.7}{The graph of $P_i - P_o$ against $\dfrac{1}{R}$.}{8}
+                \end{itemize}
+          \item The percentage uncertainty for $\gamma$ is 15\%. State $\gamma$, with its absolute uncertainty.
+                \begin{align*}
+                  0.15\times 0.025 & = 0.00375 \\
+                \end{align*}
+                This should be rounded to the same number of decimal places as the value of $\gamma$, namely 3 d.p., and hence \hlans{$\pm$ 0.004}
+          \item The expected value of $\gamma$ is 0.027. Comment on your result.
+                \begin{itemize}
+                  \item The experiment concluded that $\gamma = 0.025 \pm 0.004$, and 0.027 is within this uncertainty range. Hence, the experimental value is consistent with the theoretical value.
+                \end{itemize}
+        \end{enumerate}
+\end{enumerate}
+
+\subsection{Experiments (3)}
+
+A student investigates how the period \( T \) of a simple pendulum varies with the maximum speed \( v \) of the pendulum's bob by releasing the pendulum from rest from different initial angles. A graph of the variation of \( T \) with \( v \) is plotted.
+
+\img{ex/9.png}{0.7}{The graph of $T$ against $v$.}{9}
+
+\begin{enumerate}[label=(\alph*)]
+  \item Suggest, by reference to the graph, why it is unlikely that the relationship between $T$ and $v$ is linear.
+        \begin{itemize}
+          \item A straight best-fit line cannot be drawn through all error bars
+        \end{itemize}
+  \item Determine the fractional uncertainty in $v$ when T = 2.115 s, correct to \textbf{one} significant figure.
+        \begin{align*}
+          v(T = 2.115)       & = 1.15              \\
+          \frac{\Delta v}{v} & = \frac{0.05}{1.15} \\
+                             & = 0.04 \equiv 4\%
+        \end{align*}
+  \item The student hypothesizes that the relationship between \( T \) and \( v \) is \( T = a + bv^2 \), where \( a \) and \( b \) are constants. To verify this hypothesis, a graph showing the variation of \( T \) with \( v^2 \) is plotted. The graph shows the data and the line of best fit.
+        \img{ex/10.png}{1}{The graph of $T$ against $v^2$.}{10}
+        Determine $b$, giving an appropriate unit for $b$.
+        \begin{itemize}
+          \item We recognize that $b$ is the gradient of the graph. Again, we pick two convenient points to compute the gradient.
+                \begin{align*}
+                  \text{Gradient} & = \frac{2.154 - 2.104}{4.4 - 0.5}    \\
+                                  & = \SI{0.013}{\s\cubed\per\m\squared}
+                \end{align*}
+        \end{itemize}
+  \item The lines of the minimum and maximum gradient are shown.
+        \img{ex/11.png}{1}{The graph of $T$ against $v^2$.}{11}
+        Estimate the absolute uncertainty in $a$.
+        \begin{itemize}
+          \item The graph provides us two pieces of information about $a$ through the intercepts -- $a_{\max} \approx 2.101$ and $a_{\min} \approx 2.095$.
+                \begin{align*}
+                  \Delta a & = \frac{a_{\max} - a_{\min}}{2} = \frac{2.101 - 2.095}{2} = 0.003
+                \end{align*}
+        \end{itemize}
+\end{enumerate}
+
+\subsection{Experiments (4)}
+
+In an experiment to measure the acceleration of free fall a student ties two different blocks of masses $m_1$ and $m_2$ to the ends of a string that passes over a frictionless pulley.
+
+\img{ex/12.png}{0.2}{A diagram of the experiment.}{12}
+
+The student calculates the acceleration \( a \) of the blocks by measuring the time taken by the heavier mass to fall through a given distance. Their theory predicts that
+
+$
+  a = g \dfrac{m_1 - m_2}{m_1 + m_2}$ and this can be re-arranged to give $
+  g = a \dfrac{m_1 + m_2}{m_1 - m_2}.
+$
+
+\begin{enumerate}[label=(\alph*)]
+  \item In a particular experiment, the student calculates that \( a = (0.204 \pm 0.002) \, \mathrm{ms^{-2}} \) using \( m_1 = (0.125 \pm 0.001) \, \mathrm{kg} \) and \( m_2 = (0.120 \pm 0.001) \, \mathrm{kg} \).
+
+        \begin{enumerate}[label=(\roman*)]
+          \item Calculate the percentage error in the measured value of g.
+                \begin{itemize}
+                  \item The numerator and denominator each have an absolute uncertainty of 0.002.
+                  \item The percentage error in the numerator is
+                        $$\frac{0.002}{0.245} = 0.8\%$$
+                  \item The percentage error in the denominator is
+                        $$\frac{0.002}{0.005} = 40\%$$
+                  \item Since they are divided, the percentage errors add up.
+                        $$\frac{0.8 + 40}{100} = 40.8\%$$
+                  \item Finally, this fraction is mulitplied to $a$, which has an uncertainty of $$\frac{0.002}{0.204} = 1\%$$
+                  \item We should add this to the previous percentage error since they are all multiplied together
+                        $$\frac{40.8 + 1}{100} = 41.8\%$$
+                \end{itemize}
+          \item Deduce the value of $g$ and its absolute uncertainty for this experiment.
+                \begin{align*}
+                  g = (0.204)\frac{0.245}{0.005} & = 9.996                          \\
+                  \Delta g                       & = 0.418 \times 9.996 \approx 4.2 \\
+                  g                              & = 10.0 \pm 4.2
+                \end{align*}
+
+        \end{enumerate}
+  \item There is an advantage and a disadvantage in using two masses that are almost equal.
+
+        \begin{enumerate}[label=(\roman*)]
+          \item State and explain the advantage with reference to the magnitude of the acceleration that is obtained.
+                \begin{itemize}
+                  \item the acceleration would be small
+                  \item a longer time of fall would be easier to measure and would reduce the percentage uncertainty in the time.
+                \end{itemize}
+          \item State and explain the disadvantage with reference to your answer to (a)(ii).
+                \begin{itemize}
+                  \item the percentage error in the difference of the masses is large
+                  \item leading to a large percentage uncertainty in $g$
+                \end{itemize}
+        \end{enumerate}
+\end{enumerate}
+
+\subsection{Experiments (5)}
+
+A student carries out an experiment to determine the variation of intensity of the light with distance from a point light source. The light source is at the centre of a transparent spherical cover of radius $C$. The student measures the distance $x$ from the surface of the cover to a sensor that measures the intensity $I$ of the light.
+
+\img{ex/13.png}{0.7}{A diagram of the experiment.}{13}
+
+The light source emits radiation with a constant power $P$ and all of this radiation is transmitted through the cover. The relationship between $I$ and $x$ is given by
+
+\[
+  I = \frac{P}{4\pi (x + C)^2}
+\]
+
+This relationship can also be rewritten as follows.
+
+$$
+  \frac{1}{\sqrt{I}} = 2\sqrt{\frac{\pi}{P}}(x + C)
+$$
+
+\begin{enumerate}[label=(\alph*)]
+  \item The student obtains a set of data and uses this to plot a graph of the variation of $\dfrac{1}{\sqrt{I}}$ with $x$
+        \img{ex/14.png}{1}{The graph of $\dfrac{1}{\sqrt{I}}$ against $x$.}{14}
+        \begin{enumerate}[label=(\roman*)]
+          \item Estimate $C$
+                \begin{itemize}
+                  \item From the relation, we see that the gradient and $C$ multiply to give the intercept.
+                  \item The gradient can be found with any pair of points, picking the two end points give
+                        $$\text{Gradient} = \frac{36 - 33}{25 - 22.5} = 1.2$$
+
+                  \item If we extend the line and intercept the y-axis, we can read off the intercept as $5$.
+                        $$C = \frac{5}{1.2} = 4.2\si{\cm}$$
+                \end{itemize}
+          \item Determine $P$, to the correct number of significant figures including its unit.
+                \begin{align*}
+                  \text{Gradient} & = 2\sqrt{\frac{\pi}{P}}          \\
+                  P               & = \frac{2\pi}{\text{Gradient}^2} \\
+                                  & = 8.7 \times 10^{-4} \si{\watt}
+                \end{align*}
+        \end{enumerate}
+  \item Explain the disadvantage that a graph of $I$ against $\dfrac{1}{x^2}$ has for the analysis in (b)(i) and (b)(ii).
+        \begin{itemize}
+          \item This graph will be a curve and not a straight line
+          \item Hence, it would be more difficult to determine the gradient and intercept.
+        \end{itemize}
+\end{enumerate}
+
+\section{RevisionVillage Questions}
+
+Don't panic if you don't have a RV subscription: Trust me, the questions are not too dissimilar to the ones from past papers. In fact, you could argue they are scammers...
+
+\oldsubsection{Dimensional Analysis}
+
+Reynolds number, \( Re \), is a dimensionless number (a value with no units) used in fluid mechanics to predict the nature of flow of a fluid. It is given by:
+
+\[
+  Re = v l \rho^\alpha \eta^\beta
+\]
+
+where \( v \) is the velocity of the flow, \( l \) is length, \( \rho \) is the density of the fluid and \( \eta \) its viscosity. What are the exponents \( \alpha \) and \( \beta \)?
+
+\begin{itemize}
+  \item Since the Reynolds number is dimensionless, we can equate the dimensions of both sides of the equation.
+        \begin{align*}
+          1\equiv \left(\si{\m\per\s}\right)\left(\si{\m}\right)\left(\si{\kg\per\m\cubed}\right)^\alpha\left(\eta\right)^\beta
+        \end{align*}
+  \item If you are like and cannot immediately recall the units of viscosity, we can think about Stoke's Law
+        \begin{align*}
+          F    & = 6\pi r \eta v                                               \\
+          \eta & \equiv \frac{\si{\kg\m\per\s\squared}}{\si{\m\squared\per\s}} \\
+               & \equiv \si{\kg\per\m\per\s}
+        \end{align*}
+  \item Then
+        $$1\equiv \left(\si{\m\per\s}\right)\left(\si{\m}\right)\left(\si{\kg\per\m\cubed}\right)^\alpha\left(\si{\kg\per\m\per\s}\right)^\beta$$
+  \item Our goal is to cancel out the exponents of the units on the RHS, so that the whole quantity becomes dimensionless.
+        \begin{itemize}
+          \item The sum of the exponents of m is $1 + 1 - 3\alpha - \beta = 0$. Hence,
+                $$3\alpha + \beta = 2$$
+          \item The sum of the exponents of kg is $\alpha + \beta = 0$.
+          \item Solving this system of equations gives us $\alpha = 1$ and $\beta = -1$.
+        \end{itemize}
+\end{itemize}
 
 
 \end{document}
