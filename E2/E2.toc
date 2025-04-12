@@ -18,3 +18,7 @@
 \contentsline {subsection}{\numberline {6.2}Evidence for Wave/Particle}{15}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Photoelectric Experiment --- IV Graphs}{16}{subsection.6.3}%
 \contentsline {subsection}{\numberline {6.4}Energy Transfer --- Electron and Photon}{18}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}De Broglie Wavelength and Momentum}{19}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Compton Scattering}{20}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Photoelectric Effect}{22}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Millikan's Experiment}{24}{subsection.6.8}%
