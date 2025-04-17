@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1743892249.04283 "/Users/timthedev07/Documents/物理笔记/A5/A5.tex" "A5.pdf" "A5" 1743892255.32749 0
-  "/Users/timthedev07/Documents/物理笔记/A5/A5.tex" 1743892245.1807 34030 1a070189fdeaef9c27f639329ad8620a ""
+["pdflatex"] 1744883449.81385 "/Users/timthedev07/Documents/物理笔记/A5/A5.tex" "A5.pdf" "A5" 1744883453.06087 0
+  "/Users/timthedev07/Documents/物理笔记/A5/A5.tex" 1744883449.34849 34031 af201bdc1ac0566b74449b819f34638e ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -284,10 +284,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731313331.24492 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731313254 8221454 067b6d98d3b5175b15c9caab9e14d269 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "A5.aux" 1743892255.04492 9472 515c93971c412ef914e15ed3650bb0ea "pdflatex"
-  "A5.out" 1743892255.04799 4618 dcecbc09e2ae57847379f903979afbd8 "pdflatex"
-  "A5.tex" 1743892245.1807 34030 1a070189fdeaef9c27f639329ad8620a ""
-  "A5.toc" 1743892255.04858 2526 851d8d7966a954b20bfb85cab2a2207a "pdflatex"
+  "A5.aux" 1744883452.92936 9472 515c93971c412ef914e15ed3650bb0ea "pdflatex"
+  "A5.out" 1744883452.93078 4618 dcecbc09e2ae57847379f903979afbd8 "pdflatex"
+  "A5.tex" 1744883449.34849 34031 af201bdc1ac0566b74449b819f34638e ""
+  "A5.toc" 1744883452.93107 2526 851d8d7966a954b20bfb85cab2a2207a "pdflatex"
   "calibrate.png" 1734733696.64004 70191 0ce000bf1bd5f3bef01332940ee9ff54 ""
   "clock1.png" 1729711470.5394 190098 23abf93877dee3d6a96109c89f1d5d59 ""
   "clock2.png" 1729711459.29974 180595 b78e57ac1458b634e675d848a0ca0881 ""
