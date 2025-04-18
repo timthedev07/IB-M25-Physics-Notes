@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1744990054.49069 "/Users/timthedev07/Documents/物理笔记/B1/B1.tex" "B1.pdf" "B1" 1744990059.34724 0
-  "/Users/timthedev07/Documents/物理笔记/B1/B1.tex" 1744990054.07796 38689 f393d1d02c817db8f1507278c0d413ea ""
+["pdflatex"] 1744991472.54436 "/Users/timthedev07/Documents/物理笔记/B1/B1.tex" "B1.pdf" "B1" 1744991474.76531 0
+  "/Users/timthedev07/Documents/物理笔记/B1/B1.tex" 1744991472.2837 39446 afd19ba3be6c5813b948e2a9510886f7 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -331,10 +331,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731313331.24492 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731313254 8221454 067b6d98d3b5175b15c9caab9e14d269 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "B1.aux" 1744990059.08153 8921 0b37283136ef5cc19757feb806e69a0b "pdflatex"
-  "B1.out" 1744990059.08377 5755 ee1cc852641962d77bf495cac81b160b "pdflatex"
-  "B1.tex" 1744990054.07796 38689 f393d1d02c817db8f1507278c0d413ea ""
-  "B1.toc" 1744990059.08423 3014 9952e0a7366e932f0d5fec329b4d0e6b "pdflatex"
+  "B1.aux" 1744991474.62765 9062 b27e570be5e4d6a270a86a8819c9c0fa "pdflatex"
+  "B1.out" 1744991474.62869 5978 e4f1457ed89d195cc568458d3a30600b "pdflatex"
+  "B1.tex" 1744991472.2837 39446 afd19ba3be6c5813b948e2a9510886f7 ""
+  "B1.toc" 1744991474.62892 3114 bc3b9766fc320fd1f7f6933313a2f99c "pdflatex"
   "Inverse_square_law.svg" 1728483771.8752 5175 efe0630d88a86117d007faf936776b0d ""
   "day.png" 1728476220.54694 170120 8a5da3c68d1d1ee19318754069038868 ""
   "ex/1.png" 1742641552.84819 127405 5c9923d5b0a3ae4a107bb20bfc394cb5 ""

@@ -33,4 +33,5 @@
 \contentsline {subsection}{\numberline {8.9}Heat Propagation through Cubes -- Ratios}{29}{subsection.8.9}%
 \contentsline {subsection}{\numberline {8.10}Two Blocks in Contact}{30}{subsection.8.10}%
 \contentsline {subsection}{\numberline {8.11}Hard MCQ -- Equilibrium of Mixtures}{31}{subsection.8.11}%
-\contentsline {subsection}{\numberline {8.12}Moles and Molar Masses in a Mixture}{33}{subsection.8.12}%
+\contentsline {subsection}{\numberline {8.12}Generalisation to More Mixtures}{33}{subsection.8.12}%
+\contentsline {subsection}{\numberline {8.13}Moles and Molar Masses in a Mixture}{34}{subsection.8.13}%
