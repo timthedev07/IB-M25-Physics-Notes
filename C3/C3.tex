@@ -23,6 +23,10 @@
 \usepackage{dirtytalk}
 \usepackage{draftwatermark}
 \usepackage{helvet}
+\usepackage{tocloft}
+
+\newcommand{\ans}[1]{\textcolor{ForestGreen}{The answer is #1.}}
+\addtolength{\cftsubsecnumwidth}{12pt}
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage[most]{tcolorbox}
 \SetWatermarkText{timthedev07}
@@ -644,6 +648,32 @@ What is the greatest number of maxima that can be observed?
   \item This indicates that on one side of the central maximum, there are two other maxima.
   \item In total, this gives $2 + 1 + 2 = 5$ maxima.
 
+\end{itemize}
+
+\pagebreak
+
+\subsection{Observable Maxima (RV Variant)}
+
+Monochromatic light of wavelength $\lambda$ falls normally on a diffraction grating. The maximum number of maxima that can be observed using this setup is 9. Which of the following can be the slit separation of the diffraction grating?
+
+\begin{enumerate}[label=\Alph*.]
+  \item $1.5\lambda$
+  \item $3\lambda$
+  \item $4.5\lambda$
+  \item $6\lambda$
+\end{enumerate}
+
+\begin{itemize}
+  \item Having 9 observable maxima means that there are 4 maxima on either side of the central maximum. Let's evoke the equation for diffraction grating with $n = 4$
+        $$\sin\theta_4 = \frac{4\lambda}{d}$$
+  \item We know that for an observable maximum, we require $\sin\theta < 1$.
+        \begin{align*}
+          \implies d > 4\lambda
+        \end{align*}
+  \item This eliminates options A and B.
+  \item We also require that the fifth maximum is not observable, which means that
+        $$\sin\theta_5 = \frac{5\lambda}{d} > 1 \iff d < 5\lambda$$
+  \item Only $4.5\lambda$ satisfies this condition. \ans{C}
 \end{itemize}
 
 \pagebreak

@@ -314,6 +314,8 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/draftwatermark/draftwatermark
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/helvet.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/helvet.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/tocloft/tocloft.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/tocloft/tocloft.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty

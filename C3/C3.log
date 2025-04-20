@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  6 APR 2025 00:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  20 APR 2025 22:17
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -657,6 +657,42 @@ Package: dirtytalk 2010/11/21 A package making "quoting" easier
 Package: draftwatermark 2024/03/04 3.3 Put a gray textual watermark on document pages
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/helvet.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
+\cftparskip=\skip64
+\cftbeforetoctitleskip=\skip65
+\cftaftertoctitleskip=\skip66
+\cftbeforepartskip=\skip67
+\cftpartnumwidth=\skip68
+\cftpartindent=\skip69
+\cftbeforesecskip=\skip70
+\cftsecindent=\skip71
+\cftsecnumwidth=\skip72
+\cftbeforesubsecskip=\skip73
+\cftsubsecindent=\skip74
+\cftsubsecnumwidth=\skip75
+\cftbeforesubsubsecskip=\skip76
+\cftsubsubsecindent=\skip77
+\cftsubsubsecnumwidth=\skip78
+\cftbeforeparaskip=\skip79
+\cftparaindent=\skip80
+\cftparanumwidth=\skip81
+\cftbeforesubparaskip=\skip82
+\cftsubparaindent=\skip83
+\cftsubparanumwidth=\skip84
+\cftbeforeloftitleskip=\skip85
+\cftafterloftitleskip=\skip86
+\cftbeforefigskip=\skip87
+\cftfigindent=\skip88
+\cftfignumwidth=\skip89
+\c@lofdepth=\count348
+\c@lotdepth=\count349
+\cftbeforelottitleskip=\skip90
+\cftafterlottitleskip=\skip91
+\cftbeforetabskip=\skip92
+\cfttabindent=\skip93
+\cfttabnumwidth=\skip94
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
  (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty
@@ -673,9 +709,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box80
 \tcb@lowerbox=\box81
 \tcb@phantombox=\box82
-\c@tcbbreakpart=\count348
-\c@tcblayer=\count349
-\c@tcolorbox@number=\count350
+\c@tcbbreakpart=\count350
+\c@tcblayer=\count351
+\c@tcolorbox@number=\count352
 \l__tcobox_tmpa_box=\box83
 \l__tcobox_tmpa_dim=\dimen318
 \tcb@temp=\box84
@@ -684,10 +720,10 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box87
  (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
-\c@tcbrastercolumn=\count351
-\c@tcbrasterrow=\count352
-\c@tcbrasternum=\count353
-\c@tcbraster=\count354
+\c@tcbrastercolumn=\count353
+\c@tcbrasterrow=\count354
+\c@tcbrasternum=\count355
+\c@tcbraster=\count356
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
@@ -717,30 +753,30 @@ Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
 \tcbfitdim=\dimen319
 \tcb@lowerfitdim=\dimen320
 \tcb@upperfitdim=\dimen321
-\tcb@cur@hbadness=\count355
+\tcb@cur@hbadness=\count357
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
 (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count356
+\lst@mode=\count358
 \lst@gtempboxa=\box92
 \lst@token=\toks60
-\lst@length=\count357
+\lst@length=\count359
 \lst@currlwidth=\dimen322
-\lst@column=\count358
-\lst@pos=\count359
+\lst@column=\count360
+\lst@pos=\count361
 \lst@lostspace=\dimen323
 \lst@width=\dimen324
-\lst@newlines=\count360
-\lst@lineno=\count361
+\lst@newlines=\count362
+\lst@lineno=\count363
 \lst@maxwidth=\dimen325
  (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
-\c@lstnumber=\count362
-\lst@skipnumbers=\count363
+\c@lstnumber=\count364
+\lst@skipnumbers=\count365
 \lst@framebox=\box93
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2024/02/21 1.10 listings configuration
@@ -751,7 +787,7 @@ Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
 )
-\c@tcblisting=\count364
+\c@tcblisting=\count366
 )) (/usr/local/texlive/2024/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
 Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
  (/usr/local/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
@@ -773,31 +809,31 @@ File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex)) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-\c@lemma=\count365
-\c@proposition=\count366
-\c@remark=\count367
-\c@observation=\count368
+\c@lemma=\count367
+\c@proposition=\count368
+\c@remark=\count369
+\c@observation=\count370
  (/usr/local/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip64
+\labelindent=\skip95
 \enit@outerparindent=\dimen326
 \enit@toks=\toks61
 \enit@inbox=\box94
-\enit@count@id=\count369
-\enitdp@description=\count370
+\enit@count@id=\count371
+\enitdp@description=\count372
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 56.
+Package hyperref Info: Option `colorlinks' set `true' on input line 60.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip65
-\f@nch@O@elh=\skip66
-\f@nch@O@erh=\skip67
-\f@nch@O@olh=\skip68
-\f@nch@O@orh=\skip69
-\f@nch@O@elf=\skip70
-\f@nch@O@erf=\skip71
-\f@nch@O@olf=\skip72
-\f@nch@O@orf=\skip73
+\f@nch@headwidth=\skip96
+\f@nch@O@elh=\skip97
+\f@nch@O@erh=\skip98
+\f@nch@O@olh=\skip99
+\f@nch@O@orh=\skip100
+\f@nch@O@elf=\skip101
+\f@nch@O@erf=\skip102
+\f@nch@O@olf=\skip103
+\f@nch@O@orf=\skip104
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2370.
@@ -819,53 +855,53 @@ Package cleveref Info: no abbreviation of names on input line 7852.
 Package cleveref Info: always capitalise cross-reference names on input line 7852.
 Package cleveref Info: include cross-reference names in hyperlinks on input line 7852.
 )
-\c@tcb@cnt@defin=\count371
-\c@tcb@cnt@ass=\count372
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 98.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 98.
+\c@tcb@cnt@defin=\count373
+\c@tcb@cnt@ass=\count374
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 102.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 102.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count373
+\l__color_backend_stack_int=\count375
 \l__pdf_internal_box=\box95
 ) (./C3.aux)
 \openout1 = `C3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 98.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 102.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count374
+\scratchcounter=\count376
 \scratchdimen=\dimen327
 \scratchbox=\box96
-\nofMPsegments=\count375
-\nofMParguments=\count376
+\nofMPsegments=\count377
+\nofMParguments=\count378
 \everyMPshowfont=\toks62
-\MPscratchCnt=\count377
+\MPscratchCnt=\count379
 \MPscratchDim=\dimen328
-\MPnumerator=\count378
-\makeMPintoPDFobject=\count379
+\MPnumerator=\count380
+\makeMPintoPDFobject=\count381
 \everyMPtoPDFconversion=\toks63
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -913,7 +949,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 98.
+Package hyperref Info: Link coloring ON on input line 102.
 (./C3.out) (./C3.out)
 \@outlinefile=\write5
 \openout5 = `C3.out'.
@@ -924,9 +960,9 @@ Package caption Info: End \AtBeginDocument code.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 98.
+ on input line 102.
 
-\c@lstlisting=\count380
+\c@lstlisting=\count382
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks64
@@ -934,25 +970,23 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 ) [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 ] (./C3.toc
-LaTeX Font Info:    Trying to load font information for U+esvect on input line 4.
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 2.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25 ...Path and Phase Diff.}{33}{subsection.10.9}
-                                                  % [1
-
-])
+l.25 ... Maxima (RV Variant)}{33}{subsection.10.9}
+                                                  % [1])
 \tf@toc=\write6
 \openout6 = `C3.toc'.
 
@@ -965,12 +999,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-<wavefrontray.png, id=179, 298.11375pt x 170.6375pt>
+<wavefrontray.png, id=183, 298.11375pt x 170.6375pt>
 File: wavefrontray.png Graphic file (type png)
 <use wavefrontray.png>
-Package pdftex.def Info: wavefrontray.png  used on input line 126.
+Package pdftex.def Info: wavefrontray.png  used on input line 130.
 (pdftex.def)             Requested size: 227.62204pt x 130.28989pt.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 128.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 132.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
@@ -985,15 +1019,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.133 \section
+l.137 \section
               {Refraction} [1
 
 
  <./wavefrontray.png>]
-<refractionwavefront.png, id=186, 431.6125pt x 485.815pt>
+<refractionwavefront.png, id=191, 431.6125pt x 485.815pt>
 File: refractionwavefront.png Graphic file (type png)
 <use refractionwavefront.png>
-Package pdftex.def Info: refractionwavefront.png  used on input line 143.
+Package pdftex.def Info: refractionwavefront.png  used on input line 147.
 (pdftex.def)             Requested size: 227.62204pt x 256.20569pt.
 
 
@@ -1007,7 +1041,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.146 
+l.150 
        [2
 
  <./refractionwavefront.png>]
@@ -1037,10 +1071,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [5
 
 ]
-<doublesource.png, id=211, 314.17375pt x 345.29pt>
+<doublesource.png, id=215, 314.17375pt x 345.29pt>
 File: doublesource.png Graphic file (type png)
 <use doublesource.png>
-Package pdftex.def Info: doublesource.png  used on input line 196.
+Package pdftex.def Info: doublesource.png  used on input line 200.
 (pdftex.def)             Requested size: 182.09485pt x 200.12607pt.
 
 
@@ -1053,15 +1087,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [6
 
  <./doublesource.png>]
-<diffractionedge.png, id=219, 207.77625pt x 343.2825pt>
+<diffractionedge.png, id=223, 207.77625pt x 343.2825pt>
 File: diffractionedge.png Graphic file (type png)
 <use diffractionedge.png>
-Package pdftex.def Info: diffractionedge.png  used on input line 212.
+Package pdftex.def Info: diffractionedge.png  used on input line 216.
 (pdftex.def)             Requested size: 204.85844pt x 338.4731pt.
-<diffractionaperture.png, id=220, 152.57pt x 250.9375pt>
+<diffractionaperture.png, id=224, 152.57pt x 250.9375pt>
 File: diffractionaperture.png Graphic file (type png)
 <use diffractionaperture.png>
-Package pdftex.def Info: diffractionaperture.png  used on input line 215.
+Package pdftex.def Info: diffractionaperture.png  used on input line 219.
 (pdftex.def)             Requested size: 204.85844pt x 336.95135pt.
 
 
@@ -1074,10 +1108,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [7
 
  <./diffractionedge.png> <./diffractionaperture.png>]
-<doubleslit.png, id=229, 365.365pt x 497.86pt>
+<doubleslit.png, id=233, 365.365pt x 497.86pt>
 File: doubleslit.png Graphic file (type png)
 <use doubleslit.png>
-Package pdftex.def Info: doubleslit.png  used on input line 225.
+Package pdftex.def Info: doubleslit.png  used on input line 229.
 (pdftex.def)             Requested size: 209.41533pt x 285.35567pt.
 
 
@@ -1098,10 +1132,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9]
-<doubleslitgraph.png, id=254, 418.56375pt x 244.915pt>
+<doubleslitgraph.png, id=258, 418.56375pt x 244.915pt>
 File: doubleslitgraph.png Graphic file (type png)
 <use doubleslitgraph.png>
-Package pdftex.def Info: doubleslitgraph.png  used on input line 258.
+Package pdftex.def Info: doubleslitgraph.png  used on input line 262.
 (pdftex.def)             Requested size: 227.62204pt x 133.18639pt.
 
 
@@ -1112,13 +1146,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10 <./doubleslitgraph.png>]
-<singleslit.png, id=264, 312.16624pt x 397.485pt>
+<singleslit.png, id=268, 312.16624pt x 397.485pt>
 File: singleslit.png Graphic file (type png)
 <use singleslit.png>
-Package pdftex.def Info: singleslit.png  used on input line 267.
+Package pdftex.def Info: singleslit.png  used on input line 271.
 (pdftex.def)             Requested size: 227.62204pt x 289.84018pt.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 270.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 274.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1130,10 +1164,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [11
 
  <./singleslit.png>]
-<singleslitintensity.png, id=272, 237.88875pt x 173.64874pt>
+<singleslitintensity.png, id=276, 237.88875pt x 173.64874pt>
 File: singleslitintensity.png Graphic file (type png)
 <use singleslitintensity.png>
-Package pdftex.def Info: singleslitintensity.png  used on input line 294.
+Package pdftex.def Info: singleslitintensity.png  used on input line 298.
 (pdftex.def)             Requested size: 182.09485pt x 132.92828pt.
 
 
@@ -1144,7 +1178,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12 <./singleslitintensity.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 
  []
 
@@ -1156,15 +1190,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13]
-<combine1.png, id=292, 225.84375pt x 156.585pt>
+<combine1.png, id=296, 225.84375pt x 156.585pt>
 File: combine1.png Graphic file (type png)
 <use combine1.png>
-Package pdftex.def Info: combine1.png  used on input line 308.
+Package pdftex.def Info: combine1.png  used on input line 312.
 (pdftex.def)             Requested size: 216.24371pt x 149.93759pt.
-<combine2.png, id=293, 225.84375pt x 156.585pt>
+<combine2.png, id=297, 225.84375pt x 156.585pt>
 File: combine2.png Graphic file (type png)
 <use combine2.png>
-Package pdftex.def Info: combine2.png  used on input line 311.
+Package pdftex.def Info: combine2.png  used on input line 315.
 (pdftex.def)             Requested size: 216.24371pt x 149.93759pt.
 
 
@@ -1177,15 +1211,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [14
 
  <./combine1.png> <./combine2.png>]
-<fourslit.png, id=303, 225.84375pt x 175.65625pt>
+<fourslit.png, id=307, 225.84375pt x 175.65625pt>
 File: fourslit.png Graphic file (type png)
 <use fourslit.png>
-Package pdftex.def Info: fourslit.png  used on input line 328.
+Package pdftex.def Info: fourslit.png  used on input line 332.
 (pdftex.def)             Requested size: 216.24371pt x 168.19922pt.
-<sixslit.png, id=304, 225.84375pt x 175.65625pt>
+<sixslit.png, id=308, 225.84375pt x 175.65625pt>
 File: sixslit.png Graphic file (type png)
 <use sixslit.png>
-Package pdftex.def Info: sixslit.png  used on input line 331.
+Package pdftex.def Info: sixslit.png  used on input line 335.
 (pdftex.def)             Requested size: 216.24371pt x 168.19922pt.
 
 
@@ -1198,15 +1232,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [15
 
  <./fourslit.png> <./sixslit.png>]
-<gratingintensity.png, id=314, 280.04625pt x 252.945pt>
+<gratingintensity.png, id=318, 280.04625pt x 252.945pt>
 File: gratingintensity.png Graphic file (type png)
 <use gratingintensity.png>
-Package pdftex.def Info: gratingintensity.png  used on input line 352.
+Package pdftex.def Info: gratingintensity.png  used on input line 356.
 (pdftex.def)             Requested size: 136.5746pt x 123.36133pt.
-<ex/12.png, id=317, 196.735pt x 86.3225pt>
+<ex/12.png, id=321, 196.735pt x 86.3225pt>
 File: ex/12.png Graphic file (type png)
 <use ex/12.png>
-Package pdftex.def Info: ex/12.png  used on input line 358.
+Package pdftex.def Info: ex/12.png  used on input line 362.
 (pdftex.def)             Requested size: 136.5746pt x 59.92479pt.
 
 
@@ -1217,10 +1251,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16 <./gratingintensity.png> <./ex/12.png>]
-<ex/1.png, id=328, 581.17125pt x 424.58624pt>
+<ex/1.png, id=332, 581.17125pt x 424.58624pt>
 File: ex/1.png Graphic file (type png)
 <use ex/1.png>
-Package pdftex.def Info: ex/1.png  used on input line 373.
+Package pdftex.def Info: ex/1.png  used on input line 377.
 (pdftex.def)             Requested size: 227.62204pt x 166.29414pt.
 
 
@@ -1233,10 +1267,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [17
 
  <./ex/1.png>]
-<ex/2.png, id=336, 751.80875pt x 575.14874pt>
+<ex/2.png, id=340, 751.80875pt x 575.14874pt>
 File: ex/2.png Graphic file (type png)
 <use ex/2.png>
-Package pdftex.def Info: ex/2.png  used on input line 387.
+Package pdftex.def Info: ex/2.png  used on input line 391.
 (pdftex.def)             Requested size: 227.62204pt x 174.13441pt.
 
 
@@ -1261,10 +1295,10 @@ Package siunitx Info: Option "per-mode = reciprocal-positive-first" has been
 (siunitx)             
 (siunitx)             Use "per-mode = power-positive-first" as a replacement.
 
-<ex/3.png, id=351, 868.24374pt x 341.275pt>
+<ex/3.png, id=355, 868.24374pt x 341.275pt>
 File: ex/3.png Graphic file (type png)
 <use ex/3.png>
-Package pdftex.def Info: ex/3.png  used on input line 427.
+Package pdftex.def Info: ex/3.png  used on input line 431.
 (pdftex.def)             Requested size: 318.66946pt x 125.25952pt.
 
 
@@ -1283,10 +1317,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [21]
-<ex/4.png, id=365, 1049.9225pt x 473.77pt>
+<ex/4.png, id=369, 1049.9225pt x 473.77pt>
 File: ex/4.png Graphic file (type png)
 <use ex/4.png>
-Package pdftex.def Info: ex/4.png  used on input line 467.
+Package pdftex.def Info: ex/4.png  used on input line 471.
 (pdftex.def)             Requested size: 318.66946pt x 143.7948pt.
 
 
@@ -1305,15 +1339,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [23]
-<ex/5.png, id=380, 889.3225pt x 556.0775pt>
+<ex/5.png, id=384, 889.3225pt x 556.0775pt>
 File: ex/5.png Graphic file (type png)
 <use ex/5.png>
-Package pdftex.def Info: ex/5.png  used on input line 500.
+Package pdftex.def Info: ex/5.png  used on input line 504.
 (pdftex.def)             Requested size: 227.62204pt x 142.3282pt.
-<ex/6.png, id=381, 1146.2825pt x 829.0975pt>
+<ex/6.png, id=385, 1146.2825pt x 829.0975pt>
 File: ex/6.png Graphic file (type png)
 <use ex/6.png>
-Package pdftex.def Info: ex/6.png  used on input line 506.
+Package pdftex.def Info: ex/6.png  used on input line 510.
 (pdftex.def)             Requested size: 450.69414pt x 325.99078pt.
 
 
@@ -1332,10 +1366,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [25 <./ex/6.png>]
-<ex/7.png, id=395, 898.35625pt x 714.67pt>
+<ex/7.png, id=399, 898.35625pt x 714.67pt>
 File: ex/7.png Graphic file (type png)
 <use ex/7.png>
-Package pdftex.def Info: ex/7.png  used on input line 530.
+Package pdftex.def Info: ex/7.png  used on input line 534.
 (pdftex.def)             Requested size: 318.66946pt x 253.50787pt.
 
 
@@ -1346,10 +1380,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [26 <./ex/7.png>]
-<ex/8.png, id=405, 1112.155pt x 822.07124pt>
+<ex/8.png, id=409, 1112.155pt x 822.07124pt>
 File: ex/8.png Graphic file (type png)
 <use ex/8.png>
-Package pdftex.def Info: ex/8.png  used on input line 549.
+Package pdftex.def Info: ex/8.png  used on input line 553.
 (pdftex.def)             Requested size: 318.66946pt x 235.5471pt.
 
 
@@ -1368,10 +1402,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [28]
-<ex/9.png, id=422, 557.08125pt x 403.5075pt>
+<ex/9.png, id=426, 557.08125pt x 403.5075pt>
 File: ex/9.png Graphic file (type png)
 <use ex/9.png>
-Package pdftex.def Info: ex/9.png  used on input line 583.
+Package pdftex.def Info: ex/9.png  used on input line 587.
 (pdftex.def)             Requested size: 227.62204pt x 164.86653pt.
 
 
@@ -1382,10 +1416,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [29 <./ex/9.png>]
-<ex/10.png, id=429, 937.5025pt x 285.065pt>
+<ex/10.png, id=433, 937.5025pt x 285.065pt>
 File: ex/10.png Graphic file (type png)
 <use ex/10.png>
-Package pdftex.def Info: ex/10.png  used on input line 600.
+Package pdftex.def Info: ex/10.png  used on input line 604.
 (pdftex.def)             Requested size: 409.71689pt x 124.58078pt.
 
 
@@ -1412,10 +1446,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [32]
-<ex/11.png, id=445, 494.84875pt x 191.71625pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33]
+<ex/11.png, id=457, 494.84875pt x 191.71625pt>
 File: ex/11.png Graphic file (type png)
 <use ex/11.png>
-Package pdftex.def Info: ex/11.png  used on input line 657.
+Package pdftex.def Info: ex/11.png  used on input line 687.
 (pdftex.def)             Requested size: 409.71689pt x 158.73244pt.
 
 
@@ -1425,7 +1467,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[33 <./ex/11.png>]
+[34 <./ex/11.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1433,27 +1475,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[34] (./C3.aux)
+[35] (./C3.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `C3.out' has not changed.
-(rerunfilecheck)             Checksum: EFFD96D6DE5ADE5550C10E42D194D696;3965.
+(rerunfilecheck)             Checksum: B90F4ADD4D4C104B196E7F36A6E4077B;4191.
  ) 
 Here is how much of TeX's memory you used:
- 47233 strings out of 474116
- 1128865 string characters out of 5743681
- 1937187 words of memory out of 5000000
- 68756 multiletter control sequences out of 15000+600000
+ 47506 strings out of 474116
+ 1133108 string characters out of 5743681
+ 1938187 words of memory out of 5000000
+ 69020 multiletter control sequences out of 15000+600000
  579258 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,96p,765b,1302s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on C3.pdf (37 pages, 3270957 bytes).
+Output written on C3.pdf (38 pages, 3273537 bytes).
 PDF statistics:
- 539 PDF objects out of 1000 (max. 8388607)
- 398 compressed objects within 4 object streams
- 130 named destinations out of 1000 (max. 500000)
- 479 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 553 PDF objects out of 1000 (max. 8388607)
+ 410 compressed objects within 5 object streams
+ 135 named destinations out of 1000 (max. 500000)
+ 487 words of extra memory for PDF output out of 10000 (max. 10000000)
 
