@@ -91,7 +91,7 @@
 
 \newtcolorbox[auto counter]{defin}[1][]{fonttitle=\bfseries, title=\strut Definition.~\thetcbcounter,colback=black!5!white,colframe=black!65!gray,top=5mm,bottom=5mm}
 
-\newtcolorbox[auto counter]{obs}[1][]{fonttitle=\bfseries, title=\strut Observation.~\thetcbcounter,colback=RedViolet!5!white,colframe=RedViolet!65!gray,top=5mm,bottom=5mm}
+\newtcolorbox[auto counter]{prop}[1][]{fonttitle=\bfseries, title=\strut Proposition.~\thetcbcounter,colback=RedViolet!5!white,colframe=RedViolet!65!gray,top=5mm,bottom=5mm}
 
 \setlength{\belowcaptionskip}{-20pt}
 
@@ -179,6 +179,41 @@ where
 \end{itemize}
 
 The ones discussed before are just special cases of this general relation.
+
+\subsection{Reflected Doppler Effect}
+
+Consider a source moving towards a stationary observer at a speed $u$, emitting a sound wave of speed $v$. This wave is then reflected back to the observer.
+
+\begin{prop}
+  The frequency of the sound wave that is reflected back to the source is
+  \begin{equation}
+    f' = f\paren{\frac{v + |u|}{v - |u|}}
+  \end{equation}
+  Notice this is the same as the double Doppler effect for the case of the source and observer moving each at $u$ towards each other.
+
+  \begin{proof}
+
+    \smallskip
+
+
+    The first Doppler effect gives the frequency of the sound wave that reaches the observer as
+    $$f' = f\paren{\frac{v + |u|}{v}}$$
+    The second Doppler effect gives the frequency of the reflected sound wave as
+    $$f'' = f'\paren{\frac{v}{v - |u|}}$$
+    Plugging in the first equation into the second, we get
+    $$f'' = f\paren{\frac{v + |u|}{v}}\paren{\frac{v}{v - |u|}} = f\paren{\frac{v + |u|}{v - |u|}}$$
+
+  \end{proof}
+  Conversely, the shifted frequency if the source is moving away from the observer is given by
+  \begin{equation}
+    f' = f\paren{\frac{v - |u|}{v + |u|}}
+  \end{equation}
+
+\end{prop}
+
+
+\pagebreak
+
 \subsection{Doppler with Acceleration}
 
 \begin{itemize}
