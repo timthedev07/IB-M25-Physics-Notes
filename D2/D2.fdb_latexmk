@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1743892494.70544 "/Users/timthedev07/Documents/物理笔记/D2/D2.tex" "D2.pdf" "D2" 1743892499.71815 0
-  "/Users/timthedev07/Documents/物理笔记/D2/D2.tex" 1743892477.65385 27216 5012989b601b32749f004086afde5a02 ""
+["pdflatex"] 1745232496.1655 "/Users/timthedev07/Documents/物理笔记/D2/D2.tex" "D2.pdf" "D2" 1745232498.18051 0
+  "/Users/timthedev07/Documents/物理笔记/D2/D2.tex" 1745232495.88633 28058 48bc42dce99c737734cb2d434e133785 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -279,10 +279,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731313331.24492 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731313254 8221454 067b6d98d3b5175b15c9caab9e14d269 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "D2.aux" 1743892499.4515 13386 71263226744b145a8150ff722c13f4f3 "pdflatex"
-  "D2.out" 1743892499.45406 6482 a3c099f2d6a6d14331fbb48bf138f7d0 "pdflatex"
-  "D2.tex" 1743892477.65385 27216 5012989b601b32749f004086afde5a02 ""
-  "D2.toc" 1743892499.45439 3317 292935867968f9f7d2795baeee0c35b3 "pdflatex"
+  "D2.aux" 1745232498.06755 13516 42ab88236d16898d28e917fe67df1cd8 "pdflatex"
+  "D2.out" 1745232498.06879 6647 3814a4fa5a3d8a7600f6c7285150bcee "pdflatex"
+  "D2.tex" 1745232495.88633 28058 48bc42dce99c737734cb2d434e133785 ""
+  "D2.toc" 1745232498.06899 3406 3c32aa222b492c1e6cf2d73fb929135a "pdflatex"
   "Ergraph.png" 1730759883.82992 133954 a2fdae00dccf0a05ca2c39930505f857 ""
   "chargeconservation.png" 1730731707.38124 78910 6b93c93c39ee98b675216b243e36da03 ""
   "combined.png" 1734907072.42679 18719 590659a92dbec91b1431730276f181be ""

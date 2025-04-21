@@ -36,3 +36,4 @@
 \contentsline {subsection}{\numberline {6.7}$F = Eq$ Directions}{30}{subsection.6.7}%
 \contentsline {subsection}{\numberline {6.8}Quick-Fire MCQ \#1}{31}{subsection.6.8}%
 \contentsline {subsection}{\numberline {6.9}Quick-Fire MCQ \#2}{32}{subsection.6.9}%
+\contentsline {subsection}{\numberline {6.10}Electron Final Speed}{33}{subsection.6.10}%

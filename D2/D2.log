@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  6 APR 2025 00:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  21 APR 2025 12:48
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -989,7 +989,7 @@ l.128 \section
 
 
 ]
-<chargeconservation.png, id=250, 292.09125pt x 273.02pt>
+<chargeconservation.png, id=255, 292.09125pt x 273.02pt>
 File: chargeconservation.png Graphic file (type png)
 <use chargeconservation.png>
 Package pdftex.def Info: chargeconservation.png  used on input line 132.
@@ -1042,12 +1042,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
-<fieldlines.jpg, id=279, 768.471pt x 308.8338pt>
+<fieldlines.jpg, id=284, 768.471pt x 308.8338pt>
 File: fieldlines.jpg Graphic file (type jpg)
 <use fieldlines.jpg>
 Package pdftex.def Info: fieldlines.jpg  used on input line 219.
 (pdftex.def)             Requested size: 364.19664pt x 146.36299pt.
-<plates.jpeg, id=280, 282.05376pt x 129.98563pt>
+<plates.jpeg, id=285, 282.05376pt x 129.98563pt>
 File: plates.jpeg Graphic file (type jpg)
 <use plates.jpeg>
 Package pdftex.def Info: plates.jpeg  used on input line 222.
@@ -1077,7 +1077,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-<oildrop.jpg, id=299, 642.4pt x 413.545pt>
+<oildrop.jpg, id=304, 642.4pt x 413.545pt>
 File: oildrop.jpg Graphic file (type jpg)
 <use oildrop.jpg>
 Package pdftex.def Info: oildrop.jpg  used on input line 272.
@@ -1105,7 +1105,7 @@ Package siunitx Info: Option "per-mode = reciprocal-positive-first" has been
 (siunitx)             
 (siunitx)             Use "per-mode = power-positive-first" as a replacement.
 
-<linespotential.png, id=310, 526.96875pt x 306.14375pt>
+<linespotential.png, id=315, 526.96875pt x 306.14375pt>
 File: linespotential.png Graphic file (type png)
 <use linespotential.png>
 Package pdftex.def Info: linespotential.png  used on input line 320.
@@ -1119,7 +1119,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11 <./linespotential.png>]
-<sphereequipotential.png, id=319, 351.3125pt x 342.27875pt>
+<sphereequipotential.png, id=324, 351.3125pt x 342.27875pt>
 File: sphereequipotential.png Graphic file (type png)
 <use sphereequipotential.png>
 Package pdftex.def Info: sphereequipotential.png  used on input line 341.
@@ -1131,7 +1131,7 @@ Underfull \hbox (badness 1394) in paragraph at lines 343--344
 \OT1/phv/m/n/12 The closer the spheres are to the
  []
 
-<platesequipotential.png, id=320, 396.48125pt x 244.915pt>
+<platesequipotential.png, id=325, 396.48125pt x 244.915pt>
 File: platesequipotential.png Graphic file (type png)
 <use platesequipotential.png>
 Package pdftex.def Info: platesequipotential.png  used on input line 346.
@@ -1170,7 +1170,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14]
-<Ergraph.png, id=343, 333.245pt x 238.8925pt>
+<Ergraph.png, id=348, 333.245pt x 238.8925pt>
 File: Ergraph.png Graphic file (type png)
 <use Ergraph.png>
 Package pdftex.def Info: Ergraph.png  used on input line 370.
@@ -1200,12 +1200,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17]
-<combined.png, id=362, 572.1375pt x 185.69376pt>
+<combined.png, id=367, 572.1375pt x 185.69376pt>
 File: combined.png Graphic file (type png)
 <use combined.png>
 Package pdftex.def Info: combined.png  used on input line 399.
 (pdftex.def)             Requested size: 409.71689pt x 132.97969pt.
-<combinedhollow.png, id=363, 746.79pt x 306.14375pt>
+<combinedhollow.png, id=368, 746.79pt x 306.14375pt>
 File: combinedhollow.png Graphic file (type png)
 <use combinedhollow.png>
 Package pdftex.def Info: combinedhollow.png  used on input line 406.
@@ -1227,12 +1227,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [19]
-<straightwire.jpg, id=376, 451.6875pt x 310.15875pt>
+<straightwire.jpg, id=381, 451.6875pt x 310.15875pt>
 File: straightwire.jpg Graphic file (type jpg)
 <use straightwire.jpg>
 Package pdftex.def Info: straightwire.jpg  used on input line 427.
 (pdftex.def)             Requested size: 227.62204pt x 156.30473pt.
-<singleloop.png, id=377, 465.74pt x 174.6525pt>
+<singleloop.png, id=382, 465.74pt x 174.6525pt>
 File: singleloop.png Graphic file (type png)
 <use singleloop.png>
 Package pdftex.def Info: singleloop.png  used on input line 431.
@@ -1256,7 +1256,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [21 <./singleloop.png>]
-<solenoid.jpg, id=389, 513.92pt x 189.70876pt>
+<solenoid.jpg, id=394, 513.92pt x 189.70876pt>
 File: solenoid.jpg Graphic file (type jpg)
 <use solenoid.jpg>
 Package pdftex.def Info: solenoid.jpg  used on input line 446.
@@ -1270,12 +1270,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [22 <./solenoid.jpg>]
-<ex/estrengthdirection.png, id=396, 279.0425pt x 72.27pt>
+<ex/estrengthdirection.png, id=401, 279.0425pt x 72.27pt>
 File: ex/estrengthdirection.png Graphic file (type png)
 <use ex/estrengthdirection.png>
 Package pdftex.def Info: ex/estrengthdirection.png  used on input line 462.
 (pdftex.def)             Requested size: 227.62204pt x 58.9541pt.
-<ex/estrengthdirection_options.png, id=397, 532.99126pt x 336.25626pt>
+<ex/estrengthdirection_options.png, id=402, 532.99126pt x 336.25626pt>
 File: ex/estrengthdirection_options.png Graphic file (type png)
 <use ex/estrengthdirection_options.png>
 Package pdftex.def Info: ex/estrengthdirection_options.png  used on input line 464.
@@ -1307,7 +1307,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [25]
-<ex/1.jpg, id=417, 2834.59pt x 1037.8775pt>
+<ex/1.jpg, id=422, 2834.59pt x 1037.8775pt>
 File: ex/1.jpg Graphic file (type jpg)
 <use ex/1.jpg>
 Package pdftex.def Info: ex/1.jpg  used on input line 487.
@@ -1321,7 +1321,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [26 <./ex/1.jpg>]
-<ex/2.png, id=423, 284.06125pt x 228.855pt>
+<ex/2.png, id=428, 284.06125pt x 228.855pt>
 File: ex/2.png Graphic file (type png)
 <use ex/2.png>
 Package pdftex.def Info: ex/2.png  used on input line 499.
@@ -1335,12 +1335,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [27 <./ex/2.png>]
-<ex/3.png, id=430, 465.74pt x 337.26pt>
+<ex/3.png, id=435, 465.74pt x 337.26pt>
 File: ex/3.png Graphic file (type png)
 <use ex/3.png>
 Package pdftex.def Info: ex/3.png  used on input line 510.
 (pdftex.def)             Requested size: 318.66946pt x 230.76953pt.
-<ex/4.png, id=431, 350.30875pt x 253.94875pt>
+<ex/4.png, id=436, 350.30875pt x 253.94875pt>
 File: ex/4.png Graphic file (type png)
 <use ex/4.png>
 Package pdftex.def Info: ex/4.png  used on input line 512.
@@ -1354,7 +1354,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [28 <./ex/3.png> <./ex/4.png>]
-<ex/5.png, id=441, 547.04375pt x 507.8975pt>
+<ex/5.png, id=446, 547.04375pt x 507.8975pt>
 File: ex/5.png Graphic file (type png)
 <use ex/5.png>
 Package pdftex.def Info: ex/5.png  used on input line 524.
@@ -1368,12 +1368,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [29 <./ex/5.png>]
-<ex/6.png, id=448, 264.99pt x 76.285pt>
+<ex/6.png, id=453, 264.99pt x 76.285pt>
 File: ex/6.png Graphic file (type png)
 <use ex/6.png>
 Package pdftex.def Info: ex/6.png  used on input line 538.
 (pdftex.def)             Requested size: 136.5746pt x 39.31688pt.
-<ex/7.png, id=449, 298.11375pt x 322.20375pt>
+<ex/7.png, id=454, 298.11375pt x 322.20375pt>
 File: ex/7.png Graphic file (type png)
 <use ex/7.png>
 Package pdftex.def Info: ex/7.png  used on input line 542.
@@ -1387,7 +1387,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [30 <./ex/6.png> <./ex/7.png>]
-<ex/8.png, id=458, 549.05125pt x 526.96875pt>
+<ex/8.png, id=464, 549.05125pt x 526.96875pt>
 File: ex/8.png Graphic file (type png)
 <use ex/8.png>
 Package pdftex.def Info: ex/8.png  used on input line 555.
@@ -1401,7 +1401,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [31 <./ex/8.png>]
-<ex/9.png, id=466, 234.8775pt x 217.81375pt>
+<ex/9.png, id=471, 234.8775pt x 217.81375pt>
 File: ex/9.png Graphic file (type png)
 <use ex/9.png>
 Package pdftex.def Info: ex/9.png  used on input line 566.
@@ -1414,7 +1414,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[32 <./ex/9.png>] (./D2.aux)
+[32 <./ex/9.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33] (./D2.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1424,21 +1432,21 @@ L3 programming layer <2024-02-20>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `D2.out' has not changed.
-(rerunfilecheck)             Checksum: A3C099F2D6A6D14331FBB48BF138F7D0;6482.
+(rerunfilecheck)             Checksum: 3814A4FA5A3D8A7600F6C7285150BCEE;6647.
  ) 
 Here is how much of TeX's memory you used:
- 47175 strings out of 474116
- 1127823 string characters out of 5743681
+ 47178 strings out of 474116
+ 1127862 string characters out of 5743681
  1945187 words of memory out of 5000000
- 68714 multiletter control sequences out of 15000+600000
+ 68715 multiletter control sequences out of 15000+600000
  580332 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,96p,771b,1110s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on D2.pdf (35 pages, 2495204 bytes).
+Output written on D2.pdf (36 pages, 2498338 bytes).
 PDF statistics:
- 552 PDF objects out of 1000 (max. 8388607)
- 422 compressed objects within 5 object streams
- 114 named destinations out of 1000 (max. 500000)
- 573 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 562 PDF objects out of 1000 (max. 8388607)
+ 431 compressed objects within 5 object streams
+ 116 named destinations out of 1000 (max. 500000)
+ 581 words of extra memory for PDF output out of 10000 (max. 10000000)
 
