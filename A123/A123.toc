@@ -33,3 +33,4 @@
 \contentsline {subsection}{\numberline {8.13}Bi-body Movement \#2}{39}{subsection.8.13}%
 \contentsline {subsection}{\numberline {8.14}Bi-body Movement \#3}{41}{subsection.8.14}%
 \contentsline {subsection}{\numberline {8.15}2D Momentum Conservation}{42}{subsection.8.15}%
+\contentsline {subsection}{\numberline {8.16}Motionlessly Hovering Helicopter}{44}{subsection.8.16}%

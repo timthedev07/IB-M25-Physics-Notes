@@ -1081,6 +1081,43 @@ Ball A, moving in a horizontal direction at an initial speed of $\SI{2.0}{\m\per
         \end{itemize}
 \end{enumerate}
 
+\subsection{Motionlessly Hovering Helicopter}
+
+A helicopter of mass \( 3.0 \times 10^3 \, \text{kg} \) hovers motionless above the ground.
+
+\begin{enumerate}
+  \item[(a)] Calculate the magnitude of the lift force acting on the helicopter.
+        \begin{itemize}
+          \item The vertical component of the resultant force is 0, so the lift force must equal the weight of the helicopter.
+                $$F_\text{lift} = mg = 3.0 \times 10^3 \times 9.8 = 29400 \, \text{N}$$
+        \end{itemize}
+
+  \item[(b)] The rotor of the helicopter pushes initially stationary air with a downward speed \( v \). The surface area of the rotor is \( A = 95 \, \text{m}^2 \). The density of air is \( \rho = 1.2 \, \text{kg m}^{-3} \). Calculate the speed \( v \).
+        \begin{itemize}
+          \item By N$^\text{3rd}$, the air pushes back on the rotor with a force equal to the weight, which is equal to the lift force.
+                \begin{align*}
+                  29400 = \frac{\Delta p}{t} = \frac{\Delta m}{t} \cdot v
+                \end{align*}
+          \item The mass of air pushed downwards per second is given by
+                $$\diff{m}{t} = \rho A v$$
+          \item This means $$29400 = \rho A v^2$$
+        \end{itemize}
+
+  \item[(d)] The air is now forced to move with a higher speed \( u \) so that the helicopter ascends with an initial upward acceleration of \( 1.2 \, \text{m s}^{-2} \).
+
+        Estimate the new speed \( u \).
+        \begin{itemize}
+          \item The lift force is now greater than the weight of the helicopter such that
+                $$F_\text{lift} = m(1.2 + g)$$
+          \item The same logic then applies with the mass of air pushed downwards per second, but now we have a new speed $u$.
+                $$F_\text{lift} = \rho A u^2$$
+        \end{itemize}
+\end{enumerate}
+
+
+
+
+
 
 
 \end{document}
