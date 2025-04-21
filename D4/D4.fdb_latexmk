@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1744328293.22806 "/Users/timthedev07/Documents/物理笔记/D4/D4.tex" "D4.pdf" "D4" 1744328296.14463 0
-  "/Users/timthedev07/Documents/物理笔记/D4/D4.tex" 1744328292.96433 33093 5272c82ec368772b6511bf47219a3fd6 ""
+["pdflatex"] 1745255108.29965 "/Users/timthedev07/Documents/物理笔记/D4/D4.tex" "D4.pdf" "D4" 1745255110.72089 0
+  "/Users/timthedev07/Documents/物理笔记/D4/D4.tex" 1745255105.54422 34894 554d6a26a08caaf28573c6e7978bb3ec ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -275,10 +275,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731313331.24492 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731313254 8221454 067b6d98d3b5175b15c9caab9e14d269 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "D4.aux" 1744328296.01098 11867 7c1572cf338151e23f9f84aa7583b5d4 "pdflatex"
-  "D4.out" 1744328296.01224 6013 84b031ef7a331d56e131f9d4a99c6f8b "pdflatex"
-  "D4.tex" 1744328292.96433 33093 5272c82ec368772b6511bf47219a3fd6 ""
-  "D4.toc" 1744328296.01247 3055 e36131a0e36199b742da492ff31d522e "pdflatex"
+  "D4.aux" 1745255110.61342 12252 3f69dbc2978dd772f1c1df5457a3f253 "pdflatex"
+  "D4.out" 1745255110.61457 6211 1a133215cb75ef019d052f1ca3baca8e "pdflatex"
+  "D4.tex" 1745255105.54422 34894 554d6a26a08caaf28573c6e7978bb3ec ""
+  "D4.toc" 1745255110.61479 3150 9c95fd50f7e7424dca4a21bd2f6adf99 "pdflatex"
   "bar.png" 1726868258.98402 150908 9f5f324d5f60bbd6ffb6ba77100789b3 ""
   "ex/1.png" 1743450197.89522 95779 fdf8ff0e275f0f8b36d8936840cadd6a ""
   "ex/10.png" 1743453231.12854 60130 62c49f8b794e5c2fee77d4a3fd36e7fc ""
@@ -286,6 +286,7 @@
   "ex/12.png" 1743453932.2676 233445 66c925c3cfbd2f04d40ff14695fd0560 ""
   "ex/13.png" 1743455957.96627 135180 d7f8bd1cbbf06143e00c9ecb321d133d ""
   "ex/14.png" 1743458395.47677 214389 bd1095b41d3b22a4a6c8ea3888c7f4f3 ""
+  "ex/15.png" 1745255096.39799 79820 0ebeeec043c558dde937dfd3d0f71738 ""
   "ex/2.png" 1743450928.60181 36988 3d195649453c9c4ba74c056ac65181ad ""
   "ex/3.png" 1743451341.16449 188008 15babf761f02c97e4d3a1745479427dc ""
   "ex/4.png" 1743452047.98216 50085 b1eb75cd2dc3c06ca670908957b31835 ""
