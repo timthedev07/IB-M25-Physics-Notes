@@ -483,6 +483,34 @@ The parallax angle of the starVega is 0.131 arc seconds.
 
 \end{enumerate}
 
+\pagebreak
 
+\subsection{Conservation of Momentum}
+
+The following reaction represents a nuclear fusion reaction:
+
+$$\atom{2}{1}{H} + \atom{2}{1}{H} \rightarrow \atom{3}{2}{He} +  n$$
+
+The following data is given about the reaction:
+\begin{itemize}
+  \item The mass of $\atom{2}{1}{H}$ is 2.014u.
+  \item The mass of $\atom{3}{2}{He}$ is 3.016u.
+\end{itemize}
+
+All the energy released from the reaction goes into kinetic energy. Assume that both of the $\atom{2}{1}{H}$ particles are initially at rest. Determine the speed of the neutron. \hfill [6]
+
+\begin{itemize}
+  \item This question is a standard momentum + energy conservation question.
+  \item We first calculate the energy released from the reaction.
+        \begin{align*}
+          \Delta m & = 2\atom{2}{1}{H} - \atom{3}{2}{He} - n                      \\
+                   & = 0.0033 \text{u}                                            \\
+          E        & = 0.0033 \times 931.5                   = 3.07 \si{\mega\eV}
+        \end{align*}
+  \item This energy is conserved, which means
+        $$3.07 \si{\mega\eV} = \frac{1}{2}\left(m_nv_n^2 + (2m_p + m_n)v_H^2\right)$$
+  \item We also have the conservation of momentum, so $$0 = p_n + p_H \iff m_nv_n = -(2m_p + m_n)v_H$$
+  \item The values of $m_p$ and $m_n$ are given in the formula booklet, so this becomes a system of equations about $v_n$ and $v_H$.
+\end{itemize}
 
 \end{document}
