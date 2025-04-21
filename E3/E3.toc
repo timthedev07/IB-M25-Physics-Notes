@@ -42,3 +42,4 @@
 \contentsline {subsection}{\numberline {12.5}Deducing Possible Chains}{31}{subsection.12.5}%
 \contentsline {subsection}{\numberline {12.6}Finding the Background Radiation}{32}{subsection.12.6}%
 \contentsline {subsection}{\numberline {12.7}Energy Levels -- Beta Decay}{33}{subsection.12.7}%
+\contentsline {subsection}{\numberline {12.8}The Decay DE}{34}{subsection.12.8}%

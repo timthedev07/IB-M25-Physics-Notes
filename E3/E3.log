@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  2 APR 2025 15:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.11)  21 APR 2025 14:04
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -787,6 +787,8 @@ File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
 Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
 )) (/usr/local/texlive/2024/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
 Package: draftwatermark 2024/03/04 3.3 Put a gray textual watermark on document pages
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
 ) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex)) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
@@ -809,7 +811,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count373
 \enitdp@description=\count374
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 55.
+Package hyperref Info: Option `colorlinks' set `true' on input line 57.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip66
@@ -849,36 +851,39 @@ Package cleveref Info: include cross-reference names in hyperlinks on input line
 \c@tcb@cnt@lem=\count379
 \c@tcb@cnt@prop=\count380
 \c@tcb@cnt@hint=\count381
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 103.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 105.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 105.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count382
 \l__pdf_internal_box=\box95
 ) (./E3.aux)
 \openout1 = `E3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 103.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 105.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count383
@@ -938,7 +943,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 103.
+Package hyperref Info: Link coloring ON on input line 105.
 (./E3.out) (./E3.out)
 \@outlinefile=\write5
 \openout5 = `E3.out'.
@@ -949,19 +954,14 @@ Package caption Info: End \AtBeginDocument code.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 103.
+ on input line 105.
 
 \c@lstlisting=\count389
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks65
 \inpenc@posthook=\toks66
-)
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <149.37697> not available
-(Font)              size <24.88> substituted on input line 119.
-
-[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+) [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 ] (./E3.toc
 LaTeX Font Info:    Trying to load font information for U+esvect on input line 4.
@@ -979,7 +979,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 ...Short Half-Lives}{17}{subsubsection.7.2.2}
+l.26 ...}Long Half-Lives}{17}{subsubsection.7.2.1}
                                                   % [1
 
 ])
@@ -995,6 +995,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 136.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1006,11 +1010,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.139 \section
+l.141 \section
               {Radioactive Decay} [1
 
 
-{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1022,7 +1026,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.151 
+l.153 
        [2
 
 ]
@@ -1050,7 +1054,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
-Overfull \hbox (19.7306pt too wide) in paragraph at lines 243--257
+Overfull \hbox (19.61093pt too wide) in paragraph at lines 245--259
  [][] 
  []
 
@@ -1075,7 +1079,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 300.
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 302.
 
 
 Package siunitx Info: Option "per-mode = reciprocal-positive-first" has been
@@ -1084,7 +1088,7 @@ Package siunitx Info: Option "per-mode = reciprocal-positive-first" has been
 (siunitx)             Use "per-mode = power-positive-first" as a replacement.
 
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 300.
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 302.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1094,10 +1098,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-<BE_A plot.png, id=316, 284.39583pt x 193.38916pt>
+<BE_A plot.png, id=320, 284.39583pt x 193.38916pt>
 File: BE_A plot.png Graphic file (type png)
 <use BE_A plot.png>
-Package pdftex.def Info: BE_A plot.png  used on input line 316.
+Package pdftex.def Info: BE_A plot.png  used on input line 318.
 (pdftex.def)             Requested size: 364.19664pt x 247.67004pt.
 
 
@@ -1134,10 +1138,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12]
-<stability graph.png, id=348, 736.7525pt x 686.565pt>
+<stability graph.png, id=352, 736.7525pt x 686.565pt>
 File: stability graph.png Graphic file (type png)
 <use stability graph.png>
-Package pdftex.def Info: stability graph.png  used on input line 373.
+Package pdftex.def Info: stability graph.png  used on input line 375.
 (pdftex.def)             Requested size: 364.19664pt x 339.38454pt.
 
 
@@ -1184,10 +1188,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17]
-<muller.png, id=396, 683.55376pt x 283.0575pt>
+<muller.png, id=402, 683.55376pt x 283.0575pt>
 File: muller.png Graphic file (type png)
 <use muller.png>
-Package pdftex.def Info: muller.png  used on input line 488.
+Package pdftex.def Info: muller.png  used on input line 490.
 (pdftex.def)             Requested size: 455.24408pt x 188.52023pt.
 
 
@@ -1254,6 +1258,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [24
 
 ]
+Overfull \hbox (7.6306pt too wide) in paragraph at lines 607--608
+\OT1/phv/m/n/12 Magnesium-27 nu-clei ($[][][]$) de-cay by beta-minus ($\OML/cmm/m/it/12 ^^L$\OT1/phv/m/n/12 -) de-cay to form nu-clei of aluminium-
+ []
+
 
 Package siunitx Warning: Unit macro \atomicmassunit has been deprecated in
 (siunitx)                this release.
@@ -1274,6 +1282,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [25
 
 ]
+Overfull \hbox (7.97621pt too wide) in paragraph at lines 644--645
+[]\OT1/phv/m/n/12 The fact that there are two dis-crete routes for the de-cay of the magnesium-
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1322,10 +1334,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [31]
-<ex/1.png, id=499, 463.7325pt x 293.095pt>
+<ex/1.png, id=505, 463.7325pt x 293.095pt>
 File: ex/1.png Graphic file (type png)
 <use ex/1.png>
-Package pdftex.def Info: ex/1.png  used on input line 778.
+Package pdftex.def Info: ex/1.png  used on input line 780.
 (pdftex.def)             Requested size: 364.19664pt x 230.18741pt.
 
 
@@ -1336,10 +1348,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [32 <./ex/1.png>]
-<ex/2.png, id=506, 461.725pt x 588.1975pt>
+<ex/2.png, id=512, 461.725pt x 588.1975pt>
 File: ex/2.png Graphic file (type png)
 <use ex/2.png>
-Package pdftex.def Info: ex/2.png  used on input line 791.
+Package pdftex.def Info: ex/2.png  used on input line 793.
 (pdftex.def)             Requested size: 318.66946pt x 405.95543pt.
 
 
@@ -1349,32 +1361,41 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[33 <./ex/2.png>] (./E3.aux)
+[33 <./ex/2.png>]
+<ex/3.png, id=519, 582.175pt x 443.6575pt>
+File: ex/3.png Graphic file (type png)
+<use ex/3.png>
+Package pdftex.def Info: ex/3.png  used on input line 805.
+(pdftex.def)             Requested size: 364.19664pt x 277.54926pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34 <./ex/3.png>] (./E3.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 124.49696pt have occurred.
-
 Package rerunfilecheck Info: File `E3.out' has not changed.
-(rerunfilecheck)             Checksum: 035873F91A81800CCE6CA84381CB6ECA;7249.
+(rerunfilecheck)             Checksum: A25C1802ACCE505F6940B8F746574526;7375.
  ) 
 Here is how much of TeX's memory you used:
- 47446 strings out of 474116
- 1134892 string characters out of 5743681
+ 47577 strings out of 474116
+ 1136960 string characters out of 5743681
  1939187 words of memory out of 5000000
- 68956 multiletter control sequences out of 15000+600000
- 567742 words of font info for 77 fonts, out of 8000000 for 9000
+ 69066 multiletter control sequences out of 15000+600000
+ 581192 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,15n,96p,771b,1270s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on E3.pdf (36 pages, 1387665 bytes).
+ 84i,15n,96p,771b,1256s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on E3.pdf (37 pages, 1473302 bytes).
 PDF statistics:
- 605 PDF objects out of 1000 (max. 8388607)
- 501 compressed objects within 6 object streams
- 152 named destinations out of 1000 (max. 500000)
- 526 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 617 PDF objects out of 1000 (max. 8388607)
+ 512 compressed objects within 6 object streams
+ 155 named destinations out of 1000 (max. 500000)
+ 539 words of extra memory for PDF output out of 10000 (max. 10000000)
 
